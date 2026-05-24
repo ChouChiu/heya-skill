@@ -1,0 +1,10 @@
+# Markdown
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+
+# JSON
+*.json linguist-detectable=true
+*.jsonc linguist-detectable=true
+*.jsonc linguist-language=json
+
+website/** linguist-vendored=true

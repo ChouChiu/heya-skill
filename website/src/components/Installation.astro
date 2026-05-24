@@ -1,0 +1,99 @@
+---
+export interface Tab {
+  id: string;
+  label: string;
+  description: string;
+  code: string;
+  copyText: string;
+}
+
+export interface Props {
+  heading: string;
+  subheading: string;
+  tabs: Tab[];
+}
+
+const { heading, subheading, tabs } = Astro.props;
+---
+
+<section id="install" class="min-h-screen flex flex-col items-center justify-center max-w-[1200px] mx-auto px-4 py-6 w-full md:px-6 md:py-10">
+  <div class="text-center mb-9">
+    <h2 class="text-[clamp(26px,4vw,40px)] font-extrabold tracking-[-0.02em] mb-2.5">{heading}</h2>
+    <p class="text-[clamp(13px,1.5vw,17px)] text-foreground-muted">{subheading}</p>
+  </div>
+
+  <div class="bg-window-bg border border-border rounded-[20px] max-w-[860px] mx-auto overflow-hidden w-full">
+    <div class="flex flex-col md:flex-row bg-surface border-b border-border">
+      {tabs.map((tab, index) => (
+        <button
+          class:list={["tab-btn flex-1 bg-transparent border-none p-5 text-[15px] font-medium cursor-pointer border-l-2 md:border-l-0 md:border-b-2 border-transparent transition-all duration-300 hover:bg-surface-hover text-left md:text-center", { active: index === 0, "text-foreground-muted": index !== 0 }]}
+          data-tab={tab.id}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+
+    <div class="p-[24px_28px]">
+      {tabs.map((tab, index) => (
+        <div class:list={["panel animate-fade-in", { active: index === 0 }]} id={tab.id}>
+          <p class="text-foreground-muted mb-5 text-[15px]">
+            {tab.description}
+          </p>
+          <div class="flex flex-col md:flex-row items-start md:items-center md:justify-between gap-4 bg-surface border border-border rounded-xl p-[16px_20px]">
+            <code class="font-mono text-sm text-code-fg overflow-x-auto whitespace-nowrap pr-4"><span class="text-foreground-muted mr-2">$</span>{tab.code}</code>
+            <button
+              class="copy-btn self-start md:self-auto bg-surface border border-border text-foreground-muted px-3.5 py-2 rounded-lg text-[13px] cursor-pointer transition-all duration-300 whitespace-nowrap hover:bg-surface-hover hover:text-foreground hover:border-foreground-muted hover:scale-105 hover:shadow-[0_0_15px_var(--glow-accent)]"
+              aria-label="复制命令"
+              data-copy={tab.copyText}
+            >
+              复制
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  // Tabs logic
+  const tabs = document.querySelectorAll(".tab-btn");
+  const panels = document.querySelectorAll(".panel");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => t.classList.remove("active"));
+      panels.forEach((p) => p.classList.remove("active"));
+
+      tab.classList.add("active");
+      const targetId = tab.getAttribute("data-tab");
+      if (targetId) {
+        document.getElementById(targetId)?.classList.add("active");
+      }
+    });
+  });
+
+  // Copy logic
+  const copyBtns = document.querySelectorAll(".copy-btn");
+  copyBtns.forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const text = btn.getAttribute("data-copy");
+      if (text) {
+        try {
+          await navigator.clipboard.writeText(text);
+          const el = btn as HTMLElement;
+          const original = el.innerText;
+          el.innerText = "已复制!";
+          el.classList.add("copied");
+          setTimeout(() => {
+            el.innerText = original;
+            el.classList.remove("copied");
+          }, 2000);
+        } catch (e) {
+          console.error("Clipboard copy failed", e);
+        }
+      }
+    });
+  });
+</script>

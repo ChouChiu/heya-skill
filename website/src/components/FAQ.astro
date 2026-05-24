@@ -1,0 +1,63 @@
+---
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export interface Props {
+  heading: string;
+  subheading: string;
+  items: FAQItem[];
+}
+
+const { heading, subheading, items } = Astro.props;
+---
+
+<section id="faq" class="min-h-screen flex flex-col items-center justify-center max-w-[1000px] mx-auto px-4 py-6 w-full md:px-6 md:py-10">
+  <div class="text-center mb-9">
+    <h2 class="text-[clamp(26px,4vw,40px)] font-extrabold tracking-[-0.02em] mb-2.5">{heading}</h2>
+    <p class="text-[clamp(13px,1.5vw,17px)] text-foreground-muted">{subheading}</p>
+  </div>
+  
+  <div class="w-full flex flex-col bg-surface border border-border rounded-[20px] overflow-hidden">
+    {items.map((item) => (
+      <div class="faq-item group border-b border-border last:border-b-0 transition-colors duration-300">
+        <button class="faq-btn flex w-full justify-between items-center cursor-pointer p-6 font-semibold text-[16px] outline-none select-none text-left bg-transparent border-none text-foreground hover:bg-surface-hover hover:text-accent transition-colors duration-300 group-[.open]:bg-surface-hover">
+          <span>{item.question}</span>
+          <span class="text-foreground-muted transition-transform duration-300 group-[.open]:rotate-180">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </span>
+        </button>
+        <div class="grid transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0 group-[.open]:grid-rows-[1fr] group-[.open]:opacity-100 bg-surface-hover">
+          <div class="overflow-hidden">
+            <div class="px-6 pb-6 pt-2 text-[14px] text-foreground-muted leading-[1.6]">
+              {item.answer}
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<script>
+  // FAQ Accordion logic
+  const faqBtns = document.querySelectorAll(".faq-btn");
+  faqBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const parent = btn.closest(".faq-item");
+      if (parent) {
+        const isOpen = parent.classList.contains("open");
+        // Close all other items for accordion style
+        document.querySelectorAll(".faq-item").forEach(item => item.classList.remove("open"));
+        
+        // Toggle current item
+        if (!isOpen) {
+          parent.classList.add("open");
+        }
+      }
+    });
+  });
+</script>

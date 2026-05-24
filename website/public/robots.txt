@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chouchiu.github.io/heya.skill/sitemap.xml

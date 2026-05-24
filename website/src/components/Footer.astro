@@ -1,0 +1,40 @@
+---
+export interface FooterLink {
+  href: string;
+  label: string;
+}
+
+export interface Props {
+  brand: string;
+  copyright: string;
+  licenseUrl: string;
+  links: FooterLink[];
+  year: number;
+}
+
+const { brand, copyright, licenseUrl, links, year } = Astro.props;
+---
+
+<footer class="border-t border-border px-4 py-8 md:px-6 bg-window-bg">
+  <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-start md:items-center md:justify-between gap-6">
+    <div class="flex items-center gap-3 text-foreground-muted text-sm">
+      <svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true">
+        <defs>
+          <linearGradient id="ftr-g" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#5b9cf5" />
+            <stop offset="100%" stop-color="#3367cc" />
+          </linearGradient>
+        </defs>
+        <circle cx="16" cy="16" r="15" fill="url(#ftr-g)" />
+        <circle cx="16" cy="16" r="14.5" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+        <text x="16" y="16" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-weight="bold" font-size="20" fill="white">H</text>
+      </svg>
+      <span>{copyright} <a href={licenseUrl} target="_blank" rel="noopener noreferrer" class="hover:text-foreground transition-all duration-300">MIT License</a>.</span>
+    </div>
+    <div class="flex flex-col md:flex-row gap-4 md:gap-8">
+      {links.map((link) => (
+        <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-foreground-muted text-sm hover:text-foreground transition-all duration-300">{link.label}</a>
+      ))}
+    </div>
+  </div>
+</footer>

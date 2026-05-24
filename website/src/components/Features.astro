@@ -1,0 +1,31 @@
+---
+export interface Feature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface Props {
+  heading: string;
+  subheading: string;
+  features: Feature[];
+}
+
+const { heading, subheading, features } = Astro.props;
+---
+
+<section id="features" class="min-h-screen flex flex-col items-center justify-center max-w-[1200px] mx-auto px-4 py-6 w-full md:px-6 md:py-10">
+  <div class="text-center mb-9">
+    <h2 class="text-[clamp(26px,4vw,40px)] font-extrabold tracking-[-0.02em] mb-2.5">{heading}</h2>
+    <p class="text-[clamp(13px,1.5vw,17px)] text-foreground-muted">{subheading}</p>
+  </div>
+  <div class="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-[14px] w-full">
+    {features.map((feature) => (
+      <div class="feature-card group bg-surface border border-border p-[22px_20px] rounded-2xl transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:border-border-hover hover:shadow-[0_20px_60px_rgba(0,0,0,0.6),0_0_30px_var(--glow-accent)]">
+        <div class="w-10 h-10 bg-icon-bg rounded-[10px] flex items-center justify-center text-[22px] mb-3.5 border border-icon-border transition-transform duration-300 group-hover:scale-110">{feature.icon}</div>
+        <h3 class="text-[17px] font-semibold mb-2">{feature.title}</h3>
+        <p class="text-foreground-muted text-[13px] leading-[1.5]">{feature.description}</p>
+      </div>
+    ))}
+  </div>
+</section>

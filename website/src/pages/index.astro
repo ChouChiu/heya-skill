@@ -1,0 +1,175 @@
+---
+import FAQ from "../components/FAQ.astro";
+import Features from "../components/Features.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+import Installation from "../components/Installation.astro";
+import Nav from "../components/Nav.astro";
+import Showcase from "../components/Showcase.astro";
+import Layout from "../layouts/Layout.astro";
+
+const year = new Date().getFullYear();
+---
+
+<Layout title="heya.skill | 黑鸦标题风格引擎">
+  <Nav
+    brand="heya.skill"
+    links={[
+      { href: "#features", label: "核心功能" },
+      { href: "#install", label: "一键集成" },
+      { href: "#example", label: "效果对比" },
+      { href: "#faq", label: "常见问题" },
+    ]}
+    githubUrl="https://github.com/ChouChiu/heya.skill"
+  />
+
+  <main>
+    <div id="main-content">
+      <Hero
+        badge="兼容 Claude Code / Cursor / Codex 等 50+ Runtime"
+        title="为 AI 注入"
+        subtitle="黑鸦式流量引擎"
+        description="长标题 · 情绪炸弹 · 多事件合并。基于黑鸦百万播放视频深度分析，让你的 AI 一语引爆流量。"
+        ctaPrimary={{ href: "#install", label: "一行命令接入" }}
+        ctaSecondary={{ href: "#features", label: "了解工作原理" }}
+      />
+
+      <Features
+        heading="四种标题结构 · 每次生成 3–5 个候选"
+        subheading="基于 B 站百万播放标题深度分析，自动覆盖情感式、悬念式、日报式、对比式"
+        features={[
+          {
+            icon: "💥",
+            title: "情感式轰炸",
+            description: "利用「震撼官宣」「杀疯了」等极具冲击力的情绪词，合并多事件制造强冲突，适合发布重磅爆料。",
+          },
+          {
+            icon: "🔍",
+            title: "悬念式留白",
+            description: "「后背发凉」「见证历史...」通过制造强烈的心理落差和未知感吸纳点击，最适合深度解读类内容。",
+          },
+          {
+            icon: "📰",
+            title: "日报式聚合",
+            description: "高信息密度并列展现，尾部标准化「| AI日报0523」印记，用极简的排版容纳海量前沿动态。",
+          },
+          {
+            icon: "⚡",
+            title: "对比式决裂",
+            description: "「新旧交替」「阵营对决」，通过提纯极致的对比关系强化戏剧性张力，大幅凸显变革的新闻重要性。",
+          },
+        ]}
+      />
+
+      <Showcase
+        features={["每日 CI", "4 种结构", "Agent Skills"]}
+        inputText="DeepSeek宣布降价、智谱发布400tokens/s大模型、阿里Qwen开放免费测试权限..."
+        outputTitle="黑鸦风生成组"
+        examples={[
+          { type: "情感式", text: "震撼官宣！DeepSeek永久定价引爆全网！智谱海啸席卷！阿里免费送！闭源阵营一夜蒸发！", variant: "accent" },
+          { type: "悬念式", text: "AI圈大地震！DeepSeek降价杀疯了！华为三值大模型横空出世！Claude Code终于下场！", variant: "dim" },
+          { type: "日报式", text: "见证历史！DeepSeek震撼官宣！智谱新模型杀疯！阿里Qwen3.7-Max引爆！| AI日报0523", variant: "accent" },
+        ]}
+      >
+        <Fragment slot="heading">
+          从枯燥简讯<br />到<span class="text-gradient">流量炸弹</span>
+        </Fragment>
+        <Fragment slot="subheading">
+          普通 AI 生成的标题千篇一律。挂载 <code class="bg-code-bg text-accent px-1.5 py-0.5 rounded font-mono">heya.skill</code>，一段新闻稿瞬间产出 3–5 个黑鸦级爆款标题，情绪拉满、点击率飙升。
+        </Fragment>
+      </Showcase>
+
+      <Installation
+        heading="三秒极速挂载"
+        subheading="基于开源 Agent Skills 标准，一行命令接入 Claude Code / Cursor / Codex 等任意 runtime"
+        tabs={[
+          {
+            id: "tab-cli",
+            label: "一行命令 (推荐)",
+            description: "通用 CLI 安装器（支持 55+ runtime），自动识别当前环境：",
+            code: "npx skills add ChouChiu/heya.skill",
+            copyText: "npx skills add ChouChiu/heya.skill",
+          },
+          {
+            id: "tab-prompt",
+            label: "自然语言提示",
+            description: "直接在任意 AI Agent 对话中输入：",
+            code: "帮我安装这个 skill：https://github.com/ChouChiu/heya.skill",
+            copyText: "帮我安装这个 skill：https://github.com/ChouChiu/heya.skill",
+          },
+          {
+            id: "tab-manual",
+            label: "手动配置",
+            description: "手动 clone 到对应 runtime 的 skills 目录：",
+            code: "git clone https://github.com/ChouChiu/heya.skill ~/.claude/skills/heya.skill/",
+            copyText: "git clone https://github.com/ChouChiu/heya.skill ~/.claude/skills/heya.skill/",
+          },
+        ]}
+      />
+
+      <FAQ
+        heading="常见问题"
+        subheading="解答您在接入与使用过程中的常见疑问"
+        items={[
+          {
+            question: "支持哪些 AI 客户端？",
+            answer: "基于开放的 <a href=\"https://agentskills.io\" class=\"underline hover:text-accent\">Agent Skills</a> 协议，已兼容 Claude Code、Codex、Cursor、Windsurf 等 50+ 主流 AI 编辑器与运行环境，开箱即用。",
+          },
+          {
+            question: "生成的标题可以直接发布吗？",
+            answer: "可以。AI 只学习爆款的结构框架与情绪节奏，不会照搬原文。生成的标题可直接用于 B 站、小红书、微信公众号等平台发布。",
+          },
+          {
+            question: "为什么推荐一行命令安装？",
+            answer: "一行命令自动识别本地环境、完成注册，后续升级也只需一条指令。手动安装虽然可行，但部分客户端的配置路径有差异，容易出错。",
+          },
+          {
+            question: "会额外收费吗？",
+            answer: "不会。引擎永久开源免费，唯一消耗的是你所用大模型（如 Claude、OpenAI）的 Token 额度，无任何附加费用。",
+          },
+          {
+            question: "如何更新到最新版本？",
+            answer: "使用 CLI 安装的用户只需再次运行 <code class=\"bg-surface px-1.5 py-0.5 rounded text-[13px]\">npx skills add ChouChiu/heya.skill</code> 即可自动更新。手动安装的用户需要重新拉取最新代码。",
+          },
+          {
+            question: "生成效果不满意怎么办？",
+            answer: "可以尝试以下方法：1. 在提示词中指定想要的风格类型（情感式/悬念式/日报式/对比式）；2. 提供更多背景信息或关键词；3. 让 AI 生成多轮后挑选最佳。",
+          },
+        ]}
+      />
+    </div>
+  </main>
+
+  <Footer
+    brand="heya.skill"
+    copyright={`© 2026-${year} ChouChiu.`}
+    licenseUrl="https://github.com/ChouChiu/heya.skill?tab=MIT-1-ov-file"
+    links={[
+      { href: "https://github.com/ChouChiu/heya.skill", label: "GitHub 源码" },
+      { href: "https://agentskills.io", label: "Agent Skills 协议" },
+      { href: "https://space.bilibili.com/3706929260006322", label: "黑鸦 B站" },
+    ]}
+    year={year}
+  />
+</Layout>
+
+<script>
+  // Theme toggle (View Transitions API, Chrome-only)
+  const themeToggle = document.querySelector(".theme-toggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      const html = document.documentElement;
+      const current = html.getAttribute("data-theme");
+      const next = current === "dark" ? "light" : "dark";
+      const apply = () => {
+        html.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+      };
+      if (document.startViewTransition) {
+        document.startViewTransition(() => apply());
+      } else {
+        apply();
+      }
+    });
+  }
+</script>
