@@ -1,0 +1,114 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const description = "黑鸦 · 标题风格生成器 — 流量密码，一键赋能";
+---
+
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalURL} />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonicalURL} />
+        <meta property="og:image" content={new URL("/heya.skill/og-image.png", Astro.site)} />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+
+        <!-- Favicon (inline SVG: red circle with H) -->
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23ff2e54'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='20' fill='white'%3EH%3C/text%3E%3C/svg%3E" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <a href="#main-content" class="skip-link">跳转到主要内容</a>
+        <slot />
+    </body>
+</html>
+
+<style is:global>
+    :root {
+        --bg: #000000;
+        --surface: #050505;
+        --surface-hover: #141414;
+        --border: #1f1f1f;
+        --border-hover: #333333;
+        --text-main: #f0f0f0;
+        --text-muted: #888888;
+        --primary: #ff2e54;
+        --primary-glow: rgba(255, 46, 84, 0.4);
+        --gradient: linear-gradient(135deg, #ff2e54 0%, #ff904e 100%);
+        --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+        --font-mono: "JetBrains Mono", monospace;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        background-color: var(--bg);
+        color: var(--text-main);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+
+    ::selection {
+        background: var(--primary);
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* Skip-to-content link for accessibility */
+    .skip-link {
+        position: absolute;
+        top: -100%;
+        left: 16px;
+        z-index: 9999;
+        background: var(--primary);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 0 0 8px 8px;
+        font-weight: 600;
+        font-size: 14px;
+        transition: top 0.2s;
+    }
+    .skip-link:focus {
+        top: 0;
+    }
+
+    /* Focus-visible styles for keyboard navigation */
+    :focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+</style>

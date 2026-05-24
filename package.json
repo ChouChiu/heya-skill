@@ -1,0 +1,23 @@
+{
+  "name": "heya.skill",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "pipeline": "bun run scripts/pipeline.ts",
+    "website:dev": "cd website && bun run dev",
+    "website:build": "cd website && bun run build",
+    "lint": "biome check scripts/",
+    "format": "biome check --write scripts/ website/src/",
+    "check": "biome check scripts/ website/src/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.15",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "jieba-wasm": "^2.4.0"
+  }
+}

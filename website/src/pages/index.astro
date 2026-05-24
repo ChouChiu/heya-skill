@@ -1,0 +1,1064 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const year = new Date().getFullYear();
+---
+
+<Layout title="heya.skill | 黑鸦标题风格引擎">
+	<nav class="navbar" aria-label="主导航">
+		<div class="nav-inner">
+			<a href="#" class="logo">
+				<span class="logo-text">heya.skill</span>
+			</a>
+			<input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true" />
+			<label for="nav-toggle" class="nav-hamburger" aria-label="切换导航菜单" role="button" tabindex="0">
+				<span></span><span></span><span></span>
+			</label>
+			<div class="links" role="navigation" aria-label="页面导航">
+				<a href="#features">核心功能</a>
+				<a href="#install">一键集成</a>
+				<a href="#example">效果对比</a>
+			</div>
+			<a
+				href="https://github.com/ChouChiu/heya.skill"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="btn-github"
+			>
+				<svg
+					width="20"
+					height="20"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+					><path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.2-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.379.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.418 22 12c0-5.523-4.477-10-10-10z"
+					></path></svg
+				>
+				GitHub
+			</a>
+		</div>
+	</nav>
+
+	<main>
+		<div id="main-content">
+		<!-- Hero -->
+		<section class="hero">
+			<div class="hero-glow"></div>
+			<div class="badge">
+				<span class="live-dot"></span> 兼容 Claude Code / Cursor / Codex 等 50+ Runtime
+			</div>
+			<h1 class="hero-title">
+				为 AI 注入<br /><span class="text-gradient">黑鸦式流量引擎</span
+				>
+			</h1>
+			<p class="hero-desc">
+				长标题 · 情绪炸弹 · 多事件合并。<br
+				/>基于黑鸦百万播放视频深度分析，让你的 AI 一语引爆流量。
+			</p>
+			<div class="hero-actions">
+				<a href="#install" class="btn-primary">一行命令接入</a>
+				<a href="#features" class="btn-secondary">了解工作原理</a>
+			</div>
+		</section>
+
+		<!-- Stats / Features -->
+		<section id="features" class="features container">
+			<div class="section-heading">
+				<h2>四种标题结构 · 每次生成 3–5 个候选</h2>
+				<p>基于 B 站百万播放标题深度分析，自动覆盖情感式、悬念式、日报式、对比式</p>
+			</div>
+			<div class="feature-grid">
+				<div class="feature-card">
+					<div class="icon-wrap">💥</div>
+					<h3>情感式轰炸</h3>
+					<p>
+						利用“震撼官宣”“杀疯了”等极具冲击力的情绪词，合并多事件制造强冲突，适合发布重磅爆料。
+					</p>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrap">🔍</div>
+					<h3>悬念式留白</h3>
+					<p>
+						“后背发凉”“见证历史...”通过制造强烈的心理落差和未知感吸纳点击，最适合深度解读类内容。
+					</p>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrap">📰</div>
+					<h3>日报式聚合</h3>
+					<p>
+						高信息密度并列展现，尾部标准化“|
+						AI日报0523”印记，用极简的排版容纳海量前沿动态。
+					</p>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrap">⚡</div>
+					<h3>对比式决裂</h3>
+					<p>
+						“新旧交替”“阵营对决”，通过提纯极致的对比关系强化戏剧性张力，大幅凸显变革的新闻重要性。
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Code integration / Showcase -->
+		<section class="deep-dive container">
+			<div class="split-layout">
+				<div class="split-text">
+					<h2>
+						从枯燥简讯<br />到<span class="text-gradient"
+							>流量炸弹</span
+						>
+					</h2>
+					<p>
+						普通 AI 生成的标题千篇一律。<br />挂载 <code
+							>heya.skill</code
+						>，一段新闻稿瞬间产出 3–5 个黑鸦级爆款标题，情绪拉满、点击率飙升。
+					</p>
+
+					<div class="data-points">
+						<div class="data-point">
+							<strong>每日 CI</strong> 自动采集 B 站原始标题数据
+						</div>
+						<div class="data-point">
+							<strong>4 种结构</strong> 覆盖情感式 / 悬念式 / 日报式 / 对比式
+						</div>
+						<div class="data-point">
+							<strong>Agent Skills</strong> 标准协议 · 50+ runtime 一键挂载
+						</div>
+					</div>
+				</div>
+
+				<div class="split-visual" id="example">
+					<div class="mock-window">
+						<div class="window-bar">
+							<div class="dots">
+								<i class="r"></i><i class="y"></i><i class="g"
+								></i>
+							</div>
+							<div class="title">heya.skill - 视觉演示</div>
+						</div>
+						<div class="window-content">
+							<div class="chat-message input-msg">
+								<span class="tag tag-dim">原始素材</span>
+								<p>
+									DeepSeek宣布降价、智谱发布400tokens/s大模型、阿里Qwen开放免费测试权限...
+								</p>
+							</div>
+							<div class="typing-indicator">
+								<span class="circle"></span><span class="circle"
+								></span><span class="circle"></span>
+							</div>
+							<div class="chat-message output-msg">
+								<span class="tag tag-glow">黑鸦风生成组</span>
+								<div class="res-item">
+									<span class="lbl highlight">情感式</span>
+									震撼官宣！DeepSeek永久定价引爆全网！智谱海啸席卷！阿里免费送！闭源阵营一夜蒸发！
+								</div>
+								<div class="res-item">
+									<span class="lbl">悬念式</span>
+									AI圈大地震！DeepSeek降价杀疯了！华为三值大模型横空出世！Claude
+									Code终于下场！
+								</div>
+								<div class="res-item">
+									<span class="lbl highlight">日报式</span>
+									见证历史！DeepSeek震撼官宣！智谱新模型杀疯！阿里Qwen3.7-Max引爆！|
+									AI日报0523
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Installation -->
+		<section id="install" class="installation container">
+			<div class="section-heading">
+				<h2>三秒极速挂载</h2>
+				<p>基于开源 Agent Skills 标准，一行命令接入 Claude Code / Cursor / Codex 等任意 runtime</p>
+			</div>
+
+			<div class="install-card">
+				<div class="tabs">
+					<button class="tab-btn active" data-tab="tab-cli"
+						>一行命令 (推荐)</button
+					>
+					<button class="tab-btn" data-tab="tab-prompt"
+						>自然语言提示</button
+					>
+					<button class="tab-btn" data-tab="tab-manual"
+						>手动配置</button
+					>
+				</div>
+
+				<div class="tab-panels">
+					<div class="panel active" id="tab-cli">
+						<p>
+							通用 CLI 安装器（支持 55+ runtime），自动识别当前环境：
+						</p>
+						<div class="code-wrap">
+							<code
+								><span class="cmd-symbol">$</span> npx skills add
+								ChouChiu/heya.skill</code
+							>
+							<button
+								class="copy-btn"
+								aria-label="复制安装命令"
+								data-copy="npx skills add ChouChiu/heya.skill"
+								>复制</button
+							>
+						</div>
+					</div>
+
+					<div class="panel" id="tab-prompt">
+						<p>
+							直接在任意 AI Agent 对话中输入：
+						</p>
+						<div class="code-wrap">
+							<code
+								>帮我安装这个
+								skill：https://github.com/ChouChiu/heya.skill</code
+							>
+							<button
+								class="copy-btn"
+								aria-label="复制提示文本"
+								data-copy="帮我安装这个 skill：https://github.com/ChouChiu/heya.skill"
+								>复制</button
+							>
+						</div>
+					</div>
+
+					<div class="panel" id="tab-manual">
+						<p>
+							手动 clone 到对应 runtime 的 <code>skills</code> 目录：
+						</p>
+						<div class="code-wrap">
+							<code
+								><span class="cmd-symbol">$</span> git clone https://github.com/ChouChiu/heya.skill
+								~/.claude/skills/heya.skill/</code
+							>
+							<button
+								class="copy-btn"
+								aria-label="复制克隆命令"
+								data-copy="git clone https://github.com/ChouChiu/heya.skill ~/.claude/skills/heya.skill/"
+								>复制</button
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-inner">
+			<div class="footer-left">
+				<span>© 2026-{year} ChouChiu. MIT License.</span>
+			</div>
+			<div class="footer-right">
+				<a href="https://github.com/ChouChiu/heya.skill" target="_blank" rel="noopener noreferrer"
+					>GitHub 源码</a
+				>
+				<a href="https://agentskills.io" target="_blank" rel="noopener noreferrer"
+					>Agent Skills 协议</a
+				>
+				<a
+					href="https://space.bilibili.com/3706929260006322"
+					target="_blank" rel="noopener noreferrer">黑鸦 B站</a
+				>
+			</div>
+		</div>
+	</footer>
+</Layout>
+
+<script>
+	// Smooth scroll for nav links
+	document.querySelectorAll('.links a[href^="#"]').forEach((link) => {
+		link.addEventListener("click", (e) => {
+			e.preventDefault();
+			const href = link.getAttribute("href");
+			if (!href) return;
+			const target = document.querySelector(href);
+			if (target) {
+				target.scrollIntoView({ behavior: "smooth" });
+			}
+			// Close mobile nav if open
+			const navToggle = document.getElementById("nav-toggle") as HTMLInputElement;
+			if (navToggle) {
+				navToggle.checked = false;
+			}
+		});
+	});
+
+	// Tabs logic
+	const tabs = document.querySelectorAll(".tab-btn");
+	const panels = document.querySelectorAll(".panel");
+
+	tabs.forEach((tab) => {
+		tab.addEventListener("click", () => {
+			tabs.forEach((t) => t.classList.remove("active"));
+			panels.forEach((p) => p.classList.remove("active"));
+
+			tab.classList.add("active");
+			const targetId = tab.getAttribute("data-tab");
+			if (targetId) {
+				document.getElementById(targetId)?.classList.add("active");
+			}
+		});
+	});
+
+	// Copy logic
+	const copyBtns = document.querySelectorAll(".copy-btn");
+	copyBtns.forEach((btn) => {
+		btn.addEventListener("click", async () => {
+			const text = btn.getAttribute("data-copy");
+			if (text) {
+				try {
+					await navigator.clipboard.writeText(text);
+					const el = btn as HTMLElement;
+					const original = el.innerText;
+					el.innerText = "已复制!";
+					el.classList.add("copied");
+					setTimeout(() => {
+						el.innerText = original;
+						el.classList.remove("copied");
+					}, 2000);
+				} catch (e) {
+					console.error("Clipboard copy failed", e);
+				}
+			}
+		});
+	});
+</script>
+
+<style>
+
+
+	/* --- Global & Layout Utils --- */
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 40px 24px;
+		width: 100%;
+	}
+	.text-gradient {
+		background: var(--gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	/* --- Navbar --- */
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 72px;
+		background: rgba(0, 0, 0, 0.85);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+		border-bottom: 1px solid var(--border);
+		z-index: 100;
+	}
+	.nav-inner {
+		max-width: 1200px;
+		margin: 0 auto;
+		height: 100%;
+		padding: 0 24px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		font-weight: 700;
+		font-size: 18px;
+		letter-spacing: -0.5px;
+	}
+	.links {
+		display: flex;
+		gap: 36px;
+	}
+	.links a {
+		font-size: 14px;
+		font-weight: 500;
+		color: var(--text-muted);
+		transition: color 0.2s;
+	}
+	.links a:hover {
+		color: var(--text-main);
+	}
+	.btn-github {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 14px;
+		font-weight: 600;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		color: var(--text-main);
+		padding: 8px 16px;
+		border-radius: 999px;
+		transition: all 0.2s;
+	}
+	.btn-github:hover {
+		background: var(--surface-hover);
+		border-color: var(--text-muted);
+		transform: translateY(-1px);
+	}
+
+	/* --- Hero --- */
+	.hero {
+		position: relative;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 72px 24px 0;
+	}
+	.hero-glow {
+		position: absolute;
+		top: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 800px;
+		height: 600px;
+		background: radial-gradient(
+			circle,
+			var(--primary-glow) 0%,
+			transparent 60%
+		);
+		opacity: 0.6;
+		z-index: -1;
+		pointer-events: none;
+	}
+	.badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		background: rgba(255, 255, 255, 0.04);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		padding: 6px 18px;
+		border-radius: 999px;
+		font-size: 13px;
+		font-weight: 500;
+		color: #a1a1aa;
+		margin-bottom: 32px;
+	}
+	.live-dot {
+		width: 8px;
+		height: 8px;
+		background: #00e676;
+		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0, 230, 118, 0.6);
+	}
+	.hero-title {
+		font-size: clamp(40px, 7vw, 84px);
+		font-weight: 800;
+		line-height: 1.15;
+		letter-spacing: -0.03em;
+		margin-bottom: 28px;
+	}
+	.hero-desc {
+		font-size: clamp(16px, 2vw, 20px);
+		color: var(--text-muted);
+		max-width: 680px;
+		margin: 0 auto 56px;
+		line-height: 1.7;
+	}
+	.hero-actions {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+	}
+	.btn-primary {
+		background: var(--text-main);
+		color: var(--bg);
+		font-weight: 600;
+		padding: 16px 36px;
+		border-radius: 999px;
+		font-size: 16px;
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
+	}
+	.btn-primary:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+	}
+	.btn-secondary {
+		background: transparent;
+		border: 1px solid var(--border);
+		color: var(--text-main);
+		font-weight: 600;
+		padding: 16px 36px;
+		border-radius: 999px;
+		font-size: 16px;
+		transition: all 0.2s;
+	}
+	.btn-secondary:hover {
+		border-color: var(--text-muted);
+		background: var(--surface);
+	}
+
+	/* --- Section Common --- */
+	.features {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-heading {
+		text-align: center;
+		margin-bottom: 36px;
+	}
+	.section-heading h2 {
+		font-size: clamp(26px, 4vw, 40px);
+		font-weight: 800;
+		letter-spacing: -0.02em;
+		margin-bottom: 10px;
+	}
+	.section-heading p {
+		font-size: clamp(13px, 1.5vw, 17px);
+		color: var(--text-muted);
+	}
+
+	/* --- Features Grid --- */
+	.feature-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		gap: 14px;
+	}
+	.feature-card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		padding: 22px 20px;
+		border-radius: 16px;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		position: relative;
+		overflow: hidden;
+	}
+	.feature-card::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: var(--gradient);
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+	.feature-card:hover {
+		transform: translateY(-6px);
+		border-color: var(--border-hover);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+	}
+	.feature-card:hover::before {
+		opacity: 1;
+	}
+	.icon-wrap {
+		width: 40px;
+		height: 40px;
+		background: rgba(255, 255, 255, 0.03);
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 22px;
+		margin-bottom: 14px;
+		border: 1px solid rgba(255, 255, 255, 0.06);
+	}
+	.feature-card h3 {
+		font-size: 17px;
+		font-weight: 600;
+		margin-bottom: 8px;
+	}
+	.feature-card p {
+		color: var(--text-muted);
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	/* --- Split Layout / Showcase --- */
+	.deep-dive {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+	}
+	.split-layout {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 40px;
+		align-items: center;
+	}
+	.split-text h2 {
+		font-size: clamp(26px, 3.5vw, 38px);
+		font-weight: 800;
+		line-height: 1.15;
+		letter-spacing: -0.03em;
+		margin-bottom: 16px;
+	}
+	.split-text p {
+		font-size: clamp(13px, 1.4vw, 16px);
+		color: var(--text-muted);
+		margin-bottom: 24px;
+		line-height: 1.5;
+	}
+	.split-text code {
+		background: rgba(255, 46, 84, 0.15);
+		color: var(--primary);
+		padding: 2px 6px;
+		border-radius: 4px;
+		font-family: var(--font-mono);
+	}
+	.data-points {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.data-point {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		font-size: 13px;
+		color: var(--text-muted);
+	}
+	.data-point strong {
+		color: var(--text-main);
+		background: rgba(255, 255, 255, 0.05);
+		padding: 4px 10px;
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		font-family: var(--font-mono);
+		font-size: 12px;
+		min-width: 100px;
+		text-align: center;
+	}
+
+	.mock-window {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 16px;
+		overflow: hidden;
+		box-shadow: 0 40px 80px rgba(0, 0, 0, 0.8);
+	}
+	.window-bar {
+		background: #000000;
+		padding: 14px 20px;
+		border-bottom: 1px solid var(--border);
+		display: flex;
+		align-items: center;
+	}
+	.dots {
+		display: flex;
+		gap: 8px;
+	}
+	.dots i {
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+	}
+	.dots .r {
+		background: #ff5f56;
+	}
+	.dots .y {
+		background: #ffbd2e;
+	}
+	.dots .g {
+		background: #27c93f;
+	}
+	.window-bar .title {
+		flex: 1;
+		text-align: center;
+		font-size: 12px;
+		color: #666;
+		font-family: var(--font-mono);
+		margin-right: 60px; /* Balance the dots to center text */
+	}
+	.window-content {
+		padding: 18px 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		background: #000000;
+	}
+	.chat-message {
+		background: var(--surface);
+		padding: 24px;
+		border-radius: 12px;
+		border: 1px solid var(--border);
+		position: relative;
+	}
+	.tag {
+		font-size: 12px;
+		font-weight: 600;
+		padding: 4px 10px;
+		border-radius: 6px;
+		position: absolute;
+		top: -12px;
+		left: 20px;
+	}
+	.tag-dim {
+		background: #222;
+		color: var(--text-muted);
+		border: 1px solid var(--border);
+	}
+	.tag-glow {
+		background: rgba(255, 46, 84, 0.1);
+		backdrop-filter: blur(10px);
+		color: var(--primary);
+		border: 1px solid rgba(255, 46, 84, 0.3);
+	}
+	.input-msg p {
+		font-size: 14px;
+		color: #999;
+		font-family: var(--font-mono);
+		line-height: 1.6;
+		margin-top: 4px;
+	}
+	.typing-indicator {
+		display: flex;
+		gap: 6px;
+		padding: 0 20px;
+	}
+	.circle {
+		width: 8px;
+		height: 8px;
+		background: #444;
+		border-radius: 50%;
+		animation: typing 1.4s infinite ease-in-out both;
+	}
+	.circle:nth-child(1) {
+		animation-delay: -0.32s;
+	}
+	.circle:nth-child(2) {
+		animation-delay: -0.16s;
+	}
+	@keyframes typing {
+		0%,
+		80%,
+		100% {
+			transform: scale(0.6);
+			opacity: 0.4;
+		}
+		40% {
+			transform: scale(1);
+			opacity: 1;
+			background: var(--primary);
+		}
+	}
+	.output-msg {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		margin-top: 8px;
+	}
+	.res-item {
+		font-size: 12px;
+		line-height: 1.5;
+		padding-bottom: 10px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+		color: #ccc;
+	}
+	.res-item:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.res-item .lbl {
+		display: inline-block;
+		font-size: 11px;
+		font-weight: 600;
+		padding: 2px 8px;
+		border-radius: 4px;
+		background: #222;
+		color: var(--text-muted);
+		margin-right: 8px;
+		vertical-align: middle;
+	}
+	.res-item .lbl.highlight {
+		background: rgba(255, 46, 84, 0.15);
+		color: var(--primary);
+	}
+
+	/* --- Installation --- */
+	.installation {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.install-card {
+		background: #000000;
+		border: 1px solid var(--border);
+		border-radius: 20px;
+		max-width: 860px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.tabs {
+		display: flex;
+		background: var(--surface);
+		border-bottom: 1px solid var(--border);
+	}
+	.tab-btn {
+		flex: 1;
+		background: transparent;
+		border: none;
+		padding: 20px;
+		color: var(--text-muted);
+		font-size: 15px;
+		font-weight: 500;
+		cursor: pointer;
+		border-bottom: 2px solid transparent;
+		transition: all 0.2s;
+	}
+	.tab-btn:hover {
+		color: var(--text-main);
+		background: rgba(255, 255, 255, 0.02);
+	}
+	.tab-btn.active {
+		color: var(--text-main);
+		border-bottom: 2px solid var(--primary);
+		background: #000000;
+	}
+	.tab-panels {
+		padding: 24px 28px;
+	}
+	.panel {
+		display: none;
+		animation: fadeIn 0.3s ease;
+	}
+	.panel.active {
+		display: block;
+	}
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(5px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	.panel p {
+		color: var(--text-muted);
+		margin-bottom: 20px;
+		font-size: 15px;
+	}
+	.code-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: #000;
+		border: 1px solid var(--border);
+		border-radius: 12px;
+		padding: 16px 20px;
+	}
+	.code-wrap code {
+		font-family: var(--font-mono);
+		font-size: 14px;
+		color: #e5e7eb;
+		overflow-x: auto;
+		white-space: nowrap;
+		padding-right: 16px;
+	}
+	.cmd-symbol {
+		color: var(--primary);
+		margin-right: 8px;
+	}
+	.copy-btn {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		color: var(--text-muted);
+		padding: 8px 14px;
+		border-radius: 8px;
+		font-size: 13px;
+		cursor: pointer;
+		transition: all 0.2s;
+		white-space: nowrap;
+	}
+	.copy-btn:hover {
+		background: var(--surface-hover);
+		color: var(--text-main);
+		border-color: var(--text-muted);
+	}
+	.copy-btn.copied {
+		background: rgba(0, 230, 118, 0.1);
+		color: #00e676;
+		border-color: #00e676;
+	}
+
+	/* --- Footer --- */
+	footer {
+		border-top: 1px solid var(--border);
+		padding: 32px 24px;
+		background: #000000;
+	}
+	.footer-inner {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+	.footer-left {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		color: var(--text-muted);
+		font-size: 14px;
+	}
+	.footer-right {
+		display: flex;
+		gap: 32px;
+	}
+	.footer-right a {
+		color: var(--text-muted);
+		font-size: 14px;
+		transition: color 0.2s;
+	}
+	.footer-right a:hover {
+		color: var(--text-main);
+	}
+
+	/* --- Hamburger Menu --- */
+	.nav-toggle-input {
+		display: none;
+	}
+	.nav-hamburger {
+		display: none;
+		flex-direction: column;
+		justify-content: center;
+		gap: 5px;
+		width: 32px;
+		height: 32px;
+		cursor: pointer;
+		z-index: 102;
+	}
+	.nav-hamburger span {
+		display: block;
+		width: 22px;
+		height: 2px;
+		background: var(--text-main);
+		border-radius: 2px;
+		transition: all 0.3s;
+	}
+
+	/* --- Responsive --- */
+	@media (max-width: 1024px) {
+		.split-layout {
+			grid-template-columns: 1fr;
+			gap: 32px;
+		}
+		.hero-glow {
+			width: 100%;
+			top: 0;
+		}
+		.mock-window {
+			max-width: 560px;
+			margin: 0 auto;
+		}
+	}
+	@media (max-width: 768px) {
+		.container {
+			padding: 24px 16px;
+		}
+		.nav-hamburger {
+			display: flex;
+		}
+		.nav-toggle-input:checked ~ .nav-hamburger span:nth-child(1) {
+			transform: translateY(7px) rotate(45deg);
+		}
+		.nav-toggle-input:checked ~ .nav-hamburger span:nth-child(2) {
+			opacity: 0;
+		}
+		.nav-toggle-input:checked ~ .nav-hamburger span:nth-child(3) {
+			transform: translateY(-7px) rotate(-45deg);
+		}
+		.links {
+			display: none;
+			position: fixed;
+			top: 72px;
+			left: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.95);
+			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px);
+			flex-direction: column;
+			align-items: center;
+			gap: 0;
+			padding: 16px 0;
+			border-bottom: 1px solid var(--border);
+			z-index: 101;
+		}
+		.nav-toggle-input:checked ~ .links {
+			display: flex;
+		}
+		.links a {
+			padding: 14px 24px;
+			width: 100%;
+			text-align: center;
+		}
+		.hero {
+			padding: 72px 16px 0;
+		}
+		.hero-title {
+			font-size: 40px;
+		}
+		.hero-actions {
+			flex-direction: column;
+		}
+		.btn-primary,
+		.btn-secondary {
+			width: 100%;
+			text-align: center;
+		}
+		.tabs {
+			flex-direction: column;
+		}
+		.tab-btn {
+			border-bottom: none;
+			border-left: 2px solid transparent;
+			text-align: left;
+		}
+		.tab-btn.active {
+			border-bottom: none;
+			border-left-color: var(--primary);
+			background: transparent;
+		}
+		.code-wrap {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 16px;
+		}
+		.copy-btn {
+			margin-left: 0;
+			align-self: flex-start;
+		}
+		.split-text h2 {
+			font-size: 32px;
+		}
+		.footer-inner {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.footer-right {
+			flex-direction: column;
+			gap: 16px;
+		}
+	}
+</style>
