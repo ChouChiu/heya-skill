@@ -2,26 +2,26 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 85,
-    "analysisDate": "2026-05-25"
+    "totalVideos": 86,
+    "analysisDate": "2026-05-26"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.247,
-        "count": 21,
-        "pctDisplay": "24.7%",
+        "frequency": 0.256,
+        "count": 22,
+        "pctDisplay": "25.6%",
         "examples": [
+          "后背发凉！Kimi 突发大面积封号，真相居然是？风控大地震深夜引爆AI圈，全网第三方Coding Agent已被集体判处死刑！| AI日报0526",
           "马斯克秘密模型曝光！1.5T巨兽 V9基模彻底杀疯了！AI终局百模大战彻底打响！| AI日报0525",
           "OpenAI危！Anthropic 或携  Mythos 1、Opus 4.8、Sonnet 4.8 全线突围！战吗？战啊……！AI终极战争来了！|AI日报",
           "后背发凉！Gemini 神秘功能泄露或在备战I/O？| AI日报0517",
-          "已泄露！Gemini 一大波神秘模型即将来袭，谷歌接管世界倒计时？建议把劈柴移交军事法庭！ | AI日报",
-          "已加速！DeepSeek V4.1或下月发布，梁文峰豪掷200亿加码DeepSeek融资，阿里腾讯被拒门外，全球AI战争正式进入白热化…… |AI日报"
+          "已泄露！Gemini 一大波神秘模型即将来袭，谷歌接管世界倒计时？建议把劈柴移交军事法庭！ | AI日报"
         ],
         "templates": [
+          "后背发凉！Kimi 突发大面积封号，真相居然是？风控大地震深夜引爆AI圈，全网第三方Coding Agent已被集体判处死刑！| AI日报0526",
           "马斯克秘密模型曝光！1.5T巨兽 V9基模彻底杀疯了！AI终局百模大战彻底打响！| AI日报0525",
-          "OpenAI危！Anthropic 或携  Mythos 1、Opus 4.8、Sonnet 4.8 全线突围！战吗？战啊……！AI终极战争来了！|AI日报",
-          "后背发凉！Gemini 神秘功能泄露或在备战I/O？| AI日报0517"
+          "OpenAI危！Anthropic 或携  Mythos 1、Opus 4.8、Sonnet 4.8 全线突围！战吗？战啊……！AI终极战争来了！|AI日报"
         ]
       },
       "数字列表式": {
@@ -32,9 +32,9 @@
         "templates": []
       },
       "对比式": {
-        "frequency": 0.024,
+        "frequency": 0.023,
         "count": 2,
-        "pctDisplay": "2.4%",
+        "pctDisplay": "2.3%",
         "examples": [
           "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514",
           "震撼登场！小米的 Xiaomi MiMo Token Plan 是神还是屎！"
@@ -45,9 +45,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.6,
+        "frequency": 0.593,
         "count": 51,
-        "pctDisplay": "60.0%",
+        "pctDisplay": "59.3%",
         "examples": [
           "硅谷全面雪崩！DeepSeek宣布永久降价！智谱新模型无预警发布，400 tokens/s海啸席卷全球！闭源阵营一夜蒸发！| AI日报0522",
           "AI 圈大地震！Gemini 永久提额 300%！Google Antigravity彻底杀疯了，吓得奥特曼当场瘫坐，行业已硝烟弥漫！|AI日报0521",
@@ -76,9 +76,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.129,
+        "frequency": 0.128,
         "count": 11,
-        "pctDisplay": "12.9%",
+        "pctDisplay": "12.8%",
         "examples": [
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
           "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
@@ -98,11 +98,11 @@
     "emotion": [
       {
         "word": "大地震",
-        "count": 9
+        "count": 10
       },
       {
         "word": "引爆",
-        "count": 8
+        "count": 9
       },
       {
         "word": "杀疯了",
@@ -137,6 +137,10 @@
         "count": 4
       },
       {
+        "word": "后背发凉",
+        "count": 3
+      },
+      {
         "word": "硝烟弥漫",
         "count": 3
       },
@@ -161,10 +165,6 @@
         "count": 2
       },
       {
-        "word": "后背发凉",
-        "count": 2
-      },
-      {
         "word": "官宣",
         "count": 2
       },
@@ -180,7 +180,7 @@
     "aiTerms": [
       {
         "word": "AI",
-        "count": 83
+        "count": 85
       },
       {
         "word": "模型",
@@ -258,11 +258,11 @@
     "highFrequency": [
       {
         "word": "AI",
-        "count": 82
+        "count": 84
       },
       {
         "word": "日报",
-        "count": 50
+        "count": 51
       },
       {
         "word": "模型",
@@ -286,14 +286,14 @@
       },
       {
         "word": "地震",
+        "count": 10
+      },
+      {
+        "word": "引爆",
         "count": 9
       },
       {
         "word": "硅谷",
-        "count": 8
-      },
-      {
-        "word": "引爆",
         "count": 8
       },
       {
@@ -303,6 +303,10 @@
       {
         "word": "泄露",
         "count": 8
+      },
+      {
+        "word": "深夜",
+        "count": 7
       },
       {
         "word": "圈大",
@@ -325,6 +329,14 @@
         "count": 7
       },
       {
+        "word": "Kimi",
+        "count": 6
+      },
+      {
+        "word": "Agent",
+        "count": 6
+      },
+      {
         "word": "彻底",
         "count": 6
       },
@@ -342,10 +354,6 @@
       },
       {
         "word": "奥特曼",
-        "count": 6
-      },
-      {
-        "word": "深夜",
         "count": 6
       },
       {
@@ -367,14 +375,6 @@
       {
         "word": "Google",
         "count": 5
-      },
-      {
-        "word": "3.5",
-        "count": 5
-      },
-      {
-        "word": "用户",
-        "count": 5
       }
     ],
     "uniqueExpressions": [
@@ -388,11 +388,11 @@
   },
   "sentencePatterns": {
     "question": 0.012,
-    "exclamation": 0.247,
-    "statement": 0.741
+    "exclamation": 0.244,
+    "statement": 0.744
   },
   "length": {
-    "avg": 51.4,
+    "avg": 51.6,
     "min": 25,
     "max": 79,
     "median": 51,
@@ -400,16 +400,16 @@
       "20字以内": 0,
       "21-30字": 3,
       "31-40字": 16,
-      "40字以上": 66
+      "40字以上": 67
     },
-    "over40Pct": 77.6,
+    "over40Pct": 77.9,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 74.1,
+    "withNumberPct": 74.4,
     "commonNumbers": [
       {
         "number": 3,
@@ -454,12 +454,12 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.247,
+    "exclamationEnd": 0.244,
     "questionEnd": 0.012,
-    "ellipsisEnd": 0.071
+    "ellipsisEnd": 0.07
   },
   "aiDaily": {
-    "count": 50,
-    "pct": 58.8
+    "count": 51,
+    "pct": 59.3
   }
 }
