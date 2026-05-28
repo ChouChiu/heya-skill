@@ -35,6 +35,10 @@ jobs:
 
       - name: Run pipeline (fetch + analyze + update)
         run: bun pipeline
+        env:
+          BILIBILI_SESSDATA: ${{ secrets.BILIBILI_SESSDATA }}
+          BILIBILI_BILI_JCT: ${{ secrets.BILIBILI_BILI_JCT }}
+          BILIBILI_REFRESH_TOKEN: ${{ secrets.BILIBILI_REFRESH_TOKEN }}
 
       - name: Commit and push changes
         run: |

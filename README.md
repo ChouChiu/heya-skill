@@ -149,7 +149,7 @@ OpenAI 正在 ChatGPT 网页端测试名为 "Intelligence" 的简化版模型选
 将原有的模型与推理档位精简为四个选项
 官方确认会在全面推出前添加设置
 允许用户恢复指定常用的 Pro 选项
-据媒体报道
+据报道
 因马斯克等人游说
 特朗普在最后一刻取消了原定AI安全行政令签署
 相关前沿模型自愿审查机制将重新制定
@@ -191,7 +191,7 @@ OpenAI 正在 ChatGPT 网页端测试名为 "Intelligence" 的简化版模型选
 
 ```mermaid
 flowchart LR
-    UAPI[UAPI 第三方 API<br/>免费额度] --> titles[01-titles.json<br/>原始数据]
+    Bili[Bilibili 官方 API<br/>Wbi 签名 + Cookie] --> titles[01-titles.json<br/>原始数据]
     titles --> analysis[02-style-analysis.json<br/>风格分析]
     analysis --> generate(注入模板<br/>生成)
     generate --> skill[SKILL.md<br/>AI 读取]
@@ -199,7 +199,7 @@ flowchart LR
 
 | 步骤    | 说明                                                                  |
 | ------- | --------------------------------------------------------------------- |
-| 1. 采集 | 通过 [UAPI](https://uapis.cn) 获取黑鸦视频标题                        |
+| 1. 采集 | 通过 Bilibili 官方 API 获取黑鸦视频标题，支持 Cookie 鉴权             |
 | 2. 分析 | 统计标题长度分布、情绪词频、结构占比、高频词汇                        |
 | 3. 生成 | 将分析结果注入 [`SKILL.md`](SKILL.md)，形成 AI agent 可读取的风格指南 |
 
@@ -220,7 +220,11 @@ cd heya.skill
 # 安装依赖
 bun install
 
-# 直接运行（零配置，使用 UAPI 免费额度）
+# 配置 Cookie（可选，不配也能跑但可能遇到风控）
+cp .env.example .env
+# 编辑 .env，填入 B站 Cookie（见下方说明）
+
+# 运行
 bun pipeline
 
 # 更多选项
@@ -233,18 +237,46 @@ bun run lint       # Biome 检查
 bun run format     # Biome 自动修复
 ```
 
+### 环境变量（`.env`）
+
+采集脚本通过 Bilibili 官方 API 获取视频数据。不配置 Cookie 也能运行，但可能遇到风控（-352 错误），需多次重试。配置 Cookie 后更稳定。
+
+```bash
+# 从浏览器获取：登录 bilibili.com → F12 → Application → Cookies
+BILIBILI_SESSDATA=<Cookie 中的 SESSDATA 值>
+BILIBILI_BILI_JCT=<Cookie 中的 bili_jct 值>
+
+# 可选：用于自动续期过期 Cookie
+# 获取方式：F12 → Console → localStorage.getItem("ac_time_value")
+BILIBILI_REFRESH_TOKEN=<32位 hex 字符串>
+```
+
+Cookie 有效期约 30 天。配置 `BILIBILI_REFRESH_TOKEN` 后，脚本会在 Cookie 过期时自动续期并更新 `.env`。
+
+### CI 配置（GitHub Actions）
+
+每日自动更新由 [`.github/workflows/update-reference.yml`](.github/workflows/update-reference.yml) 执行。需要在仓库 Settings → Secrets and variables → Actions 中配置以下 Repository secrets：
+
+| Secret 名称              | 说明                        | 必填 |
+| ------------------------ | --------------------------- | ---- |
+| `BILIBILI_SESSDATA`      | Cookie 中的 SESSDATA        | 否   |
+| `BILIBILI_BILI_JCT`      | Cookie 中的 bili_jct        | 否   |
+| `BILIBILI_REFRESH_TOKEN` | localStorage 的 ac_time_value | 否   |
+
+不配置也能运行，但 CI 环境更容易触发风控。建议配置以确保每日更新稳定。
+
 ## 项目结构
 
-| 路径                   | 说明                                          |
-| ---------------------- | --------------------------------------------- |
-| `SKILL.md`             | 生成产物：Agent Skills 入口（AI 读取）        |
-| `SKILL.example.md`     | ✏️ 模板源文件（手动编辑这个）                  |
-| `scripts/pipeline.ts`  | 全流程编排：采集 → 分析 → 生成                |
-| `scripts/lib/uapi.ts`  | UAPI 客户端：分页采集 B站视频标题（纯 fetch） |
-| `scripts/lib/`         | 共享模块（分析引擎、分词、生成器）            |
-| `references/research/` | 分析数据（JSON + MD 双格式）                  |
-| `website/`             | Astro 落地页（独立项目）                      |
-| `.github/workflows/`   | CI：每日自动更新 + 网站部署                   |
+| 路径                      | 说明                                          |
+| ------------------------- | --------------------------------------------- |
+| `SKILL.md`                | 生成产物：Agent Skills 入口（AI 读取）        |
+| `SKILL.example.md`        | ✏️ 模板源文件（手动编辑这个）                  |
+| `scripts/pipeline.ts`     | 全流程编排：采集 → 分析 → 生成                |
+| `scripts/lib/bilibili.ts` | Bilibili 官方 API 客户端（Wbi 签名 + Cookie） |
+| `scripts/lib/`            | 共享模块（分析引擎、分词、生成器）            |
+| `references/research/`    | 分析数据（JSON + MD 双格式）                  |
+| `website/`                | Astro 落地页（独立项目）                      |
+| `.github/workflows/`      | CI：每日自动更新 + 网站部署                   |
 
 ## 相关链接
 
