@@ -5,13 +5,13 @@ on:
   push:
     paths:
       - "website/**"
+      - "astro.config.mts"
+      - "package.json"
+      - "bun.lock"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: website
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
@@ -19,11 +19,11 @@ jobs:
           bun-version: latest
       - uses: actions/cache@v4
         with:
-          path: website/node_modules
-          key: bun-${{ runner.os }}-${{ hashFiles('website/bun.lock') }}
+          path: node_modules
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
           restore-keys: bun-${{ runner.os }}-
       - run: bun install
-      - run: bun run build
+      - run: bun run website:build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: website/dist

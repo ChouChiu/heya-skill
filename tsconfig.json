@@ -1,4 +1,5 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "lib": ["ESNext"],
     "module": "ESNext",
@@ -11,5 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["bun-types"]
   },
-  "include": ["scripts/**/*.ts"]
+  "include": [".astro/types.d.ts", "scripts/**/*.ts", "website/**/*.ts", "website/**/*.astro"],
+  "exclude": ["node_modules", "website/dist"]
 }

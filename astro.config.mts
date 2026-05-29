@@ -6,6 +6,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://chouchiu.github.io",
   base: "/heya.skill",
+  srcDir: "./website/src",
+  outDir: "./website/dist",
   vite: {
     plugins: [tailwindcss()],
   },
