@@ -4,5 +4,7 @@
 
 # JSON
 *.json linguist-detectable=true
+*.jsonc linguist-detectable=true
+*.jsonc linguist-language=json
 
 website/** linguist-vendored=true

@@ -20,6 +20,84 @@ export interface PipelineStep {
   label: string;
 }
 
+// ---- 分词结果（带词性） ----
+
+export interface POSToken {
+  word: string;
+  tag: string;
+}
+
+// ---- N-gram 短语 ----
+
+export interface NgramEntry {
+  phrase: string;
+  count: number;
+}
+
+// ---- 标题分类结果（多标签） ----
+
+export interface CategoryMatch {
+  category: string;
+  score: number;
+  matched: string[];
+}
+
+// ---- 结构分析 ----
+
+export interface StructureInfo {
+  avgClauses: number;
+  separatorPatterns: Record<string, number>;
+  exclamationDensity: number;
+  formulaTemplates: { pattern: string; count: number }[];
+  clauseDistribution: Record<string, number>;
+}
+
+// ---- 按词性分类的词汇 ----
+
+export interface WordsByPOS {
+  adjectives: [string, number][];
+  verbs: [string, number][];
+  nouns: [string, number][];
+  english: [string, number][];
+}
+
+// ---- 时间维度分析 ----
+
+export interface TemporalTrend {
+  period: string;
+  avgLength: number;
+  exclamationDensity: number;
+  emotionIntensity: number;
+  topEmotion: string;
+  titleCount: number;
+}
+
+// ---- 共现分析 ----
+
+export interface CoOccurrence {
+  emotionWord: string;
+  topicWords: string[];
+  count: number;
+}
+
+// ---- 公式模板挖掘 ----
+
+export interface ExtractedTemplate {
+  template: string;
+  count: number;
+  examples: string[];
+  slotTypes: Record<string, string[]>;
+}
+
+// ---- 情绪强度 ----
+
+export interface EmotionIntensityResult {
+  title: string;
+  score: number;
+  matchedWords: string[];
+  level: "极强" | "强烈" | "中等" | "轻微" | "无";
+}
+
 // ---- 分析输出 (02-style-analysis.json) ----
 
 export interface CategoryInfo {
@@ -83,6 +161,61 @@ export interface AnalysisData {
     count: number;
     pct: number;
   };
+  // ---- 新增字段（向后兼容） ----
+  wordsByPOS?: {
+    adjectives: KeywordEntry[];
+    verbs: KeywordEntry[];
+    nouns: KeywordEntry[];
+    english: KeywordEntry[];
+  };
+  ngrams?: {
+    bigrams: KeywordEntry[];
+    trigrams: KeywordEntry[];
+  };
+  structure?: {
+    avgClauses: number;
+    separatorPatterns: Record<string, number>;
+    exclamationDensity: number;
+    formulaTemplates: { pattern: string; count: number }[];
+    clauseDistribution: Record<string, number>;
+  };
+  multiCategory?: Record<
+    string,
+    { pureCount: number; totalCount: number; pctDisplay: string }
+  >;
+  dynamicEmotion?: KeywordEntry[];
+  entities?: {
+    companies: KeywordEntry[];
+    products: KeywordEntry[];
+    people: KeywordEntry[];
+  };
+  temporal?: TemporalTrend[];
+  coOccurrences?: { emotion: string; topics: string; count: number }[];
+  extractedTemplates?: {
+    template: string;
+    count: number;
+    examples: string[];
+  }[];
+  emotionIntensity?: {
+    avgScore: number;
+    distribution: Record<string, number>;
+    topIntense: { title: string; score: number; level: string }[];
+  };
+  tfidf?: {
+    topWords: { word: string; tfidf: number; freq: number }[];
+  };
+  sentimentAnalysis?: {
+    avgScore: number;
+    distribution: Record<string, number>;
+    topPositive: { title: string; score: number }[];
+    topNegative: { title: string; score: number }[];
+  };
+  englishEntities?: {
+    organizations: { word: string; count: number }[];
+    people: { word: string; count: number }[];
+    places: { word: string; count: number }[];
+    nouns: { word: string; count: number }[];
+  };
 }
 
 // ---- 标题条目（analyze 输入，VideoEntry 的 title 视图） ----
@@ -120,5 +253,38 @@ export interface AnalysisResults {
   aiDaily: {
     withAIDaily: number;
     withAIDailyPct: string;
+  };
+  // ---- 新增字段 ----
+  wordsByPOS: WordsByPOS;
+  ngrams: {
+    bigrams: NgramEntry[];
+    trigrams: NgramEntry[];
+  };
+  structure: StructureInfo;
+  multiCategory: Record<string, CategoryMatch[]>;
+  dynamicEmotion: [string, number][];
+  entities: {
+    companies: [string, number][];
+    products: [string, number][];
+    people: [string, number][];
+  };
+  // ---- 第二轮新增 ----
+  temporal: TemporalTrend[];
+  coOccurrences: CoOccurrence[];
+  extractedTemplates: ExtractedTemplate[];
+  emotionIntensity: EmotionIntensityResult[];
+  tfidfTopWords: { word: string; tfidf: number; freq: number }[];
+  // ---- 第三轮新增（natural/sentiment/compromise）----
+  sentimentAnalysis?: {
+    avgScore: number;
+    distribution: Record<string, number>;
+    topPositive: { title: string; score: number }[];
+    topNegative: { title: string; score: number }[];
+  };
+  englishEntities?: {
+    organizations: [string, number][];
+    people: [string, number][];
+    places: [string, number][];
+    nouns: [string, number][];
   };
 }

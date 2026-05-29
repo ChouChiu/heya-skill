@@ -10,7 +10,9 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { genCoreFeatures } from "./lib/generate/core-features.ts";
+import { genEmotionGuide } from "./lib/generate/emotion-guide.ts";
 import { genStructureFormulas } from "./lib/generate/structure-formulas.ts";
+import { genStyleInsights } from "./lib/generate/style-insights.ts";
 import { genTitleExamples } from "./lib/generate/title-examples.ts";
 import { genVocabLibrary } from "./lib/generate/vocab-library.ts";
 import type { AnalysisData } from "./lib/types.ts";
@@ -87,6 +89,12 @@ function main(): void {
     genStructureFormulas(data),
   );
   console.log("  ✅ 结构公式与分类占比");
+
+  skill = replaceSection(skill, "emotion-guide", genEmotionGuide(data));
+  console.log("  ✅ 情绪词使用指南");
+
+  skill = replaceSection(skill, "style-insights", genStyleInsights(data));
+  console.log("  ✅ 风格洞察");
 
   writeFileSync(SKILL_OUT, skill, "utf-8");
   console.log("\n💾 SKILL.md 已生成（模板 SKILL.example.md 未修改）");

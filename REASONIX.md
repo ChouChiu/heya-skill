@@ -1,6 +1,7 @@
 # REASONIX.md — heya.skill
 
 ## Stack
+
 - **Runtime:** Bun (`#!/usr/bin/env bun` on all scripts; `bun.lock`)
 - **Language:** TypeScript (`noEmit: true`, `strict: true`, `bundler` moduleResolution)
 - **Deps:** `uapi-sdk-typescript` (B站数据采集); `p-retry` (指数退避重试); `jieba-wasm` (中文分词)
@@ -8,6 +9,7 @@
 - **Website:** Astro (`website/` is a separate Bun project; deploys to GitHub Pages)
 
 ## Layout
+
 - `SKILL.md` — generated output (Agent Skills standard); NEVER edit by hand
 - `SKILL.example.md` — template with `<!-- AUTO_START/END:section -->` markers; edit THIS
 - `scripts/` — pipeline entry points (`fetch-bilibili-titles.ts`, `analyze-titles.ts`, `update-skill.ts`, `pipeline.ts`)
@@ -18,6 +20,7 @@
 - `website/` — Astro landing page; linguist-vendored in `.gitattributes`
 
 ## Commands
+
 ```bash
 bun pipeline              # fetch → analyze → SKILL.md
 bun pipeline --skip-fetch # analyze + generate only
@@ -33,6 +36,7 @@ bun website:build
 ```
 
 ## Conventions
+
 - All scripts are `.ts` with `#!/usr/bin/env bun` shebang
 - `import.meta.dir` for directory resolution (Bun ESM native, won't work under plain Node)
 - Node builtins use `node:` protocol (`node:fs`, `node:path`, `node:child_process`)
@@ -41,6 +45,7 @@ bun website:build
 - Chinese word segmentation: `jieba-wasm` with `cut(text, true)` (HMM mode)
 
 ## Watch out for
+
 - `.reasonix/` is auto-generated — never edit manually
 - Edit `SKILL.example.md`, never `SKILL.md`; auto sections between `AUTO_START`/`AUTO_END` markers
 - Pipeline uses UAPI (uapis.cn) free tier via `uapi-sdk-typescript` SDK — zero config, no cookies/keys

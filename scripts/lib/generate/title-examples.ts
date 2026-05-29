@@ -59,5 +59,19 @@ export function genTitleExamples(data: AnalysisData): string {
     lines.push("");
   }
 
+  // 多标签交叉风格示例（新增）
+  if (data.structure && data.structure.formulaTemplates.length > 0) {
+    lines.push("**高频公式模板示例**：");
+    lines.push("```");
+    for (const { pattern, count } of data.structure.formulaTemplates.slice(
+      0,
+      3,
+    )) {
+      lines.push(`${pattern} （${count}次）`);
+    }
+    lines.push("```");
+    lines.push("");
+  }
+
   return lines.join("\n");
 }

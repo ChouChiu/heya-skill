@@ -45,6 +45,15 @@ export function genStructureFormulas(data: AnalysisData): string {
   lines.push("```");
   lines.push("");
 
+  // 从结构分析中提取的高频公式模板（新增）
+  if (data.structure && data.structure.formulaTemplates.length > 0) {
+    lines.push("**语料中高频公式模板**：\n");
+    for (const { pattern, count } of data.structure.formulaTemplates) {
+      lines.push(`- \`${pattern}\`: ${count} 次`);
+    }
+    lines.push("");
+  }
+
   // 分类占比表
   lines.push("### 分类占比");
   lines.push("");
@@ -54,6 +63,20 @@ export function genStructureFormulas(data: AnalysisData): string {
     lines.push(`| ${cat} | ${info.count} | ${info.pctDisplay} |`);
   }
   lines.push("");
+
+  // 多标签分类占比（新增）
+  if (data.multiCategory) {
+    lines.push("### 多标签分类占比（含交叉匹配）");
+    lines.push("");
+    lines.push("| 类型 | 高置信匹配 | 含交叉匹配 | 占比 |");
+    lines.push("|------|-----------|-----------|------|");
+    for (const [cat, info] of Object.entries(data.multiCategory)) {
+      lines.push(
+        `| ${cat} | ${info.pureCount} | ${info.totalCount} | ${info.pctDisplay} |`,
+      );
+    }
+    lines.push("");
+  }
 
   return lines.join("\n");
 }

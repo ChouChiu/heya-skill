@@ -6,9 +6,17 @@
  * 分析维度：
  *   - 标题长度分布
  *   - 数字使用频率
- *   - 高频词汇（jieba 中文分词）
- *   - 标题公式分类（悬念式/数字列表式/对比式/情感式/故事式/教程式）
- *   - 标点符号与格式模式
+ *   - 高频词汇（jieba 中文分词 + POS 词性标注）
+ *   - TF-IDF 权重（区分通用词和风格词）
+ *   - N-gram 短语提取
+ *   - 按词性分类的高频词
+ *   - 命名实体（公司/产品/人名）
+ *   - 标题公式分类（多标签加权）
+ *   - 结构分析（分句数/分隔符/公式模板）
+ *   - 时间维度演变趋势
+ *   - 情绪词-主题词共现
+ *   - 情绪强度评分
+ *   - 动态情绪词发现
  *
  * 用法:
  *   bun run scripts/analyze-titles.ts
@@ -17,7 +25,7 @@
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { runAllAnalysis } from "./lib/analysis/core.ts";
+import { runAllAnalysisFromVideos } from "./lib/analysis/core.ts";
 import { generateJSON } from "./lib/analysis/json.ts";
 import { generateReport } from "./lib/analysis/report.ts";
 import type { VideoEntry } from "./lib/types.ts";
@@ -57,8 +65,7 @@ function main(): void {
   console.log(`  ✅ 共 ${videos.length} 个标题\n`);
 
   console.log("🔍 分析中...\n");
-  const titleTexts = videos.map((t) => t.title);
-  const results = runAllAnalysis(titleTexts, Math.max(topN, 30));
+  const results = runAllAnalysisFromVideos(videos, Math.max(topN, 30));
   const report = generateReport(results, topN);
   const jsonData = generateJSON(results);
 
