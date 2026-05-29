@@ -1,9 +1,10 @@
 # 黑鸦 · 标题风格生成器
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-green)](https://agentskills.io)
-[![skills.sh](https://img.shields.io/badge/skills.sh-Compatible-blue)](https://www.skills.sh/chouchiu/heya.skill)
-[![下载量](https://img.shields.io/badge/dynamic/json?url=https://skills.sh/api/badge/chouchiu/heya.skill&query=message&label=Downloads&labelColor=gray&color=orange)](https://skills.sh/chouchiu/heya.skill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-orange)](https://agentskills.io)
+[![skills.sh](https://img.shields.io/badge/skills.sh-Compatible-yellow)](https://www.skills.sh/chouchiu/heya.skill)
+[![下载量](https://img.shields.io/badge/dynamic/json?url=https://skills.sh/api/badge/chouchiu/heya.skill&query=message&label=Downloads&labelColor=gray&color=green)](https://skills.sh/chouchiu/heya.skill)
+![Version](https://img.shields.io/badge/Version-2.0.0-blue)
 
 基于 B 站博主 **[黑鸦](https://space.bilibili.com/3706929260006322)**（Heya）视频标题的深度分析，让 AI 学会黑鸦的标志性风格：**长标题、情绪炸弹、多事件合并**。
 
@@ -171,6 +172,8 @@ OpenAI 正在 ChatGPT 网页端测试名为 "Intelligence" 的简化版模型选
 
 **输出**：
 
+<details><summary>V1</summary>
+
 ```
 基于文稿内容，生成5个黑鸦风格候选标题：
 
@@ -198,6 +201,34 @@ OpenAI 正在 ChatGPT 网页端测试名为 "Intelligence" 的简化版模型选
 
 **推荐使用第1或第5个**，长度适中（约55字），情绪饱满，多事件合并，最符合黑鸦风格DNA。
 ```
+
+</details>
+
+<details><summary>v2</summary>
+
+```
+1. 震撼官宣！DeepSeek永久降价杀疯了！智谱400 tokens/s海啸席卷！阿里Qwen3.7免费引爆！特朗普紧急取消AI安全令！| AI日报0523
+   结构：情感式
+   说明：使用"震撼官宣"、"杀疯了"、"海啸"、"引爆"等情绪词，多事件合并，符合黑鸦最常用的情感式风格
+
+2. 后背发凉！DeepSeek永久降价真相？智谱400 tokens/s暗藏杀机，特朗普取消AI安全令，AI圈硝烟弥漫！| AI日报0523
+   结构：悬念式
+   说明：使用"后背发凉"、"真相？"制造悬念，符合黑鸦的悬念式风格
+
+3. AI圈大地震！DeepSeek永久降价引爆价格战！智谱GLM-5.1-HighSpeed 400 tokens/s海啸来袭！阿里Qwen3.7免费体验杀疯了！| AI日报0523
+   结构：情感式
+   说明：使用"大地震"、"引爆"、"海啸"、"杀疯了"等情绪词，多事件合并
+
+4. 见证历史！Claude Mythos发现超万漏洞！DeepSeek永久降价！特朗普取消AI安全令，AI安全何去何从？| AI日报0523
+   结构：情感式
+   说明：使用"见证历史"，聚焦安全主题，多事件合并
+
+5. 重磅炸弹！DeepSeek永久降价！智谱400 tokens/s！阿里Qwen3.7免费！Claude Opus4.7上线！特朗普取消安全令！| AI日报0523
+   结构：情感式
+   说明：使用"重磅炸弹"，多事件罗列，冲击力强
+```
+
+</details>
 
 ## 常见问题
 
