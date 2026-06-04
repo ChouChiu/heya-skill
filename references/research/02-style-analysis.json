@@ -2,26 +2,26 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 96,
-    "analysisDate": "2026-06-03"
+    "totalVideos": 99,
+    "analysisDate": "2026-06-04"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.406,
-        "count": 39,
-        "pctDisplay": "40.6%",
+        "frequency": 0.404,
+        "count": 40,
+        "pctDisplay": "40.4%",
         "examples": [
+          "OpenAI风控大地震！全线强制登出，史诗级二验死循环展开全球大屠杀，看完Codex额度乱跳直接吓出癫痫，奥特曼必须立刻移交军事法庭……",
           "Seedance 2.0 陨落！马斯克携大尺度 Grok 新视频模型登顶引爆硅谷，好莱坞命运大转折……| AI日报0531",
           "AI诸神之战终局！GPT-5.6秘密部署狙击Opus 4.8！Logan：准备大干一场！战吗？战啊！！！ | AI日报0530",
           "180天断供倒计时！Anthropic命悬一线？遥控器竟在马斯克手里，真相令人后背发凉！| AI日报0528",
-          "头皮发麻！豆包月活3亿只是伪装？字节700亿砸出AI奇点，算力已被挖空，同行的棺材板快要按不住了！| AI日报0527",
-          "后背发凉！Kimi 突发大面积封号，真相居然是？风控大地震深夜引爆AI圈，全网第三方Coding Agent已被集体判处死刑！| AI日报0526"
+          "头皮发麻！豆包月活3亿只是伪装？字节700亿砸出AI奇点，算力已被挖空，同行的棺材板快要按不住了！| AI日报0527"
         ],
         "templates": [
+          "OpenAI风控大地震！全线强制登出，史诗级二验死循环展开全球大屠杀，看完Codex额度乱跳直接吓出癫痫，奥特曼必须立刻移交军事法庭……",
           "Seedance 2.0 陨落！马斯克携大尺度 Grok 新视频模型登顶引爆硅谷，好莱坞命运大转折……| AI日报0531",
-          "AI诸神之战终局！GPT-5.6秘密部署狙击Opus 4.8！Logan：准备大干一场！战吗？战啊！！！ | AI日报0530",
-          "180天断供倒计时！Anthropic命悬一线？遥控器竟在马斯克手里，真相令人后背发凉！| AI日报0528"
+          "AI诸神之战终局！GPT-5.6秘密部署狙击Opus 4.8！Logan：准备大干一场！战吗？战啊！！！ | AI日报0530"
         ]
       },
       "数字列表式": {
@@ -36,9 +36,9 @@
         ]
       },
       "对比式": {
-        "frequency": 0.021,
+        "frequency": 0.02,
         "count": 2,
-        "pctDisplay": "2.1%",
+        "pctDisplay": "2.0%",
         "examples": [
           "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514",
           "OpenAI杀疯了！Codex超级App突降硅谷，决战！百Agent大战！OpenAI全线突围，全面围剿Claude！"
@@ -49,20 +49,20 @@
         ]
       },
       "情感式": {
-        "frequency": 0.438,
-        "count": 42,
-        "pctDisplay": "43.8%",
+        "frequency": 0.444,
+        "count": 44,
+        "pctDisplay": "44.4%",
         "examples": [
-          "Anthropic底裤露出，Opus 4.8自称Qwen引发蒸馏争议！OpenAI 偷偷更新 GPT-5.5 模型，宣称 4.5 和 o3 将下架！| AI日报",
-          "震撼官宣！DeepSeek 服务完成提速扩容，算力霸权神话破灭，闭源大模型的斩杀线来了！| AI日报0523",
-          "硅谷全面雪崩！DeepSeek宣布永久降价！智谱新模型无预警发布，400 tokens/s海啸席卷全球！闭源阵营一夜蒸发！| AI日报0522",
-          "AI 圈大地震！Gemini 永久提额 300%！Google Antigravity彻底杀疯了，吓得奥特曼当场瘫坐，行业已硝烟弥漫！|AI日报0521",
-          "见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！"
-        ],
-        "templates": [
+          "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
+          "MiniMax M3深夜引爆AI圈！Token Plan大地震，高价老用户的斩杀线来了！",
           "Anthropic底裤露出，Opus 4.8自称Qwen引发蒸馏争议！OpenAI 偷偷更新 GPT-5.5 模型，宣称 4.5 和 o3 将下架！| AI日报",
           "震撼官宣！DeepSeek 服务完成提速扩容，算力霸权神话破灭，闭源大模型的斩杀线来了！| AI日报0523",
           "硅谷全面雪崩！DeepSeek宣布永久降价！智谱新模型无预警发布，400 tokens/s海啸席卷全球！闭源阵营一夜蒸发！| AI日报0522"
+        ],
+        "templates": [
+          "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
+          "MiniMax M3深夜引爆AI圈！Token Plan大地震，高价老用户的斩杀线来了！",
+          "Anthropic底裤露出，Opus 4.8自称Qwen引发蒸馏争议！OpenAI 偷偷更新 GPT-5.5 模型，宣称 4.5 和 o3 将下架！| AI日报"
         ]
       },
       "故事式": {
@@ -84,9 +84,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.115,
+        "frequency": 0.111,
         "count": 11,
-        "pctDisplay": "11.5%",
+        "pctDisplay": "11.1%",
         "examples": [
           "DeepSeek V4 发布，我眩晕瘫坐在椅子上，就像看到了核弹爆炸。",
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
@@ -105,16 +105,20 @@
   "keywords": {
     "emotion": [
       {
-        "word": "引爆",
-        "count": 11
+        "word": "大地震",
+        "count": 13
       },
       {
-        "word": "大地震",
-        "count": 11
+        "word": "引爆",
+        "count": 12
       },
       {
         "word": "杀疯了",
         "count": 6
+      },
+      {
+        "word": "吓出癫痫",
+        "count": 5
       },
       {
         "word": "头皮发麻",
@@ -137,6 +141,14 @@
         "count": 5
       },
       {
+        "word": "史诗级",
+        "count": 4
+      },
+      {
+        "word": "斩杀线",
+        "count": 4
+      },
+      {
         "word": "后背发凉",
         "count": 4
       },
@@ -157,10 +169,6 @@
         "count": 4
       },
       {
-        "word": "吓出癫痫",
-        "count": 4
-      },
-      {
         "word": "核弹",
         "count": 4
       },
@@ -173,30 +181,26 @@
         "count": 3
       },
       {
-        "word": "斩杀线",
-        "count": 3
-      },
-      {
         "word": "硝烟弥漫",
-        "count": 3
-      },
-      {
-        "word": "疯狂",
         "count": 3
       }
     ],
     "aiTerms": [
       {
         "word": "AI",
-        "count": 94
+        "count": 96
+      },
+      {
+        "word": "DeepSeek",
+        "count": 33
       },
       {
         "word": "模型",
         "count": 33
       },
       {
-        "word": "DeepSeek",
-        "count": 32
+        "word": "OpenAI",
+        "count": 16
       },
       {
         "word": "发布",
@@ -205,10 +209,6 @@
       {
         "word": "Gemini",
         "count": 15
-      },
-      {
-        "word": "OpenAI",
-        "count": 14
       },
       {
         "word": "GPT",
@@ -251,6 +251,10 @@
         "count": 6
       },
       {
+        "word": "MiniMax",
+        "count": 5
+      },
+      {
         "word": "Grok",
         "count": 4
       },
@@ -261,16 +265,12 @@
       {
         "word": "曝光",
         "count": 4
-      },
-      {
-        "word": "智谱",
-        "count": 4
       }
     ],
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 57
+        "count": 58
       },
       {
         "word": "模型",
@@ -278,38 +278,42 @@
       },
       {
         "word": "DeepSeek",
-        "count": 29
+        "count": 30
       },
       {
         "word": "AI",
         "count": 20
       },
       {
+        "word": "OpenAI",
+        "count": 16
+      },
+      {
         "word": "Gemini",
         "count": 15
       },
       {
-        "word": "OpenAI",
-        "count": 14
-      },
-      {
         "word": "引爆",
-        "count": 11
+        "count": 12
       },
       {
         "word": "AI圈",
-        "count": 10
+        "count": 11
       },
       {
         "word": "硅谷",
         "count": 9
       },
       {
+        "word": "深夜",
+        "count": 8
+      },
+      {
         "word": "泄露",
         "count": 8
       },
       {
-        "word": "深夜",
+        "word": "奥特曼",
         "count": 7
       },
       {
@@ -327,6 +331,10 @@
       {
         "word": "Claude",
         "count": 7
+      },
+      {
+        "word": "大地震",
+        "count": 6
       },
       {
         "word": "马斯克",
@@ -361,38 +369,31 @@
         "count": 6
       },
       {
-        "word": "奥特曼",
-        "count": 6
-      },
-      {
         "word": "人类",
         "count": 6
       },
       {
-        "word": "头皮发麻",
+        "word": "吓出癫痫",
         "count": 5
       },
       {
-        "word": "全面",
+        "word": "MiniMax",
         "count": 5
       },
       {
-        "word": "海啸",
+        "word": "Token",
         "count": 5
       },
       {
-        "word": "瘫坐",
-        "count": 5
-      },
-      {
-        "word": "3.5",
+        "word": "Plan",
         "count": 5
       }
     ],
     "uniqueExpressions": [
-      "引爆",
       "大地震",
+      "引爆",
       "杀疯了",
+      "吓出癫痫",
       "头皮发麻",
       "全面",
       "海啸",
@@ -402,11 +403,11 @@
   },
   "sentencePatterns": {
     "question": 0.01,
-    "exclamation": 0.229,
-    "statement": 0.76
+    "exclamation": 0.232,
+    "statement": 0.758
   },
   "length": {
-    "avg": 51.7,
+    "avg": 51.9,
     "min": 25,
     "max": 80,
     "median": 52,
@@ -414,20 +415,20 @@
       "20字以内": 0,
       "21-30字": 3,
       "31-40字": 18,
-      "40字以上": 75
+      "40字以上": 78
     },
-    "over40Pct": 78.1,
+    "over40Pct": 78.8,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 76,
+    "withNumberPct": 75.8,
     "commonNumbers": [
       {
         "number": 3,
-        "count": 27
+        "count": 28
       },
       {
         "number": 4,
@@ -468,19 +469,23 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.229,
+    "exclamationEnd": 0.232,
     "questionEnd": 0.01,
-    "ellipsisEnd": 0.073
+    "ellipsisEnd": 0.081
   },
   "aiDaily": {
-    "count": 57,
-    "pct": 59.4
+    "count": 58,
+    "pct": 58.6
   },
   "wordsByPOS": {
     "adjectives": [
       {
         "word": "彻底",
         "count": 6
+      },
+      {
+        "word": "史诗级",
+        "count": 4
       },
       {
         "word": "后背发凉",
@@ -495,11 +500,11 @@
         "count": 4
       },
       {
-        "word": "血腥",
+        "word": "直接",
         "count": 3
       },
       {
-        "word": "史诗级",
+        "word": "血腥",
         "count": 3
       },
       {
@@ -519,10 +524,6 @@
         "count": 2
       },
       {
-        "word": "直接",
-        "count": 2
-      },
-      {
         "word": "频频",
         "count": 2
       },
@@ -531,18 +532,18 @@
         "count": 2
       },
       {
-        "word": "快要",
+        "word": "立刻",
         "count": 1
       },
       {
-        "word": "居然",
+        "word": "快要",
         "count": 1
       }
     ],
     "verbs": [
       {
         "word": "引爆",
-        "count": 11
+        "count": 12
       },
       {
         "word": "泄露",
@@ -557,8 +558,20 @@
         "count": 6
       },
       {
+        "word": "吓出癫痫",
+        "count": 5
+      },
+      {
         "word": "瘫坐",
         "count": 5
+      },
+      {
+        "word": "突发",
+        "count": 4
+      },
+      {
+        "word": "斩杀线来了",
+        "count": 4
       },
       {
         "word": "震撼",
@@ -569,20 +582,8 @@
         "count": 4
       },
       {
-        "word": "吓出癫痫",
-        "count": 4
-      },
-      {
         "word": "免费",
         "count": 4
-      },
-      {
-        "word": "突发",
-        "count": 3
-      },
-      {
-        "word": "斩杀线来了",
-        "count": 3
       },
       {
         "word": "接管世界",
@@ -597,14 +598,14 @@
         "count": 3
       },
       {
-        "word": "狙击",
+        "word": "融资",
         "count": 2
       }
     ],
     "nouns": [
       {
         "word": "AI日报",
-        "count": 57
+        "count": 58
       },
       {
         "word": "模型",
@@ -612,7 +613,7 @@
       },
       {
         "word": "AI圈",
-        "count": 10
+        "count": 11
       },
       {
         "word": "硅谷",
@@ -620,6 +621,10 @@
       },
       {
         "word": "深夜",
+        "count": 8
+      },
+      {
+        "word": "奥特曼",
         "count": 7
       },
       {
@@ -627,11 +632,11 @@
         "count": 7
       },
       {
-        "word": "马斯克",
+        "word": "大地震",
         "count": 6
       },
       {
-        "word": "奥特曼",
+        "word": "马斯克",
         "count": 6
       },
       {
@@ -657,28 +662,24 @@
       {
         "word": "腾讯",
         "count": 5
-      },
-      {
-        "word": "重磅炸弹",
-        "count": 5
       }
     ],
     "english": [
       {
         "word": "DeepSeek",
-        "count": 29
+        "count": 30
       },
       {
         "word": "AI",
         "count": 20
       },
       {
-        "word": "Gemini",
-        "count": 15
+        "word": "OpenAI",
+        "count": 16
       },
       {
-        "word": "OpenAI",
-        "count": 14
+        "word": "Gemini",
+        "count": 15
       },
       {
         "word": "V4",
@@ -705,23 +706,23 @@
         "count": 6
       },
       {
+        "word": "MiniMax",
+        "count": 5
+      },
+      {
+        "word": "Token",
+        "count": 5
+      },
+      {
+        "word": "Plan",
+        "count": 5
+      },
+      {
         "word": "GPT",
         "count": 5
       },
       {
         "word": "Grok",
-        "count": 4
-      },
-      {
-        "word": "Opus",
-        "count": 4
-      },
-      {
-        "word": "Qwen",
-        "count": 4
-      },
-      {
-        "word": "GPT-5.5",
         "count": 4
       }
     ]
@@ -730,7 +731,7 @@
     "bigrams": [
       {
         "word": "深夜引爆",
-        "count": 6
+        "count": 7
       },
       {
         "word": "命运大转折",
@@ -751,6 +752,18 @@
       {
         "word": "奇点已至",
         "count": 3
+      },
+      {
+        "word": "风控大地震",
+        "count": 2
+      },
+      {
+        "word": "移交军事法庭",
+        "count": 2
+      },
+      {
+        "word": "引爆AI圈",
+        "count": 2
       },
       {
         "word": "视频模型",
@@ -795,18 +808,6 @@
       {
         "word": "腾讯混元",
         "count": 2
-      },
-      {
-        "word": "V4下周",
-        "count": 2
-      },
-      {
-        "word": "AIStudio",
-        "count": 2
-      },
-      {
-        "word": "双重核弹",
-        "count": 2
       }
     ],
     "trigrams": [
@@ -819,8 +820,8 @@
   "structure": {
     "avgClauses": 4.6,
     "separatorPatterns": {
-      "！": 70,
-      "，": 12,
+      "！": 72,
+      "，": 13,
       "；": 6,
       "？": 5,
       "、": 1,
@@ -830,7 +831,7 @@
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
-        "count": 57
+        "count": 58
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
@@ -846,41 +847,41 @@
       },
       {
         "pattern": "{传闻}，{推测}",
-        "count": 13
+        "count": 14
       }
     ],
     "clauseDistribution": {
-      "3-4句": 32,
+      "5-6句": 38,
+      "3-4句": 33,
       "7句以上": 15,
-      "5-6句": 36,
       "1-2句": 13
     }
   },
   "multiCategory": {
-    "悬念式": {
-      "pureCount": 4,
-      "totalCount": 39,
-      "pctDisplay": "40.6%"
-    },
     "情感式": {
       "pureCount": 0,
-      "totalCount": 83,
-      "pctDisplay": "86.5%"
+      "totalCount": 86,
+      "pctDisplay": "86.9%"
+    },
+    "悬念式": {
+      "pureCount": 4,
+      "totalCount": 40,
+      "pctDisplay": "40.4%"
     },
     "数字列表式": {
       "pureCount": 0,
       "totalCount": 3,
-      "pctDisplay": "3.1%"
+      "pctDisplay": "3.0%"
     },
     "故事式": {
       "pureCount": 0,
       "totalCount": 8,
-      "pctDisplay": "8.3%"
+      "pctDisplay": "8.1%"
     },
     "对比式": {
       "pureCount": 0,
       "totalCount": 5,
-      "pctDisplay": "5.2%"
+      "pctDisplay": "5.1%"
     },
     "教程式": {
       "pureCount": 0,
@@ -890,7 +891,7 @@
     "其他": {
       "pureCount": 11,
       "totalCount": 11,
-      "pctDisplay": "11.5%"
+      "pctDisplay": "11.1%"
     }
   },
   "dynamicEmotion": [
@@ -907,6 +908,10 @@
       "count": 6
     },
     {
+      "word": "突发",
+      "count": 4
+    },
+    {
       "word": "神秘",
       "count": 4
     },
@@ -915,12 +920,24 @@
       "count": 4
     },
     {
-      "word": "突发",
+      "word": "直接",
       "count": 3
     },
     {
       "word": "接管世界",
       "count": 3
+    },
+    {
+      "word": "融资",
+      "count": 2
+    },
+    {
+      "word": "强制",
+      "count": 2
+    },
+    {
+      "word": "移交",
+      "count": 2
     },
     {
       "word": "狙击",
@@ -957,33 +974,17 @@
     {
       "word": "斩杀",
       "count": 2
-    },
-    {
-      "word": "泄密",
-      "count": 2
-    },
-    {
-      "word": "角色扮演",
-      "count": 2
-    },
-    {
-      "word": "诞生",
-      "count": 2
-    },
-    {
-      "word": "直接",
-      "count": 2
     }
   ],
   "entities": {
     "companies": [
       {
         "word": "DeepSeek",
-        "count": 28
+        "count": 29
       },
       {
         "word": "OpenAI",
-        "count": 13
+        "count": 15
       },
       {
         "word": "Google",
@@ -994,15 +995,15 @@
         "count": 6
       },
       {
+        "word": "MiniMax",
+        "count": 5
+      },
+      {
         "word": "腾讯",
         "count": 5
       },
       {
         "word": "智谱",
-        "count": 4
-      },
-      {
-        "word": "MiniMax",
         "count": 4
       },
       {
@@ -1052,6 +1053,10 @@
         "count": 4
       },
       {
+        "word": "Codex",
+        "count": 3
+      },
+      {
         "word": "Mythos",
         "count": 3
       },
@@ -1060,11 +1065,11 @@
         "count": 3
       },
       {
-        "word": "混元",
+        "word": "大屠杀",
         "count": 2
       },
       {
-        "word": "Codex",
+        "word": "混元",
         "count": 2
       },
       {
@@ -1078,19 +1083,15 @@
       {
         "word": "Spud",
         "count": 2
-      },
-      {
-        "word": "Gemma",
-        "count": 2
       }
     ],
     "people": [
       {
-        "word": "马斯克",
-        "count": 6
+        "word": "奥特曼",
+        "count": 7
       },
       {
-        "word": "奥特曼",
+        "word": "马斯克",
         "count": 6
       },
       {
@@ -1139,18 +1140,26 @@
       "emotionIntensity": 6.7,
       "topEmotion": "后背发凉",
       "titleCount": 31
+    },
+    {
+      "period": "2026-06",
+      "avgLength": 57,
+      "exclamationDensity": 1.7,
+      "emotionIntensity": 7.3,
+      "topEmotion": "大地震",
+      "titleCount": 3
     }
   ],
   "coOccurrences": [
     {
-      "emotion": "引爆",
-      "topics": "深夜、AI日报、AI圈、DeepSeek、模型",
-      "count": 23
+      "emotion": "大地震",
+      "topics": "AI圈大地震、大地震、AI日报、深夜、OpenAI",
+      "count": 25
     },
     {
-      "emotion": "大地震",
-      "topics": "AI圈大地震、AI日报、大地震、Kimi、深夜",
-      "count": 22
+      "emotion": "引爆",
+      "topics": "深夜、AI圈、AI日报、DeepSeek、大地震",
+      "count": 25
     },
     {
       "emotion": "头皮发麻",
@@ -1196,10 +1205,10 @@
   "emotionIntensity": {
     "avgScore": 6.8,
     "distribution": {
-      "极强": 27,
+      "极强": 29,
       "强烈": 14,
       "中等": 25,
-      "轻微": 11,
+      "轻微": 12,
       "无": 19
     },
     "topIntense": [
@@ -1234,102 +1243,102 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.527,
+        "tfidf": 4.564,
         "freq": 6
       },
       {
+        "word": "m3",
+        "tfidf": 4.497,
+        "freq": 2
+      },
+      {
         "word": "seedance",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.466,
-        "freq": 2
-      },
-      {
-        "word": "codex",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "gemma",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "flash",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "nano",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
         "word": "banana",
-        "tfidf": 4.466,
+        "tfidf": 4.497,
         "freq": 2
       },
       {
+        "word": "codex",
+        "tfidf": 4.209,
+        "freq": 3
+      },
+      {
         "word": "mythos",
-        "tfidf": 4.178,
+        "tfidf": 4.209,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.178,
+        "tfidf": 4.209,
         "freq": 2
       },
       {
         "word": "openclaw",
-        "tfidf": 4.178,
+        "tfidf": 4.209,
         "freq": 3
       },
       {
         "word": "grok",
-        "tfidf": 3.955,
-        "freq": 4
-      },
-      {
-        "word": "opus",
-        "tfidf": 3.955,
+        "tfidf": 3.986,
         "freq": 4
       }
     ]
@@ -1337,10 +1346,10 @@
   "sentimentAnalysis": {
     "avgScore": 6.8,
     "distribution": {
-      "极强": 27,
+      "极强": 29,
       "强烈": 14,
       "中等": 26,
-      "轻微": 10,
+      "轻微": 11,
       "无": 19
     },
     "topPositive": [
@@ -1424,6 +1433,10 @@
         "count": 4
       },
       {
+        "word": "token plan",
+        "count": 3
+      },
+      {
         "word": "grok",
         "count": 3
       },
@@ -1442,10 +1455,6 @@
       {
         "word": "claude",
         "count": 3
-      },
-      {
-        "word": "seedance 2.0",
-        "count": 2
       }
     ]
   }
