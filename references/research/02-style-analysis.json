@@ -2,26 +2,26 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 103,
-    "analysisDate": "2026-06-07"
+    "totalVideos": 104,
+    "analysisDate": "2026-06-08"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.417,
-        "count": 43,
-        "pctDisplay": "41.7%",
+        "frequency": 0.423,
+        "count": 44,
+        "pctDisplay": "42.3%",
         "examples": [
+          "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
           "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606",
           "AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604",
-          "OpenAI风控大地震！全线强制登出，史诗级二验死循环展开全球大屠杀，看完Codex额度乱跳直接吓出癫痫，奥特曼必须立刻移交军事法庭……",
-          "Seedance 2.0 陨落！马斯克携大尺度 Grok 新视频模型登顶引爆硅谷，好莱坞命运大转折……| AI日报0531"
+          "OpenAI风控大地震！全线强制登出，史诗级二验死循环展开全球大屠杀，看完Codex额度乱跳直接吓出癫痫，奥特曼必须立刻移交军事法庭……"
         ],
         "templates": [
+          "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
-          "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606",
-          "AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604"
+          "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606"
         ]
       },
       "数字列表式": {
@@ -49,9 +49,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.437,
+        "frequency": 0.433,
         "count": 45,
-        "pctDisplay": "43.7%",
+        "pctDisplay": "43.3%",
         "examples": [
           "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
           "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
@@ -84,9 +84,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.107,
+        "frequency": 0.106,
         "count": 11,
-        "pctDisplay": "10.7%",
+        "pctDisplay": "10.6%",
         "examples": [
           "DeepSeek V4 发布，我眩晕瘫坐在椅子上，就像看到了核弹爆炸。",
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
@@ -106,7 +106,7 @@
     "emotion": [
       {
         "word": "大地震",
-        "count": 13
+        "count": 14
       },
       {
         "word": "引爆",
@@ -114,7 +114,7 @@
       },
       {
         "word": "重磅",
-        "count": 6
+        "count": 7
       },
       {
         "word": "杀疯了",
@@ -188,7 +188,7 @@
     "aiTerms": [
       {
         "word": "AI",
-        "count": 102
+        "count": 105
       },
       {
         "word": "DeepSeek",
@@ -215,11 +215,11 @@
         "count": 13
       },
       {
-        "word": "Claude",
-        "count": 9
+        "word": "泄露",
+        "count": 10
       },
       {
-        "word": "泄露",
+        "word": "Claude",
         "count": 9
       },
       {
@@ -235,11 +235,15 @@
         "count": 8
       },
       {
+        "word": "Kimi",
+        "count": 7
+      },
+      {
         "word": "Anthropic",
         "count": 7
       },
       {
-        "word": "Kimi",
+        "word": "MiniMax",
         "count": 6
       },
       {
@@ -249,10 +253,6 @@
       {
         "word": "Google",
         "count": 6
-      },
-      {
-        "word": "MiniMax",
-        "count": 5
       },
       {
         "word": "Grok",
@@ -270,7 +270,7 @@
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 62
+        "count": 63
       },
       {
         "word": "模型",
@@ -282,7 +282,7 @@
       },
       {
         "word": "AI",
-        "count": 21
+        "count": 22
       },
       {
         "word": "OpenAI",
@@ -301,16 +301,20 @@
         "count": 12
       },
       {
-        "word": "奥特曼",
-        "count": 9
+        "word": "泄露",
+        "count": 10
       },
       {
-        "word": "泄露",
+        "word": "奥特曼",
         "count": 9
       },
       {
         "word": "硅谷",
         "count": 9
+      },
+      {
+        "word": "AI圈大地震",
+        "count": 8
       },
       {
         "word": "Claude",
@@ -319,6 +323,10 @@
       {
         "word": "深夜",
         "count": 8
+      },
+      {
+        "word": "Kimi",
+        "count": 7
       },
       {
         "word": "Anthropic",
@@ -337,12 +345,12 @@
         "count": 7
       },
       {
-        "word": "AI圈大地震",
+        "word": "V4",
         "count": 7
       },
       {
-        "word": "V4",
-        "count": 7
+        "word": "MiniMax",
+        "count": 6
       },
       {
         "word": "重磅炸弹",
@@ -365,10 +373,6 @@
         "count": 6
       },
       {
-        "word": "Kimi",
-        "count": 6
-      },
-      {
         "word": "Agent",
         "count": 6
       },
@@ -383,10 +387,6 @@
       {
         "word": "Google",
         "count": 6
-      },
-      {
-        "word": "雪崩",
-        "count": 5
       }
     ],
     "uniqueExpressions": [
@@ -404,11 +404,11 @@
   },
   "sentencePatterns": {
     "question": 0.01,
-    "exclamation": 0.223,
-    "statement": 0.767
+    "exclamation": 0.221,
+    "statement": 0.769
   },
   "length": {
-    "avg": 52.2,
+    "avg": 52.3,
     "min": 25,
     "max": 80,
     "median": 53,
@@ -416,16 +416,16 @@
       "20字以内": 0,
       "21-30字": 3,
       "31-40字": 18,
-      "40字以上": 82
+      "40字以上": 83
     },
-    "over40Pct": 79.6,
+    "over40Pct": 79.8,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 76.7,
+    "withNumberPct": 76.9,
     "commonNumbers": [
       {
         "number": 3,
@@ -470,13 +470,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.223,
+    "exclamationEnd": 0.221,
     "questionEnd": 0.01,
-    "ellipsisEnd": 0.078
+    "ellipsisEnd": 0.077
   },
   "aiDaily": {
-    "count": 62,
-    "pct": 60.2
+    "count": 63,
+    "pct": 60.6
   },
   "wordsByPOS": {
     "adjectives": [
@@ -548,7 +548,7 @@
       },
       {
         "word": "泄露",
-        "count": 9
+        "count": 10
       },
       {
         "word": "杀疯了",
@@ -587,6 +587,10 @@
         "count": 4
       },
       {
+        "word": "融资",
+        "count": 3
+      },
+      {
         "word": "狙击",
         "count": 3
       },
@@ -597,16 +601,12 @@
       {
         "word": "沸腾",
         "count": 3
-      },
-      {
-        "word": "炸裂",
-        "count": 3
       }
     ],
     "nouns": [
       {
         "word": "AI日报",
-        "count": 62
+        "count": 63
       },
       {
         "word": "模型",
@@ -625,15 +625,15 @@
         "count": 9
       },
       {
+        "word": "AI圈大地震",
+        "count": 8
+      },
+      {
         "word": "深夜",
         "count": 8
       },
       {
         "word": "人类",
-        "count": 7
-      },
-      {
-        "word": "AI圈大地震",
         "count": 7
       },
       {
@@ -672,7 +672,7 @@
       },
       {
         "word": "AI",
-        "count": 21
+        "count": 22
       },
       {
         "word": "OpenAI",
@@ -687,6 +687,10 @@
         "count": 8
       },
       {
+        "word": "Kimi",
+        "count": 7
+      },
+      {
         "word": "Anthropic",
         "count": 7
       },
@@ -695,11 +699,11 @@
         "count": 7
       },
       {
-        "word": "GPT",
+        "word": "MiniMax",
         "count": 6
       },
       {
-        "word": "Kimi",
+        "word": "GPT",
         "count": 6
       },
       {
@@ -716,10 +720,6 @@
       },
       {
         "word": "API",
-        "count": 5
-      },
-      {
-        "word": "MiniMax",
         "count": 5
       },
       {
@@ -819,9 +819,9 @@
     ]
   },
   "structure": {
-    "avgClauses": 4.6,
+    "avgClauses": 4.7,
     "separatorPatterns": {
-      "！": 76,
+      "！": 77,
       "，": 13,
       "；": 6,
       "？": 5,
@@ -832,11 +832,11 @@
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
-        "count": 62
+        "count": 63
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
-        "count": 37
+        "count": 38
       },
       {
         "pattern": "{陈述}？{追问}",
@@ -844,7 +844,7 @@
       },
       {
         "pattern": "{情绪词}！{主题}，{后果}！",
-        "count": 16
+        "count": 17
       },
       {
         "pattern": "{传闻}，{推测}",
@@ -852,22 +852,22 @@
       }
     ],
     "clauseDistribution": {
+      "7句以上": 16,
       "3-4句": 35,
       "5-6句": 40,
-      "7句以上": 15,
       "1-2句": 13
     }
   },
   "multiCategory": {
     "悬念式": {
       "pureCount": 4,
-      "totalCount": 43,
-      "pctDisplay": "41.7%"
+      "totalCount": 44,
+      "pctDisplay": "42.3%"
     },
     "情感式": {
       "pureCount": 0,
-      "totalCount": 90,
-      "pctDisplay": "87.4%"
+      "totalCount": 91,
+      "pctDisplay": "87.5%"
     },
     "数字列表式": {
       "pureCount": 0,
@@ -877,12 +877,12 @@
     "故事式": {
       "pureCount": 0,
       "totalCount": 8,
-      "pctDisplay": "7.8%"
+      "pctDisplay": "7.7%"
     },
     "对比式": {
       "pureCount": 0,
       "totalCount": 5,
-      "pctDisplay": "4.9%"
+      "pctDisplay": "4.8%"
     },
     "教程式": {
       "pureCount": 0,
@@ -892,13 +892,13 @@
     "其他": {
       "pureCount": 11,
       "totalCount": 11,
-      "pctDisplay": "10.7%"
+      "pctDisplay": "10.6%"
     }
   },
   "dynamicEmotion": [
     {
       "word": "泄露",
-      "count": 9
+      "count": 10
     },
     {
       "word": "彻底",
@@ -921,6 +921,10 @@
       "count": 4
     },
     {
+      "word": "融资",
+      "count": 3
+    },
+    {
       "word": "狙击",
       "count": 3
     },
@@ -934,10 +938,6 @@
     },
     {
       "word": "不住",
-      "count": 2
-    },
-    {
-      "word": "融资",
       "count": 2
     },
     {
@@ -997,7 +997,7 @@
       },
       {
         "word": "MiniMax",
-        "count": 5
+        "count": 6
       },
       {
         "word": "腾讯",
@@ -1034,11 +1034,11 @@
         "count": 8
       },
       {
-        "word": "GPT",
-        "count": 6
+        "word": "Kimi",
+        "count": 7
       },
       {
-        "word": "Kimi",
+        "word": "GPT",
         "count": 6
       },
       {
@@ -1058,6 +1058,10 @@
         "count": 4
       },
       {
+        "word": "ChatGPT",
+        "count": 3
+      },
+      {
         "word": "Codex",
         "count": 3
       },
@@ -1071,10 +1075,6 @@
       },
       {
         "word": "混元",
-        "count": 2
-      },
-      {
-        "word": "ChatGPT",
         "count": 2
       },
       {
@@ -1144,23 +1144,28 @@
     },
     {
       "period": "2026-06",
-      "avgLength": 59,
-      "exclamationDensity": 1.9,
-      "emotionIntensity": 5.7,
+      "avgLength": 59.5,
+      "exclamationDensity": 2,
+      "emotionIntensity": 6,
       "topEmotion": "大地震",
-      "titleCount": 7
+      "titleCount": 8
     }
   ],
   "coOccurrences": [
     {
       "emotion": "大地震",
-      "topics": "AI圈大地震、大地震、AI日报、深夜、OpenAI",
-      "count": 25
+      "topics": "AI圈大地震、AI日报、大地震、Kimi、深夜",
+      "count": 28
     },
     {
       "emotion": "引爆",
       "topics": "深夜、AI圈、AI日报、DeepSeek、大地震",
       "count": 25
+    },
+    {
+      "emotion": "重磅",
+      "topics": "重磅炸弹、AI日报、AI圈大地震、深夜、Kimi",
+      "count": 18
     },
     {
       "emotion": "头皮发麻",
@@ -1171,11 +1176,6 @@
       "emotion": "全面",
       "topics": "全面、硅谷、AI日报、OpenAI、雪崩",
       "count": 17
-    },
-    {
-      "emotion": "重磅",
-      "topics": "重磅炸弹、AI日报、深夜、模型、AI圈大地震",
-      "count": 16
     },
     {
       "emotion": "雪崩",
@@ -1207,7 +1207,7 @@
     "avgScore": 6.8,
     "distribution": {
       "极强": 29,
-      "强烈": 15,
+      "强烈": 16,
       "中等": 27,
       "轻微": 13,
       "无": 19
@@ -1244,102 +1244,102 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.612,
+        "tfidf": 4.623,
         "freq": 6
       },
       {
         "word": "pro",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "m3",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "seedance",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.536,
-        "freq": 2
-      },
-      {
-        "word": "chatgpt",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "gemma",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "flash",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "nano",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
         "word": "banana",
-        "tfidf": 4.536,
+        "tfidf": 4.546,
         "freq": 2
       },
       {
+        "word": "chatgpt",
+        "tfidf": 4.258,
+        "freq": 3
+      },
+      {
         "word": "codex",
-        "tfidf": 4.248,
+        "tfidf": 4.258,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.248,
+        "tfidf": 4.258,
         "freq": 2
       },
       {
         "word": "openclaw",
-        "tfidf": 4.248,
+        "tfidf": 4.258,
         "freq": 3
       },
       {
         "word": "grok",
-        "tfidf": 4.025,
+        "tfidf": 4.035,
         "freq": 4
       }
     ]
@@ -1348,7 +1348,7 @@
     "avgScore": 6.8,
     "distribution": {
       "极强": 29,
-      "强烈": 15,
+      "强烈": 16,
       "中等": 28,
       "轻微": 12,
       "无": 19
@@ -1418,6 +1418,10 @@
     "places": [],
     "nouns": [
       {
+        "word": "kimi",
+        "count": 6
+      },
+      {
         "word": "gemini",
         "count": 6
       },
@@ -1426,12 +1430,12 @@
         "count": 6
       },
       {
-        "word": "kimi",
-        "count": 5
-      },
-      {
         "word": "gpt-5.5",
         "count": 4
+      },
+      {
+        "word": "chatgpt",
+        "count": 3
       },
       {
         "word": "api",
@@ -1451,10 +1455,6 @@
       },
       {
         "word": "gpt",
-        "count": 3
-      },
-      {
-        "word": "agent",
         "count": 3
       }
     ]
