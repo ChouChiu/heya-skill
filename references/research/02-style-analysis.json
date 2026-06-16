@@ -2,15 +2,15 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 107,
+    "totalVideos": 108,
     "analysisDate": "2026-06-16"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.439,
+        "frequency": 0.435,
         "count": 47,
-        "pctDisplay": "43.9%",
+        "pctDisplay": "43.5%",
         "examples": [
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
@@ -49,9 +49,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.43,
+        "frequency": 0.426,
         "count": 46,
-        "pctDisplay": "43.0%",
+        "pctDisplay": "42.6%",
         "examples": [
           "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
           "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
@@ -80,9 +80,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.103,
-        "count": 11,
-        "pctDisplay": "10.3%",
+        "frequency": 0.111,
+        "count": 12,
+        "pctDisplay": "11.1%",
         "examples": [
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
           "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
@@ -184,15 +184,15 @@
     "aiTerms": [
       {
         "word": "AI",
-        "count": 106
+        "count": 107
+      },
+      {
+        "word": "DeepSeek",
+        "count": 35
       },
       {
         "word": "模型",
         "count": 35
-      },
-      {
-        "word": "DeepSeek",
-        "count": 34
       },
       {
         "word": "OpenAI",
@@ -266,7 +266,7 @@
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 65
+        "count": 66
       },
       {
         "word": "模型",
@@ -274,7 +274,7 @@
       },
       {
         "word": "DeepSeek",
-        "count": 31
+        "count": 32
       },
       {
         "word": "AI",
@@ -401,36 +401,36 @@
   },
   "sentencePatterns": {
     "question": 0.009,
-    "exclamation": 0.224,
-    "statement": 0.766
+    "exclamation": 0.222,
+    "statement": 0.769
   },
   "length": {
-    "avg": 52,
+    "avg": 51.8,
     "min": 25,
     "max": 80,
     "median": 52,
     "distribution": {
       "20字以内": 0,
       "21-30字": 4,
-      "31-40字": 18,
+      "31-40字": 19,
       "40字以上": 85
     },
-    "over40Pct": 79.4,
+    "over40Pct": 78.7,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 79.4,
+    "withNumberPct": 79.6,
     "commonNumbers": [
       {
         "number": 3,
-        "count": 33
+        "count": 34
       },
       {
         "number": 5,
-        "count": 32
+        "count": 33
       },
       {
         "number": 4,
@@ -467,13 +467,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.224,
+    "exclamationEnd": 0.222,
     "questionEnd": 0.009,
-    "ellipsisEnd": 0.075
+    "ellipsisEnd": 0.074
   },
   "aiDaily": {
-    "count": 65,
-    "pct": 60.7
+    "count": 66,
+    "pct": 61.1
   },
   "wordsByPOS": {
     "adjectives": [
@@ -603,7 +603,7 @@
     "nouns": [
       {
         "word": "AI日报",
-        "count": 65
+        "count": 66
       },
       {
         "word": "模型",
@@ -665,7 +665,7 @@
     "english": [
       {
         "word": "DeepSeek",
-        "count": 31
+        "count": 32
       },
       {
         "word": "AI",
@@ -892,20 +892,20 @@
     ]
   },
   "structure": {
-    "avgClauses": 4.7,
+    "avgClauses": 4.6,
     "separatorPatterns": {
       "！": 80,
       "，": 13,
       "；": 7,
       "？": 5,
-      "、": 1,
-      "|": 1
+      "|": 2,
+      "、": 1
     },
     "exclamationDensity": 2.1,
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
-        "count": 65
+        "count": 66
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
@@ -921,26 +921,26 @@
       },
       {
         "pattern": "{传闻}，{推测}",
-        "count": 15
+        "count": 16
       }
     ],
     "clauseDistribution": {
       "7句以上": 16,
       "3-4句": 37,
       "5-6句": 41,
-      "1-2句": 13
+      "1-2句": 14
     }
   },
   "multiCategory": {
     "悬念式": {
       "pureCount": 4,
       "totalCount": 47,
-      "pctDisplay": "43.9%"
+      "pctDisplay": "43.5%"
     },
     "情感式": {
       "pureCount": 0,
       "totalCount": 95,
-      "pctDisplay": "88.8%"
+      "pctDisplay": "88.0%"
     },
     "数字列表式": {
       "pureCount": 0,
@@ -955,7 +955,7 @@
     "对比式": {
       "pureCount": 0,
       "totalCount": 5,
-      "pctDisplay": "4.7%"
+      "pctDisplay": "4.6%"
     },
     "教程式": {
       "pureCount": 0,
@@ -963,9 +963,9 @@
       "pctDisplay": "0.9%"
     },
     "其他": {
-      "pureCount": 11,
-      "totalCount": 11,
-      "pctDisplay": "10.3%"
+      "pureCount": 12,
+      "totalCount": 12,
+      "pctDisplay": "11.1%"
     }
   },
   "dynamicEmotion": [
@@ -1014,6 +1014,10 @@
       "count": 3
     },
     {
+      "word": "输入",
+      "count": 3
+    },
+    {
       "word": "最强",
       "count": 3
     },
@@ -1044,17 +1048,13 @@
     {
       "word": "真相",
       "count": 2
-    },
-    {
-      "word": "打响",
-      "count": 2
     }
   ],
   "entities": {
     "companies": [
       {
         "word": "DeepSeek",
-        "count": 30
+        "count": 31
       },
       {
         "word": "OpenAI",
@@ -1193,11 +1193,11 @@
     },
     {
       "period": "2026-03",
-      "avgLength": 43.6,
+      "avgLength": 43.3,
       "exclamationDensity": 1.2,
-      "emotionIntensity": 5.8,
+      "emotionIntensity": 5.7,
       "topEmotion": "引爆",
-      "titleCount": 34
+      "titleCount": 35
     },
     {
       "period": "2026-04",
@@ -1278,6 +1278,14 @@
   ],
   "extractedTemplates": [
     {
+      "template": "传{EN}正在引入多模态输入功能|{EN}日报{N}月{N}日",
+      "count": 2,
+      "examples": [
+        "传DeepSeek正在引入多模态输入功能 | AI日报3月5日",
+        "传DeepSeek正在引入多模态输入功能 | AI日报3月5日"
+      ]
+    },
+    {
       "template": "超速了！{EN}{N}.{N}{EN}{EN}即将来袭",
       "count": 2,
       "examples": [
@@ -1341,7 +1349,7 @@
       "强烈": 17,
       "中等": 28,
       "轻微": 14,
-      "无": 20
+      "无": 21
     },
     "topIntense": [
       {
@@ -1375,114 +1383,114 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.657,
+        "tfidf": 4.668,
         "freq": 6
       },
       {
         "word": "pro",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "m3",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "seedance",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "gemma",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "wc",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "r18",
-        "tfidf": 4.574,
+        "tfidf": 4.584,
         "freq": 2
       },
       {
         "word": "codex",
-        "tfidf": 4.287,
+        "tfidf": 4.296,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.287,
+        "tfidf": 4.296,
         "freq": 2
       },
       {
         "word": "openclaw",
-        "tfidf": 4.287,
+        "tfidf": 4.296,
         "freq": 3
       },
       {
         "word": "lite",
-        "tfidf": 4.287,
+        "tfidf": 4.296,
         "freq": 3
       },
       {
         "word": "flash",
-        "tfidf": 4.287,
+        "tfidf": 4.296,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.063,
+        "tfidf": 4.073,
         "freq": 4
       },
       {
         "word": "token",
-        "tfidf": 4.063,
+        "tfidf": 4.073,
         "freq": 4
       }
     ]
   },
   "sentimentAnalysis": {
-    "avgScore": 6.7,
+    "avgScore": 6.6,
     "distribution": {
       "极强": 28,
       "强烈": 17,
       "中等": 29,
       "轻微": 13,
-      "无": 20
+      "无": 21
     },
     "topPositive": [
       {
@@ -1512,6 +1520,10 @@
         "score": 0
       },
       {
+        "title": "传DeepSeek正在引入多模态输入功能 | AI日报3月5日",
+        "score": 0
+      },
+      {
         "title": "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发",
         "score": 0
       },
@@ -1521,10 +1533,6 @@
       },
       {
         "title": "苹果投降，Siri及云服务全盘交由谷歌云托管 | AI日报3月5日",
-        "score": 0
-      },
-      {
-        "title": "腾讯今天把饭喂到了嘴边，这只全网最猛的“小龙虾”再不用你就亏大了。",
         "score": 0
       }
     ]
