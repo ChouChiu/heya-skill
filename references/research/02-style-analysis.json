@@ -2,15 +2,15 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 108,
-    "analysisDate": "2026-06-16"
+    "totalVideos": 109,
+    "analysisDate": "2026-06-17"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.435,
+        "frequency": 0.431,
         "count": 47,
-        "pctDisplay": "43.5%",
+        "pctDisplay": "43.1%",
         "examples": [
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
@@ -36,9 +36,9 @@
         ]
       },
       "对比式": {
-        "frequency": 0.019,
+        "frequency": 0.018,
         "count": 2,
-        "pctDisplay": "1.9%",
+        "pctDisplay": "1.8%",
         "examples": [
           "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514",
           "OpenAI杀疯了！Codex超级App突降硅谷，决战！百Agent大战！OpenAI全线突围，全面围剿Claude！"
@@ -49,9 +49,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.426,
+        "frequency": 0.422,
         "count": 46,
-        "pctDisplay": "42.6%",
+        "pctDisplay": "42.2%",
         "examples": [
           "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
           "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
@@ -80,9 +80,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.111,
-        "count": 12,
-        "pctDisplay": "11.1%",
+        "frequency": 0.119,
+        "count": 13,
+        "pctDisplay": "11.9%",
         "examples": [
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
           "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
@@ -184,7 +184,7 @@
     "aiTerms": [
       {
         "word": "AI",
-        "count": 107
+        "count": 108
       },
       {
         "word": "DeepSeek",
@@ -266,7 +266,7 @@
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 66
+        "count": 67
       },
       {
         "word": "模型",
@@ -401,36 +401,36 @@
   },
   "sentencePatterns": {
     "question": 0.009,
-    "exclamation": 0.222,
-    "statement": 0.769
+    "exclamation": 0.22,
+    "statement": 0.771
   },
   "length": {
-    "avg": 51.8,
+    "avg": 51.7,
     "min": 25,
     "max": 80,
     "median": 52,
     "distribution": {
       "20字以内": 0,
       "21-30字": 4,
-      "31-40字": 19,
+      "31-40字": 20,
       "40字以上": 85
     },
-    "over40Pct": 78.7,
+    "over40Pct": 78,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 79.6,
+    "withNumberPct": 79.8,
     "commonNumbers": [
       {
         "number": 3,
-        "count": 34
+        "count": 35
       },
       {
         "number": 5,
-        "count": 33
+        "count": 34
       },
       {
         "number": 4,
@@ -467,13 +467,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.222,
+    "exclamationEnd": 0.22,
     "questionEnd": 0.009,
-    "ellipsisEnd": 0.074
+    "ellipsisEnd": 0.073
   },
   "aiDaily": {
-    "count": 66,
-    "pct": 61.1
+    "count": 67,
+    "pct": 61.5
   },
   "wordsByPOS": {
     "adjectives": [
@@ -603,7 +603,7 @@
     "nouns": [
       {
         "word": "AI日报",
-        "count": 66
+        "count": 67
       },
       {
         "word": "模型",
@@ -646,6 +646,10 @@
         "count": 6
       },
       {
+        "word": "谷歌",
+        "count": 6
+      },
+      {
         "word": "雪崩",
         "count": 5
       },
@@ -655,10 +659,6 @@
       },
       {
         "word": "曝光",
-        "count": 5
-      },
-      {
-        "word": "全面",
         "count": 5
       }
     ],
@@ -814,6 +814,14 @@
         "count": 2
       },
       {
+        "word": "及云全盘交由",
+        "count": 2
+      },
+      {
+        "word": "全盘交由谷歌",
+        "count": 2
+      },
+      {
         "word": "系列多款模型",
         "count": 2
       },
@@ -880,14 +888,6 @@
       {
         "word": "信息曝光同日",
         "count": 2
-      },
-      {
-        "word": "曝光同日发表",
-        "count": 2
-      },
-      {
-        "word": "同日发表重要",
-        "count": 2
       }
     ]
   },
@@ -895,7 +895,7 @@
     "avgClauses": 4.6,
     "separatorPatterns": {
       "！": 80,
-      "，": 13,
+      "，": 14,
       "；": 7,
       "？": 5,
       "|": 2,
@@ -905,7 +905,7 @@
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
-        "count": 66
+        "count": 67
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
@@ -926,7 +926,7 @@
     ],
     "clauseDistribution": {
       "7句以上": 16,
-      "3-4句": 37,
+      "3-4句": 38,
       "5-6句": 41,
       "1-2句": 14
     }
@@ -935,22 +935,22 @@
     "悬念式": {
       "pureCount": 4,
       "totalCount": 47,
-      "pctDisplay": "43.5%"
+      "pctDisplay": "43.1%"
     },
     "情感式": {
       "pureCount": 0,
       "totalCount": 95,
-      "pctDisplay": "88.0%"
+      "pctDisplay": "87.2%"
     },
     "数字列表式": {
       "pureCount": 0,
       "totalCount": 2,
-      "pctDisplay": "1.9%"
+      "pctDisplay": "1.8%"
     },
     "故事式": {
       "pureCount": 0,
       "totalCount": 7,
-      "pctDisplay": "6.5%"
+      "pctDisplay": "6.4%"
     },
     "对比式": {
       "pureCount": 0,
@@ -963,9 +963,9 @@
       "pctDisplay": "0.9%"
     },
     "其他": {
-      "pureCount": 12,
-      "totalCount": 12,
-      "pctDisplay": "11.1%"
+      "pureCount": 13,
+      "totalCount": 13,
+      "pctDisplay": "11.9%"
     }
   },
   "dynamicEmotion": [
@@ -1062,7 +1062,7 @@
       },
       {
         "word": "Google",
-        "count": 9
+        "count": 10
       },
       {
         "word": "Anthropic",
@@ -1193,11 +1193,11 @@
     },
     {
       "period": "2026-03",
-      "avgLength": 43.3,
-      "exclamationDensity": 1.2,
-      "emotionIntensity": 5.7,
+      "avgLength": 43,
+      "exclamationDensity": 1.1,
+      "emotionIntensity": 5.5,
       "topEmotion": "引爆",
-      "titleCount": 35
+      "titleCount": 36
     },
     {
       "period": "2026-04",
@@ -1278,6 +1278,14 @@
   ],
   "extractedTemplates": [
     {
+      "template": "苹果投降，{EN}及云服务全盘交由谷歌云托管|{EN}日报{N}月{N}日",
+      "count": 2,
+      "examples": [
+        "苹果投降，Siri及云服务全盘交由谷歌云托管 | AI日报3月5日",
+        "苹果投降，Siri及云服务全盘交由谷歌云托管 | AI日报3月5日"
+      ]
+    },
+    {
       "template": "传{EN}正在引入多模态输入功能|{EN}日报{N}月{N}日",
       "count": 2,
       "examples": [
@@ -1332,24 +1340,16 @@
         "太炸裂了！Nano Banana 2 已上线！DeepSeek 新模型细节信息曝光，同日发表重要论文！",
         "太炸裂了！Nano Banana 2 已上线！DeepSeek 新模型细节信息曝光，同日发表重要论文！"
       ]
-    },
-    {
-      "template": "{EN}{EN}{N}泄露！阶跃星辰将上市！｜{EN}日报{N}月{N}日",
-      "count": 2,
-      "examples": [
-        "Nano Banana 2 泄露！阶跃星辰将上市！｜AI日报2月25日",
-        "Nano Banana 2 泄露！阶跃星辰将上市！｜AI日报2月25日"
-      ]
     }
   ],
   "emotionIntensity": {
-    "avgScore": 6.6,
+    "avgScore": 6.5,
     "distribution": {
       "极强": 28,
       "强烈": 17,
       "中等": 28,
       "轻微": 14,
-      "无": 21
+      "无": 22
     },
     "topIntense": [
       {
@@ -1383,102 +1383,102 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.668,
+        "tfidf": 4.68,
         "freq": 6
       },
       {
         "word": "pro",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "m3",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "seedance",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "gemma",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
+        "freq": 2
+      },
+      {
+        "word": "siri",
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "wc",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "r18",
-        "tfidf": 4.584,
+        "tfidf": 4.593,
         "freq": 2
       },
       {
         "word": "codex",
-        "tfidf": 4.296,
+        "tfidf": 4.305,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.296,
+        "tfidf": 4.305,
         "freq": 2
       },
       {
         "word": "openclaw",
-        "tfidf": 4.296,
+        "tfidf": 4.305,
         "freq": 3
       },
       {
         "word": "lite",
-        "tfidf": 4.296,
+        "tfidf": 4.305,
         "freq": 3
       },
       {
         "word": "flash",
-        "tfidf": 4.296,
+        "tfidf": 4.305,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.073,
-        "freq": 4
-      },
-      {
-        "word": "token",
-        "tfidf": 4.073,
+        "tfidf": 4.082,
         "freq": 4
       }
     ]
@@ -1490,7 +1490,7 @@
       "强烈": 17,
       "中等": 29,
       "轻微": 13,
-      "无": 21
+      "无": 22
     },
     "topPositive": [
       {
@@ -1524,15 +1524,15 @@
         "score": 0
       },
       {
+        "title": "苹果投降，Siri及云服务全盘交由谷歌云托管 | AI日报3月5日",
+        "score": 0
+      },
+      {
         "title": "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发",
         "score": 0
       },
       {
         "title": "传DeepSeek正在引入多模态输入功能 | AI日报3月5日",
-        "score": 0
-      },
-      {
-        "title": "苹果投降，Siri及云服务全盘交由谷歌云托管 | AI日报3月5日",
         "score": 0
       }
     ]
