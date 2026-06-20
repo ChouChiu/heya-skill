@@ -2,15 +2,15 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 111,
-    "analysisDate": "2026-06-19"
+    "totalVideos": 112,
+    "analysisDate": "2026-06-20"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.423,
+        "frequency": 0.42,
         "count": 47,
-        "pctDisplay": "42.3%",
+        "pctDisplay": "42.0%",
         "examples": [
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
@@ -49,9 +49,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.423,
-        "count": 47,
-        "pctDisplay": "42.3%",
+        "frequency": 0.429,
+        "count": 48,
+        "pctDisplay": "42.9%",
         "examples": [
           "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
           "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
@@ -80,9 +80,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.126,
+        "frequency": 0.125,
         "count": 14,
-        "pctDisplay": "12.6%",
+        "pctDisplay": "12.5%",
         "examples": [
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
           "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
@@ -401,28 +401,28 @@
   },
   "sentencePatterns": {
     "question": 0.009,
-    "exclamation": 0.225,
-    "statement": 0.766
+    "exclamation": 0.223,
+    "statement": 0.768
   },
   "length": {
-    "avg": 51.3,
+    "avg": 51.1,
     "min": 25,
     "max": 80,
     "median": 51,
     "distribution": {
       "20字以内": 0,
       "21-30字": 5,
-      "31-40字": 21,
+      "31-40字": 22,
       "40字以上": 85
     },
-    "over40Pct": 76.6,
+    "over40Pct": 75.9,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 78.4,
+    "withNumberPct": 77.7,
     "commonNumbers": [
       {
         "number": 3,
@@ -467,13 +467,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.225,
+    "exclamationEnd": 0.223,
     "questionEnd": 0.009,
-    "ellipsisEnd": 0.072
+    "ellipsisEnd": 0.071
   },
   "aiDaily": {
     "count": 67,
-    "pct": 60.4
+    "pct": 59.8
   },
   "wordsByPOS": {
     "adjectives": [
@@ -814,6 +814,22 @@
         "count": 2
       },
       {
+        "word": "打工深圳刚发",
+        "count": 2
+      },
+      {
+        "word": "深圳刚发变现",
+        "count": 2
+      },
+      {
+        "word": "刚发变现密令",
+        "count": 2
+      },
+      {
+        "word": "变现密令员工",
+        "count": 2
+      },
+      {
         "word": "手机能养龙虾",
         "count": 2
       },
@@ -872,29 +888,13 @@
       {
         "word": "偷偷内测成人",
         "count": 2
-      },
-      {
-        "word": "内测成人专属",
-        "count": 2
-      },
-      {
-        "word": "成人专属开关",
-        "count": 2
-      },
-      {
-        "word": "模型细节信息",
-        "count": 2
-      },
-      {
-        "word": "细节信息曝光",
-        "count": 2
       }
     ]
   },
   "structure": {
     "avgClauses": 4.6,
     "separatorPatterns": {
-      "！": 81,
+      "！": 82,
       "，": 15,
       "；": 7,
       "？": 5,
@@ -926,7 +926,7 @@
     ],
     "clauseDistribution": {
       "7句以上": 16,
-      "3-4句": 39,
+      "3-4句": 40,
       "5-6句": 41,
       "1-2句": 15
     }
@@ -935,12 +935,12 @@
     "悬念式": {
       "pureCount": 4,
       "totalCount": 47,
-      "pctDisplay": "42.3%"
+      "pctDisplay": "42.0%"
     },
     "情感式": {
       "pureCount": 0,
-      "totalCount": 96,
-      "pctDisplay": "86.5%"
+      "totalCount": 97,
+      "pctDisplay": "86.6%"
     },
     "数字列表式": {
       "pureCount": 0,
@@ -965,7 +965,7 @@
     "其他": {
       "pureCount": 14,
       "totalCount": 14,
-      "pctDisplay": "12.6%"
+      "pctDisplay": "12.5%"
     }
   },
   "dynamicEmotion": [
@@ -1193,11 +1193,11 @@
     },
     {
       "period": "2026-03",
-      "avgLength": 42.2,
+      "avgLength": 42,
       "exclamationDensity": 1.2,
-      "emotionIntensity": 5.3,
+      "emotionIntensity": 5.2,
       "topEmotion": "引爆",
-      "titleCount": 38
+      "titleCount": 39
     },
     {
       "period": "2026-04",
@@ -1278,6 +1278,14 @@
   ],
   "extractedTemplates": [
     {
+      "template": "别再打工了！深圳刚发了“变现”密令：你的下一个员工，可能不是人。",
+      "count": 2,
+      "examples": [
+        "别再打工了！深圳刚发了“变现”密令：你的下一个员工，可能不是人。",
+        "别再打工了！深圳刚发了“变现”密令：你的下一个员工，可能不是人。"
+      ]
+    },
+    {
       "template": "腾讯今天把饭喂到了嘴边，这只全网最猛的“小龙虾”再不用你就亏大了。",
       "count": 2,
       "examples": [
@@ -1332,14 +1340,6 @@
         "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发",
         "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发"
       ]
-    },
-    {
-      "template": "{EN}{EN}或下周发布？{EN}可能跳过{N}.{N}直接发{N}.{N}！",
-      "count": 2,
-      "examples": [
-        "DeepSeek V4 或下周发布？GPT 可能跳过 5.3 直接发 5.4 ！",
-        "DeepSeek V4 或下周发布？GPT 可能跳过 5.3 直接发 5.4 ！"
-      ]
     }
   ],
   "emotionIntensity": {
@@ -1349,7 +1349,7 @@
       "强烈": 17,
       "中等": 29,
       "轻微": 14,
-      "无": 23
+      "无": 24
     },
     "topIntense": [
       {
@@ -1383,114 +1383,114 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.701,
+        "tfidf": 4.712,
         "freq": 6
       },
       {
         "word": "pro",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "m3",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "seedance",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "gemma",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "siri",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "wc",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "r18",
-        "tfidf": 4.611,
+        "tfidf": 4.62,
         "freq": 2
       },
       {
         "word": "codex",
-        "tfidf": 4.323,
+        "tfidf": 4.332,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.323,
+        "tfidf": 4.332,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.323,
+        "tfidf": 4.332,
         "freq": 3
       },
       {
         "word": "flash",
-        "tfidf": 4.323,
+        "tfidf": 4.332,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.1,
+        "tfidf": 4.109,
         "freq": 4
       },
       {
         "word": "token",
-        "tfidf": 4.1,
+        "tfidf": 4.109,
         "freq": 4
       }
     ]
   },
   "sentimentAnalysis": {
-    "avgScore": 6.5,
+    "avgScore": 6.4,
     "distribution": {
       "极强": 28,
       "强烈": 17,
       "中等": 30,
       "轻微": 13,
-      "无": 23
+      "无": 24
     },
     "topPositive": [
       {
