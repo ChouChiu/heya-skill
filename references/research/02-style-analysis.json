@@ -2,15 +2,15 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 112,
-    "analysisDate": "2026-06-20"
+    "totalVideos": 113,
+    "analysisDate": "2026-06-21"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.42,
+        "frequency": 0.416,
         "count": 47,
-        "pctDisplay": "42.0%",
+        "pctDisplay": "41.6%",
         "examples": [
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
@@ -49,9 +49,9 @@
         ]
       },
       "情感式": {
-        "frequency": 0.429,
-        "count": 48,
-        "pctDisplay": "42.9%",
+        "frequency": 0.434,
+        "count": 49,
+        "pctDisplay": "43.4%",
         "examples": [
           "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
           "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
@@ -80,9 +80,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.125,
+        "frequency": 0.124,
         "count": 14,
-        "pctDisplay": "12.5%",
+        "pctDisplay": "12.4%",
         "examples": [
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
           "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
@@ -187,11 +187,11 @@
         "count": 108
       },
       {
-        "word": "DeepSeek",
-        "count": 35
+        "word": "模型",
+        "count": 36
       },
       {
-        "word": "模型",
+        "word": "DeepSeek",
         "count": 35
       },
       {
@@ -200,11 +200,11 @@
       },
       {
         "word": "Gemini",
-        "count": 17
+        "count": 18
       },
       {
         "word": "发布",
-        "count": 16
+        "count": 17
       },
       {
         "word": "GPT",
@@ -247,15 +247,15 @@
         "count": 6
       },
       {
-        "word": "曝光",
-        "count": 5
-      },
-      {
         "word": "Google",
-        "count": 5
+        "count": 6
       },
       {
         "word": "开源",
+        "count": 6
+      },
+      {
+        "word": "曝光",
         "count": 5
       },
       {
@@ -270,7 +270,7 @@
       },
       {
         "word": "模型",
-        "count": 35
+        "count": 36
       },
       {
         "word": "DeepSeek",
@@ -286,7 +286,7 @@
       },
       {
         "word": "Gemini",
-        "count": 17
+        "count": 18
       },
       {
         "word": "AI圈",
@@ -349,6 +349,10 @@
         "count": 7
       },
       {
+        "word": "谷歌",
+        "count": 7
+      },
+      {
         "word": "V4",
         "count": 7
       },
@@ -379,10 +383,6 @@
       {
         "word": "Agent",
         "count": 6
-      },
-      {
-        "word": "杀疯了",
-        "count": 6
       }
     ],
     "uniqueExpressions": [
@@ -401,11 +401,11 @@
   },
   "sentencePatterns": {
     "question": 0.009,
-    "exclamation": 0.223,
-    "statement": 0.768
+    "exclamation": 0.23,
+    "statement": 0.761
   },
   "length": {
-    "avg": 51.1,
+    "avg": 51,
     "min": 25,
     "max": 80,
     "median": 51,
@@ -413,16 +413,16 @@
       "20字以内": 0,
       "21-30字": 5,
       "31-40字": 22,
-      "40字以上": 85
+      "40字以上": 86
     },
-    "over40Pct": 75.9,
+    "over40Pct": 76.1,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 77.7,
+    "withNumberPct": 77.9,
     "commonNumbers": [
       {
         "number": 3,
@@ -434,7 +434,7 @@
       },
       {
         "number": 4,
-        "count": 27
+        "count": 28
       },
       {
         "number": 2,
@@ -467,13 +467,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.223,
+    "exclamationEnd": 0.23,
     "questionEnd": 0.009,
     "ellipsisEnd": 0.071
   },
   "aiDaily": {
     "count": 67,
-    "pct": 59.8
+    "pct": 59.3
   },
   "wordsByPOS": {
     "adjectives": [
@@ -607,7 +607,7 @@
       },
       {
         "word": "模型",
-        "count": 35
+        "count": 36
       },
       {
         "word": "AI圈",
@@ -634,6 +634,10 @@
         "count": 7
       },
       {
+        "word": "谷歌",
+        "count": 7
+      },
+      {
         "word": "重磅炸弹",
         "count": 6
       },
@@ -646,19 +650,15 @@
         "count": 6
       },
       {
-        "word": "谷歌",
-        "count": 6
-      },
-      {
         "word": "腾讯",
         "count": 6
       },
       {
-        "word": "雪崩",
-        "count": 5
+        "word": "开源",
+        "count": 6
       },
       {
-        "word": "头皮发麻",
+        "word": "雪崩",
         "count": 5
       }
     ],
@@ -677,7 +677,7 @@
       },
       {
         "word": "Gemini",
-        "count": 17
+        "count": 18
       },
       {
         "word": "Claude",
@@ -712,15 +712,15 @@
         "count": 6
       },
       {
+        "word": "Google",
+        "count": 6
+      },
+      {
         "word": "Mythos",
         "count": 5
       },
       {
         "word": "API",
-        "count": 5
-      },
-      {
-        "word": "Google",
         "count": 5
       }
     ]
@@ -814,6 +814,10 @@
         "count": 2
       },
       {
+        "word": "谷歌开源模型",
+        "count": 2
+      },
+      {
         "word": "打工深圳刚发",
         "count": 2
       },
@@ -884,18 +888,14 @@
       {
         "word": "系列模型将发",
         "count": 2
-      },
-      {
-        "word": "偷偷内测成人",
-        "count": 2
       }
     ]
   },
   "structure": {
-    "avgClauses": 4.6,
+    "avgClauses": 4.5,
     "separatorPatterns": {
       "！": 82,
-      "，": 15,
+      "，": 16,
       "；": 7,
       "？": 5,
       "|": 2,
@@ -926,7 +926,7 @@
     ],
     "clauseDistribution": {
       "7句以上": 16,
-      "3-4句": 40,
+      "3-4句": 41,
       "5-6句": 41,
       "1-2句": 15
     }
@@ -935,12 +935,12 @@
     "悬念式": {
       "pureCount": 4,
       "totalCount": 47,
-      "pctDisplay": "42.0%"
+      "pctDisplay": "41.6%"
     },
     "情感式": {
       "pureCount": 0,
-      "totalCount": 97,
-      "pctDisplay": "86.6%"
+      "totalCount": 98,
+      "pctDisplay": "86.7%"
     },
     "数字列表式": {
       "pureCount": 0,
@@ -950,12 +950,12 @@
     "故事式": {
       "pureCount": 0,
       "totalCount": 7,
-      "pctDisplay": "6.3%"
+      "pctDisplay": "6.2%"
     },
     "对比式": {
       "pureCount": 0,
       "totalCount": 5,
-      "pctDisplay": "4.5%"
+      "pctDisplay": "4.4%"
     },
     "教程式": {
       "pureCount": 0,
@@ -965,7 +965,7 @@
     "其他": {
       "pureCount": 14,
       "totalCount": 14,
-      "pctDisplay": "12.5%"
+      "pctDisplay": "12.4%"
     }
   },
   "dynamicEmotion": [
@@ -1062,7 +1062,7 @@
       },
       {
         "word": "Google",
-        "count": 10
+        "count": 11
       },
       {
         "word": "Anthropic",
@@ -1100,7 +1100,7 @@
     "products": [
       {
         "word": "Gemini",
-        "count": 16
+        "count": 17
       },
       {
         "word": "Claude",
@@ -1143,6 +1143,10 @@
         "count": 3
       },
       {
+        "word": "Gemma",
+        "count": 3
+      },
+      {
         "word": "大屠杀",
         "count": 2
       },
@@ -1152,10 +1156,6 @@
       },
       {
         "word": "Cursor",
-        "count": 2
-      },
-      {
-        "word": "Spud",
         "count": 2
       }
     ],
@@ -1195,9 +1195,9 @@
       "period": "2026-03",
       "avgLength": 42,
       "exclamationDensity": 1.2,
-      "emotionIntensity": 5.2,
+      "emotionIntensity": 5,
       "topEmotion": "引爆",
-      "titleCount": 39
+      "titleCount": 40
     },
     {
       "period": "2026-04",
@@ -1278,6 +1278,14 @@
   ],
   "extractedTemplates": [
     {
+      "template": "实锤，{EN}降智{EN}！谷歌开源模型{EN}{N}即将发布！",
+      "count": 2,
+      "examples": [
+        "实锤，Google 降智 Gemini ！ 谷歌开源模型 Gemma 4 即将发布！",
+        "实锤，Google 降智 Gemini ！ 谷歌开源模型 Gemma 4 即将发布！"
+      ]
+    },
+    {
       "template": "别再打工了！深圳刚发了“变现”密令：你的下一个员工，可能不是人。",
       "count": 2,
       "examples": [
@@ -1332,23 +1340,15 @@
         "WC，太炸裂了。Qwen 3.5 系列多款小模型震撼开源！史上最强小模型系列来袭！",
         "WC，太炸裂了。Qwen 3.5 系列多款小模型震撼开源！史上最强小模型系列来袭！"
       ]
-    },
-    {
-      "template": "{EN}被曝参与美军空袭伊朗；{EN}{N}.{N}系列小模型将发",
-      "count": 2,
-      "examples": [
-        "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发",
-        "Claude 被曝参与美军空袭伊朗；Qwen 3.5 系列小模型将发"
-      ]
     }
   ],
   "emotionIntensity": {
-    "avgScore": 6.4,
+    "avgScore": 6.3,
     "distribution": {
       "极强": 28,
       "强烈": 17,
       "中等": 29,
-      "轻微": 14,
+      "轻微": 15,
       "无": 24
     },
     "topIntense": [
@@ -1383,102 +1383,102 @@
     "topWords": [
       {
         "word": "agent",
-        "tfidf": 4.712,
+        "tfidf": 4.723,
         "freq": 6
       },
       {
         "word": "pro",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "m3",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "seedance",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "studio",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "cursor",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "code",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.62,
-        "freq": 2
-      },
-      {
-        "word": "gemma",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "siri",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "wc",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "r18",
-        "tfidf": 4.62,
+        "tfidf": 4.629,
         "freq": 2
       },
       {
         "word": "codex",
-        "tfidf": 4.332,
+        "tfidf": 4.341,
         "freq": 3
       },
       {
         "word": "max",
-        "tfidf": 4.332,
+        "tfidf": 4.341,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.332,
+        "tfidf": 4.341,
+        "freq": 3
+      },
+      {
+        "word": "gemma",
+        "tfidf": 4.341,
         "freq": 3
       },
       {
         "word": "flash",
-        "tfidf": 4.332,
+        "tfidf": 4.341,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.109,
+        "tfidf": 4.118,
         "freq": 4
       },
       {
         "word": "token",
-        "tfidf": 4.109,
+        "tfidf": 4.118,
         "freq": 4
       }
     ]
@@ -1489,7 +1489,7 @@
       "极强": 28,
       "强烈": 17,
       "中等": 30,
-      "轻微": 13,
+      "轻微": 14,
       "无": 24
     },
     "topPositive": [
@@ -1541,7 +1541,7 @@
     "organizations": [
       {
         "word": "google",
-        "count": 5
+        "count": 6
       }
     ],
     "people": [
@@ -1553,11 +1553,11 @@
     "places": [],
     "nouns": [
       {
-        "word": "kimi",
-        "count": 6
+        "word": "gemini",
+        "count": 7
       },
       {
-        "word": "gemini",
+        "word": "kimi",
         "count": 6
       },
       {
