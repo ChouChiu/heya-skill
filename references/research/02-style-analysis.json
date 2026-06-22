@@ -2,26 +2,26 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 113,
-    "analysisDate": "2026-06-21"
+    "totalVideos": 114,
+    "analysisDate": "2026-06-22"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.416,
-        "count": 47,
-        "pctDisplay": "41.6%",
+        "frequency": 0.395,
+        "count": 45,
+        "pctDisplay": "39.5%",
         "examples": [
+          "头皮发麻！DeepSeek疑似暗中升级，今日神秘停摆44分钟，500亿融资震惊全球同行！| AI日报0616",
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
           "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606",
-          "AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604",
-          "OpenAI风控大地震！全线强制登出，史诗级二验死循环展开全球大屠杀，看完Codex额度乱跳直接吓出癫痫，奥特曼必须立刻移交军事法庭……"
+          "AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604"
         ],
         "templates": [
+          "头皮发麻！DeepSeek疑似暗中升级，今日神秘停摆44分钟，500亿融资震惊全球同行！| AI日报0616",
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
-          "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
-          "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606"
+          "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607"
         ]
       },
       "数字列表式": {
@@ -36,41 +36,48 @@
         ]
       },
       "对比式": {
-        "frequency": 0.018,
-        "count": 2,
-        "pctDisplay": "1.8%",
+        "frequency": 0.035,
+        "count": 4,
+        "pctDisplay": "3.5%",
         "examples": [
+          "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620",
+          "重磅炸弹！Google新图像模型“速食拉面”即将来袭！纳米香蕉已成过去式！正面对决 GPT-Image-2！| AI日报0617",
           "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514",
           "OpenAI杀疯了！Codex超级App突降硅谷，决战！百Agent大战！OpenAI全线突围，全面围剿Claude！"
         ],
         "templates": [
-          "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514",
-          "OpenAI杀疯了！Codex超级App突降硅谷，决战！百Agent大战！OpenAI全线突围，全面围剿Claude！"
+          "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620",
+          "重磅炸弹！Google新图像模型“速食拉面”即将来袭！纳米香蕉已成过去式！正面对决 GPT-Image-2！| AI日报0617",
+          "巅峰血战！GPT-5.6 vs Gemini 3.2，这一次，硅谷天崩地裂！| AI日报0514"
         ]
       },
       "情感式": {
-        "frequency": 0.434,
-        "count": 49,
-        "pctDisplay": "43.4%",
+        "frequency": 0.404,
+        "count": 46,
+        "pctDisplay": "40.4%",
         "examples": [
-          "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
-          "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
-          "MiniMax M3深夜引爆AI圈！Token Plan大地震，高价老用户的斩杀线来了！",
-          "Anthropic底裤露出，Opus 4.8自称Qwen引发蒸馏争议！OpenAI 偷偷更新 GPT-5.5 模型，宣称 4.5 和 o3 将下架！| AI日报",
-          "震撼官宣！DeepSeek 服务完成提速扩容，算力霸权神话破灭，闭源大模型的斩杀线来了！| AI日报0523"
+          "AI圈突然窒息：字节亮刀 Seed 2.1 正在血洗前端榜！Anthropic 藏牌 Sonnet 5 疑似浮出水面！| AI日报0622",
+          "正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621",
+          "AI核战引爆！GPT-5.6与Gemini 3.5 Pro连夜互掷核弹，硅谷绞肉机已启动！达里奥吓到冷汗直流！！！",
+          "悲哀！AI圈柏林墙已然筑起，大KYC时代即将来临！字节绞杀对手即将推出 Seedance 2.0 mini！| AI 日报0614",
+          "载入史册！智谱突然发布核弹 GLM-5.2 引爆AI圈，Anthropic 慌忙下架 fable 5 暂避锋芒！| AI日报0613"
         ],
         "templates": [
-          "OpenAI彻底清算！低价区廉价Team正价自用无差别全封禁！AI圈血流成河！码农最黑暗一日！ | AI日报0605",
-          "OpenAI突发服务崩溃疑似大赦天下，官方论坛惊现密集举报！DeepSeek再现融资疑云真假难辨！| AI日报0603",
-          "MiniMax M3深夜引爆AI圈！Token Plan大地震，高价老用户的斩杀线来了！"
+          "AI圈突然窒息：字节亮刀 Seed 2.1 正在血洗前端榜！Anthropic 藏牌 Sonnet 5 疑似浮出水面！| AI日报0622",
+          "正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621",
+          "AI核战引爆！GPT-5.6与Gemini 3.5 Pro连夜互掷核弹，硅谷绞肉机已启动！达里奥吓到冷汗直流！！！"
         ]
       },
       "故事式": {
-        "frequency": 0,
-        "count": 0,
-        "pctDisplay": "0.0%",
-        "examples": [],
-        "templates": []
+        "frequency": 0.009,
+        "count": 1,
+        "pctDisplay": "0.9%",
+        "examples": [
+          "【黑鸦Heya】一个视频带你看完Google I/O 2026"
+        ],
+        "templates": [
+          "【黑鸦Heya】一个视频带你看完Google I/O 2026"
+        ]
       },
       "教程式": {
         "frequency": 0,
@@ -80,20 +87,20 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.124,
-        "count": 14,
-        "pctDisplay": "12.4%",
+        "frequency": 0.149,
+        "count": 17,
+        "pctDisplay": "14.9%",
         "examples": [
+          "DeepSeek 正式上线“识图模式”；阶跃星辰限免提供 Step Plan | AI日报0618",
+          "最新消息：Gemini 3.5 Pro 与 DeepSeek-V4.1",
+          "突发：Anthropic 因美国政府出口管制指令全面禁用 Fable 5 和 Mythos 5",
           "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
-          "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
-          "DeepSeek 灰度测试多轮搜索功能；千问上线 Qwen3.5-Omini 系列模型 | AI日报3月30日",
-          "DeepSeek 更新网页端模型，SVG生成能力跃升 | AI日报",
-          "Gemini 3.1 Flash 现踪迹；Sora 下月正式停运，API 9月下线 | AI日报"
+          "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402"
         ],
         "templates": [
-          "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
-          "阿里千问正式发布Qwen3.6-Plus；Gemma 4 即将发布 | AI日报0402",
-          "DeepSeek 灰度测试多轮搜索功能；千问上线 Qwen3.5-Omini 系列模型 | AI日报3月30日"
+          "DeepSeek 正式上线“识图模式”；阶跃星辰限免提供 Step Plan | AI日报0618",
+          "最新消息：Gemini 3.5 Pro 与 DeepSeek-V4.1",
+          "突发：Anthropic 因美国政府出口管制指令全面禁用 Fable 5 和 Mythos 5"
         ]
       }
     }
@@ -101,31 +108,31 @@
   "keywords": {
     "emotion": [
       {
-        "word": "大地震",
-        "count": 14
+        "word": "引爆",
+        "count": 16
       },
       {
-        "word": "引爆",
+        "word": "大地震",
         "count": 12
+      },
+      {
+        "word": "核弹",
+        "count": 7
       },
       {
         "word": "重磅",
         "count": 7
       },
       {
-        "word": "杀疯了",
+        "word": "吓出癫痫",
         "count": 6
       },
       {
-        "word": "雪崩",
-        "count": 5
-      },
-      {
         "word": "史诗级",
-        "count": 5
+        "count": 6
       },
       {
-        "word": "吓出癫痫",
+        "word": "见证历史",
         "count": 5
       },
       {
@@ -137,12 +144,24 @@
         "count": 5
       },
       {
-        "word": "海啸",
+        "word": "雪崩",
+        "count": 5
+      },
+      {
+        "word": "杀疯了",
         "count": 5
       },
       {
         "word": "炸裂",
         "count": 5
+      },
+      {
+        "word": "瘫坐",
+        "count": 4
+      },
+      {
+        "word": "硝烟弥漫",
+        "count": 4
       },
       {
         "word": "命运大转折",
@@ -165,20 +184,8 @@
         "count": 4
       },
       {
-        "word": "瘫坐",
+        "word": "海啸",
         "count": 4
-      },
-      {
-        "word": "见证历史",
-        "count": 4
-      },
-      {
-        "word": "官宣",
-        "count": 3
-      },
-      {
-        "word": "硝烟弥漫",
-        "count": 3
       }
     ],
     "aiTerms": [
@@ -188,22 +195,22 @@
       },
       {
         "word": "模型",
-        "count": 36
+        "count": 31
       },
       {
         "word": "DeepSeek",
-        "count": 35
+        "count": 29
       },
       {
         "word": "OpenAI",
+        "count": 20
+      },
+      {
+        "word": "发布",
         "count": 19
       },
       {
         "word": "Gemini",
-        "count": 18
-      },
-      {
-        "word": "发布",
         "count": 17
       },
       {
@@ -211,70 +218,70 @@
         "count": 14
       },
       {
-        "word": "泄露",
-        "count": 11
+        "word": "Anthropic",
+        "count": 12
       },
       {
-        "word": "Claude",
-        "count": 10
+        "word": "硅谷",
+        "count": 11
       },
       {
         "word": "Qwen",
         "count": 10
       },
       {
-        "word": "硅谷",
+        "word": "Claude",
+        "count": 10
+      },
+      {
+        "word": "Google",
         "count": 9
       },
       {
-        "word": "上线",
+        "word": "泄露",
         "count": 9
+      },
+      {
+        "word": "Agent",
+        "count": 8
+      },
+      {
+        "word": "上线",
+        "count": 8
       },
       {
         "word": "Kimi",
         "count": 7
       },
       {
-        "word": "Anthropic",
+        "word": "MiniMax",
         "count": 7
       },
       {
-        "word": "MiniMax",
-        "count": 6
-      },
-      {
-        "word": "Agent",
-        "count": 6
-      },
-      {
-        "word": "Google",
-        "count": 6
-      },
-      {
         "word": "开源",
-        "count": 6
+        "count": 7
       },
       {
         "word": "曝光",
         "count": 5
       },
       {
-        "word": "ChatGPT",
+        "word": "千问",
         "count": 4
       }
     ],
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 67
+        "count": 66
       },
       {
         "word": "模型",
-        "count": 36
+        "count": 31
       },
       {
         "word": "DeepSeek",
-        "count": 32
+        "count": 28
       },
       {
         "word": "AI",
@@ -282,26 +289,42 @@
       },
       {
         "word": "OpenAI",
-        "count": 19
+        "count": 20
       },
       {
         "word": "Gemini",
-        "count": 18
-      },
-      {
-        "word": "AI圈",
-        "count": 12
+        "count": 17
       },
       {
         "word": "引爆",
+        "count": 16
+      },
+      {
+        "word": "AI圈",
+        "count": 15
+      },
+      {
+        "word": "Anthropic",
         "count": 12
       },
       {
-        "word": "泄露",
+        "word": "硅谷",
         "count": 11
       },
       {
-        "word": "奥特曼",
+        "word": "3.5",
+        "count": 10
+      },
+      {
+        "word": "来袭",
+        "count": 10
+      },
+      {
+        "word": "Google",
+        "count": 9
+      },
+      {
+        "word": "泄露",
         "count": 9
       },
       {
@@ -309,19 +332,7 @@
         "count": 9
       },
       {
-        "word": "硅谷",
-        "count": 9
-      },
-      {
-        "word": "来袭",
-        "count": 9
-      },
-      {
-        "word": "AI圈大地震",
-        "count": 8
-      },
-      {
-        "word": "3.5",
+        "word": "Agent",
         "count": 8
       },
       {
@@ -329,19 +340,27 @@
         "count": 8
       },
       {
+        "word": "Mythos",
+        "count": 8
+      },
+      {
+        "word": "奥特曼",
+        "count": 8
+      },
+      {
+        "word": "Qwen",
+        "count": 7
+      },
+      {
         "word": "Kimi",
         "count": 7
       },
       {
-        "word": "Anthropic",
+        "word": "MiniMax",
         "count": 7
       },
       {
-        "word": "彻底",
-        "count": 7
-      },
-      {
-        "word": "GPT",
+        "word": "开源",
         "count": 7
       },
       {
@@ -349,19 +368,19 @@
         "count": 7
       },
       {
-        "word": "谷歌",
-        "count": 7
-      },
-      {
-        "word": "V4",
-        "count": 7
-      },
-      {
         "word": "系列",
         "count": 7
       },
       {
-        "word": "MiniMax",
+        "word": "GPT-5.6",
+        "count": 6
+      },
+      {
+        "word": "AI圈大地震",
+        "count": 6
+      },
+      {
+        "word": "核弹",
         "count": 6
       },
       {
@@ -369,121 +388,114 @@
         "count": 6
       },
       {
-        "word": "大地震",
-        "count": 6
-      },
-      {
-        "word": "马斯克",
-        "count": 6
-      },
-      {
-        "word": "Qwen",
-        "count": 6
-      },
-      {
-        "word": "Agent",
+        "word": "GPT",
         "count": 6
       }
     ],
     "uniqueExpressions": [
-      "大地震",
       "引爆",
+      "大地震",
+      "核弹",
       "重磅",
-      "杀疯了",
-      "雪崩",
-      "史诗级",
       "吓出癫痫",
+      "史诗级",
+      "见证历史",
       "头皮发麻",
       "全面",
-      "海啸",
+      "雪崩",
+      "杀疯了",
       "炸裂"
     ]
   },
   "sentencePatterns": {
     "question": 0.009,
-    "exclamation": 0.23,
-    "statement": 0.761
+    "exclamation": 0.228,
+    "statement": 0.763
   },
   "length": {
-    "avg": 51,
+    "avg": 51.5,
     "min": 25,
     "max": 80,
-    "median": 51,
+    "median": 52,
     "distribution": {
       "20字以内": 0,
       "21-30字": 5,
-      "31-40字": 22,
+      "31-40字": 23,
       "40字以上": 86
     },
-    "over40Pct": 76.1,
+    "over40Pct": 75.4,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 77.9,
+    "withNumberPct": 79.8,
     "commonNumbers": [
       {
-        "number": 3,
-        "count": 35
-      },
-      {
         "number": 5,
-        "count": 34
+        "count": 39
       },
       {
-        "number": 4,
-        "count": 28
+        "number": 3,
+        "count": 37
       },
       {
         "number": 2,
-        "count": 21
+        "count": 26
+      },
+      {
+        "number": 4,
+        "count": 24
       },
       {
         "number": 1,
-        "count": 7
+        "count": 9
       },
       {
         "number": 6,
-        "count": 7
+        "count": 9
       },
       {
         "number": 7,
-        "count": 6
+        "count": 7
       },
       {
         "number": 8,
+        "count": 5
+      },
+      {
+        "number": 0,
         "count": 4
       },
       {
         "number": 18,
         "count": 3
-      },
-      {
-        "number": 0,
-        "count": 2
       }
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.23,
+    "exclamationEnd": 0.228,
     "questionEnd": 0.009,
-    "ellipsisEnd": 0.071
+    "ellipsisEnd": 0.061
   },
   "aiDaily": {
     "count": 67,
-    "pct": 59.3
+    "pct": 58.8
   },
   "wordsByPOS": {
     "adjectives": [
       {
         "word": "彻底",
-        "count": 7
+        "count": 6
       },
       {
         "word": "史诗级",
-        "count": 5
+        "count": 6
+      },
+      {
+        "word": "突然",
+        "count": 4
       },
       {
         "word": "直接",
@@ -494,24 +506,16 @@
         "count": 4
       },
       {
-        "word": "疯狂",
-        "count": 4
-      },
-      {
         "word": "神秘",
-        "count": 4
+        "count": 3
       },
       {
         "word": "偷偷",
         "count": 3
       },
       {
-        "word": "血腥",
-        "count": 3
-      },
-      {
-        "word": "最强",
-        "count": 3
+        "word": "连夜",
+        "count": 2
       },
       {
         "word": "真相",
@@ -522,11 +526,15 @@
         "count": 2
       },
       {
-        "word": "悄然",
+        "word": "血腥",
         "count": 2
       },
       {
-        "word": "频频",
+        "word": "微软",
+        "count": 2
+      },
+      {
+        "word": "最强",
         "count": 2
       },
       {
@@ -534,29 +542,41 @@
         "count": 2
       },
       {
-        "word": "大将",
+        "word": "大幅",
         "count": 1
       }
     ],
     "verbs": [
       {
         "word": "引爆",
-        "count": 12
+        "count": 16
       },
       {
         "word": "泄露",
-        "count": 11
-      },
-      {
-        "word": "杀疯了",
-        "count": 6
-      },
-      {
-        "word": "全线突围",
-        "count": 6
+        "count": 9
       },
       {
         "word": "吓出癫痫",
+        "count": 6
+      },
+      {
+        "word": "狙击",
+        "count": 5
+      },
+      {
+        "word": "见证历史",
+        "count": 5
+      },
+      {
+        "word": "突发",
+        "count": 5
+      },
+      {
+        "word": "杀疯了",
+        "count": 5
+      },
+      {
+        "word": "全线突围",
         "count": 5
       },
       {
@@ -564,7 +584,11 @@
         "count": 5
       },
       {
-        "word": "突发",
+        "word": "瘫坐",
+        "count": 4
+      },
+      {
+        "word": "融资",
         "count": 4
       },
       {
@@ -576,66 +600,54 @@
         "count": 4
       },
       {
-        "word": "瘫坐",
-        "count": 4
-      },
-      {
-        "word": "见证历史",
-        "count": 4
-      },
-      {
-        "word": "免费",
-        "count": 4
-      },
-      {
-        "word": "融资",
+        "word": "窒息",
         "count": 3
       },
       {
-        "word": "狙击",
-        "count": 3
-      },
-      {
-        "word": "接管世界",
+        "word": "疑似",
         "count": 3
       }
     ],
     "nouns": [
       {
         "word": "AI日报",
-        "count": 67
+        "count": 66
       },
       {
         "word": "模型",
-        "count": 36
+        "count": 31
       },
       {
         "word": "AI圈",
-        "count": 12
-      },
-      {
-        "word": "奥特曼",
-        "count": 9
+        "count": 15
       },
       {
         "word": "硅谷",
-        "count": 9
-      },
-      {
-        "word": "AI圈大地震",
-        "count": 8
+        "count": 11
       },
       {
         "word": "深夜",
         "count": 8
       },
       {
+        "word": "奥特曼",
+        "count": 8
+      },
+      {
+        "word": "开源",
+        "count": 7
+      },
+      {
         "word": "人类",
         "count": 7
       },
       {
-        "word": "谷歌",
-        "count": 7
+        "word": "AI圈大地震",
+        "count": 6
+      },
+      {
+        "word": "核弹",
+        "count": 6
       },
       {
         "word": "重磅炸弹",
@@ -646,26 +658,22 @@
         "count": 6
       },
       {
-        "word": "马斯克",
-        "count": 6
+        "word": "头皮发麻",
+        "count": 5
       },
       {
-        "word": "腾讯",
-        "count": 6
+        "word": "时代",
+        "count": 5
       },
       {
-        "word": "开源",
-        "count": 6
-      },
-      {
-        "word": "雪崩",
+        "word": "全面",
         "count": 5
       }
     ],
     "english": [
       {
         "word": "DeepSeek",
-        "count": 32
+        "count": 28
       },
       {
         "word": "AI",
@@ -673,54 +681,54 @@
       },
       {
         "word": "OpenAI",
-        "count": 19
+        "count": 20
       },
       {
         "word": "Gemini",
-        "count": 18
+        "count": 17
+      },
+      {
+        "word": "Anthropic",
+        "count": 12
+      },
+      {
+        "word": "Google",
+        "count": 9
       },
       {
         "word": "Claude",
         "count": 9
       },
       {
+        "word": "Agent",
+        "count": 8
+      },
+      {
+        "word": "Mythos",
+        "count": 8
+      },
+      {
+        "word": "Qwen",
+        "count": 7
+      },
+      {
         "word": "Kimi",
         "count": 7
       },
       {
-        "word": "Anthropic",
+        "word": "MiniMax",
         "count": 7
+      },
+      {
+        "word": "GPT-5.6",
+        "count": 6
       },
       {
         "word": "GPT",
-        "count": 7
+        "count": 6
       },
       {
         "word": "V4",
-        "count": 7
-      },
-      {
-        "word": "MiniMax",
-        "count": 6
-      },
-      {
-        "word": "Qwen",
-        "count": 6
-      },
-      {
-        "word": "Agent",
-        "count": 6
-      },
-      {
-        "word": "Google",
-        "count": 6
-      },
-      {
-        "word": "Mythos",
-        "count": 5
-      },
-      {
-        "word": "API",
         "count": 5
       }
     ]
@@ -736,11 +744,7 @@
         "count": 4
       },
       {
-        "word": "AI奇点",
-        "count": 3
-      },
-      {
-        "word": "模型来袭",
+        "word": "引爆AI圈",
         "count": 3
       },
       {
@@ -748,7 +752,11 @@
         "count": 3
       },
       {
-        "word": "V4下周",
+        "word": "引爆硅谷",
+        "count": 3
+      },
+      {
+        "word": "AI奇点",
         "count": 3
       },
       {
@@ -760,6 +768,18 @@
         "count": 3
       },
       {
+        "word": "引爆AI圈大地震",
+        "count": 2
+      },
+      {
+        "word": "核弹来袭",
+        "count": 2
+      },
+      {
+        "word": "诸神之战",
+        "count": 2
+      },
+      {
         "word": "风控大地震",
         "count": 2
       },
@@ -768,15 +788,7 @@
         "count": 2
       },
       {
-        "word": "引爆AI圈",
-        "count": 2
-      },
-      {
         "word": "视频模型",
-        "count": 2
-      },
-      {
-        "word": "引爆硅谷",
         "count": 2
       },
       {
@@ -788,7 +800,7 @@
         "count": 2
       },
       {
-        "word": "神秘模型",
+        "word": "模型来袭",
         "count": 2
       },
       {
@@ -796,21 +808,25 @@
         "count": 2
       },
       {
-        "word": "Gemini模型",
+        "word": "AIStudio",
         "count": 2
       },
       {
-        "word": "全面收网",
-        "count": 2
-      },
-      {
-        "word": "视觉模型",
+        "word": "双重核弹",
         "count": 2
       }
     ],
     "trigrams": [
       {
         "word": "AI奇点已至",
+        "count": 2
+      },
+      {
+        "word": "跨入时代吓哭",
+        "count": 2
+      },
+      {
+        "word": "时代吓哭微软",
         "count": 2
       },
       {
@@ -880,28 +896,21 @@
       {
         "word": "参与美军空袭",
         "count": 2
-      },
-      {
-        "word": "美军空袭伊朗",
-        "count": 2
-      },
-      {
-        "word": "系列模型将发",
-        "count": 2
       }
     ]
   },
   "structure": {
-    "avgClauses": 4.5,
+    "avgClauses": 4.4,
     "separatorPatterns": {
-      "！": 82,
+      "！": 79,
       "，": 16,
       "；": 7,
       "？": 5,
+      "：": 3,
       "|": 2,
       "、": 1
     },
-    "exclamationDensity": 2,
+    "exclamationDensity": 1.9,
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
@@ -909,80 +918,92 @@
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
-        "count": 40
+        "count": 35
+      },
+      {
+        "pattern": "{传闻}，{推测}",
+        "count": 18
       },
       {
         "pattern": "{陈述}？{追问}",
-        "count": 19
+        "count": 18
       },
       {
         "pattern": "{情绪词}！{主题}，{后果}！",
         "count": 17
-      },
-      {
-        "pattern": "{传闻}，{推测}",
-        "count": 16
       }
     ],
     "clauseDistribution": {
-      "7句以上": 16,
-      "3-4句": 41,
+      "3-4句": 39,
       "5-6句": 41,
-      "1-2句": 15
+      "1-2句": 20,
+      "7句以上": 14
     }
   },
   "multiCategory": {
-    "悬念式": {
-      "pureCount": 4,
-      "totalCount": 47,
-      "pctDisplay": "41.6%"
-    },
     "情感式": {
       "pureCount": 0,
-      "totalCount": 98,
-      "pctDisplay": "86.7%"
+      "totalCount": 95,
+      "pctDisplay": "83.3%"
     },
-    "数字列表式": {
+    "教程式": {
       "pureCount": 0,
       "totalCount": 2,
       "pctDisplay": "1.8%"
     },
     "故事式": {
       "pureCount": 0,
-      "totalCount": 7,
-      "pctDisplay": "6.2%"
+      "totalCount": 9,
+      "pctDisplay": "7.9%"
     },
     "对比式": {
       "pureCount": 0,
-      "totalCount": 5,
-      "pctDisplay": "4.4%"
-    },
-    "教程式": {
-      "pureCount": 0,
-      "totalCount": 1,
-      "pctDisplay": "0.9%"
+      "totalCount": 6,
+      "pctDisplay": "5.3%"
     },
     "其他": {
-      "pureCount": 14,
-      "totalCount": 14,
-      "pctDisplay": "12.4%"
+      "pureCount": 17,
+      "totalCount": 17,
+      "pctDisplay": "14.9%"
+    },
+    "悬念式": {
+      "pureCount": 4,
+      "totalCount": 45,
+      "pctDisplay": "39.5%"
+    },
+    "数字列表式": {
+      "pureCount": 0,
+      "totalCount": 2,
+      "pctDisplay": "1.8%"
     }
   },
   "dynamicEmotion": [
     {
       "word": "泄露",
-      "count": 11
+      "count": 9
     },
     {
       "word": "彻底",
-      "count": 7
-    },
-    {
-      "word": "全线突围",
       "count": 6
     },
     {
+      "word": "狙击",
+      "count": 5
+    },
+    {
       "word": "突发",
+      "count": 5
+    },
+    {
+      "word": "全线突围",
+      "count": 5
+    },
+    {
+      "word": "突然",
+      "count": 4
+    },
+    {
+      "word": "融资",
       "count": 4
     },
     {
@@ -990,19 +1011,11 @@
       "count": 4
     },
     {
-      "word": "神秘",
-      "count": 4
-    },
-    {
-      "word": "免费",
-      "count": 4
-    },
-    {
-      "word": "融资",
+      "word": "疑似",
       "count": 3
     },
     {
-      "word": "狙击",
+      "word": "神秘",
       "count": 3
     },
     {
@@ -1014,16 +1027,28 @@
       "count": 3
     },
     {
-      "word": "输入",
+      "word": "免费",
       "count": 3
     },
     {
-      "word": "最强",
+      "word": "接入",
       "count": 3
     },
     {
       "word": "内测",
       "count": 3
+    },
+    {
+      "word": "提升",
+      "count": 2
+    },
+    {
+      "word": "连夜",
+      "count": 2
+    },
+    {
+      "word": "启动",
+      "count": 2
     },
     {
       "word": "不住",
@@ -1032,57 +1057,41 @@
     {
       "word": "强制",
       "count": 2
-    },
-    {
-      "word": "移交",
-      "count": 2
-    },
-    {
-      "word": "准备",
-      "count": 2
-    },
-    {
-      "word": "蒸馏",
-      "count": 2
-    },
-    {
-      "word": "真相",
-      "count": 2
     }
   ],
   "entities": {
     "companies": [
       {
         "word": "DeepSeek",
-        "count": 31
+        "count": 27
       },
       {
         "word": "OpenAI",
-        "count": 18
-      },
-      {
-        "word": "Google",
-        "count": 11
+        "count": 19
       },
       {
         "word": "Anthropic",
-        "count": 7
+        "count": 12
+      },
+      {
+        "word": "Google",
+        "count": 12
       },
       {
         "word": "MiniMax",
-        "count": 6
-      },
-      {
-        "word": "腾讯",
-        "count": 6
+        "count": 7
       },
       {
         "word": "智谱",
         "count": 4
       },
       {
+        "word": "腾讯",
+        "count": 4
+      },
+      {
         "word": "阶跃星辰",
-        "count": 2
+        "count": 3
       },
       {
         "word": "字节跳动",
@@ -1100,11 +1109,19 @@
     "products": [
       {
         "word": "Gemini",
-        "count": 17
+        "count": 16
       },
       {
         "word": "Claude",
         "count": 9
+      },
+      {
+        "word": "Mythos",
+        "count": 8
+      },
+      {
+        "word": "Qwen",
+        "count": 7
       },
       {
         "word": "Kimi",
@@ -1112,22 +1129,10 @@
       },
       {
         "word": "GPT",
-        "count": 7
-      },
-      {
-        "word": "Qwen",
         "count": 6
       },
       {
-        "word": "Mythos",
-        "count": 5
-      },
-      {
-        "word": "ChatGPT",
-        "count": 4
-      },
-      {
-        "word": "Grok",
+        "word": "千问",
         "count": 4
       },
       {
@@ -1135,11 +1140,11 @@
         "count": 4
       },
       {
-        "word": "Codex",
+        "word": "ChatGPT",
         "count": 3
       },
       {
-        "word": "千问",
+        "word": "Grok",
         "count": 3
       },
       {
@@ -1147,11 +1152,15 @@
         "count": 3
       },
       {
+        "word": "Sonnet",
+        "count": 2
+      },
+      {
         "word": "大屠杀",
         "count": 2
       },
       {
-        "word": "混元",
+        "word": "Codex",
         "count": 2
       },
       {
@@ -1162,11 +1171,11 @@
     "people": [
       {
         "word": "奥特曼",
-        "count": 9
+        "count": 8
       },
       {
         "word": "马斯克",
-        "count": 6
+        "count": 4
       },
       {
         "word": "梁文峰",
@@ -1193,71 +1202,76 @@
     },
     {
       "period": "2026-03",
-      "avgLength": 42,
+      "avgLength": 42.3,
       "exclamationDensity": 1.2,
       "emotionIntensity": 5,
       "topEmotion": "引爆",
-      "titleCount": 40
+      "titleCount": 41
     },
     {
       "period": "2026-04",
-      "avgLength": 55.1,
+      "avgLength": 56,
       "exclamationDensity": 2.7,
-      "emotionIntensity": 4.8,
-      "topEmotion": "大地震",
-      "titleCount": 27
+      "emotionIntensity": 4.9,
+      "topEmotion": "全面",
+      "titleCount": 15
     },
     {
       "period": "2026-05",
-      "avgLength": 59.4,
-      "exclamationDensity": 2.6,
-      "emotionIntensity": 6.9,
+      "avgLength": 59.1,
+      "exclamationDensity": 2.4,
+      "emotionIntensity": 7,
       "topEmotion": "后背发凉",
-      "titleCount": 30
+      "titleCount": 27
     },
     {
       "period": "2026-06",
       "avgLength": 59.5,
-      "exclamationDensity": 2,
-      "emotionIntensity": 6,
-      "topEmotion": "大地震",
-      "titleCount": 8
+      "exclamationDensity": 2.2,
+      "emotionIntensity": 5.4,
+      "topEmotion": "引爆",
+      "titleCount": 23
     }
   ],
   "coOccurrences": [
     {
-      "emotion": "大地震",
-      "topics": "AI圈大地震、AI日报、大地震、Kimi、深夜",
-      "count": 28
+      "emotion": "引爆",
+      "topics": "深夜、AI日报、AI圈、核弹、硅谷",
+      "count": 35
     },
     {
-      "emotion": "引爆",
-      "topics": "深夜、AI圈、AI日报、DeepSeek、大地震",
+      "emotion": "大地震",
+      "topics": "AI圈大地震、大地震、深夜、AI日报、Kimi",
       "count": 25
     },
     {
-      "emotion": "重磅",
-      "topics": "重磅炸弹、AI日报、AI圈大地震、深夜、Kimi",
-      "count": 18
+      "emotion": "核弹",
+      "topics": "核弹、AI日报、AI圈、载入史册、深夜",
+      "count": 20
     },
     {
       "emotion": "头皮发麻",
-      "topics": "头皮发麻、AI、AI日报、Agent、字节",
+      "topics": "头皮发麻、AI、DeepSeek、AI日报、Agent",
+      "count": 18
+    },
+    {
+      "emotion": "重磅",
+      "topics": "重磅炸弹、AI日报、AI圈大地震、模型、Kimi",
       "count": 17
     },
     {
       "emotion": "全面",
-      "topics": "全面、硅谷、AI日报、OpenAI、雪崩",
-      "count": 17
+      "topics": "全面、硅谷、Anthropic、雪崩、AI日报",
+      "count": 15
+    },
+    {
+      "emotion": "载入史册",
+      "topics": "载入史册、核弹、AI圈、AI日报、DeepSeek",
+      "count": 14
     },
     {
       "emotion": "雪崩",
       "topics": "雪崩、AI日报、Anthropic、硅谷、全面",
-      "count": 14
-    },
-    {
-      "emotion": "海啸",
-      "topics": "海啸、AI圈大地震、硅谷、雪崩、模型",
       "count": 14
     },
     {
@@ -1269,14 +1283,17 @@
       "emotion": "命运大转折",
       "topics": "命运、AI、AI日报、奇点、网文",
       "count": 13
-    },
-    {
-      "emotion": "震撼",
-      "topics": "模型、WC、Qwen、开源、DeepSeek",
-      "count": 13
     }
   ],
   "extractedTemplates": [
+    {
+      "template": "{EN}重拳出击限制免费用户！{EN}放大招办公套件{情绪}升级接入{EN}跨入次时代{情绪}微软！",
+      "count": 2,
+      "examples": [
+        "OpenAI 重拳出击限制免费用户！Google 放大招办公套件史诗级升级接入Agent跨入次时代吓哭微软！",
+        "OpenAI 重拳出击限制免费用户！Google 放大招办公套件史诗级升级接入Agent跨入次时代吓哭微软！"
+      ]
+    },
     {
       "template": "实锤，{EN}降智{EN}！谷歌开源模型{EN}{N}即将发布！",
       "count": 2,
@@ -1332,24 +1349,16 @@
         "超速了！Gemini 3.1 Flash Lite 即将来袭",
         "超速了！Gemini 3.1 Flash Lite 即将来袭"
       ]
-    },
-    {
-      "template": "{EN}，太{情绪}了。{EN}{N}.{N}系列多款小模型{情绪}开源！史上最强小模型系列来袭！",
-      "count": 2,
-      "examples": [
-        "WC，太炸裂了。Qwen 3.5 系列多款小模型震撼开源！史上最强小模型系列来袭！",
-        "WC，太炸裂了。Qwen 3.5 系列多款小模型震撼开源！史上最强小模型系列来袭！"
-      ]
     }
   ],
   "emotionIntensity": {
     "avgScore": 6.3,
     "distribution": {
-      "极强": 28,
-      "强烈": 17,
-      "中等": 29,
-      "轻微": 15,
-      "无": 24
+      "极强": 30,
+      "强烈": 16,
+      "中等": 25,
+      "轻微": 18,
+      "无": 25
     },
     "topIntense": [
       {
@@ -1373,7 +1382,7 @@
         "level": "极强"
       },
       {
-        "title": "央视315深夜曝光引爆重磅炸弹！AI圈遭遇史诗级“投毒”大地震，全网用户的智商斩杀线来了！",
+        "title": "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报062",
         "score": 18,
         "level": "极强"
       }
@@ -1382,115 +1391,115 @@
   "tfidf": {
     "topWords": [
       {
-        "word": "agent",
-        "tfidf": 4.723,
-        "freq": 6
-      },
-      {
-        "word": "pro",
-        "tfidf": 4.629,
+        "word": "sonnet",
+        "tfidf": 4.638,
         "freq": 2
       },
       {
-        "word": "m3",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "seedance",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "ceo",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "studio",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "app",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "cursor",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "code",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "spud",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "siri",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "wc",
-        "tfidf": 4.629,
-        "freq": 2
-      },
-      {
-        "word": "r18",
-        "tfidf": 4.629,
+        "word": "fable",
+        "tfidf": 4.638,
         "freq": 2
       },
       {
         "word": "codex",
-        "tfidf": 4.341,
-        "freq": 3
+        "tfidf": 4.638,
+        "freq": 2
       },
       {
-        "word": "max",
-        "tfidf": 4.341,
+        "word": "ceo",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "studio",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "app",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "cursor",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "spud",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "siri",
+        "tfidf": 4.638,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.341,
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "wc",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "r18",
+        "tfidf": 4.638,
+        "freq": 2
+      },
+      {
+        "word": "max",
+        "tfidf": 4.35,
+        "freq": 2
+      },
+      {
+        "word": "pro",
+        "tfidf": 4.35,
         "freq": 3
       },
       {
-        "word": "gemma",
-        "tfidf": 4.341,
+        "word": "seedance",
+        "tfidf": 4.35,
         "freq": 3
       },
       {
-        "word": "flash",
-        "tfidf": 4.341,
+        "word": "code",
+        "tfidf": 4.35,
+        "freq": 3
+      },
+      {
+        "word": "m3",
+        "tfidf": 4.35,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.118,
-        "freq": 4
+        "tfidf": 4.35,
+        "freq": 3
       },
       {
         "word": "token",
-        "tfidf": 4.118,
-        "freq": 4
+        "tfidf": 4.35,
+        "freq": 3
+      },
+      {
+        "word": "grok",
+        "tfidf": 4.35,
+        "freq": 3
       }
     ]
   },
   "sentimentAnalysis": {
-    "avgScore": 6.4,
+    "avgScore": 6.3,
     "distribution": {
-      "极强": 28,
-      "强烈": 17,
-      "中等": 30,
-      "轻微": 14,
-      "无": 24
+      "极强": 30,
+      "强烈": 16,
+      "中等": 26,
+      "轻微": 17,
+      "无": 25
     },
     "topPositive": [
       {
@@ -1510,7 +1519,7 @@
         "score": 18.5
       },
       {
-        "title": "央视315深夜曝光引爆重磅炸弹！AI圈遭遇史诗级“投毒”大地震，全网用户的智商斩杀线来了！",
+        "title": "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报062",
         "score": 18
       }
     ],
@@ -1541,7 +1550,7 @@
     "organizations": [
       {
         "word": "google",
-        "count": 6
+        "count": 9
       }
     ],
     "people": [
@@ -1553,27 +1562,27 @@
     "places": [],
     "nouns": [
       {
-        "word": "gemini",
-        "count": 7
+        "word": "gpt-5.6",
+        "count": 5
+      },
+      {
+        "word": "agent",
+        "count": 5
       },
       {
         "word": "kimi",
-        "count": 6
+        "count": 5
+      },
+      {
+        "word": "gemini",
+        "count": 5
       },
       {
         "word": "deepseek v4",
-        "count": 6
+        "count": 5
       },
       {
-        "word": "chatgpt",
-        "count": 4
-      },
-      {
-        "word": "gpt-5.5",
-        "count": 4
-      },
-      {
-        "word": "gpt",
+        "word": "mythos",
         "count": 4
       },
       {
@@ -1589,7 +1598,7 @@
         "count": 4
       },
       {
-        "word": "api",
+        "word": "gemini 3.5 pro",
         "count": 3
       }
     ]
