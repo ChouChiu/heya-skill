@@ -3,7 +3,7 @@
     "creator": "黑鸦",
     "uid": "3706929260006322",
     "totalVideos": 116,
-    "analysisDate": "2026-06-24"
+    "analysisDate": "2026-06-25"
   },
   "patterns": {
     "structure": {
@@ -12,16 +12,16 @@
         "count": 44,
         "pctDisplay": "37.9%",
         "examples": [
+          "AI圈大型灵异事件！OpenAI 疑似开错生死簿：Pro 用户一觉醒来额度蒸发，账号像被 OpenAI 后台夺舍…… | AI日报0625",
           "头皮发麻！DeepSeek疑似暗中升级，今日神秘停摆44分钟，500亿融资震惊全球同行！| AI日报0616",
           "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
           "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607",
-          "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606",
-          "AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604"
+          "重磅炸弹！Claude Mythos 5 幽灵现身 API，OpenAI即将被招安？特朗普与奥特曼惊天密谋泄露！| AI日报0606"
         ],
         "templates": [
+          "AI圈大型灵异事件！OpenAI 疑似开错生死簿：Pro 用户一觉醒来额度蒸发，账号像被 OpenAI 后台夺舍…… | AI日报0625",
           "头皮发麻！DeepSeek疑似暗中升级，今日神秘停摆44分钟，500亿融资震惊全球同行！| AI日报0616",
-          "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
-          "OpenAI雪崩！芯片核心大将连夜叛逃Anthropic，奥特曼的棺材板快按不住了……| AI日报0607"
+          "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608"
         ]
       },
       "数字列表式": {
@@ -166,10 +166,6 @@
         "count": 4
       },
       {
-        "word": "头皮发麻",
-        "count": 4
-      },
-      {
         "word": "硝烟弥漫",
         "count": 4
       },
@@ -188,12 +184,16 @@
       {
         "word": "窒息",
         "count": 3
+      },
+      {
+        "word": "头皮发麻",
+        "count": 3
       }
     ],
     "aiTerms": [
       {
         "word": "AI",
-        "count": 110
+        "count": 112
       },
       {
         "word": "模型",
@@ -205,7 +205,7 @@
       },
       {
         "word": "OpenAI",
-        "count": 20
+        "count": 22
       },
       {
         "word": "发布",
@@ -244,12 +244,8 @@
         "count": 9
       },
       {
-        "word": "Agent",
-        "count": 8
-      },
-      {
         "word": "上线",
-        "count": 8
+        "count": 7
       },
       {
         "word": "Kimi",
@@ -264,6 +260,10 @@
         "count": 7
       },
       {
+        "word": "Agent",
+        "count": 6
+      },
+      {
         "word": "曝光",
         "count": 5
       },
@@ -275,7 +275,7 @@
     "highFrequency": [
       {
         "word": "AI日报",
-        "count": 67
+        "count": 68
       },
       {
         "word": "模型",
@@ -287,7 +287,7 @@
       },
       {
         "word": "OpenAI",
-        "count": 20
+        "count": 22
       },
       {
         "word": "AI",
@@ -295,7 +295,7 @@
       },
       {
         "word": "AI圈",
-        "count": 17
+        "count": 18
       },
       {
         "word": "Gemini",
@@ -335,10 +335,6 @@
       },
       {
         "word": "奥特曼",
-        "count": 8
-      },
-      {
-        "word": "Agent",
         "count": 8
       },
       {
@@ -382,6 +378,10 @@
         "count": 7
       },
       {
+        "word": "Agent",
+        "count": 6
+      },
+      {
         "word": "AI圈大地震",
         "count": 6
       },
@@ -415,7 +415,7 @@
     "statement": 0.759
   },
   "length": {
-    "avg": 51.4,
+    "avg": 51.5,
     "min": 25,
     "max": 80,
     "median": 51,
@@ -479,11 +479,11 @@
   "punctuation": {
     "exclamationEnd": 0.233,
     "questionEnd": 0.009,
-    "ellipsisEnd": 0.069
+    "ellipsisEnd": 0.06
   },
   "aiDaily": {
-    "count": 68,
-    "pct": 58.6
+    "count": 69,
+    "pct": 59.5
   },
   "wordsByPOS": {
     "adjectives": [
@@ -500,11 +500,11 @@
         "count": 4
       },
       {
-        "word": "直接",
-        "count": 4
+        "word": "神秘",
+        "count": 3
       },
       {
-        "word": "神秘",
+        "word": "直接",
         "count": 3
       },
       {
@@ -578,6 +578,10 @@
         "count": 5
       },
       {
+        "word": "疑似",
+        "count": 4
+      },
+      {
         "word": "瘫坐",
         "count": 4
       },
@@ -602,18 +606,14 @@
         "count": 4
       },
       {
-        "word": "窒息",
-        "count": 3
-      },
-      {
-        "word": "疑似",
+        "word": "觉醒",
         "count": 3
       }
     ],
     "nouns": [
       {
         "word": "AI日报",
-        "count": 67
+        "count": 68
       },
       {
         "word": "模型",
@@ -621,7 +621,7 @@
       },
       {
         "word": "AI圈",
-        "count": 17
+        "count": 18
       },
       {
         "word": "硅谷",
@@ -660,15 +660,15 @@
         "count": 6
       },
       {
-        "word": "字节",
-        "count": 5
-      },
-      {
         "word": "时代",
         "count": 5
       },
       {
         "word": "全面",
+        "count": 5
+      },
+      {
+        "word": "全网",
         "count": 5
       }
     ],
@@ -679,7 +679,7 @@
       },
       {
         "word": "OpenAI",
-        "count": 20
+        "count": 22
       },
       {
         "word": "AI",
@@ -702,10 +702,6 @@
         "count": 9
       },
       {
-        "word": "Agent",
-        "count": 8
-      },
-      {
         "word": "Mythos",
         "count": 8
       },
@@ -724,6 +720,10 @@
       {
         "word": "MiniMax",
         "count": 7
+      },
+      {
+        "word": "Agent",
+        "count": 6
       },
       {
         "word": "GPT",
@@ -904,11 +904,11 @@
   "structure": {
     "avgClauses": 4.4,
     "separatorPatterns": {
-      "！": 80,
+      "！": 81,
       "，": 16,
       "；": 7,
-      "？": 5,
       "：": 4,
+      "？": 4,
       "|": 2,
       "、": 1
     },
@@ -916,7 +916,7 @@
     "formulaTemplates": [
       {
         "pattern": "{事件们} | AI日报{日期}",
-        "count": 68
+        "count": 69
       },
       {
         "pattern": "{事件1}！{事件2}！{事件3}！",
@@ -924,11 +924,11 @@
       },
       {
         "pattern": "{传闻}，{推测}",
-        "count": 18
+        "count": 19
       },
       {
         "pattern": "{陈述}？{追问}",
-        "count": 18
+        "count": 17
       },
       {
         "pattern": "{情绪词}！{主题}，{后果}！",
@@ -936,13 +936,18 @@
       }
     ],
     "clauseDistribution": {
-      "5-6句": 40,
-      "3-4句": 42,
+      "3-4句": 43,
+      "5-6句": 39,
       "1-2句": 20,
       "7句以上": 14
     }
   },
   "multiCategory": {
+    "悬念式": {
+      "pureCount": 4,
+      "totalCount": 44,
+      "pctDisplay": "37.9%"
+    },
     "情感式": {
       "pureCount": 0,
       "totalCount": 97,
@@ -972,11 +977,6 @@
       "pureCount": 17,
       "totalCount": 17,
       "pctDisplay": "14.7%"
-    },
-    "悬念式": {
-      "pureCount": 4,
-      "totalCount": 44,
-      "pctDisplay": "37.9%"
     }
   },
   "dynamicEmotion": [
@@ -997,6 +997,10 @@
       "count": 5
     },
     {
+      "word": "疑似",
+      "count": 4
+    },
+    {
       "word": "突然",
       "count": 4
     },
@@ -1005,15 +1009,11 @@
       "count": 4
     },
     {
-      "word": "直接",
-      "count": 4
-    },
-    {
       "word": "全线突围",
       "count": 4
     },
     {
-      "word": "疑似",
+      "word": "觉醒",
       "count": 3
     },
     {
@@ -1022,6 +1022,10 @@
     },
     {
       "word": "神秘",
+      "count": 3
+    },
+    {
+      "word": "直接",
       "count": 3
     },
     {
@@ -1055,10 +1059,6 @@
     {
       "word": "仿佛",
       "count": 2
-    },
-    {
-      "word": "看到",
-      "count": 2
     }
   ],
   "entities": {
@@ -1069,7 +1069,7 @@
       },
       {
         "word": "OpenAI",
-        "count": 19
+        "count": 20
       },
       {
         "word": "Anthropic",
@@ -1220,19 +1220,19 @@
     },
     {
       "period": "2026-05",
-      "avgLength": 59.1,
+      "avgLength": 59.2,
       "exclamationDensity": 2.4,
-      "emotionIntensity": 6.5,
+      "emotionIntensity": 6.6,
       "topEmotion": "引爆",
-      "titleCount": 25
+      "titleCount": 24
     },
     {
       "period": "2026-06",
-      "avgLength": 59.9,
-      "exclamationDensity": 2.2,
-      "emotionIntensity": 5.3,
+      "avgLength": 60.2,
+      "exclamationDensity": 2.1,
+      "emotionIntensity": 5.1,
       "topEmotion": "引爆",
-      "titleCount": 25
+      "titleCount": 26
     }
   ],
   "coOccurrences": [
@@ -1272,11 +1272,6 @@
       "count": 15
     },
     {
-      "emotion": "头皮发麻",
-      "topics": "头皮发麻、AI日报、Agent、DeepSeek、字节",
-      "count": 14
-    },
-    {
       "emotion": "载入史册",
       "topics": "载入史册、核弹、AI圈、AI日报、DeepSeek",
       "count": 14
@@ -1284,6 +1279,11 @@
     {
       "emotion": "雪崩",
       "topics": "雪崩、AI日报、Anthropic、硅谷、全面",
+      "count": 14
+    },
+    {
+      "emotion": "炸裂",
+      "topics": "模型、WC、Qwen、开源、Nano",
       "count": 14
     }
   ],
@@ -1357,10 +1357,10 @@
     "avgScore": 6.1,
     "distribution": {
       "极强": 29,
-      "强烈": 17,
+      "强烈": 16,
       "中等": 25,
       "轻微": 20,
-      "无": 25
+      "无": 26
     },
     "topIntense": [
       {
@@ -1463,6 +1463,11 @@
         "freq": 2
       },
       {
+        "word": "plan",
+        "tfidf": 4.367,
+        "freq": 3
+      },
+      {
         "word": "seedance",
         "tfidf": 4.367,
         "freq": 3
@@ -1486,22 +1491,17 @@
         "word": "token",
         "tfidf": 4.367,
         "freq": 3
-      },
-      {
-        "word": "grok",
-        "tfidf": 4.367,
-        "freq": 3
       }
     ]
   },
   "sentimentAnalysis": {
-    "avgScore": 6.2,
+    "avgScore": 6.1,
     "distribution": {
       "极强": 29,
-      "强烈": 17,
+      "强烈": 16,
       "中等": 26,
       "轻微": 19,
-      "无": 25
+      "无": 26
     },
     "topPositive": [
       {
@@ -1572,10 +1572,6 @@
         "count": 6
       },
       {
-        "word": "agent",
-        "count": 5
-      },
-      {
         "word": "kimi",
         "count": 5
       },
@@ -1585,6 +1581,10 @@
       },
       {
         "word": "gemini 3.5 pro",
+        "count": 4
+      },
+      {
+        "word": "agent",
         "count": 4
       },
       {
