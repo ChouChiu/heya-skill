@@ -1,131 +1,5 @@
 [
   {
-    "bvid": "BV1k47Y6yEoj",
-    "aid": 116810661758393,
-    "title": "AI圈大型灵异事件！OpenAI 疑似开错生死簿：Pro 用户一觉醒来额度蒸发，账号像被 OpenAI 后台夺舍…… | AI日报0625",
-    "created": 1782390055,
-    "createdDate": "2026-06-25"
-  },
-  {
-    "bvid": "BV1YqjR6WEHi",
-    "aid": 116804772957702,
-    "title": "六月飞雪！AI圈核冬天：GPT-5.6 推迟；Gemini 3.5 Pro 被嫌弃；Fable 5无归期，Sonnet 5 撑门面！| AI日报0624",
-    "created": 1782299522,
-    "createdDate": "2026-06-24"
-  },
-  {
-    "bvid": "BV1q5j26TE2L",
-    "aid": 116799270027570,
-    "title": "AI圈失眠：字节连发5款豆包模型统治东半球，核弹无力瘫坐在奥特曼上仿佛看到椅子爆炸！| AI日报0623",
-    "created": 1782215492,
-    "createdDate": "2026-06-23"
-  },
-  {
-    "bvid": "BV1Wj7K6qEzx",
-    "aid": 116793481888202,
-    "title": "AI圈突然窒息：字节亮刀 Seed 2.1 正在血洗前端榜！Anthropic 藏牌 Sonnet 5 疑似浮出水面！| AI日报0622",
-    "created": 1782127367,
-    "createdDate": "2026-06-22"
-  },
-  {
-    "bvid": "BV13qj867Ecy",
-    "aid": 116788046072482,
-    "title": "正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621",
-    "created": 1782044340,
-    "createdDate": "2026-06-21"
-  },
-  {
-    "bvid": "BV1f2jH6ME3M",
-    "aid": 116782392151777,
-    "title": "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620",
-    "created": 1781958142,
-    "createdDate": "2026-06-20"
-  },
-  {
-    "bvid": "BV1kbjB6REeE",
-    "aid": 116776436303139,
-    "title": "AI核战引爆！GPT-5.6与Gemini 3.5 Pro连夜互掷核弹，硅谷绞肉机已启动！达里奥吓到冷汗直流！！！",
-    "created": 1781867095,
-    "createdDate": "2026-06-19"
-  },
-  {
-    "bvid": "BV1ewjP6LEz5",
-    "aid": 116770748763677,
-    "title": "DeepSeek 正式上线“识图模式”；阶跃星辰限免提供 Step Plan | AI日报0618",
-    "created": 1781780270,
-    "createdDate": "2026-06-18"
-  },
-  {
-    "bvid": "BV1a3LR6EEAE",
-    "aid": 116765480848679,
-    "title": "重磅炸弹！Google新图像模型“速食拉面”即将来袭！纳米香蕉已成过去式！正面对决 GPT-Image-2！| AI日报0617",
-    "created": 1781699892,
-    "createdDate": "2026-06-17"
-  },
-  {
-    "bvid": "BV17hj36zEKb",
-    "aid": 116759390651607,
-    "title": "头皮发麻！DeepSeek疑似暗中升级，今日神秘停摆44分钟，500亿融资震惊全球同行！| AI日报0616",
-    "created": 1781607161,
-    "createdDate": "2026-06-16"
-  },
-  {
-    "bvid": "BV1J9JG6WEqH",
-    "aid": 116753736729690,
-    "title": "最新消息：Gemini 3.5 Pro 与 DeepSeek-V4.1",
-    "created": 1781520752,
-    "createdDate": "2026-06-15"
-  },
-  {
-    "bvid": "BV1VTJP6XEZT",
-    "aid": 116748485397864,
-    "title": "悲哀！AI圈柏林墙已然筑起，大KYC时代即将来临！字节绞杀对手即将推出 Seedance 2.0 mini！| AI 日报0614",
-    "created": 1781440635,
-    "createdDate": "2026-06-14"
-  },
-  {
-    "bvid": "BV1YrJn6eE4R",
-    "aid": 116742177229786,
-    "title": "载入史册！智谱突然发布核弹 GLM-5.2 引爆AI圈，Anthropic 慌忙下架 fable 5 暂避锋芒！| AI日报0613",
-    "created": 1781344530,
-    "createdDate": "2026-06-13"
-  },
-  {
-    "bvid": "BV1fPJ76wEYA",
-    "aid": 116740331668076,
-    "title": "突发：Anthropic 因美国政府出口管制指令全面禁用 Fable 5 和 Mythos 5",
-    "created": 1781316215,
-    "createdDate": "2026-06-13"
-  },
-  {
-    "bvid": "BV1QnE16cEP7",
-    "aid": 116736808454194,
-    "title": "AI圈核弹来袭！Kimi K2.7 Code 突然发布引爆宇宙！华为国产纯血盘古模型2.0正式发布，拳打OpenAI脚踢Anthropic！| AI日报0612",
-    "created": 1781262500,
-    "createdDate": "2026-06-12"
-  },
-  {
-    "bvid": "BV1RoEi6yEH5",
-    "aid": 116731305528727,
-    "title": "AI圈大乱！MiniMax M3 即将开源；Anthropic 低头认错，OpenAI 认输甩卖！| AI日报0611",
-    "created": 1781179022,
-    "createdDate": "2026-06-11"
-  },
-  {
-    "bvid": "BV1KAE961EXY",
-    "aid": 116725366394317,
-    "title": "AI圈沸腾！狙击Mythos，智谱 GLM-5.2 或将发布引爆硅谷！达里奥吓出癫痫，无力瘫坐等待被处刑！| AI日报0610",
-    "created": 1781088029,
-    "createdDate": "2026-06-10"
-  },
-  {
-    "bvid": "BV14eEm6cEJK",
-    "aid": 116720048147759,
-    "title": "大模型诸神之战！Mythos与GPT-5.6呼之欲出！剑拔弩张擦枪走火！硝烟弥漫全网！| AI日报",
-    "created": 1781006721,
-    "createdDate": "2026-06-09"
-  },
-  {
     "bvid": "BV1xKEg69Efx",
     "aid": 116713974662300,
     "title": "AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608",
@@ -266,13 +140,6 @@
     "createdDate": "2026-05-20"
   },
   {
-    "bvid": "BV1EBLC6cEq4",
-    "aid": 116604973157145,
-    "title": "【黑鸦Heya】一个视频带你看完Google I/O 2026",
-    "created": 1779251321,
-    "createdDate": "2026-05-20"
-  },
-  {
     "bvid": "BV1jvLz62EFv",
     "aid": 116601114397265,
     "title": "哈基米时代来临！Gemini 3.5 悄然上线！Google 限额新规正式发布斩杀老用户！DeepSeek官方紧急回应字符bug！| AI日报0519",
@@ -348,6 +215,139 @@
     "title": "AI圈炸锅！DeepSeek又报异常，大的要来了？突然觉醒切断服务以接管世界？硅基文明或已诞生，人类已被踢出群聊！| AI日报0508",
     "created": 1778237541,
     "createdDate": "2026-05-08"
+  },
+  {
+    "bvid": "BV1hddcBFEgr",
+    "aid": 116533082785663,
+    "title": "疯了？字节火山上线1000元 Agent Plan，头皮发麻！50 万 Agent 燃料直接轰炸全场！战吗？战啊…",
+    "created": 1778153902,
+    "createdDate": "2026-05-07"
+  },
+  {
+    "bvid": "BV17fRxB3ETz",
+    "aid": 116527445707539,
+    "title": "见证历史！国家队大基金史无前例投资DeepSeek，首个3000亿AI“亲儿子”诞生！中美AI阻击战全线突围！看完头皮发麻冷汗直流",
+    "created": 1778067755,
+    "createdDate": "2026-05-06"
+  },
+  {
+    "bvid": "BV1viR1BoE9b",
+    "aid": 116521389000559,
+    "title": "隐忍数月！Gemini 3.2 满血复仇，实测后背发凉、冷汗直流！奥特曼瘫坐；阿莫迪吓出癫痫 | AI日报",
+    "created": 1777975615,
+    "createdDate": "2026-05-05"
+  },
+  {
+    "bvid": "BV1dvReBZEqH",
+    "aid": 116515802186446,
+    "title": "AI圈已疯狂！神秘国模比肩GPT-5.5，AI竞赛大结局！豆包即将开始收费，最高每月500元！|AI日报0504",
+    "created": 1777890276,
+    "createdDate": "2026-05-04"
+  },
+  {
+    "bvid": "BV1GARwBhEi7",
+    "aid": 116510668359252,
+    "title": "头皮发麻！谷歌神秘模型 Gemini Omni 泄露！商汤开放Token Plan限量免费公测！| AI日报0503",
+    "created": 1777811805,
+    "createdDate": "2026-05-03"
+  },
+  {
+    "bvid": "BV1f6R7BnEsV",
+    "aid": 116504779620522,
+    "title": "背水一战！Gemini 新模型蓄势待发现身 Arena！OpenAI强行打通openclaw！|AI圈大事记0502",
+    "created": 1777722043,
+    "createdDate": "2026-05-02"
+  },
+  {
+    "bvid": "BV1s9RuB6EVS",
+    "aid": 116499142609633,
+    "title": "全面收网！OpenAI绞杀中国用户！马斯克承认蒸馏GPT，奥特曼无力瘫坐！|AI日报0501",
+    "created": 1777636083,
+    "createdDate": "2026-05-01"
+  },
+  {
+    "bvid": "BV11t9eB6EEy",
+    "aid": 116493757056140,
+    "title": "深夜引爆！DeepSeek联手清北抛出多模态重磅炸弹，传统视觉模型已被判死刑！| AI日报0430",
+    "created": 1777553884,
+    "createdDate": "2026-04-30"
+  },
+  {
+    "bvid": "BV1gC9xBtEJP",
+    "aid": 116488103070313,
+    "title": "小鲸鱼长出眼睛了！AI圈大地震，多模态海啸席卷而来！| AI日报",
+    "created": 1777467527,
+    "createdDate": "2026-04-29"
+  },
+  {
+    "bvid": "BV1Wm9kBfEc8",
+    "aid": 116482180710560,
+    "title": "杀疯了！DeepSeek视觉模型即将来袭！DeepSeek-V4-Pro 优惠延期，超低价风暴席卷5月！| AI日报",
+    "created": 1777377263,
+    "createdDate": "2026-04-28"
+  },
+  {
+    "bvid": "BV1hjoCBSEL5",
+    "aid": 116476845493367,
+    "title": "价格战！算力战！百模大战！智谱GLM全线突围死磕到底！AI算力保卫战来了，战吗？战啊……",
+    "created": 1777295752,
+    "createdDate": "2026-04-27"
+  },
+  {
+    "bvid": "BV1nsovBGEJu",
+    "aid": 116471275454684,
+    "title": "彻底疯狂！DeepSeek 再次大降价，缓存输入已打骨折！AI圈已沸腾，开发者已疯狂！",
+    "created": 1777210862,
+    "createdDate": "2026-04-26"
+  },
+  {
+    "bvid": "BV1qEoQBnErC",
+    "aid": 116465470541009,
+    "title": "AI圈大地震！谷歌宣布 Gemini 新模型将至！DeepSeek-V4 泄露官方隐藏“角色扮演模式”！| AI日报0425",
+    "created": 1777122305,
+    "createdDate": "2026-04-25"
+  },
+  {
+    "bvid": "BV1xuoYB1Eeo",
+    "aid": 116453693131326,
+    "title": "卧槽！腾讯混元龙王归来发布 Hy3 Preview！DeepSeek 动作频频就是不发，急哭！| AI日报0423",
+    "created": 1776942409,
+    "createdDate": "2026-04-23"
+  },
+  {
+    "bvid": "BV1qGosB6EKn",
+    "aid": 116447904859203,
+    "title": "DeepSeek V4 Lite 短暂上线 API；智谱斩杀老用户；GPT-5.5 在 Codex 现踪迹！| AI日报0422",
+    "created": 1776854180,
+    "createdDate": "2026-04-22"
+  },
+  {
+    "bvid": "BV1SCdSBaEXu",
+    "aid": 116442032835348,
+    "title": "新王登基！GPT Image 2 已全量免费上线！香蕉已死！腾讯美团旗舰模型将至，血腥战场一触即发！| AI日报4月21日",
+    "created": 1776764470,
+    "createdDate": "2026-04-21"
+  },
+  {
+    "bvid": "BV1Z3drBHE3y",
+    "aid": 116436831898714,
+    "title": "国产最强！阿里 Qwen3.6 Max 杀死了比赛！全球程序员被吓到眩晕瘫坐，那一刻就像看到原子弹爆炸！|AI日报",
+    "created": 1776685161,
+    "createdDate": "2026-04-20"
+  },
+  {
+    "bvid": "BV121doB5EAm",
+    "aid": 116430976714331,
+    "title": "已疯传！DeepSeek V4 下周发布；GPT-5.5 或已在 ChatGPT 上隐秘测试|AI日报",
+    "created": 1776595886,
+    "createdDate": "2026-04-19"
+  },
+  {
+    "bvid": "BV1CxdHBgEHK",
+    "aid": 116425591097899,
+    "title": "AI圈大地震！Kimi 悄然部署 K2.6 阻击 DeepSeek！OpenAI 核心纷纷出走！马斯克官宣 Grok 模型完整体巨兽将周更！",
+    "created": 1776513646,
+    "createdDate": "2026-04-18"
   },
   {
     "bvid": "BV1VVd5BTEnr",
@@ -698,6 +698,13 @@
     "title": "Nano Banana 2 泄露！阶跃星辰将上市！｜AI日报2月25日",
     "created": 1772027123,
     "createdDate": "2026-02-25"
+  },
+  {
+    "bvid": "BV1ySwEzUEA7",
+    "aid": 116222435853368,
+    "title": "重磅炸弹！杨植麟携Kimi K3突袭硅谷，全球同行陷入瘫痪…… | AI日报3月13日",
+    "created": 1773413764,
+    "createdDate": "2026-03-13"
   },
   {
     "bvid": "BV1FhcrzTEwn",
