@@ -18,44 +18,44 @@ export type VideoViewResponse = BilibiliEnvelope<Record<string, unknown>>;
  * @typeParam T - The inner `data` payload type.
  */
 export interface BilibiliEnvelope<T> {
-  code: number;
-  message: string;
-  ttl?: number;
-  data: T;
+	code: number;
+	message: string;
+	ttl?: number;
+	data: T;
 }
 
 export interface NavWbiResponse {
-  code: number;
-  message: string;
-  data?: {
-    wbi_img?: {
-      img_url?: string;
-      sub_url?: string;
-    };
-  };
+	code: number;
+	message: string;
+	data?: {
+		wbi_img?: {
+			img_url?: string;
+			sub_url?: string;
+		};
+	};
 }
 
 export interface ArcSearchVideo {
-  aid?: number;
-  bvid?: string;
-  title?: string;
-  created?: number;
-  pubdate?: number;
-  description?: string;
-  length?: string;
+	aid?: number;
+	bvid?: string;
+	title?: string;
+	created?: number;
+	pubdate?: number;
+	description?: string;
+	length?: string;
 }
 
 export interface ArcSearchResponse {
-  code: number;
-  message: string;
-  data?: {
-    page?: {
-      count?: number;
-      pn?: number;
-      ps?: number;
-    };
-    list?: {
-      vlist?: ArcSearchVideo[];
-    };
-  };
+	code: number;
+	message: string;
+	data?: {
+		page?: {
+			count?: number;
+			pn?: number;
+			ps?: number;
+		};
+		list?: {
+			vlist?: ArcSearchVideo[];
+		};
+	};
 }

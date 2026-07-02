@@ -1,23 +1,23 @@
 {
-  "name": "heya-skill",
-  "version": "2.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "pipeline": "bun run src/index.ts",
-    "check": "biome check . && tsc --noEmit",
-    "format": "biome check --write .",
-    "test": "bun test",
-    "docs": "typedoc"
-  },
-  "dependencies": {
-    "jieba-wasm": "^2.4.0",
-    "yaml": "^2.9.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.5.2",
-    "@types/bun": "^1.3.14",
-    "typedoc": "^0.28.19",
-    "typescript": "^6.0.3"
-  }
+	"name": "heya-skill",
+	"version": "2.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"pipeline": "bun run src/index.ts",
+		"check": "biome check . && tsc --noEmit",
+		"format": "biome check --write .",
+		"test": "bun test",
+		"docs": "typedoc"
+	},
+	"dependencies": {
+		"jieba-wasm": "^2.4.0",
+		"yaml": "^2.9.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.2",
+		"@types/bun": "^1.3.14",
+		"typedoc": "^0.28.19",
+		"typescript": "^6.0.3"
+	}
 }

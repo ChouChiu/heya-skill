@@ -5,13 +5,13 @@
  * @param status - Optional HTTP status code (e.g. 412).
  */
 export class BilibiliApiError extends Error {
-  constructor(
-    message: string,
-    readonly status?: number,
-  ) {
-    super(message);
-    this.name = "BilibiliApiError";
-  }
+	constructor(
+		message: string,
+		readonly status?: number,
+	) {
+		super(message);
+		this.name = "BilibiliApiError";
+	}
 }
 
 /**
@@ -21,9 +21,9 @@ export class BilibiliApiError extends Error {
  * @returns `true` if response looks like a risk‑control page.
  */
 export function isRiskControlHtml(body: string): boolean {
-  return (
-    body.includes("错误号: 412") ||
-    body.includes("security control policy") ||
-    body.includes("<html")
-  );
+	return (
+		body.includes("错误号: 412") ||
+		body.includes("security control policy") ||
+		body.includes("<html")
+	);
 }

@@ -1,4 +1,4 @@
 export interface SkillSection {
-  title: string;
-  body: string;
+	title: string;
+	body: string;
 }

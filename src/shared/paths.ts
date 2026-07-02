@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 
 // Repository root: 3 levels up from this file (src/shared/ → src/ → root/)
 export const rootDir = dirname(
-  dirname(dirname(fileURLToPath(import.meta.url))),
+	dirname(dirname(fileURLToPath(import.meta.url))),
 );
 export const skillDir = join(rootDir, "skills", "heya-title-style");
 export const researchDir = join(skillDir, "references");
