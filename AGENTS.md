@@ -1,60 +1,80 @@
 # AGENTS.md
 
+Bilibili creator "黑鸦" title style generator — CLI pipeline + AI skill output.
+
+## Runtime
+
+- **Bun only**. Every command uses `bun`. No npm/pnpm/yarn.
+- `bun run <script>` for package.json scripts, `bun test` for tests.
+- `#!/usr/bin/env bun` shebang on `src/index.ts`.
+
 ## Commands
 
-```bash
-bun install              # install deps
-bun test                 # run all tests (bun:test)
-bun test tests/<file>    # run single test file
-bun run check            # biome lint/format + tsc --noEmit
-bun run format           # biome check --write
-bun pipeline             # full pipeline: fetch → analyze → generate SKILL.md
-bun pipeline --skip-fetch    # use existing titles, run analysis + generation
-bun pipeline --skip-analyze  # use existing analysis, run generation only
-bun pipeline --dry-run       # print plan, do nothing
-
+```sh
+bun install          # install deps (bun.lock)
+bun run check        # biome check . && tsc --noEmit
+bun run format       # biome check --write .
+bun test             # bun:test (Bun's built-in test runner)
+bun run pipeline     # full pipeline: fetch → analyze → generate
+bun run pipeline --skip-fetch --skip-analyze --dry-run
+bun run docs         # typedoc → docs/ (gitignored)
 ```
 
-Always run `bun run check` before committing. Run `bun test` after changes.
+**Order matters**: `bun run check` before `bun test`. CI enforces this.
+
+## SKILL.md generation
+
+- **Template**: `SKILL.template.md` — the canonical source. Edit this file.
+- **Output**: `skills/heya-title-style/SKILL.md` — auto-generated, but committed.
+- **AUTO sections**: Content between `<!-- AUTO_START:xxx -->` / `<!-- AUTO_END:xxx -->` is replaced by pipeline. Never edit these sections in the output file.
+- **Reference data**: `skills/heya-title-style/references/` is also auto-generated.
+
+Pipeline phases: fetch (Bilibili API) → analyze (deterministic stats) → generate (template substitution).
 
 ## Environment
 
-- `BILIBILI_COOKIE` — required for `bun pipeline` (fetch phase). Skipped with `--skip-fetch` or `--dry-run`.
-- `BILIBILI_MID` — defaults to `3706929260006322`
-- `BILIBILI_PAGE_SIZE` — defaults to `30`
-- Copy `.env.example` → `.env` and fill in the cookie.
+| Variable | Required | Default | Notes |
+|---|---|---|---|
+| `BILIBILI_COOKIE` | yes (skip with `--skip-fetch`) | — | Bilibili login cookie |
+| `BILIBILI_MID` | no | `3706929260006322` | Target user ID (黑鸦) |
+| `BILIBILI_PAGE_SIZE` | no | `30` | Archive API page size |
+
+Copy `.env.example` to `.env` (gitignored) and fill in the cookie.
+
+## Lint / format
+
+- **Biome** (v2.5+), not ESLint/Prettier.
+- Excludes: `skills/`, `src/generated` (see `biome.json`).
+- Double quotes, 2-space indent, organize imports on save.
+
+## TypeScript
+
+- `strict: true`, `noEmit: true`, `target: ES2023`, `moduleResolution: Bundler`.
+- `bun-types` for Bun globals.
+
+## Testing
+
+- **`bun:test`** (Bun built-in). No Vitest/Jest config.
+- Integration tests use fixture `VideoEntry[]` — no network, no cookie needed.
+- 5 test files: `bilibili-api`, `pipeline.integration`, `skill-generation`, `video-titles`, `wbi`.
 
 ## Architecture
 
-Feature-based structure under `src/features/`:
+```
+src/index.ts                 CLI entry (bun shebang)
+src/shared/                  env, files (CSV/JSON/YAML), paths, sleep
+src/features/
+  bilibili-api/              Bilibili HTTP client + Wbi signing
+  video-titles/              Archive pagination → VideoEntry[]
+  style-analysis/            Deterministic Chinese NLP stats engine
+  skill-generation/          Template → SKILL.md with AUTO section replacement
+  pipeline/                  Orchestration + CLI option parsing
+tests/                       5 test files (bun:test)
+```
 
-| Feature | Purpose |
-|---|---|
-| `bilibili-api/` | API client, Wbi signing, error handling |
-| `video-titles/` | Archive pagination, title normalization |
-| `style-analysis/` | Deterministic style statistics, report rendering |
-| `skill-generation/` | SKILL.md rendering via template section replacement |
-| `pipeline/` | CLI orchestration, option parsing |
+- NLP: `jieba-wasm` for Chinese word segmentation. All analysis is deterministic (rule-based, no ML).
+- Wbi signing: fixed 64-index permutation table + MD5 hash for Bilibili API auth.
 
-Shared utilities in `src/shared/` — env helpers, file I/O, path constants.
+## CI
 
-Entrypoint: `src/index.ts` → `runPipeline()` in `src/features/pipeline/pipeline.ts`.
-
-## Key patterns
-
-- **Bun-only runtime.** Shebang is `#!/usr/bin/env bun`. Import resolution is Bun-native (supports `.ts` extensions, no `.js` needed). Do not use `node` or `tsx`.
-- `SKILL.template.md` contains `<!-- AUTO_START:name -->` / `<!-- AUTO_END:name -->` section markers. The generator replaces content between markers. Never edit `SKILL.md` directly — it's auto-generated.
-- Bilibili API response types are hand-maintained in `bilibili-api/types.ts`. Only 4 endpoints used; types are thin `BilibiliEnvelope<Record<string, unknown>>`.
-- The Bilibili `x/space/wbi/arc/search` endpoint has a local narrow type (`types.ts`) because it's missing from BACNext OpenAPI.
-- Tests use `bun:test` imports. Integration test (`pipeline.integration.test.ts`) uses fixture data, no network calls.
-- `jieba-wasm` is the only Chinese word segmentation dependency. Used in style analysis. Do not replace.
-- Biome excludes `src/generated` and `skills` from linting.
-
-## Gotchas
-
-- The `.env` file is gitignored. Tests and `--skip-fetch`/`--dry-run` do not require it.
-- `references/` contains generated analysis artifacts. Don't edit them manually — they're overwritten by the pipeline.
-- `SKILL.md` is generated output. All edits go in `SKILL.template.md` or the generation code.
-- Pipeline flags are parsed positionally: `--skip-fetch`, `--skip-analyze`, `--dry-run`, `--help`/`-h`.
-- No PR CI checks exist. The only workflow (`.github/workflows/update-reference.yml`) runs on schedule + manual dispatch. All quality checks are local (`bun run check` + `bun test`).
-- CI workflow references `bun run generate:api-types` but this script does not exist in `package.json`. The `src/generated/` directory (excluded from lint) is empty — it was likely intended for generated BACNext API types. CI will fail at that step until the script is added.
+Scheduled daily (`30 12 * * *`) + manual dispatch. Runs: install → check → test → pipeline → commit if `skills/` changed.
