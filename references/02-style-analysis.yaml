@@ -1,0 +1,739 @@
+meta:
+  creator: 黑鸦
+  uid: "3706929260006322"
+  totalVideos: 129
+  analysisDate: 2026-07-02
+  source: Bilibili official API via BACNext OpenAPI
+length:
+  avg: 53.9
+  min: 25
+  max: 80
+  median: 54
+  p75: 64
+  p90: 72
+  over40Pct: 82.9
+  distribution:
+    20字以内: 0
+    21-30字: 3
+    31-40字: 19
+    40字以上: 107
+punctuation:
+  exclamationEndPct: 18.6
+  questionEndPct: 0.8
+  averageExclamationCount: 2.09
+  averageSeparatorCount: 4.16
+  separatorUsage:
+    - - ！
+      - 270
+    - - ，
+      - 124
+    - - "|"
+      - 84
+    - - ？
+      - 21
+    - - ；
+      - 17
+    - - ：
+      - 13
+    - - 、
+      - 6
+    - - ｜
+      - 1
+numbers:
+  withNumberPct: 81.4
+  common:
+    - - "5"
+      - 48
+    - - "3"
+      - 35
+    - - "4"
+      - 30
+    - - "2"
+      - 24
+    - - "6"
+      - 12
+    - - "1"
+      - 8
+    - - "7"
+      - 7
+    - - "8"
+      - 5
+    - - "0"
+      - 4
+    - - "18"
+      - 2
+keywords:
+  emotion:
+    - - 地震
+      - 16
+    - - 核弹
+      - 11
+    - - 泄露
+      - 9
+    - - 杀疯
+      - 6
+    - - 突发
+      - 5
+    - - 沸腾
+      - 4
+    - - 震撼
+      - 4
+    - - 疯狂
+      - 3
+    - - 炸裂
+      - 3
+    - - 泄密
+      - 2
+  topics:
+    - - AI
+      - 107
+    - - 模型
+      - 33
+    - - 引爆
+      - 20
+    - - 发布
+      - 17
+    - - 泄露
+      - 9
+    - - 开源
+      - 7
+    - - 融资
+      - 4
+    - - 大模型
+      - 3
+    - - 国产
+      - 2
+    - - 上市
+      - 1
+    - - 芯片
+      - 1
+  highFrequency:
+    - - AI
+      - 141
+    - - 日报
+      - 84
+    - - 模型
+      - 39
+    - - DeepSeek
+      - 39
+    - - OpenAI
+      - 24
+    - - 发布
+      - 20
+    - - 引爆
+      - 20
+    - - Gemini
+      - 20
+    - - 地震
+      - 16
+    - - Anthropic
+      - 13
+    - - GPT-5
+      - 12
+    - - 硅谷
+      - 11
+    - - 核弹
+      - 11
+    - - 即将
+      - 11
+    - - 圈大
+      - 11
+    - - V4
+      - 11
+    - - 奥特曼
+      - 10
+    - - 泄露
+      - 10
+    - - "3.5"
+      - 9
+    - - 来袭
+      - 9
+    - - 全球
+      - 9
+    - - 上线
+      - 9
+    - - 深夜
+      - 9
+    - - 瘫坐
+      - 9
+    - - 正式
+      - 9
+    - - Claude
+      - 9
+    - - Kimi
+      - 9
+    - - 用户
+      - 8
+    - - 重磅
+      - 8
+    - - Google
+      - 8
+  tfidf:
+    - - AI
+      - 125.19
+    - - 日报
+      - 119.04
+    - - DeepSeek
+      - 80.96
+    - - 模型
+      - 77
+    - - OpenAI
+      - 59.94
+    - - 引爆
+      - 56.31
+    - - Gemini
+      - 54.42
+    - - 发布
+      - 50.48
+    - - 地震
+      - 48.43
+    - - Anthropic
+      - 41.87
+    - - 核弹
+      - 37.12
+    - - V4
+      - 37.12
+    - - 圈大
+      - 37.12
+    - - GPT-5
+      - 37.12
+    - - 硅谷
+      - 37.12
+    - - 即将
+      - 37.12
+    - - 奥特曼
+      - 34.62
+    - - 全球
+      - 32.02
+    - - Kimi
+      - 32.02
+    - - Claude
+      - 32.02
+    - - 瘫坐
+      - 32.02
+    - - "3.5"
+      - 32.02
+    - - 正式
+      - 32.02
+    - - 深夜
+      - 32.02
+    - - 上线
+      - 32.02
+    - - 来袭
+      - 32.02
+    - - 泄露
+      - 32.02
+    - - Google
+      - 29.3
+    - - 用户
+      - 29.3
+    - - 重磅
+      - 29.3
+  bigrams:
+    - - AI日报
+      - 84
+    - - AI圈大
+      - 11
+    - - 圈大地震
+      - 11
+    - - DeepSeekV4
+      - 9
+    - - 深夜引爆
+      - 8
+    - - 重磅炸弹
+      - 7
+    - - Gemini3.5
+      - 6
+    - - 引爆AI
+      - 6
+    - - 全线突围
+      - 6
+    - - 见证历史
+      - 5
+    - - 3.5Pro
+      - 4
+    - - 即将来袭
+      - 4
+    - - 正式发布
+      - 4
+    - - AI沸腾
+      - 4
+    - - 命运大转折
+      - 4
+    - - TokenPlan
+      - 4
+    - - 斩杀线来
+      - 4
+    - - 后背发凉
+      - 4
+    - - DeepSeek官方
+      - 3
+    - - 无力瘫坐
+      - 3
+    - - 爆炸AI
+      - 3
+    - - Seedance2.0
+      - 3
+    - - MiniMaxM3
+      - 3
+    - - 引爆硅谷
+      - 3
+    - - Opus4.8
+      - 3
+    - - AI奇点
+      - 3
+    - - 接管世界
+      - 3
+    - - 模型即将
+      - 3
+    - - 奇点已至
+      - 3
+    - - Qwen3.5
+      - 3
+  trigrams:
+    - - AI圈大地震
+      - 11
+    - - Gemini3.5Pro
+      - 4
+    - - 深夜引爆AI
+      - 4
+    - - 爆炸AI日报
+      - 3
+    - - 仿佛看到椅子
+      - 2
+    - - 看到椅子爆炸
+      - 2
+    - - 椅子爆炸AI
+      - 2
+    - - 引爆AI圈大
+      - 2
+    - - 不住AI日报
+      - 2
+    - - 命运大转折AI
+      - 2
+    - - 大转折AI日报
+      - 2
+    - - 集体判处死刑AI
+      - 2
+    - - 判处死刑AI日报
+      - 2
+    - - 一夜蒸发AI
+      - 2
+    - - 蒸发AI日报
+      - 2
+    - - 硝烟弥漫AI日报
+      - 2
+    - - Max深夜引爆
+      - 2
+    - - OpenAI全线突围
+      - 2
+    - - 模型即将来袭
+      - 2
+    - - 模式AI日报
+      - 2
+    - - DeepSeekV4下周
+      - 2
+    - - V4下周发布
+      - 2
+    - - 彻底引爆载入史册
+      - 2
+    - - 引爆载入史册AI
+      - 2
+    - - 载入史册AI日报
+      - 2
+    - - Gemma即将发布
+      - 2
+    - - Gemini3.1Flash
+      - 2
+    - - AI奇点已至
+      - 2
+    - - Qwen3.5系列
+      - 2
+    - - 龙王归来Gemini
+      - 1
+entities:
+  english:
+    - - AI
+      - 142
+    - - DeepSeek
+      - 36
+    - - OpenAI
+      - 24
+    - - Gemini
+      - 20
+    - - Anthropic
+      - 13
+    - - Claude
+      - 9
+    - - Kimi
+      - 9
+    - - V4
+      - 9
+    - - Google
+      - 8
+    - - Mythos
+      - 8
+    - - Agent
+      - 7
+    - - GPT-5.6
+      - 7
+    - - MiniMax
+      - 7
+    - - Plan
+      - 6
+    - - Pro
+      - 6
+    - - Token
+      - 6
+    - - API
+      - 5
+    - - Fable
+      - 5
+    - - GPT
+      - 5
+    - - Grok
+      - 5
+  brandsAndProducts:
+    - - DeepSeek
+      - 37
+    - - OpenAI
+      - 22
+    - - GPT
+      - 20
+    - - Gemini
+      - 19
+    - - Anthropic
+      - 13
+    - - Claude
+      - 9
+    - - Qwen
+      - 9
+    - - 阿里
+      - 5
+    - - 谷歌
+      - 5
+    - - 腾讯
+      - 5
+    - - 字节
+      - 5
+    - - Grok
+      - 5
+    - - 小米
+      - 3
+    - - ChatGPT
+      - 3
+    - - 华为
+      - 2
+    - - 苹果
+      - 1
+    - - 微软
+      - 1
+    - - Sora
+      - 1
+    - - xAI
+      - 1
+  people:
+    - - 奥特曼
+      - 10
+    - - 马斯克
+      - 7
+    - - 梁文峰
+      - 2
+    - - 扎克伯格
+      - 1
+emotion:
+  avgScore: 2.74
+  distribution:
+    极强: 12
+    强烈: 33
+    中等: 51
+    轻微: 20
+    无: 13
+  topTitles:
+    - title: AI圈大地震！微信AI重磅泄露，ChatGPT已吓晕！MiniMax 涨价失败惹群嘲，Kimi又双叒融资！| AI日报0608
+      score: 6
+      matchedWords:
+        - 地震
+        - 泄露
+      level: 极强
+    - title: AI 圈大地震！Gemini 永久提额 300%！Google Antigravity彻底杀疯了，吓得奥特曼当场瘫坐，行业已硝烟弥漫！|AI日报0521
+      score: 6
+      matchedWords:
+        - 杀疯
+        - 地震
+      level: 极强
+    - title: 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
+      score: 6
+      matchedWords:
+        - 疯狂
+        - 杀疯
+      level: 极强
+    - title: 彻底疯狂！DeepSeek 再次大降价，缓存输入已打骨折！AI圈已沸腾，开发者已疯狂！
+      score: 6
+      matchedWords:
+        - 疯狂
+        - 沸腾
+      level: 极强
+    - title: AI圈大地震！谷歌宣布 Gemini 新模型将至！DeepSeek-V4 泄露官方隐藏“角色扮演模式”！| AI日报0425
+      score: 6
+      matchedWords:
+        - 地震
+        - 泄露
+      level: 极强
+    - title: AI圈已沸腾！Claude Opus 4.7 与 DeepSeek 新模型双重核弹来势汹汹或将发布彻底引爆，载入史册！！！| AI日报 0416
+      score: 6
+      matchedWords:
+        - 沸腾
+        - 核弹
+      level: 极强
+    - title: AI圈已沸腾！DeepSeek V4 与OpenAI代号“Spud”双重核弹来袭彻底引爆，载入史册！！！| AI日报 0325
+      score: 6
+      matchedWords:
+        - 沸腾
+        - 核弹
+      level: 极强
+    - title: 后背发凉！Kimi 突发大面积封号，真相居然是？风控大地震深夜引爆AI圈，全网第三方Coding Agent已被集体判处死刑！| AI日报0526
+      score: 5.5
+      matchedWords:
+        - 突发
+        - 地震
+      level: 极强
+    - title: AI圈大地震！DeepSeek 开源核弹：V4 没换代，但被 DeepSeek 装上火箭了！| AI日报0627
+      score: 5
+      matchedWords:
+        - 地震
+        - 核弹
+      level: 极强
+    - title: 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
+      score: 5
+      matchedWords:
+        - 地震
+        - 核弹
+      level: 极强
+rhetoric:
+  questionPct: 14
+  exclamationPct: 87.6
+  contrastPct: 3.9
+  roundupPct: 65.9
+  namedEntityPct: 83.7
+structure:
+  avgClauses: 4.4
+  clauseDistribution:
+    1句: 1
+    2句: 9
+    3句: 20
+    4句及以上: 99
+  categories:
+    日报式:
+      count: 85
+      pct: 65.9
+      examples:
+        - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
+        - Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701
+        - AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
+        - AI圈热议！DeepSeek官方突然预告 V4 正式版引爆银河系！但高峰价格直接翻倍……  | AI 日报0629
+        - Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
+    情绪爆点:
+      count: 116
+      pct: 89.9
+      examples:
+        - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
+        - Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701
+        - AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
+        - AI圈热议！DeepSeek官方突然预告 V4 正式版引爆银河系！但高峰价格直接翻倍……  | AI 日报0629
+        - Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
+    对比冲突:
+      count: 5
+      pct: 3.9
+      examples:
+        - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
+        - 马斯克秘密模型曝光！1.5T巨兽 V9基模彻底杀疯了！AI终局百模大战彻底打响！| AI日报0525
+        - 价格战！算力战！百模大战！智谱GLM全线突围死磕到底！AI算力保卫战来了，战吗？战啊……
+        - OpenAI杀疯了！Codex超级App突降硅谷，决战！百Agent大战！OpenAI全线突围，全面围剿Claude！
+        - 卧槽！xAI 将发 Grok 总参数 10T 模型，7款模型训练中！视频模型 Happy Horse 超越 Seedance 2.0 登顶盲测榜！| AI日报
+    多事件合并:
+      count: 41
+      pct: 31.8
+      examples:
+        - AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
+        - Token 服务终于要被收编了！信通院牵头，22家单位集结，AI计费江湖迎来大清算……
+        - 六月飞雪！AI圈核冬天：GPT-5.6 推迟；Gemini 3.5 Pro 被嫌弃；Fable 5无归期，Sonnet 5 撑门面！| AI日报0624
+        - 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
+        - DeepSeek 正式上线“识图模式”；阶跃星辰限免提供 Step Plan | AI日报0618
+    数字悬念:
+      count: 105
+      pct: 81.4
+      examples:
+        - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
+        - Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701
+        - AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
+        - AI圈热议！DeepSeek官方突然预告 V4 正式版引爆银河系！但高峰价格直接翻倍……  | AI 日报0629
+        - Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
+    其他:
+      count: 1
+      pct: 0.8
+      examples:
+        - 腾讯今天把饭喂到了嘴边，这只全网最猛的“小龙虾”再不用你就亏大了。
+  commonTemplates:
+    - - "{CN}，{CN}“{CN}”{CN}。"
+      - 1
+    - - "{CN}，{EN} {CN} {EN} ！ {CN} {EN} {NUM} {CN}！"
+      - 1
+    - - "{CN}，{EN} {EN}{CN}！{CN}，{CN}{EN}{CN}，{EN} {EN}{CN}{EN}{CN}！| {EN}{CN}"
+      - 1
+    - - "{CN}，{EN}{CN} | {EN}{CN}{NUM}月{NUM}日"
+      - 1
+    - - "{CN}，{EN}{CN}——{CN}；{CN}；{CN}！"
+      - 1
+    - - "{CN}，{EN}{CN}{EN}！{EN}{CN}！{EN}{CN}！| {EN}{CN}{NUM}"
+      - 1
+    - - "{CN}：{EN} {CN} {EN} {NUM} 和 {EN} {NUM}"
+      - 1
+    - - "{CN}：{EN} {NUM}.{NUM} {EN} 与 {EN}"
+      - 1
+    - - "{CN}！{CN} {EN} {CN}{EN}圈，{EN} {CN} {EN} {NUM} {CN}！| {EN}{CN}{NUM}"
+      - 1
+    - - "{CN}！{CN} {EN} {EN} {CN}！{CN}，{CN}！|{EN}{CN}"
+      - 1
+  openingHooks:
+    - - 重磅炸弹
+      - 5
+    - - 见证历史
+      - 4
+    - - 头皮发麻
+      - 4
+    - - AI圈大地震
+      - 4
+    - - 后背发凉
+      - 2
+    - - 突发
+      - 2
+    - - 卧槽
+      - 2
+    - - AI奇点已至
+      - 2
+    - - AI圈已沸腾
+      - 2
+    - - 【黑鸦Heya】一个视频带你看完Go
+      - 1
+    - - 180天断供倒计时
+      - 1
+    - - 阿里千问正式发布Qwen3.6-Pl
+      - 1
+  endingHooks:
+    - - AI日报
+      - 20
+    - - 战啊……
+      - 2
+    - - AI日报3月5日
+      - 2
+    - - 【黑鸦Heya】一个视频带你看完Go
+      - 1
+    - - 奥特曼必须立刻移交军事法庭……
+      - 1
+    - - 百万程序员的斩杀线来了……
+      - 1
+    - - 达里奥吓到冷汗直流
+      - 1
+    - - 发起挽救人类倡议
+      - 1
+    - - 高价老用户的斩杀线来了
+      - 1
+    - - 更加自然流畅
+      - 1
+    - - 谷歌开源模型 Gemma 4 即将发
+      - 1
+    - - 或将发布
+      - 1
+temporal:
+  - period: 2026-02
+    titleCount: 4
+    avgLength: 42.3
+    avgEmotionScore: 3
+    dominantCategory: 情绪爆点
+  - period: 2026-03
+    titleCount: 32
+    avgLength: 44.4
+    avgEmotionScore: 1.95
+    dominantCategory: 情绪爆点
+  - period: 2026-04
+    titleCount: 29
+    avgLength: 53.8
+    avgEmotionScore: 3.16
+    dominantCategory: 情绪爆点
+  - period: 2026-05
+    titleCount: 31
+    avgLength: 58.5
+    avgEmotionScore: 3.11
+    dominantCategory: 情绪爆点
+  - period: 2026-06
+    titleCount: 31
+    avgLength: 60.3
+    avgEmotionScore: 2.73
+    dominantCategory: 数字悬念
+  - period: 2026-07
+    titleCount: 2
+    avgLength: 60
+    avgEmotionScore: 3.25
+    dominantCategory: 日报式
+examples:
+  - aid: 116850373559050
+    bvid: BV1KaTE6SEit
+    title: 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
+    created: 1782995231
+    createdDate: 2026-07-02
+  - aid: 116844602132386
+    bvid: BV1oyTq6pExX
+    title: Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701
+    created: 1782907457
+    createdDate: 2026-07-01
+  - aid: 116838864390002
+    bvid: BV1f3TF6nEoa
+    title: AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
+    created: 1782819860
+    createdDate: 2026-06-30
+  - aid: 116832858016144
+    bvid: BV1AtKQ6qEWx
+    title: AI圈热议！DeepSeek官方突然预告 V4 正式版引爆银河系！但高峰价格直接翻倍……  | AI 日报0629
+    created: 1782728132
+    createdDate: 2026-06-29
+  - aid: 116827724187630
+    bvid: BV1tGTg68EsD
+    title: Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
+    created: 1782649861
+    createdDate: 2026-06-28
+  - aid: 116821986445242
+    bvid: BV17B7H6BEpu
+    title: AI圈大地震！DeepSeek 开源核弹：V4 没换代，但被 DeepSeek 装上火箭了！| AI日报0627
+    created: 1782562277
+    createdDate: 2026-06-27
+  - aid: 116816517007367
+    bvid: BV1fE7V6EEaw
+    title: Token 服务终于要被收编了！信通院牵头，22家单位集结，AI计费江湖迎来大清算……
+    created: 1782478623
+    createdDate: 2026-06-26
+  - aid: 116810661758393
+    bvid: BV1k47Y6yEoj
+    title: AI圈大型灵异事件！OpenAI 疑似开错生死簿：Pro 用户一觉醒来额度蒸发，账号像被 OpenAI 后台夺舍…… | AI日报0625
+    created: 1782390055
+    createdDate: 2026-06-25
+  - aid: 116804772957702
+    bvid: BV1YqjR6WEHi
+    title: 六月飞雪！AI圈核冬天：GPT-5.6 推迟；Gemini 3.5 Pro 被嫌弃；Fable 5无归期，Sonnet 5 撑门面！| AI日报0624
+    created: 1782299522
+    createdDate: 2026-06-24
+  - aid: 116799270027570
+    bvid: BV1q5j26TE2L
+    title: AI圈失眠：字节连发5款豆包模型统治东半球，核弹无力瘫坐在奥特曼上仿佛看到椅子爆炸！| AI日报0623
+    created: 1782215492
+    createdDate: 2026-06-23
+  - aid: 116793481888202
+    bvid: BV1Wj7K6qEzx
+    title: AI圈突然窒息：字节亮刀 Seed 2.1 正在血洗前端榜！Anthropic 藏牌 Sonnet 5 疑似浮出水面！| AI日报0622
+    created: 1782127367
+    createdDate: 2026-06-22
+  - aid: 116788046072482
+    bvid: BV13qj867Ecy
+    title: 正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621
+    created: 1782044340
+    createdDate: 2026-06-21
