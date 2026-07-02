@@ -48,7 +48,7 @@ Entrypoint: `src/index.ts` → `runPipeline()` in `src/features/pipeline/pipelin
 - The Bilibili `x/space/wbi/arc/search` endpoint has a local narrow type (`types.ts`) because it's missing from BACNext OpenAPI.
 - Tests use `bun:test` imports. Integration test (`pipeline.integration.test.ts`) uses fixture data, no network calls.
 - `jieba-wasm` is the only Chinese word segmentation dependency. Used in style analysis. Do not replace.
-- Biome excludes `src/generated` and `references` from linting.
+- Biome excludes `src/generated` and `skills` from linting.
 
 ## Gotchas
 

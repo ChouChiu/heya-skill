@@ -73,7 +73,7 @@ git clone https://github.com/ChouChiu/heya-skill <上面对应的路径>
 
 直接粘贴：
 
-即使 runtime 不支持自动加载，你也可以直接把 [`SKILL.md`](SKILL.md) 的内容粘贴进对话——它本质就是一份 markdown + YAML frontmatter。
+即使 runtime 不支持自动加载，你也可以直接把 [`SKILL.md`](skills/heya-title-style/SKILL.md) 的内容粘贴进对话——它本质就是一份 markdown + YAML frontmatter。
 
 </details>
 
@@ -172,8 +172,11 @@ BILIBILI_PAGE_SIZE=30         # 可选，每页采集数量
 
 ```
 heya-skill/
-├── SKILL.md                      # 生成产物：Agent Skills 入口（AI 读取）
-├── SKILL.template.md             # 模板源文件（手动编辑 + AUTO 占位符）
+├── skills/
+│   └── heya-title-style/
+│       ├── SKILL.md              # 生成产物：Agent Skills 入口（AI 读取）
+│       ├── SKILL.template.md     # 模板源文件（手动编辑 + AUTO 占位符）
+│       └── references/           # 生成的分析数据（CSV + YAML + MD）
 ├── src/
 │   ├── index.ts                  # CLI 入口
 │   ├── features/
@@ -184,7 +187,6 @@ heya-skill/
 │   │   └── pipeline/             # CLI 编排、选项解析
 │   └── shared/                   # 共享工具（文件 I/O、环境变量、路径常量）
 ├── tests/                        # bun:test 测试套件
-├── references/                   # 生成的分析数据（CSV + YAML + MD）
 └── .github/workflows/            # CI：每日自动更新
 ```
 
