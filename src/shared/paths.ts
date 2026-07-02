@@ -9,5 +9,5 @@ export const researchDir = join(skillDir, "references");
 export const titlesPath = join(researchDir, "01-titles.csv");
 export const analysisDataPath = join(researchDir, "02-style-analysis.yaml");
 export const analysisReportPath = join(researchDir, "02-style-analysis.md");
-export const skillTemplatePath = join(skillDir, "SKILL.template.md");
+export const skillTemplatePath = join(rootDir, "SKILL.template.md");
 export const skillPath = join(skillDir, "SKILL.md");
