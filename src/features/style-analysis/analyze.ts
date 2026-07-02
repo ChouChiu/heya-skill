@@ -1,3 +1,15 @@
+/**
+ * @module
+ *
+ * Deterministic style analysis engine.
+ *
+ * Ingests normalized video titles and produces a {@link StyleAnalysis}
+ * covering: length stats, punctuation, keywords (segmented + dictionary),
+ * TF‑IDF, n‑grams, entities, emotion scoring, rhetorical device counts,
+ * clause structure, temporal trends, and category classification.
+ *
+ * All algorithms are deterministic — no randomness, no ML.
+ */
 import type { VideoEntry } from "../video-titles/types.ts";
 import {
   brandWords,
@@ -18,6 +30,14 @@ import type {
 
 type EmotionLevel = "极强" | "强烈" | "中等" | "轻微" | "无";
 
+/**
+ * Run full style analysis on a set of video titles.
+ *
+ * @param videos - Normalized video entries (must be non‑empty).
+ * @param uid - Bilibili user ID for metadata.
+ * @returns Complete style analysis.
+ * @throws If `videos` is empty.
+ */
 export function analyzeStyle(videos: VideoEntry[], uid: string): StyleAnalysis {
   if (videos.length === 0) {
     throw new Error("Cannot analyze an empty video list");

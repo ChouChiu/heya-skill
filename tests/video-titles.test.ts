@@ -1,3 +1,8 @@
+/**
+ * @module
+ *
+ * Unit tests for video title fetching — data mapping and pagination logic.
+ */
 import { expect, test } from "bun:test";
 import {
   fetchVideoTitles,

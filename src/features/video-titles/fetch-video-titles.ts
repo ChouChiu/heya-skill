@@ -1,8 +1,20 @@
+/**
+ * @module
+ *
+ * Fetches and normalizes all video titles for a Bilibili creator via
+ * paginated archive search. Supports `--skip-fetch` by reading cached CSV.
+ */
 import { sleep } from "../../shared/sleep.ts";
 import type { BilibiliClient } from "../bilibili-api/client.ts";
 import type { ArcSearchVideo } from "../bilibili-api/types.ts";
 import type { FetchVideoTitlesOptions, VideoEntry } from "./types.ts";
 
+/**
+ * Map a raw archive search result to a normalized {@link VideoEntry}.
+ *
+ * @param video - Raw video record from `vlist[]`.
+ * @returns Normalized entry, or `undefined` if `title`, `bvid`, or `aid` is invalid.
+ */
 export function mapArchiveVideo(video: ArcSearchVideo): VideoEntry | undefined {
   const title = video.title?.trim();
   const bvid = video.bvid?.trim();
@@ -22,6 +34,17 @@ export function mapArchiveVideo(video: ArcSearchVideo): VideoEntry | undefined {
   };
 }
 
+/**
+ * Paginate `/x/space/wbi/arc/search` until all videos are fetched.
+ *
+ * Stops when page returns zero results, or when `videos.length >= expectedTotal`.
+ * Sleeps 1.2 s between pages to avoid rate‑limiting.
+ * Deduplicates by `bvid` and sorts newest‑first.
+ *
+ * @param client - Bilibili API client.
+ * @param options - Fetch options (mid, pageSize).
+ * @returns Deduplicated, sorted video entries.
+ */
 export async function fetchVideoTitles(
   client: BilibiliClient,
   options: FetchVideoTitlesOptions,
@@ -56,6 +79,12 @@ export async function fetchVideoTitles(
   return dedupeVideos(videos);
 }
 
+/**
+ * Remove duplicate entries by `bvid` and sort newest‑first by `created`.
+ *
+ * @param videos - Possibly duplicated list.
+ * @returns Deduplicated list sorted by `created` descending.
+ */
 export function dedupeVideos(videos: VideoEntry[]): VideoEntry[] {
   const seen = new Set<string>();
   const deduped: VideoEntry[] = [];

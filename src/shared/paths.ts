@@ -1,6 +1,7 @@
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+// Repository root: 3 levels up from this file (src/shared/ → src/ → root/)
 export const rootDir = dirname(
   dirname(dirname(fileURLToPath(import.meta.url))),
 );

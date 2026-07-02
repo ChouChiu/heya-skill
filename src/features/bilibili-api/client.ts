@@ -9,7 +9,10 @@ import type {
 } from "./types.ts";
 import { extractWbiKey, signWbiParams, type WbiKeys } from "./wbi.ts";
 
+// Base URL for all Bilibili API requests.
 const apiBase = "https://api.bilibili.com";
+
+// Default headers to mimic a browser — reduce 412 risk‑control triggers.
 const defaultHeaders = {
   "User-Agent":
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -21,8 +24,24 @@ export interface BilibiliClientOptions {
   fetchImpl?: FetchLike;
 }
 
-type FetchLike = (input: URL, init?: RequestInit) => Promise<Response>;
+/** Minimal fetch signature — allows injection of mock / alternative HTTP clients. */
+export type FetchLike = (input: URL, init?: RequestInit) => Promise<Response>;
 
+/**
+ * Typed client for Bilibili's internal JSON API.
+ *
+ * Endpoints:
+ * - `GET /x/space/wbi/acc/info` — space info
+ * - `GET /x/space/upstat` — UP stats
+ * - `GET /x/space/top/arc` — top videos
+ * - `GET /x/web-interface/wbi/view` — video detail
+ * - `GET /x/space/wbi/arc/search` — archive pagination
+ *
+ * Wbi‑signed endpoints fetch fresh keys from `/x/web-interface/nav` on first call.
+ *
+ * @param options.cookie - Bilibili login cookie string.
+ * @param options.fetchImpl - Injectable fetch (defaults to global `fetch`).
+ */
 export class BilibiliClient {
   private readonly fetchImpl: FetchLike;
   private wbiKeys?: WbiKeys;
@@ -31,32 +50,53 @@ export class BilibiliClient {
     this.fetchImpl = options.fetchImpl ?? fetch;
   }
 
+  /**
+   * @param mid - Bilibili user ID.
+   * @returns Space info (Wbi‑signed).
+   */
   async getSpaceInfo(mid: string): Promise<SpaceInfoResponse> {
     return this.getWbiJson<SpaceInfoResponse>("/x/space/wbi/acc/info", {
       mid,
     });
   }
 
+  /**
+   * @param mid - Bilibili user ID.
+   */
   async getUpStat(mid: string): Promise<UpStatResponse> {
     return this.getJson<UpStatResponse>("/x/space/upstat", { mid });
   }
 
+  /**
+   * @param mid - Bilibili user ID.
+   */
   async getTopArc(mid: string): Promise<TopArcResponse> {
     return this.getJson<TopArcResponse>("/x/space/top/arc", { vmid: mid });
   }
 
+  /**
+   * @param bvid - Bilibili video BV ID.
+   * @returns Video detail (Wbi‑signed).
+   */
   async getVideoView(bvid: string): Promise<VideoViewResponse> {
     return this.getWbiJson<VideoViewResponse>("/x/web-interface/wbi/view", {
       bvid,
     });
   }
 
+  /**
+   * Paginate through a creator's video archive.
+   *
+   * @param params.mid - Bilibili user ID.
+   * @param params.page - 1‑based page number.
+   * @param params.pageSize - Results per page.
+   * @returns Archive search response (Wbi‑signed). Not in BACNext OpenAPI.
+   */
   async searchSpaceArchives(params: {
     mid: string;
     page: number;
     pageSize: number;
   }): Promise<ArcSearchResponse> {
-    // Official Bilibili Wbi endpoint; not present in BACNext OpenAPI main.json yet.
     return this.getWbiJson<ArcSearchResponse>("/x/space/wbi/arc/search", {
       mid: params.mid,
       order: "pubdate",
@@ -69,6 +109,15 @@ export class BilibiliClient {
     });
   }
 
+  /**
+   * Fetch and cache Wbi signing keys from `/x/web-interface/nav`.
+   *
+   * Cached in memory — subsequent calls return the stored keys.
+   * Called automatically by {@link BilibiliClient.getWbiJson}.
+   *
+   * @returns The `imgKey` and `subKey` extracted from nav response image URLs.
+   * @throws `BilibiliApiError` if nav response is missing `wbi_img` fields.
+   */
   async getWbiKeys(): Promise<WbiKeys> {
     if (this.wbiKeys) return this.wbiKeys;
 
@@ -86,6 +135,13 @@ export class BilibiliClient {
     return this.wbiKeys;
   }
 
+  /**
+   * Sign params with Wbi, then dispatch via {@link BilibiliClient.requestJson}.
+   *
+   * @param path - API path (e.g. `/x/space/wbi/arc/search`).
+   * @param params - Query parameters.
+   * @typeParam T - Expected response shape.
+   */
   private async getWbiJson<T>(
     path: string,
     params: Record<string, string | number | boolean | undefined> = {},
@@ -94,6 +150,13 @@ export class BilibiliClient {
     return this.requestJson<T>(path, signed);
   }
 
+  /**
+   * Dispatch unsigned request via {@link BilibiliClient.requestJson}.
+   *
+   * @param path - API path.
+   * @param params - Query parameters (`undefined` values skipped).
+   * @typeParam T - Expected response shape.
+   */
   private async getJson<T>(
     path: string,
     params: Record<string, string | number | boolean | undefined> = {},
@@ -105,6 +168,18 @@ export class BilibiliClient {
     return this.requestJson<T>(path, search);
   }
 
+  /**
+   * Central HTTP dispatcher.
+   *
+   * 1. Sends request with cookie + browser‑mimicking headers.
+   * 2. Rejects on 401/403/412, non‑ok status, or risk‑control HTML.
+   * 3. Parses JSON and rejects on non‑zero API `code`.
+   *
+   * @param path - API path (appended to Bilibili API base URL).
+   * @param search - Pre‑built URLSearchParams.
+   * @typeParam T - Expected response shape.
+   * @throws `BilibiliApiError` on any HTTP or API‑level error.
+   */
   private async requestJson<T>(
     path: string,
     search = new URLSearchParams(),

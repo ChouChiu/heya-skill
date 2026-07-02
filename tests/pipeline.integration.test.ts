@@ -1,3 +1,9 @@
+/**
+ * @module
+ *
+ * Integration test: analyze → generate pipeline with fixture data.
+ * No network calls — uses hardcoded `VideoEntry[]`.
+ */
 import { expect, test } from "bun:test";
 import { generateSkill } from "../src/features/skill-generation/generate-skill.ts";
 import { analyzeStyle } from "../src/features/style-analysis/analyze.ts";

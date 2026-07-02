@@ -1,3 +1,9 @@
+/**
+ * @module
+ *
+ * Unit tests for Bilibili Wbi signing — key extraction, mixin generation,
+ * and parameter signing with special‑character filtering.
+ */
 import { expect, test } from "bun:test";
 import {
   extractWbiKey,

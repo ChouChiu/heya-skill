@@ -1,8 +1,15 @@
+/**
+ * @module
+ *
+ * Chinese text tokenization via `jieba-wasm`.
+ *
+ * Provides word segmentation, POS tagging, n‑gram extraction, and TF‑IDF
+ * scoring — all filtered through a custom Chinese stop‑word list.
+ */
 import { cut, tag } from "jieba-wasm";
 import type { WordCount } from "./types.ts";
 
-// ---- stop words ----
-
+/** Chinese stop words removed before analysis. */
 export const STOP_WORDS = new Set([
   "我",
   "你",
@@ -176,8 +183,12 @@ export const STOP_WORDS = new Set([
   "为什么",
 ]);
 
-// ---- tokenization ----
-
+/**
+ * Segment Chinese text, keeping only words ≥ 2 chars not in {@link STOP_WORDS}.
+ *
+ * @param text - Chinese text.
+ * @returns Filtered word tokens.
+ */
 export function segmentWords(text: string): string[] {
   const words = cut(text, true);
   return words.filter((w) => w.trim().length >= 2 && !STOP_WORDS.has(w));
@@ -188,6 +199,12 @@ export interface POSToken {
   tag: string;
 }
 
+/**
+ * Like {@link segmentWords} but returns POS‑tagged tokens.
+ *
+ * @param text - Chinese text.
+ * @returns `{word, tag}` tokens filtered through `STOP_WORDS`.
+ */
 export function segmentWithPOS(text: string): POSToken[] {
   const tokens = tag(text);
   return tokens.filter(
@@ -195,8 +212,16 @@ export function segmentWithPOS(text: string): POSToken[] {
   );
 }
 
-// ---- ngram helpers ----
-
+/**
+ * Extract contiguous n‑grams (bigrams or trigrams) from segmented titles.
+ *
+ * Filters phrases shorter than `size * 2` chars (avoids single‑char n‑grams).
+ *
+ * @param titles - Array of title strings.
+ * @param size - 2 for bigrams, 3 for trigrams.
+ * @param limit - Max n‑grams to return.
+ * @returns Top n‑grams by frequency.
+ */
 export function extractWordNgrams(
   titles: string[],
   size: 2 | 3,
@@ -219,8 +244,16 @@ export function extractWordNgrams(
     .map(([phrase, count]) => ({ phrase, count }));
 }
 
-// ---- TF-IDF ----
-
+/**
+ * Compute TF‑IDF scores across all titles.
+ *
+ * TF is simplified to binary (1 if word appears in doc).
+ * IDF uses `log(N / (df + 1)) + 1` smoothing.
+ *
+ * @param titles - Array of title strings.
+ * @param limit - Max terms to return.
+ * @returns Top terms by TF‑IDF score, rounded to 2 decimals.
+ */
 export function computeTFIDF(titles: string[], limit: number): WordCount[] {
   const totalDocs = titles.length;
   const docFreq = new Map<string, number>();

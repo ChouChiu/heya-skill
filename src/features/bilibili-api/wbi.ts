@@ -1,5 +1,12 @@
 import { createHash } from "node:crypto";
 
+/**
+ * Bilibili Wbi signing permutation table.
+ *
+ * Concatenate `imgKey + subKey`, then pick characters at these indices to form
+ * a 64‑char string. The first 32 chars become the "mixin key" used for signing.
+ * Table is a fixed shuffle of 0..63 — identical across all Bilibili clients.
+ */
 const mixinKeyEncTab = [
   46, 47, 18, 2, 53, 8, 23, 32, 15, 50, 10, 31, 58, 3, 45, 35, 27, 43, 5, 49,
   33, 9, 42, 19, 29, 28, 14, 39, 12, 38, 41, 13, 37, 48, 7, 16, 24, 55, 40, 61,
@@ -12,6 +19,13 @@ export interface WbiKeys {
   subKey: string;
 }
 
+/**
+ * Extract the filename stem from a Wbi image URL.
+ *
+ * @param url - Full Wbi image URL (e.g. `https://i0.hdslb.com/bfs/wbi/abc123.png`).
+ * @returns The filename without extension (e.g. `"abc123"`).
+ * @throws If URL lacks a valid slash‑dot segment.
+ */
 export function extractWbiKey(url: string): string {
   const lastSlash = url.lastIndexOf("/");
   const lastDot = url.lastIndexOf(".");
@@ -22,6 +36,12 @@ export function extractWbiKey(url: string): string {
   return url.slice(lastSlash + 1, lastDot);
 }
 
+/**
+ * Apply the Wbi permutation table to produce the mixin key.
+ *
+ * @param rawKey - Concatenated `imgKey + subKey`.
+ * @returns First 32 characters after permutation.
+ */
 export function getMixinKey(rawKey: string): string {
   return mixinKeyEncTab
     .map((index) => rawKey[index] ?? "")
@@ -29,6 +49,18 @@ export function getMixinKey(rawKey: string): string {
     .slice(0, 32);
 }
 
+/**
+ * Sign API params with Wbi signature.
+ *
+ * - Sorts keys alphabetically, URL‑encodes, appends `wts` and `w_rid`.
+ * - Strips `!'()*` from values (not URL‑safe in Bilibili's convention).
+ * - `w_rid = MD5(query + mixinKey)` where mixinKey is derived from {@link WbiKeys}.
+ *
+ * @param params - Query parameters (`undefined` values are skipped).
+ * @param keys - Wbi image keys from `getWbiKeys()`.
+ * @param timestamp - Unix timestamp in seconds (defaults to now).
+ * @returns Signed `URLSearchParams` ready to set on a URL.
+ */
 export function signWbiParams(
   params: Record<string, string | number | boolean | undefined>,
   keys: WbiKeys,

@@ -1,3 +1,11 @@
+/**
+ * @module
+ *
+ * Pipeline orchestrator — 3 phases: fetch → analyze → generate.
+ *
+ * Each phase can be skipped (reads cached data).
+ * Dry‑run prints intent without side effects.
+ */
 import {
   readCSV,
   readYamlFile,
@@ -20,10 +28,20 @@ import { fetchVideoTitles } from "../video-titles/fetch-video-titles.ts";
 import type { VideoEntry } from "../video-titles/types.ts";
 import { parsePipelineOptions } from "./options.ts";
 
+/**
+ * @param start - `Date.now()` at phase start.
+ * @returns Elapsed seconds as a 1‑decimal string.
+ */
 function elapsed(start: number): string {
   return ((Date.now() - start) / 1000).toFixed(1);
 }
 
+/**
+ * Map a CSV row (all strings) back to a typed {@link VideoEntry}.
+ *
+ * @param row - CSV row object.
+ * @returns Typed video entry.
+ */
 function mapCSVToVideo(row: Record<string, string>): VideoEntry {
   return {
     aid: Number(row.aid ?? 0),
@@ -34,6 +52,12 @@ function mapCSVToVideo(row: Record<string, string>): VideoEntry {
   };
 }
 
+/**
+ * Map a {@link VideoEntry} to a flat object for CSV serialization.
+ *
+ * @param v - Typed video entry.
+ * @returns Flat row object.
+ */
 function videoToCSVRow(v: VideoEntry): Record<string, string | number> {
   return {
     aid: v.aid,
@@ -44,6 +68,11 @@ function videoToCSVRow(v: VideoEntry): Record<string, string | number> {
   };
 }
 
+/**
+ * Run the full pipeline: fetch → analyze → generate.
+ *
+ * @param args - CLI args (unparsed).
+ */
 export async function runPipeline(args: string[]): Promise<void> {
   const options = parsePipelineOptions(args);
 
@@ -64,9 +93,9 @@ export async function runPipeline(args: string[]): Promise<void> {
   console.log("🚀 Pipeline start\n");
   const totalStart = Date.now();
   let stepNum = 0;
-  const totalSteps = 3; // fetch, analyze, generate
+  const totalSteps = 3;
 
-  // ── fetch ──────────────────────────────────────────────────────────
+  // Phase 1: fetch titles from Bilibili API (or read cache)
   let videos: VideoEntry[];
   if (options.skipFetch) {
     stepNum += 1;
@@ -95,7 +124,7 @@ export async function runPipeline(args: string[]): Promise<void> {
     console.log("");
   }
 
-  // ── analyze ────────────────────────────────────────────────────────
+  // Phase 2: analyze style (or read cache)
   let analysis: StyleAnalysis;
   if (options.skipAnalyze) {
     stepNum += 1;
@@ -120,7 +149,7 @@ export async function runPipeline(args: string[]): Promise<void> {
     console.log(`     top: ${topKw}\n`);
   }
 
-  // ── generate ───────────────────────────────────────────────────────
+  // Phase 3: generate SKILL.md from template + analysis
   stepNum += 1;
   console.log(`[${stepNum}/${totalSteps}] 📝 Generate SKILL.md …`);
   const t0 = Date.now();
@@ -128,7 +157,7 @@ export async function runPipeline(args: string[]): Promise<void> {
   writeTextFile(skillPath, skill);
   console.log(`  ✅ SKILL.md (${skill.length} chars, ${elapsed(t0)}s)\n`);
 
-  // ── summary ────────────────────────────────────────────────────────
+  // Print final file paths for manual inspection
   console.log(`✨ Done (${elapsed(totalStart)}s)`);
   console.log(`   📊 titles: ${titlesPath}`);
   console.log(`   📊 analysis: ${analysisDataPath}`);

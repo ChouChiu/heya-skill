@@ -1,3 +1,8 @@
+/**
+ * @module
+ *
+ * Unit tests for skill template loading and section replacement.
+ */
 import { expect, test } from "bun:test";
 import {
   loadSkillTemplate,

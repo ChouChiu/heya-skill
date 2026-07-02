@@ -1,3 +1,8 @@
+/**
+ * @module
+ *
+ * Unit tests for Bilibili API client — risk‑control detection and error handling.
+ */
 import { expect, test } from "bun:test";
 import { BilibiliClient } from "../src/features/bilibili-api/client.ts";
 import {

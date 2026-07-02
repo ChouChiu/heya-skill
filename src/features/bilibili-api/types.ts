@@ -1,8 +1,22 @@
+/**
+ * @module
+ *
+ * Bilibili API response types — hand‑maintained for the endpoints we use.
+ *
+ * {@link BilibiliEnvelope} wraps every response with a standard `code`/`message` layer.
+ * Types using `Record<string, unknown>` intentionally avoid full schema coverage.
+ */
+
 export type SpaceInfoResponse = BilibiliEnvelope<Record<string, unknown>>;
 export type UpStatResponse = BilibiliEnvelope<Record<string, unknown>>;
 export type TopArcResponse = BilibiliEnvelope<Record<string, unknown>>;
 export type VideoViewResponse = BilibiliEnvelope<Record<string, unknown>>;
 
+/**
+ * Generic wrapper for all Bilibili JSON API responses.
+ *
+ * @typeParam T - The inner `data` payload type.
+ */
 export interface BilibiliEnvelope<T> {
   code: number;
   message: string;

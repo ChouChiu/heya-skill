@@ -1,5 +1,19 @@
+/**
+ * @module
+ *
+ * Rendering helpers for the 4 SKILL.md sections.
+ *
+ * Each `render*` function produces Markdown content for one
+ * `<!-- AUTO_START/END -->` block in `SKILL.template.md`.
+ */
 import type { StyleAnalysis } from "../style-analysis/types.ts";
 
+/**
+ * Render the "核心特征" (core features) section.
+ *
+ * @param analysis - Style analysis result.
+ * @returns Markdown content for `core-features` section.
+ */
 export function renderCoreFeatures(analysis: StyleAnalysis): string {
   const topCategory = Object.entries(analysis.structure.categories)
     .filter(([name]) => name !== "其他")
@@ -19,6 +33,12 @@ export function renderCoreFeatures(analysis: StyleAnalysis): string {
   ].join("\n");
 }
 
+/**
+ * Render the "真实标题示例" (real title examples) section.
+ *
+ * @param analysis - Style analysis result.
+ * @returns Markdown content for `title-examples` section.
+ */
 export function renderTitleExamples(analysis: StyleAnalysis): string {
   return [
     "## 真实标题示例",
@@ -27,6 +47,12 @@ export function renderTitleExamples(analysis: StyleAnalysis): string {
   ].join("\n");
 }
 
+/**
+ * Render the "词汇库" (vocabulary library) section.
+ *
+ * @param analysis - Style analysis result.
+ * @returns Markdown content for `vocab-library` section.
+ */
 export function renderVocabLibrary(analysis: StyleAnalysis): string {
   return [
     "## 词汇库",
@@ -42,6 +68,12 @@ export function renderVocabLibrary(analysis: StyleAnalysis): string {
   ].join("\n");
 }
 
+/**
+ * Render the "标题公式" (title formulas) section.
+ *
+ * @param analysis - Style analysis result.
+ * @returns Markdown content for `structure-formulas` section.
+ */
 export function renderStructureFormulas(analysis: StyleAnalysis): string {
   const categories = Object.entries(analysis.structure.categories)
     .sort((a, b) => b[1].count - a[1].count)
@@ -57,6 +89,12 @@ export function renderStructureFormulas(analysis: StyleAnalysis): string {
   ].join("\n");
 }
 
+/**
+ * Join word list with ideographic comma (`、`).
+ *
+ * @param words - `[word, count]` pairs.
+ * @returns Joined string, or `"暂无"` if empty.
+ */
 function joinWords(words: [string, number][]): string {
   return words.length > 0 ? words.map(([w]) => w).join("\u3001") : "暂无";
 }

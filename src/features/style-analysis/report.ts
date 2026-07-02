@@ -1,5 +1,17 @@
+/**
+ * @module
+ *
+ * Renders a {@link StyleAnalysis} object into a Markdown report.
+ *
+ * Output is written to `02-style-analysis.md` — kept alongside YAML for
+ * human review without re‑running the pipeline.
+ */
 import type { StyleAnalysis } from "./types.ts";
 
+/**
+ * @param analysis - Style analysis result.
+ * @returns Markdown report string.
+ */
 export function renderAnalysisReport(analysis: StyleAnalysis): string {
   const topCategory = Object.entries(analysis.structure.categories)
     .filter(([name]) => name !== "其他")
@@ -100,6 +112,12 @@ export function renderAnalysisReport(analysis: StyleAnalysis): string {
     .join("\n");
 }
 
+/**
+ * Format keyword count tuples as a Markdown list.
+ *
+ * @param keywords - `[word, count]` pairs.
+ * @returns Markdown list lines, or `"- 暂无"` for empty.
+ */
 function formatKeywords(keywords: [string, number][]): string {
   if (keywords.length === 0) return "- 暂无";
   return keywords.map(([word, count]) => `- ${word}：${count}`).join("\n");

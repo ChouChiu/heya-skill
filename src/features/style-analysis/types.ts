@@ -1,3 +1,11 @@
+/**
+ * @module
+ *
+ * Type definitions for style analysis results.
+ *
+ * {@link StyleAnalysis} is the root output — serialized to YAML for caching,
+ * consumed by report rendering and SKILL.md generation.
+ */
 import type { VideoEntry } from "../video-titles/types.ts";
 
 /** `[word, count]` tuple, sorted by count desc. */

@@ -1,6 +1,20 @@
+/**
+ * @module
+ *
+ * Template I/O for SKILL.md generation.
+ *
+ * Templates use `<!-- AUTO_START:name -->` / `<!-- AUTO_END:name -->`
+ * markers. Content between markers is replaced; rest is preserved.
+ */
 import { existsSync, readFileSync } from "node:fs";
 import { skillTemplatePath } from "../../shared/paths.ts";
 
+/**
+ * Read the raw template from disk.
+ *
+ * @returns Template content as a string.
+ * @throws If template file does not exist.
+ */
 export function loadSkillTemplate(): string {
   if (!existsSync(skillTemplatePath)) {
     throw new Error(`Missing skill template: ${skillTemplatePath}`);
@@ -9,6 +23,15 @@ export function loadSkillTemplate(): string {
   return readFileSync(skillTemplatePath, "utf-8");
 }
 
+/**
+ * Replace content between a pair of `AUTO_START/END` markers.
+ *
+ * @param content - Full template string.
+ * @param sectionName - Section identifier (e.g. `"core-features"`).
+ * @param newContent - Replacement content (will be trimmed).
+ * @returns Template with replaced section.
+ * @throws If markers are missing or out of order.
+ */
 export function replaceSection(
   content: string,
   sectionName: string,

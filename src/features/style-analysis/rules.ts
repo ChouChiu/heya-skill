@@ -94,7 +94,8 @@ export const brandWords = [
 
 export const separators = /[，,；;、｜|：:！!？?]/g;
 
-// build emotion regex from array so category rules stay consistent
+// Build a regex from the `emotionWords` array so `categoryRules`
+// stays in sync — add a word to the list, it automatically applies.
 const emotionPattern = emotionWords
   .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
   .join("|");
