@@ -3,7 +3,7 @@
 - UID：3706929260006322
 - 样本数：129
 - 分析日期：2026-07-02
-- 数据来源：Bilibili official API via BACNext OpenAPI
+- 数据来源：Bilibili official API
 ## 核心统计
 - 平均标题长度：53.9 字
 - P75 / P90：64 / 72 字

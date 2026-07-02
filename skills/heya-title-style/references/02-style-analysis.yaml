@@ -3,7 +3,7 @@ meta:
   uid: "3706929260006322"
   totalVideos: 129
   analysisDate: 2026-07-02
-  source: Bilibili official API via BACNext OpenAPI
+  source: Bilibili official API
 length:
   avg: 53.9
   min: 25

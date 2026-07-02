@@ -4,7 +4,6 @@ import {
   renderStructureFormulas,
   renderTitleExamples,
   renderVocabLibrary,
-  renderWritingRules,
 } from "./renderers.ts";
 import { loadSkillTemplate, replaceSection } from "./template.ts";
 
@@ -22,6 +21,5 @@ export function generateSkill(analysis: StyleAnalysis): string {
     "structure-formulas",
     renderStructureFormulas(analysis),
   );
-  skill = replaceSection(skill, "writing-rules", renderWritingRules());
   return skill;
 }
