@@ -2,15 +2,15 @@
   "meta": {
     "creator": "黑鸦",
     "uid": "3706929260006322",
-    "totalVideos": 122,
-    "analysisDate": "2026-07-01"
+    "totalVideos": 123,
+    "analysisDate": "2026-07-02"
   },
   "patterns": {
     "structure": {
       "悬念式": {
-        "frequency": 0.393,
+        "frequency": 0.39,
         "count": 48,
-        "pctDisplay": "39.3%",
+        "pctDisplay": "39.0%",
         "examples": [
           "AI圈热议！DeepSeek官方突然预告 V4 正式版引爆银河系！但高峰价格直接翻倍……  | AI 日报0629",
           "Token 服务终于要被收编了！信通院牵头，22家单位集结，AI计费江湖迎来大清算……",
@@ -38,9 +38,9 @@
         ]
       },
       "对比式": {
-        "frequency": 0.025,
+        "frequency": 0.024,
         "count": 3,
-        "pctDisplay": "2.5%",
+        "pctDisplay": "2.4%",
         "examples": [
           "见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620",
           "重磅炸弹！Google新图像模型“速食拉面”即将来袭！纳米香蕉已成过去式！正面对决 GPT-Image-2！| AI日报0617",
@@ -53,20 +53,20 @@
         ]
       },
       "情感式": {
-        "frequency": 0.41,
-        "count": 50,
-        "pctDisplay": "41.0%",
+        "frequency": 0.415,
+        "count": 51,
+        "pctDisplay": "41.5%",
         "examples": [
+          "龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702",
           "Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701",
           "AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630",
           "Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628",
-          "AI圈大地震！DeepSeek 开源核弹：V4 没换代，但被 DeepSeek 装上火箭了！| AI日报0627",
-          "六月飞雪！AI圈核冬天：GPT-5.6 推迟；Gemini 3.5 Pro 被嫌弃；Fable 5无归期，Sonnet 5 撑门面！| AI日报0624"
+          "AI圈大地震！DeepSeek 开源核弹：V4 没换代，但被 DeepSeek 装上火箭了！| AI日报0627"
         ],
         "templates": [
+          "龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702",
           "Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701",
-          "AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630",
-          "Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628"
+          "AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630"
         ]
       },
       "故事式": {
@@ -88,9 +88,9 @@
         "templates": []
       },
       "其他": {
-        "frequency": 0.148,
+        "frequency": 0.146,
         "count": 18,
-        "pctDisplay": "14.8%",
+        "pctDisplay": "14.6%",
         "examples": [
           "DeepSeek 正式上线“识图模式”；阶跃星辰限免提供 Step Plan | AI日报0618",
           "最新消息：Gemini 3.5 Pro 与 DeepSeek-V4.1",
@@ -192,7 +192,7 @@
     "aiTerms": [
       {
         "word": "AI",
-        "count": 119
+        "count": 120
       },
       {
         "word": "模型",
@@ -200,7 +200,7 @@
       },
       {
         "word": "DeepSeek",
-        "count": 30
+        "count": 31
       },
       {
         "word": "OpenAI",
@@ -282,14 +282,14 @@
       },
       {
         "word": "DeepSeek",
-        "count": 29
-      },
-      {
-        "word": "引爆",
-        "count": 22
+        "count": 30
       },
       {
         "word": "AI",
+        "count": 23
+      },
+      {
+        "word": "引爆",
         "count": 22
       },
       {
@@ -310,7 +310,7 @@
       },
       {
         "word": "3.5",
-        "count": 12
+        "count": 11
       },
       {
         "word": "硅谷",
@@ -385,11 +385,11 @@
         "count": 7
       },
       {
-        "word": "GPT-5.6",
+        "word": "Pro",
         "count": 6
       },
       {
-        "word": "Agent",
+        "word": "GPT-5.6",
         "count": 6
       }
     ],
@@ -413,36 +413,36 @@
   },
   "sentencePatterns": {
     "question": 0.008,
-    "exclamation": 0.23,
-    "statement": 0.762
+    "exclamation": 0.228,
+    "statement": 0.764
   },
   "length": {
-    "avg": 51.6,
+    "avg": 51.5,
     "min": 25,
     "max": 80,
     "median": 51,
     "distribution": {
       "20字以内": 0,
       "21-30字": 6,
-      "31-40字": 22,
+      "31-40字": 23,
       "40字以上": 94
     },
-    "over40Pct": 77,
+    "over40Pct": 76.4,
     "optimal": {
       "min": 31,
       "max": 60
     }
   },
   "numbers": {
-    "withNumberPct": 82.8,
+    "withNumberPct": 82.1,
     "commonNumbers": [
       {
         "number": 5,
-        "count": 47
+        "count": 45
       },
       {
         "number": 3,
-        "count": 41
+        "count": 39
       },
       {
         "number": 4,
@@ -450,7 +450,7 @@
       },
       {
         "number": 2,
-        "count": 26
+        "count": 24
       },
       {
         "number": 6,
@@ -479,13 +479,13 @@
     ]
   },
   "punctuation": {
-    "exclamationEnd": 0.23,
+    "exclamationEnd": 0.228,
     "questionEnd": 0.008,
-    "ellipsisEnd": 0.09
+    "ellipsisEnd": 0.089
   },
   "aiDaily": {
     "count": 70,
-    "pct": 57.4
+    "pct": 56.9
   },
   "wordsByPOS": {
     "adjectives": [
@@ -677,11 +677,11 @@
     "english": [
       {
         "word": "DeepSeek",
-        "count": 29
+        "count": 30
       },
       {
         "word": "AI",
-        "count": 22
+        "count": 23
       },
       {
         "word": "OpenAI",
@@ -724,15 +724,15 @@
         "count": 7
       },
       {
+        "word": "Pro",
+        "count": 6
+      },
+      {
         "word": "GPT-5.6",
         "count": 6
       },
       {
         "word": "Agent",
-        "count": 6
-      },
-      {
-        "word": "GPT",
         "count": 6
       }
     ]
@@ -784,6 +784,10 @@
         "count": 3
       },
       {
+        "word": "AIStudio",
+        "count": 3
+      },
+      {
         "word": "系列模型",
         "count": 3
       },
@@ -813,10 +817,6 @@
       },
       {
         "word": "风控大地震",
-        "count": 2
-      },
-      {
-        "word": "视频模型",
         "count": 2
       }
     ],
@@ -906,7 +906,7 @@
   "structure": {
     "avgClauses": 4.3,
     "separatorPatterns": {
-      "！": 85,
+      "！": 86,
       "，": 17,
       "；": 7,
       "：": 4,
@@ -939,7 +939,7 @@
     ],
     "clauseDistribution": {
       "5-6句": 39,
-      "3-4句": 50,
+      "3-4句": 51,
       "1-2句": 20,
       "7句以上": 13
     }
@@ -947,23 +947,23 @@
   "multiCategory": {
     "情感式": {
       "pureCount": 0,
-      "totalCount": 102,
-      "pctDisplay": "83.6%"
+      "totalCount": 103,
+      "pctDisplay": "83.7%"
     },
     "悬念式": {
       "pureCount": 4,
       "totalCount": 48,
-      "pctDisplay": "39.3%"
+      "pctDisplay": "39.0%"
     },
     "故事式": {
       "pureCount": 0,
       "totalCount": 8,
-      "pctDisplay": "6.6%"
+      "pctDisplay": "6.5%"
     },
     "数字列表式": {
       "pureCount": 0,
       "totalCount": 3,
-      "pctDisplay": "2.5%"
+      "pctDisplay": "2.4%"
     },
     "教程式": {
       "pureCount": 0,
@@ -978,7 +978,7 @@
     "其他": {
       "pureCount": 18,
       "totalCount": 18,
-      "pctDisplay": "14.8%"
+      "pctDisplay": "14.6%"
     }
   },
   "dynamicEmotion": [
@@ -1067,7 +1067,7 @@
     "companies": [
       {
         "word": "DeepSeek",
-        "count": 28
+        "count": 29
       },
       {
         "word": "OpenAI",
@@ -1113,7 +1113,7 @@
     "products": [
       {
         "word": "Gemini",
-        "count": 14
+        "count": 15
       },
       {
         "word": "Claude",
@@ -1206,11 +1206,11 @@
     },
     {
       "period": "2026-03",
-      "avgLength": 43.1,
+      "avgLength": 42.9,
       "exclamationDensity": 1.2,
-      "emotionIntensity": 5.5,
+      "emotionIntensity": 5.4,
       "topEmotion": "引爆",
-      "titleCount": 49
+      "titleCount": 50
     },
     {
       "period": "2026-04",
@@ -1222,11 +1222,11 @@
     },
     {
       "period": "2026-05",
-      "avgLength": 60.4,
-      "exclamationDensity": 2.6,
-      "emotionIntensity": 7.4,
+      "avgLength": 60.2,
+      "exclamationDensity": 2.5,
+      "emotionIntensity": 7.7,
       "topEmotion": "引爆",
-      "titleCount": 18
+      "titleCount": 17
     },
     {
       "period": "2026-06",
@@ -1238,11 +1238,11 @@
     },
     {
       "period": "2026-07",
-      "avgLength": 51,
-      "exclamationDensity": 2,
-      "emotionIntensity": 7,
-      "topEmotion": "引爆",
-      "titleCount": 1
+      "avgLength": 60,
+      "exclamationDensity": 2.5,
+      "emotionIntensity": 4.5,
+      "topEmotion": "龙王归来",
+      "titleCount": 2
     }
   ],
   "coOccurrences": [
@@ -1299,6 +1299,14 @@
   ],
   "extractedTemplates": [
     {
+      "template": "定了！事关{EN}{EN}和{EN}{EN}！速看→",
+      "count": 2,
+      "examples": [
+        "定了！事关 Gemini API 和 AI Studio ！速看→",
+        "定了！事关 Gemini API 和 AI Studio ！速看→"
+      ]
+    },
+    {
       "template": "{EN}正式发布{EN}模型，同步推出{EN}{EN}，支持全模态模型统一访问|{EN}日报{N}月{N}日",
       "count": 2,
       "examples": [
@@ -1353,23 +1361,15 @@
         "AI奇点已至！Pony-Alpha-2秘密启动，99%的码农迎来下岗潮，全人类命运大转折…",
         "AI奇点已至！Pony-Alpha-2秘密启动，99%的码农迎来下岗潮，全人类命运大转折…"
       ]
-    },
-    {
-      "template": "动真格了！{EN}{EN}权重或已上传，或将发布！",
-      "count": 2,
-      "examples": [
-        "动真格了！DeepSeek V4 权重或已上传，或将发布！",
-        "动真格了！DeepSeek V4 权重或已上传，或将发布！"
-      ]
     }
   ],
   "emotionIntensity": {
-    "avgScore": 6.3,
+    "avgScore": 6.2,
     "distribution": {
       "极强": 30,
       "强烈": 19,
       "中等": 28,
-      "轻微": 17,
+      "轻微": 18,
       "无": 28
     },
     "topIntense": [
@@ -1404,102 +1404,102 @@
     "topWords": [
       {
         "word": "codex",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "ceo",
-        "tfidf": 4.705,
-        "freq": 2
-      },
-      {
-        "word": "studio",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "app",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "spud",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "lmarena",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "kiteki",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "writeclaw",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "pony",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "siri",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "lite",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "wc",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "r18",
-        "tfidf": 4.705,
+        "tfidf": 4.714,
         "freq": 2
       },
       {
         "word": "k3",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "cursor",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "sonnet",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "seedance",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "code",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "m3",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
         "freq": 3
       },
       {
         "word": "chatgpt",
-        "tfidf": 4.418,
+        "tfidf": 4.426,
+        "freq": 3
+      },
+      {
+        "word": "studio",
+        "tfidf": 4.426,
         "freq": 3
       }
     ]
@@ -1510,7 +1510,7 @@
       "极强": 30,
       "强烈": 19,
       "中等": 29,
-      "轻微": 16,
+      "轻微": 17,
       "无": 28
     },
     "topPositive": [
@@ -1582,6 +1582,10 @@
         "count": 6
       },
       {
+        "word": "gemini",
+        "count": 5
+      },
+      {
         "word": "claude",
         "count": 5
       },
@@ -1607,10 +1611,6 @@
       },
       {
         "word": "mythos",
-        "count": 4
-      },
-      {
-        "word": "gemini",
         "count": 4
       }
     ]
