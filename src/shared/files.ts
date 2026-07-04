@@ -41,6 +41,18 @@ export function writeTextFile(path: string, value: string): void {
 	writeFileSync(path, value.endsWith("\n") ? value : `${value}\n`, "utf-8");
 }
 
+/**
+ * @param path - Target file path. Parent directories created if needed.
+ * @param content - String content to write.
+ * @returns `true` if file was written, `false` if skipped (content identical).
+ */
+export function writeFileIfChanged(path: string, content: string): boolean {
+	mkdirSync(dirname(path), { recursive: true });
+	if (existsSync(path) && readFileSync(path, "utf-8") === content) return false;
+	writeFileSync(path, content, "utf-8");
+	return true;
+}
+
 // ---- YAML ----
 
 /**

@@ -3,6 +3,9 @@
  *
  * Markdown report renderer for style analysis.
  */
+
+import { joinWords } from "../../shared/text.ts";
+import { signalRules } from "./analyze.ts";
 import type { StyleAnalysis } from "./types.ts";
 
 /** Tokens that are not real entities and should be filtered from display. */
@@ -25,14 +28,9 @@ const nonPersonEntities = new Set([
 	"gpt",
 ]);
 
-const signalIdToLabel: Record<string, string> = {
-	emotion_burst: "情绪爆点",
-	number_hook: "数字悬念",
-	daily: "日报式",
-	absurd_imagery: "荒诞意象",
-	multi_event: "多事件合并",
-	contrast: "对比冲突",
-};
+const signalIdToLabel: Record<string, string> = Object.fromEntries(
+	signalRules.map((rule) => [rule.id, rule.label]),
+);
 
 export function renderAnalysisReport(analysis: StyleAnalysis): string {
 	return [
@@ -184,10 +182,6 @@ export function renderLlmBrief(analysis: StyleAnalysis): string {
 		"## 硬约束",
 		...analysis.generation.writingConstraints.map((rule) => `- ${rule}`),
 	].join("\n");
-}
-
-function joinWords(words: [string, number][]): string {
-	return words.length > 0 ? words.map(([word]) => word).join("、") : "暂无";
 }
 
 function pctOf(

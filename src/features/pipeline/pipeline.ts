@@ -7,13 +7,12 @@
  * Dry‑run prints intent without side effects.
  */
 import { UapiClient } from "uapi-sdk-typescript";
+import { stringify } from "yaml";
 import {
 	readCSV,
 	readYamlFile,
 	writeCSV,
-	writeJsonFile,
-	writeTextFile,
-	writeYamlFile,
+	writeFileIfChanged,
 } from "../../shared/files.ts";
 import {
 	analysisDataPath,
@@ -138,7 +137,7 @@ export async function runPipeline(args: string[]): Promise<void> {
 		stepNum += 1;
 		console.log(`[${stepNum}/${totalSteps}] 📊 Load analysis from cache …`);
 		analysis = readYamlFile<StyleAnalysis>(analysisDataPath);
-		writeTextFile(llmBriefPath, renderLlmBrief(analysis));
+		writeFileIfChanged(llmBriefPath, `${renderLlmBrief(analysis)}\n`);
 		console.log(`  ✅ ${analysis.corpus.totalTitles} videos analyzed\n`);
 	} else {
 		stepNum += 1;
@@ -155,10 +154,16 @@ export async function runPipeline(args: string[]): Promise<void> {
 			batchSize: options.hanlpBatchSize,
 		});
 		analysis = result.analysis;
-		writeYamlFile(analysisDataPath, analysis);
-		writeJsonFile(titleFeaturesPath, result.features);
-		writeTextFile(llmBriefPath, renderLlmBrief(analysis));
-		writeTextFile(analysisReportPath, renderAnalysisReport(analysis));
+		writeFileIfChanged(analysisDataPath, stringify(analysis, { lineWidth: 0 }));
+		writeFileIfChanged(
+			titleFeaturesPath,
+			`${JSON.stringify(result.features, null, 2)}\n`,
+		);
+		writeFileIfChanged(llmBriefPath, `${renderLlmBrief(analysis)}\n`);
+		writeFileIfChanged(
+			analysisReportPath,
+			`${renderAnalysisReport(analysis)}\n`,
+		);
 		console.log(`  ✅ analysis complete (${elapsed(t0)}s)`);
 		console.log(
 			`     avg ${analysis.corpus.length.avg}字  |  entities ${analysis.entities.coveragePct}%  |  ! ${analysis.rhetoric.exclamationPct}%  |  ? ${analysis.rhetoric.questionPct}%`,
@@ -175,7 +180,7 @@ export async function runPipeline(args: string[]): Promise<void> {
 	console.log(`[${stepNum}/${totalSteps}] 📝 Generate SKILL.md …`);
 	const t0 = Date.now();
 	const skill = generateSkill(analysis);
-	writeTextFile(skillPath, skill);
+	writeFileIfChanged(skillPath, `${skill}\n`);
 	console.log(`  ✅ SKILL.md (${skill.length} chars, ${elapsed(t0)}s)\n`);
 
 	// Print final file paths for manual inspection

@@ -3,6 +3,8 @@
  *
  * HanLP REST adapter and response normalization.
  */
+
+import { normalizeTokenText } from "../../shared/text.ts";
 import type { EntityMention, NlpBackend, NlpDocument, Token } from "./types.ts";
 
 type FetchFunction = (
@@ -283,10 +285,6 @@ function tokenEnd(
 	token: string,
 ): number | undefined {
 	return start === undefined ? undefined : start + [...token].length;
-}
-
-function normalizeTokenText(text: string): string {
-	return text.trim().replace(/\s+/g, " ").toLowerCase();
 }
 
 function pickNested(value: unknown, index: number): unknown {

@@ -3,6 +3,8 @@
  *
  * Deterministic style aggregation over HanLP lexical analysis.
  */
+
+import { normalizeTokenText } from "../../shared/text.ts";
 import type { VideoEntry } from "../video-titles/types.ts";
 import {
 	brandWords,
@@ -41,7 +43,7 @@ interface SignalRule {
 	pattern: RegExp;
 }
 
-const signalRules: SignalRule[] = [
+export const signalRules: SignalRule[] = [
 	{ id: "daily", label: "日报式", pattern: /AI\s*日报|日报|\|\s*AI/i },
 	{
 		id: "emotion_burst",
@@ -141,23 +143,8 @@ function aggregateStyleAnalysis(
 	options: AnalyzeStyleOptions,
 ): StyleAnalysis {
 	const titles = videos.map((video) => video.title);
-	const lengths = titles
-		.map((title) => [...title].length)
-		.sort((a, b) => a - b);
-	const tokenCounts = new Map<string, number>();
-	let stopWordsFiltered = 0;
-
-	for (const feature of features) {
-		for (const token of feature.tokens) {
-			const normalized = token.normalized;
-			if (!normalized || normalized.length < 2) continue;
-			if (domainStopWords.has(normalized) || domainStopWords.has(token.text)) {
-				stopWordsFiltered += 1;
-				continue;
-			}
-			tokenCounts.set(token.text, (tokenCounts.get(token.text) ?? 0) + 1);
-		}
-	}
+	const lengths = computeSortedLengths(titles);
+	const { tokenCounts, stopWordsFiltered } = computeTokenCounts(features);
 
 	const entityCounts = countEntities(features);
 	const signals = summarizeSignals(features);
@@ -277,6 +264,32 @@ function aggregateStyleAnalysis(
 			],
 		},
 	};
+}
+
+function computeSortedLengths(titles: string[]): number[] {
+	return titles.map((title) => [...title].length).sort((a, b) => a - b);
+}
+
+function computeTokenCounts(features: TitleFeature[]): {
+	tokenCounts: Map<string, number>;
+	stopWordsFiltered: number;
+} {
+	const tokenCounts = new Map<string, number>();
+	let stopWordsFiltered = 0;
+
+	for (const feature of features) {
+		for (const token of feature.tokens) {
+			const normalized = token.normalized;
+			if (!normalized || normalized.length < 2) continue;
+			if (domainStopWords.has(normalized) || domainStopWords.has(token.text)) {
+				stopWordsFiltered += 1;
+				continue;
+			}
+			tokenCounts.set(token.text, (tokenCounts.get(token.text) ?? 0) + 1);
+		}
+	}
+
+	return { tokenCounts, stopWordsFiltered };
 }
 
 export function applyDomainProtection(title: string, tokens: Token[]): Token[] {
@@ -637,12 +650,19 @@ function getDateRange(videos: VideoEntry[]): {
 }
 
 function lengthDistribution(lengths: number[]): Record<string, number> {
-	return {
-		"20字以内": lengths.filter((value) => value <= 20).length,
-		"21-30字": lengths.filter((value) => value > 20 && value <= 30).length,
-		"31-40字": lengths.filter((value) => value > 30 && value <= 40).length,
-		"40字以上": lengths.filter((value) => value > 40).length,
+	const distribution = {
+		"20字以内": 0,
+		"21-30字": 0,
+		"31-40字": 0,
+		"40字以上": 0,
 	};
+	for (const value of lengths) {
+		if (value <= 20) distribution["20字以内"] += 1;
+		else if (value <= 30) distribution["21-30字"] += 1;
+		else if (value <= 40) distribution["31-40字"] += 1;
+		else distribution["40字以上"] += 1;
+	}
+	return distribution;
 }
 
 function emptyDoc(text: string): NlpDocument {
@@ -697,10 +717,6 @@ function isModelVersion(text: string): boolean {
 	return /[A-Za-z]+[-\s]?(?:V?\d+(?:\.\d+)*|Pro|Flash|Max|Mini|Code|Lite|Plus)/.test(
 		text,
 	);
-}
-
-function normalizeTokenText(text: string): string {
-	return text.trim().replace(/\s+/g, " ").toLowerCase();
 }
 
 function escapeRegexList(words: readonly string[]): string {

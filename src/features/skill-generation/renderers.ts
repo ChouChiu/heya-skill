@@ -3,7 +3,9 @@
  *
  * Rendering helpers for SKILL.md auto sections.
  */
-import type { StyleAnalysis, WordCount } from "../style-analysis/types.ts";
+
+import { joinWords } from "../../shared/text.ts";
+import type { StyleAnalysis } from "../style-analysis/types.ts";
 
 export function renderCoreFeatures(analysis: StyleAnalysis): string {
 	const topSignal = Object.entries(analysis.rhetoric.signals).sort(
@@ -71,8 +73,4 @@ export function renderStructureFormulas(analysis: StyleAnalysis): string {
 		"写作硬约束：",
 		...analysis.generation.writingConstraints.map((rule) => `- ${rule}`),
 	].join("\n");
-}
-
-function joinWords(words: WordCount[]): string {
-	return words.length > 0 ? words.map(([word]) => word).join("、") : "暂无";
 }

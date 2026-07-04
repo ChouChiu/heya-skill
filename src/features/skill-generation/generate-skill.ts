@@ -15,6 +15,13 @@ import {
 } from "./renderers.ts";
 import { loadSkillTemplate, replaceSection } from "./template.ts";
 
+const AUTO_SECTIONS = {
+	coreFeatures: "core-features",
+	titleExamples: "title-examples",
+	vocabLibrary: "vocab-library",
+	structureFormulas: "structure-formulas",
+} as const;
+
 /**
  * Fill all 4 auto‑replace sections in the skill template.
  *
@@ -23,16 +30,24 @@ import { loadSkillTemplate, replaceSection } from "./template.ts";
  */
 export function generateSkill(analysis: StyleAnalysis): string {
 	let skill = loadSkillTemplate();
-	skill = replaceSection(skill, "core-features", renderCoreFeatures(analysis));
 	skill = replaceSection(
 		skill,
-		"title-examples",
+		AUTO_SECTIONS.coreFeatures,
+		renderCoreFeatures(analysis),
+	);
+	skill = replaceSection(
+		skill,
+		AUTO_SECTIONS.titleExamples,
 		renderTitleExamples(analysis),
 	);
-	skill = replaceSection(skill, "vocab-library", renderVocabLibrary(analysis));
 	skill = replaceSection(
 		skill,
-		"structure-formulas",
+		AUTO_SECTIONS.vocabLibrary,
+		renderVocabLibrary(analysis),
+	);
+	skill = replaceSection(
+		skill,
+		AUTO_SECTIONS.structureFormulas,
 		renderStructureFormulas(analysis),
 	);
 	return skill;
