@@ -1,0 +1,55 @@
+name: Update Reference Data
+
+on:
+  schedule:
+    - cron: "30 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Check
+        run: bun run check
+
+      - name: Test
+        run: bun test
+
+      - name: Check HanLP service
+        run: |
+          bun -e 'const url = process.env.HANLP_URL; if (!url) throw new Error("HANLP_URL secret is required for analysis"); const base = url.replace(/\/+$/, ""); const response = await fetch(`${base}/health`); if (!response.ok) throw new Error(`HanLP health check failed: ${response.status} ${response.statusText}`);'
+        env:
+          HANLP_URL: ${{ secrets.HANLP_URL }}
+
+      - name: Run pipeline
+        run: bun pipeline
+        env:
+          HANLP_URL: ${{ secrets.HANLP_URL }}
+          UAPI_API_KEY: ${{ secrets.UAPI_API_KEY }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skills/heya-title-style/references/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update reference data"
+            git push
+          fi
