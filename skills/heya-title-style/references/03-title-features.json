@@ -1,5 +1,257 @@
 [
   {
+    "bvid": "BV1kUT16XEHb",
+    "title": "重磅炸弹！Anthropic深夜引爆澳洲大陆，150亿算力海啸席卷全球，OpenAI的斩杀线来了！",
+    "date": "2026-07-05",
+    "clauses": [
+      "重磅炸弹",
+      "Anthropic深夜引爆澳洲大陆",
+      "150亿算力海啸席卷全球",
+      "OpenAI的斩杀线来了"
+    ],
+    "tokens": [
+      {
+        "text": "重磅",
+        "normalized": "重磅",
+        "start": 0,
+        "end": 2,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "炸弹",
+        "normalized": "炸弹",
+        "start": 2,
+        "end": 4,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Anthropic",
+        "normalized": "anthropic",
+        "start": 5,
+        "end": 14,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "深夜",
+        "normalized": "深夜",
+        "start": 14,
+        "end": 16,
+        "pos": "NT",
+        "source": "hanlp"
+      },
+      {
+        "text": "引爆",
+        "normalized": "引爆",
+        "start": 16,
+        "end": 18,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "澳洲",
+        "normalized": "澳洲",
+        "start": 18,
+        "end": 20,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "大陆",
+        "normalized": "大陆",
+        "start": 20,
+        "end": 22,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 22,
+        "end": 23,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "150亿",
+        "normalized": "150亿",
+        "start": 23,
+        "end": 27,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "算力",
+        "normalized": "算力",
+        "start": 27,
+        "end": 29,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "海啸",
+        "normalized": "海啸",
+        "start": 29,
+        "end": 31,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "席卷",
+        "normalized": "席卷",
+        "start": 31,
+        "end": 33,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "全球",
+        "normalized": "全球",
+        "start": 33,
+        "end": 35,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 35,
+        "end": 36,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "normalized": "openai",
+        "start": 36,
+        "end": 42,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "的",
+        "normalized": "的",
+        "start": 42,
+        "end": 43,
+        "pos": "DEG",
+        "source": "hanlp"
+      },
+      {
+        "text": "斩杀线来了",
+        "normalized": "斩杀线来了",
+        "start": 43,
+        "end": 48,
+        "source": "domain"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 48,
+        "end": 49,
+        "pos": "PU",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "深夜",
+        "type": "TIME",
+        "start": 4,
+        "end": 5,
+        "source": "hanlp"
+      },
+      {
+        "text": "澳洲",
+        "type": "LOCATION",
+        "start": 6,
+        "end": 7,
+        "source": "hanlp"
+      },
+      {
+        "text": "150亿",
+        "type": "INTEGER",
+        "start": 9,
+        "end": 10,
+        "source": "hanlp"
+      },
+      {
+        "text": "算力",
+        "type": "ORGANIZATION",
+        "start": 10,
+        "end": 11,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "type": "PERSON",
+        "start": 15,
+        "end": 16,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "type": "brand",
+        "start": 36,
+        "end": 42,
+        "source": "dictionary"
+      },
+      {
+        "text": "Anthropic",
+        "type": "brand",
+        "start": 5,
+        "end": 14,
+        "source": "dictionary"
+      }
+    ],
+    "signals": [
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "multi_event",
+        "label": "多事件合并",
+        "matched": [
+          "多事件合并"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "emotion_burst",
+      "multi_event",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 3.2
+  },
+  {
     "bvid": "BV1fyMw6bEPC",
     "title": "大的要来了，GPT-5.6 三兄弟或于下周上线！",
     "date": "2026-07-04",
@@ -24819,224 +25071,6 @@
       "emotion_burst",
       "number_hook",
       "contrast"
-    ],
-    "emotionScore": 3
-  },
-  {
-    "bvid": "BV1VWSfB1EpX",
-    "title": "脊背发凉！OpenAI今日承认：AI将导致社会动荡，大规模失业！发起挽救人类倡议！",
-    "date": "2026-04-06",
-    "clauses": [
-      "脊背发凉",
-      "OpenAI今日承认",
-      "AI将导致社会动荡",
-      "大规模失业",
-      "发起挽救人类倡议"
-    ],
-    "tokens": [
-      {
-        "text": "脊背",
-        "normalized": "脊背",
-        "start": 0,
-        "end": 2,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "发凉",
-        "normalized": "发凉",
-        "start": 2,
-        "end": 4,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 4,
-        "end": 5,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "OpenAI",
-        "normalized": "openai",
-        "start": 5,
-        "end": 11,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "今日",
-        "normalized": "今日",
-        "start": 11,
-        "end": 13,
-        "pos": "NT",
-        "source": "hanlp"
-      },
-      {
-        "text": "承认",
-        "normalized": "承认",
-        "start": 13,
-        "end": 15,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "：",
-        "normalized": "：",
-        "start": 15,
-        "end": 16,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI",
-        "normalized": "ai",
-        "start": 16,
-        "end": 18,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 18,
-        "end": 19,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "导致",
-        "normalized": "导致",
-        "start": 19,
-        "end": 21,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "社会",
-        "normalized": "社会",
-        "start": 21,
-        "end": 23,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "动荡",
-        "normalized": "动荡",
-        "start": 23,
-        "end": 25,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "，",
-        "normalized": "，",
-        "start": 25,
-        "end": 26,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "大规模",
-        "normalized": "大规模",
-        "start": 26,
-        "end": 29,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "失业",
-        "normalized": "失业",
-        "start": 29,
-        "end": 31,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 31,
-        "end": 32,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "发起",
-        "normalized": "发起",
-        "start": 32,
-        "end": 34,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "挽救",
-        "normalized": "挽救",
-        "start": 34,
-        "end": 36,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "人类",
-        "normalized": "人类",
-        "start": 36,
-        "end": 38,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "倡议",
-        "normalized": "倡议",
-        "start": 38,
-        "end": 40,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 40,
-        "end": 41,
-        "pos": "PU",
-        "source": "hanlp"
-      }
-    ],
-    "entities": [
-      {
-        "text": "OpenAI",
-        "type": "ORGANIZATION",
-        "start": 3,
-        "end": 4,
-        "source": "hanlp"
-      },
-      {
-        "text": "今日",
-        "type": "DATE",
-        "start": 4,
-        "end": 5,
-        "source": "hanlp"
-      },
-      {
-        "text": "OpenAI",
-        "type": "brand",
-        "start": 5,
-        "end": 11,
-        "source": "dictionary"
-      }
-    ],
-    "signals": [
-      {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      }
-    ],
-    "categoryIds": [
-      "emotion_burst"
     ],
     "emotionScore": 3
   },
