@@ -6,38 +6,38 @@ nlp:
     - ner
   batchSize: 32
   failureCount: 0
-  generatedAt: 2026-07-07T15:27:38.594Z
+  generatedAt: 2026-07-08T14:57:33.420Z
 corpus:
   creator: 黑鸦
   uid: "3706929260006322"
-  totalTitles: 127
+  totalTitles: 128
   dateRange:
     oldest: 2026-02-25
-    newest: 2026-07-07
+    newest: 2026-07-08
   source: UApi Bilibili proxy + HanLP REST
   length:
-    avg: 54.1
+    avg: 54
     min: 24
     max: 80
     median: 55
     p75: 64
     p90: 72
-    over40Pct: 83.5
+    over40Pct: 82.8
     distribution:
       20字以内: 0
       21-30字: 4
-      31-40字: 17
+      31-40字: 18
       40字以上: 106
   punctuation:
-    exclamationEndPct: 17.3
+    exclamationEndPct: 17.2
     questionEndPct: 0.8
-    averageExclamationCount: 2.07
-    averageSeparatorCount: 4.17
+    averageExclamationCount: 2.02
+    averageSeparatorCount: 4.11
     separatorUsage:
       - - ！
-        - 263
+        - 258
       - - ，
-        - 125
+        - 127
       - - "|"
         - 84
       - - ？
@@ -45,7 +45,7 @@ corpus:
       - - ；
         - 19
       - - ：
-        - 11
+        - 10
       - - 、
         - 6
       - - ｜
@@ -55,10 +55,20 @@ corpus:
     distribution:
       1句: 1
       2句: 9
-      3句: 18
-      4句及以上: 99
+      3句: 20
+      4句及以上: 98
   examples:
     recent:
+      - aid: 116883927862269
+        bvid: BV1ADMg6tEeZ
+        title: 血流成河！GPT-5.6 刚宣战就被 Grok 4.5 堵截，MiniMax 默默掏出 2.7 万亿参数模型加入乱斗 ！| AI日报0708
+        created: 1783507483
+        createdDate: 2026-07-08
+      - aid: 116882535484702
+        bvid: BV1yeMi6NEBa
+        title: 突发：OpenAI 官宣 GPT-5.6 当地时间本周四公开发布，美国商务部已放行
+        created: 1783485995
+        createdDate: 2026-07-08
       - aid: 116878324336407
         bvid: BV147M86QEXp
         title: GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
@@ -109,16 +119,6 @@ corpus:
         title: Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
         created: 1782649861
         createdDate: 2026-06-28
-      - aid: 116821986445242
-        bvid: BV17B7H6BEpu
-        title: AI圈大地震！DeepSeek 开源核弹：V4 没换代，但被 DeepSeek 装上火箭了！| AI日报0627
-        created: 1782562277
-        createdDate: 2026-06-27
-      - aid: 116816517007367
-        bvid: BV1fE7V6EEaw
-        title: Token 服务终于要被收编了！信通院牵头，22家单位集结，AI计费江湖迎来大清算……
-        created: 1782478623
-        createdDate: 2026-06-26
     mostEmotional:
       - 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
       - 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
@@ -136,7 +136,7 @@ entities:
     - - DeepSeek
       - 36
     - - GPT
-      - 22
+      - 24
     - - OpenAI
       - 22
     - - Gemini
@@ -149,22 +149,22 @@ entities:
       - 9
     - - Kimi
       - 8
+    - - MiniMax
+      - 8
     - - 腾讯
       - 7
-    - - MiniMax
-      - 7
-    - - 阿里
-      - 6
     - - 智谱
       - 6
     - - Fable
       - 6
+    - - 阿里
+      - 5
     - - 谷歌
       - 5
     - - 字节
       - 5
     - - Grok
-      - 4
+      - 5
     - - 豆包
       - 3
     - - ChatGPT
@@ -185,24 +185,22 @@ entities:
       - 1
   people:
     - - 奥特曼
-      - 11
+      - 10
     - - 马斯克
       - 7
     - - OpenAI
-      - 6
+      - 5
     - - 阶跃
-      - 2
-    - - 梁文峰
       - 2
     - - 星辰
       - 2
     - - 杨植麟
       - 2
-    - - 阿里
-      - 1
     - - 达里奥
       - 1
     - - 谷歌云
+      - 1
+    - - 梁文峰
       - 1
     - - 特朗普
       - 1
@@ -222,7 +220,7 @@ entities:
       - 1
   organizations:
     - - AI日报
-      - 76
+      - 75
     - - Gemini
       - 14
     - - OpenAI
@@ -263,11 +261,11 @@ entities:
       - 1
   modelVersions:
     - - GPT-5.6
-      - 8
+      - 10
     - - DeepSeek V4
       - 7
     - - MiniMax
-      - 6
+      - 7
     - - Fable 5
       - 4
     - - Gemini 3.5 Pro
@@ -289,6 +287,8 @@ entities:
     - - Gemma 4
       - 2
     - - GLM-5.2
+      - 2
+    - - Grok 4.5
       - 2
     - - Hy3
       - 2
@@ -320,22 +320,20 @@ entities:
       - 1
     - - ClaudeOpus 4.7
       - 1
-    - - DeepSeek V4.1
-      - 1
   english:
     - - AI
-      - 146
+      - 145
     - - DeepSeek
-      - 35
+      - 36
     - - OpenAI
       - 24
     - - Gemini
       - 20
     - - Anthropic
       - 13
-    - - Claude
-      - 10
     - - GPT-5.6
+      - 12
+    - - Claude
       - 10
     - - V4
       - 9
@@ -343,9 +341,9 @@ entities:
       - 8
     - - Kimi
       - 8
-    - - Agent
-      - 7
     - - MiniMax
+      - 8
+    - - Agent
       - 7
     - - Mythos
       - 7
@@ -357,6 +355,8 @@ entities:
       - 5
     - - GPT
       - 5
+    - - Grok
+      - 5
     - - Opus
       - 5
     - - Plan
@@ -366,8 +366,6 @@ entities:
     - - Codex
       - 4
     - - GPT-5.5
-      - 4
-    - - Grok
       - 4
     - - Qwen
       - 4
@@ -384,6 +382,206 @@ entities:
     - - Max
       - 3
   fromNer:
+    PHONE:
+      - - "| AI日报"
+        - 1
+      - - "0416"
+        - 1
+      - - "0503"
+        - 1
+      - - "0504"
+        - 1
+      - - "0515"
+        - 1
+      - - "0518"
+        - 1
+      - - "0521"
+        - 1
+      - - "0608"
+        - 1
+      - - "0613"
+        - 1
+      - - "0614"
+        - 1
+      - - "0617"
+        - 1
+      - - "0618"
+        - 1
+      - - "0624"
+        - 1
+      - - "0627"
+        - 1
+      - - "0702"
+        - 1
+      - - "0703"
+        - 1
+      - - "3.1"
+        - 1
+      - - Grok 4.5
+        - 1
+      - - K2.6
+        - 1
+      - - V4.1
+        - 1
+    DECIMAL:
+      - - "3.5"
+        - 5
+      - - "3.2"
+        - 3
+      - - "4.8"
+        - 3
+      - - "2.0"
+        - 2
+      - - "5.6"
+        - 2
+      - - 1.5T
+        - 1
+      - - "2.1"
+        - 1
+      - - "2.5"
+        - 1
+      - - 2.7 万亿
+        - 1
+      - - "5.3"
+        - 1
+      - - "5.4"
+        - 1
+      - - GLM-5.2
+        - 1
+      - - K2.7
+        - 1
+      - - M2.7
+        - 1
+      - - V4.1
+        - 1
+    WWW:
+      - - "0603"
+        - 1
+      - - AI日报0708
+        - 1
+    brand:
+      - - DeepSeek
+        - 36
+      - - GPT
+        - 24
+      - - OpenAI
+        - 22
+      - - Gemini
+        - 19
+      - - Anthropic
+        - 13
+      - - Claude
+        - 10
+      - - Qwen
+        - 9
+      - - Kimi
+        - 8
+      - - MiniMax
+        - 8
+      - - 腾讯
+        - 7
+      - - 智谱
+        - 6
+      - - Fable
+        - 6
+      - - 阿里
+        - 5
+      - - 谷歌
+        - 5
+      - - 字节
+        - 5
+      - - Grok
+        - 5
+      - - 豆包
+        - 3
+      - - ChatGPT
+        - 3
+      - - Cursor
+        - 3
+      - - 华为
+        - 2
+    model:
+      - - GPT-5.6
+        - 10
+      - - DeepSeek V4
+        - 7
+      - - MiniMax
+        - 7
+      - - Fable 5
+        - 4
+      - - Gemini 3.5 Pro
+        - 4
+      - - GPT-5.5
+        - 4
+      - - Opus 4.8
+        - 3
+      - - Banana 2
+        - 2
+      - - DeepSeek-V4
+        - 2
+      - - Gemini 3.1 Flash
+        - 2
+      - - Gemini 3.2
+        - 2
+      - - Gemini 3.5
+        - 2
+      - - Gemma 4
+        - 2
+      - - GLM-5.2
+        - 2
+      - - Grok 4.5
+        - 2
+      - - Hy3
+        - 2
+      - - K2.6
+        - 2
+      - - K3
+        - 2
+      - - M2.7
+        - 2
+      - - M3
+        - 2
+    ORGANIZATION:
+      - - AI日报
+        - 75
+      - - Gemini
+        - 14
+      - - OpenAI
+        - 13
+      - - "|"
+        - 10
+      - - Claude
+        - 7
+      - - Google
+        - 7
+      - - 腾讯
+        - 5
+      - - 谷歌
+        - 4
+      - - DeepSeek
+        - 4
+      - - 马斯克
+        - 3
+      - - "|AI日报"
+        - 2
+      - - 达里奥
+        - 2
+      - - 华为
+        - 2
+      - - ｜
+        - 1
+      - - "| AI日报"
+        - 1
+      - - "4.7"
+        - 1
+      - - 阿里
+        - 1
+      - - 阿里 Qwen3.6
+        - 1
+      - - 阿里千问
+        - 1
+      - - 阿里腾讯
+        - 1
     DATE:
       - - 3月
         - 6
@@ -425,43 +623,12 @@ entities:
         - 1
       - - 今天
         - 1
-    DECIMAL:
-      - - "3.5"
-        - 5
-      - - "3.2"
-        - 3
-      - - "4.8"
-        - 3
-      - - "2.0"
-        - 2
-      - - "5.6"
-        - 2
-      - - 1.5T
-        - 1
-      - - "2.1"
-        - 1
-      - - "2.5"
-        - 1
-      - - "5.3"
-        - 1
-      - - "5.4"
-        - 1
-      - - GLM-5.2
-        - 1
-      - - K2.7
-        - 1
-      - - M2.7
-        - 1
-      - - V4.1
-        - 1
     PERSON:
       - - 奥特曼
-        - 11
+        - 10
       - - OpenAI
-        - 6
+        - 5
       - - 阶跃
-        - 2
-      - - 梁文峰
         - 2
       - - 马斯克
         - 2
@@ -469,11 +636,11 @@ entities:
         - 2
       - - 杨植麟
         - 2
-      - - 阿里
-        - 1
       - - 达里奥
         - 1
       - - 谷歌云
+        - 1
+      - - 梁文峰
         - 1
       - - 特朗普
         - 1
@@ -491,129 +658,6 @@ entities:
         - 1
       - - Opus
         - 1
-    ORGANIZATION:
-      - - AI日报
-        - 76
-      - - Gemini
-        - 14
-      - - OpenAI
-        - 13
-      - - "|"
-        - 10
-      - - Claude
-        - 7
-      - - Google
-        - 7
-      - - 腾讯
-        - 5
-      - - 谷歌
-        - 4
-      - - DeepSeek
-        - 4
-      - - 马斯克
-        - 3
-      - - "|AI日报"
-        - 2
-      - - 达里奥
-        - 2
-      - - 华为
-        - 2
-      - - ｜
-        - 1
-      - - "| AI日报"
-        - 1
-      - - "4.7"
-        - 1
-      - - 阿里
-        - 1
-      - - 阿里 Qwen3.6
-        - 1
-      - - 阿里千问
-        - 1
-      - - 阿里腾讯
-        - 1
-    brand:
-      - - DeepSeek
-        - 36
-      - - GPT
-        - 22
-      - - OpenAI
-        - 22
-      - - Gemini
-        - 19
-      - - Anthropic
-        - 13
-      - - Claude
-        - 10
-      - - Qwen
-        - 9
-      - - Kimi
-        - 8
-      - - 腾讯
-        - 7
-      - - MiniMax
-        - 7
-      - - 阿里
-        - 6
-      - - 智谱
-        - 6
-      - - Fable
-        - 6
-      - - 谷歌
-        - 5
-      - - 字节
-        - 5
-      - - Grok
-        - 4
-      - - 豆包
-        - 3
-      - - ChatGPT
-        - 3
-      - - Cursor
-        - 3
-      - - 华为
-        - 2
-    model:
-      - - GPT-5.6
-        - 8
-      - - DeepSeek V4
-        - 7
-      - - MiniMax
-        - 6
-      - - Fable 5
-        - 4
-      - - Gemini 3.5 Pro
-        - 4
-      - - GPT-5.5
-        - 4
-      - - Opus 4.8
-        - 3
-      - - Banana 2
-        - 2
-      - - DeepSeek-V4
-        - 2
-      - - Gemini 3.1 Flash
-        - 2
-      - - Gemini 3.2
-        - 2
-      - - Gemini 3.5
-        - 2
-      - - Gemma 4
-        - 2
-      - - GLM-5.2
-        - 2
-      - - Hy3
-        - 2
-      - - K2.6
-        - 2
-      - - K3
-        - 2
-      - - M2.7
-        - 2
-      - - M3
-        - 2
-      - - Mythos 5
-        - 2
     TIME:
       - - 深夜
         - 10
@@ -624,6 +668,8 @@ entities:
         - 11
       - - 中国
         - 2
+      - - "0403"
+        - 1
       - - "0516"
         - 1
       - - "0606"
@@ -657,8 +703,6 @@ entities:
       - - 月
         - 1
       - - 云
-        - 1
-      - - 中
         - 1
     INTEGER:
       - - "0402"
@@ -730,45 +774,6 @@ entities:
         - 1
       - - R18
         - 1
-    PHONE:
-      - - "| AI日报"
-        - 1
-      - - "0416"
-        - 1
-      - - "0503"
-        - 1
-      - - "0504"
-        - 1
-      - - "0515"
-        - 1
-      - - "0518"
-        - 1
-      - - "0521"
-        - 1
-      - - "0608"
-        - 1
-      - - "0613"
-        - 1
-      - - "0614"
-        - 1
-      - - "0617"
-        - 1
-      - - "0618"
-        - 1
-      - - "0624"
-        - 1
-      - - "0627"
-        - 1
-      - - "0702"
-        - 1
-      - - "0703"
-        - 1
-      - - "3.1"
-        - 1
-      - - K2.6
-        - 1
-      - - V4.1
-        - 1
     RATE:
       - - "3.5"
         - 1
@@ -778,9 +783,6 @@ entities:
         - 1
     WEIGHT:
       - - "2.0"
-        - 1
-    WWW:
-      - - "0603"
         - 1
     person:
       - - 马斯克
@@ -808,21 +810,19 @@ entities:
 lexicon:
   highFrequency:
     - - 模型
-      - 31
+      - 32
     - - DeepSeek
-      - 27
+      - 28
     - - OpenAI
       - 23
     - - 引爆
       - 22
     - - 发布
-      - 20
+      - 21
     - - ……
       - 15
     - - Anthropic
       - 13
-    - - 奥特曼
-      - 11
     - - 硅谷
       - 11
     - - 核弹
@@ -831,6 +831,10 @@ lexicon:
       - 11
     - - 深夜
       - 11
+    - - GPT-5.6
+      - 11
+    - - 奥特曼
+      - 10
     - - Claude
       - 10
     - - 泄露
@@ -839,15 +843,11 @@ lexicon:
       - 9
     - - Gemini
       - 9
-    - - GPT-5.6
-      - 9
     - - 大地震
       - 8
     - - 地震
       - 8
     - - 来袭
-      - 8
-    - - 人类
       - 8
     - - 上线
       - 8
@@ -871,11 +871,15 @@ lexicon:
       - 7
     - - 全线
       - 7
+    - - 人类
+      - 7
     - - 腾讯
       - 7
     - - 头皮
       - 7
     - - DeepSeek V4
+      - 7
+    - - MiniMax
       - 7
     - - 3月
       - 6
@@ -885,21 +889,19 @@ lexicon:
       - 6
     - - 官方
       - 6
-    - - 全面
-      - 6
   domainTerms:
     - - AI
-      - 105
+      - 106
     - - AI日报
       - 82
     - - AI圈
-      - 34
+      - 33
     - - 模型
-      - 29
+      - 30
     - - 引爆
       - 22
     - - 发布
-      - 17
+      - 18
     - - 开源
       - 8
     - - 泄露
@@ -928,7 +930,7 @@ lexicon:
     - - 杀疯
       - 6
     - - 突发
-      - 5
+      - 6
     - - 雪崩
       - 5
     - - 沸腾
@@ -945,7 +947,7 @@ lexicon:
       - 2
     - - 裂开
       - 1
-  stopWordsFiltered: 150
+  stopWordsFiltered: 148
 phrases:
   bigrams:
     - - 深夜引爆
@@ -967,8 +969,6 @@ phrases:
     - - 正式发布
       - 4
     - - 海啸席卷
-      - 3
-    - - 横空出世
       - 3
     - - 接管世界
       - 3
@@ -999,6 +999,8 @@ phrases:
     - - 仿佛看到
       - 2
     - - 核弹来袭
+      - 2
+    - - 横空出世
       - 2
     - - 角色扮演
       - 2
@@ -1053,6 +1055,8 @@ phrases:
       - 1
     - - 2.0正式发布
       - 1
+    - - 2.7 万亿参数模型
+      - 1
     - - 200亿加码DeepSeek
       - 1
     - - 22单位集结
@@ -1067,11 +1071,9 @@ phrases:
       - 1
     - - 35小时疯狂
       - 1
-    - - 3亿伪装字节
-      - 1
   crossToken:
     - - AI日报
-      - 38
+      - 34
     - - AI圈大地震
       - 18
     - - 智谱突然发布核弹 GLM-5.2 引爆AI圈
@@ -1139,9 +1141,9 @@ phrases:
       - 4
     - - AI圈大地震
       - 4
-    - - 后背发凉
-      - 2
     - - 突发
+      - 3
+    - - 后背发凉
       - 2
     - - AI奇点已至
       - 2
@@ -1157,7 +1159,7 @@ phrases:
       - 1
   endingHooks:
     - - AI日报
-      - 19
+      - 17
     - - 战啊……
       - 2
     - - AI日报3月5日
@@ -1224,33 +1226,33 @@ phrases:
     - - 全员颤抖
       - 1
 rhetoric:
-  questionPct: 14.2
-  exclamationPct: 88.2
-  contrastPct: 7.9
-  roundupPct: 66.9
-  namedEntityPct: 97.6
+  questionPct: 14.1
+  exclamationPct: 86.7
+  contrastPct: 7.8
+  roundupPct: 66.4
+  namedEntityPct: 97.7
   signals:
     daily:
       count: 85
-      pct: 66.9
+      pct: 66.4
       examples:
+        - 血流成河！GPT-5.6 刚宣战就被 Grok 4.5 堵截，MiniMax 默默掏出 2.7 万亿参数模型加入乱斗 ！| AI日报0708
         - GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
         - AI圈核弹连发！腾讯混元 Hy3 正式版开源血洗全球；OpenAI 员工深夜泄密 GPT-5.6 Sol Ultra 将登录 Codex！|AI日报0706
         - 人类影视灭亡倒计时！阿里腾讯百度同时出手，可灵AI狂吞190亿融资；阿里内部禁用Claude！| AI日报0703
         - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
-        - Fable 5 全球复活引爆核弹！惊曝 Kimi K3 七月推出，原始帖文已删除！| AI日报0701
     emotion_burst:
       count: 115
-      pct: 90.6
+      pct: 89.8
       examples:
+        - 血流成河！GPT-5.6 刚宣战就被 Grok 4.5 堵截，MiniMax 默默掏出 2.7 万亿参数模型加入乱斗 ！| AI日报0708
+        - 突发：OpenAI 官宣 GPT-5.6 当地时间本周四公开发布，美国商务部已放行
         - GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
         - AI圈核弹连发！腾讯混元 Hy3 正式版开源血洗全球；OpenAI 员工深夜泄密 GPT-5.6 Sol Ultra 将登录 Codex！|AI日报0706
         - 重磅炸弹！Anthropic深夜引爆澳洲大陆，150亿算力海啸席卷全球，OpenAI的斩杀线来了！
-        - 大的要来了，GPT-5.6 三兄弟或于下周上线！
-        - 人类影视灭亡倒计时！阿里腾讯百度同时出手，可灵AI狂吞190亿融资；阿里内部禁用Claude！| AI日报0703
     multi_event:
       count: 46
-      pct: 36.2
+      pct: 35.9
       examples:
         - GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
         - AI圈核弹连发！腾讯混元 Hy3 正式版开源血洗全球；OpenAI 员工深夜泄密 GPT-5.6 Sol Ultra 将登录 Codex！|AI日报0706
@@ -1258,17 +1260,17 @@ rhetoric:
         - 人类影视灭亡倒计时！阿里腾讯百度同时出手，可灵AI狂吞190亿融资；阿里内部禁用Claude！| AI日报0703
         - AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630
     number_hook:
-      count: 107
-      pct: 84.3
+      count: 109
+      pct: 85.2
       examples:
+        - 血流成河！GPT-5.6 刚宣战就被 Grok 4.5 堵截，MiniMax 默默掏出 2.7 万亿参数模型加入乱斗 ！| AI日报0708
+        - 突发：OpenAI 官宣 GPT-5.6 当地时间本周四公开发布，美国商务部已放行
         - GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
         - AI圈核弹连发！腾讯混元 Hy3 正式版开源血洗全球；OpenAI 员工深夜泄密 GPT-5.6 Sol Ultra 将登录 Codex！|AI日报0706
         - 重磅炸弹！Anthropic深夜引爆澳洲大陆，150亿算力海啸席卷全球，OpenAI的斩杀线来了！
-        - 大的要来了，GPT-5.6 三兄弟或于下周上线！
-        - 人类影视灭亡倒计时！阿里腾讯百度同时出手，可灵AI狂吞190亿融资；阿里内部禁用Claude！| AI日报0703
     contrast:
       count: 10
-      pct: 7.9
+      pct: 7.8
       examples:
         - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
         - 正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621
@@ -1277,7 +1279,7 @@ rhetoric:
         - AI巅峰战！Mythos、GPT 5.6、Gemini 3.5 Pro 互相狙击终极肉搏，人类命运大转折…… | AI日报0604
     absurd_imagery:
       count: 49
-      pct: 38.6
+      pct: 38.3
       examples:
         - GPT-6 被曝今夏提前引爆！或接班 5.6 直接祭出，社区头皮发麻集体质疑，奥特曼再见核弹？| AI日报0707
         - AI圈核弹连发！腾讯混元 Hy3 正式版开源血洗全球；OpenAI 员工深夜泄密 GPT-5.6 Sol Ultra 将登录 Codex！|AI日报0706
@@ -1303,7 +1305,7 @@ generation:
       - - 杀疯
         - 6
       - - 突发
-        - 5
+        - 6
       - - 雪崩
         - 5
       - - 沸腾
@@ -1367,7 +1369,7 @@ generation:
       - - 引爆
         - 22
       - - 发布
-        - 17
+        - 18
       - - 上线
         - 9
       - - 开源
@@ -1405,6 +1407,8 @@ generation:
         - 2
       - - 集体判处死刑
         - 2
+      - - 血流成河
+        - 2
       - - 移交军事法庭
         - 2
       - - 闭源阵营一夜蒸发
@@ -1413,56 +1417,54 @@ generation:
         - 1
       - - 人类灭亡倒计时
         - 1
-      - - 血流成河
-        - 1
     entities:
       - - AI日报
-        - 76
-      - - OpenAI
-        - 41
+        - 75
       - - DeepSeek
+        - 40
+      - - OpenAI
         - 40
       - - Gemini
         - 33
       - - GPT
-        - 22
+        - 24
       - - Claude
         - 18
-      - - Anthropic
-        - 13
       - - MiniMax
+        - 15
+      - - Anthropic
         - 13
       - - 腾讯
         - 12
-      - - 奥特曼
-        - 11
       - - "|"
         - 10
+      - - 奥特曼
+        - 10
       - - 马斯克
+        - 10
+      - - GPT-5.6
         - 10
       - - 谷歌
         - 9
       - - Qwen
         - 9
-      - - 阿里
-        - 8
-      - - GPT-5.6
-        - 8
       - - Kimi
         - 8
       - - DeepSeek V4
         - 7
       - - Google
         - 7
+      - - 阿里
+        - 6
       - - 智谱
         - 6
       - - Fable
         - 6
       - - 字节
         - 5
+      - - Grok
+        - 5
       - - 华为
-        - 4
-      - - Fable 5
         - 4
   representativeTitles:
     - 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
