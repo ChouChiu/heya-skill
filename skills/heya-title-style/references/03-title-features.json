@@ -1,5 +1,239 @@
 [
   {
+    "bvid": "BV1aQMn6qEEe",
+    "title": "大决战！GPT 6 全线突围截杀 Fable 5.1 ！AI接管世界倒计时开始？| AI日报0709",
+    "date": "2026-07-09",
+    "clauses": [
+      "大决战",
+      "GPT 6 全线突围截杀 Fable 5.1",
+      "AI接管世界倒计时开始",
+      "AI日报0709"
+    ],
+    "tokens": [
+      {
+        "text": "大",
+        "normalized": "大",
+        "start": 0,
+        "end": 1,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "决战",
+        "normalized": "决战",
+        "start": 1,
+        "end": 3,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 3,
+        "end": 4,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT 6",
+        "normalized": "gpt 6",
+        "start": 4,
+        "end": 9,
+        "source": "domain"
+      },
+      {
+        "text": "全线",
+        "normalized": "全线",
+        "start": 10,
+        "end": 12,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "突围",
+        "normalized": "突围",
+        "start": 12,
+        "end": 14,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "截杀",
+        "normalized": "截杀",
+        "start": 14,
+        "end": 16,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "Fable 5.1",
+        "normalized": "fable 5.1",
+        "start": 17,
+        "end": 26,
+        "source": "domain"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 27,
+        "end": 28,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI",
+        "normalized": "ai",
+        "start": 28,
+        "end": 30,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "接管",
+        "normalized": "接管",
+        "start": 30,
+        "end": 32,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "世界",
+        "normalized": "世界",
+        "start": 32,
+        "end": 34,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "倒计时",
+        "normalized": "倒计时",
+        "start": 34,
+        "end": 37,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "开始",
+        "normalized": "开始",
+        "start": 37,
+        "end": 39,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "？",
+        "normalized": "？",
+        "start": 39,
+        "end": 40,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 40,
+        "end": 41,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 42,
+        "end": 46,
+        "source": "domain"
+      },
+      {
+        "text": "0709",
+        "normalized": "0709",
+        "start": 46,
+        "end": 50,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "DECIMAL",
+        "start": 9,
+        "end": 10,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 18,
+        "end": 20,
+        "source": "hanlp"
+      },
+      {
+        "text": "0709",
+        "type": "ORDINAL",
+        "start": 20,
+        "end": 21,
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT",
+        "type": "brand",
+        "start": 4,
+        "end": 7,
+        "source": "dictionary"
+      },
+      {
+        "text": "Fable",
+        "type": "brand",
+        "start": 17,
+        "end": 22,
+        "source": "dictionary"
+      },
+      {
+        "text": "GPT 6",
+        "type": "model",
+        "start": 4,
+        "end": 9,
+        "source": "domain"
+      },
+      {
+        "text": "Fable 5.1",
+        "type": "model",
+        "start": 17,
+        "end": 26,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook"
+    ],
+    "emotionScore": 2.5
+  },
+  {
     "bvid": "BV1ADMg6tEeZ",
     "title": "血流成河！GPT-5.6 刚宣战就被 Grok 4.5 堵截，MiniMax 默默掏出 2.7 万亿参数模型加入乱斗 ！| AI日报0708",
     "date": "2026-07-08",
@@ -24816,263 +25050,216 @@
     "emotionScore": 3
   },
   {
-    "bvid": "BV1rAD9BmESf",
-    "title": "AI圈哀嚎！MiniMax M2.7竟突发非商业许可背刺，开源界雪崩！白嫖党的百亿幻想一夜蒸发……| AI日报",
-    "date": "2026-04-12",
+    "bvid": "BV1P5DTB9EZf",
+    "title": "骇人听闻，Anthropic正式封杀OpenClaw！GPT-Image-2泄露！Kimi新模型来袭！| AI日报0404",
+    "date": "2026-04-04",
     "clauses": [
-      "AI圈哀嚎",
-      "MiniMax M2.7竟突发非商业许可背刺",
-      "开源界雪崩",
-      "白嫖党的百亿幻想一夜蒸发……",
-      "AI日报"
+      "骇人听闻",
+      "Anthropic正式封杀OpenClaw",
+      "GPT-Image-2泄露",
+      "Kimi新模型来袭",
+      "AI日报0404"
     ],
     "tokens": [
       {
-        "text": "AI圈",
-        "normalized": "ai圈",
+        "text": "骇人听闻",
+        "normalized": "骇人听闻",
         "start": 0,
-        "end": 3,
-        "source": "domain"
-      },
-      {
-        "text": "哀嚎",
-        "normalized": "哀嚎",
-        "start": 3,
-        "end": 5,
+        "end": 4,
         "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 5,
-        "end": 6,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "MiniMax",
-        "normalized": "minimax",
-        "start": 6,
-        "end": 13,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "M2.7",
-        "normalized": "m2.7",
-        "start": 14,
-        "end": 18,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "竟",
-        "normalized": "竟",
-        "start": 18,
-        "end": 19,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "突发",
-        "normalized": "突发",
-        "start": 19,
-        "end": 21,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "非商业",
-        "normalized": "非商业",
-        "start": 21,
-        "end": 24,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "许可",
-        "normalized": "许可",
-        "start": 24,
-        "end": 26,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "背刺",
-        "normalized": "背刺",
-        "start": 26,
-        "end": 28,
-        "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "，",
         "normalized": "，",
-        "start": 28,
-        "end": 29,
+        "start": 4,
+        "end": 5,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "开源界",
-        "normalized": "开源界",
-        "start": 29,
-        "end": 32,
+        "text": "Anthropic",
+        "normalized": "anthropic",
+        "start": 5,
+        "end": 14,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "雪崩",
-        "normalized": "雪崩",
-        "start": 32,
-        "end": 34,
+        "text": "正式",
+        "normalized": "正式",
+        "start": 14,
+        "end": 16,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "封杀",
+        "normalized": "封杀",
+        "start": 16,
+        "end": 18,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenClaw",
+        "normalized": "openclaw",
+        "start": 18,
+        "end": 26,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 26,
+        "end": 27,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT-Image-2",
+        "normalized": "gpt-image-2",
+        "start": 27,
+        "end": 38,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "Image-2",
+        "normalized": "image-2",
+        "start": 31,
+        "end": 38,
+        "source": "domain"
+      },
+      {
+        "text": "泄露",
+        "normalized": "泄露",
+        "start": 38,
+        "end": 40,
         "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 34,
-        "end": 35,
+        "start": 40,
+        "end": 41,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "白嫖党",
-        "normalized": "白嫖党",
-        "start": 35,
-        "end": 38,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "的",
-        "normalized": "的",
-        "start": 38,
-        "end": 39,
-        "pos": "DEG",
-        "source": "hanlp"
-      },
-      {
-        "text": "百亿",
-        "normalized": "百亿",
-        "start": 39,
-        "end": 41,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "幻想",
-        "normalized": "幻想",
+        "text": "Kimi",
+        "normalized": "kimi",
         "start": 41,
-        "end": 43,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "一",
-        "normalized": "一",
-        "start": 43,
-        "end": 44,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "夜",
-        "normalized": "夜",
-        "start": 44,
         "end": 45,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "蒸发",
-        "normalized": "蒸发",
+        "text": "新",
+        "normalized": "新",
         "start": 45,
-        "end": 47,
+        "end": 46,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "模型",
+        "normalized": "模型",
+        "start": 46,
+        "end": 48,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "来袭",
+        "normalized": "来袭",
+        "start": 48,
+        "end": 50,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "……",
-        "normalized": "……",
-        "start": 47,
-        "end": 49,
+        "text": "！",
+        "normalized": "！",
+        "start": 50,
+        "end": 51,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "|",
         "normalized": "|",
-        "start": 49,
-        "end": 50,
+        "start": 51,
+        "end": 52,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "normalized": "ai日报",
-        "start": 51,
-        "end": 55,
+        "start": 53,
+        "end": 57,
         "source": "domain"
+      },
+      {
+        "text": "0404",
+        "normalized": "0404",
+        "start": 57,
+        "end": 61,
+        "pos": "NN",
+        "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "M2.7",
-        "type": "TEMPERATURE",
-        "start": 4,
-        "end": 5,
-        "source": "hanlp"
-      },
-      {
-        "text": "白嫖党",
+        "text": "AI日报",
         "type": "ORGANIZATION",
-        "start": 14,
-        "end": 15,
-        "source": "hanlp"
-      },
-      {
-        "text": "百亿",
-        "type": "INTEGER",
         "start": 16,
         "end": 17,
         "source": "hanlp"
       },
       {
-        "text": "|",
-        "type": "ORGANIZATION",
-        "start": 22,
-        "end": 23,
+        "text": "0404",
+        "type": "INTEGER",
+        "start": 17,
+        "end": 18,
         "source": "hanlp"
       },
       {
-        "text": "AI日报",
-        "type": "ORGANIZATION",
-        "start": 23,
-        "end": 25,
-        "source": "hanlp"
-      },
-      {
-        "text": "MiniMax",
+        "text": "GPT",
         "type": "brand",
-        "start": 6,
-        "end": 13,
+        "start": 27,
+        "end": 30,
         "source": "dictionary"
       },
       {
-        "text": "MiniMax",
+        "text": "Anthropic",
+        "type": "brand",
+        "start": 5,
+        "end": 14,
+        "source": "dictionary"
+      },
+      {
+        "text": "Kimi",
+        "type": "brand",
+        "start": 41,
+        "end": 45,
+        "source": "dictionary"
+      },
+      {
+        "text": "GPT-Image-2",
         "type": "model",
-        "start": 6,
-        "end": 13,
+        "start": 27,
+        "end": 38,
         "source": "domain"
       },
       {
-        "text": "M2.7",
+        "text": "Image-2",
         "type": "model",
-        "start": 14,
-        "end": 18,
+        "start": 31,
+        "end": 38,
         "source": "domain"
       }
     ],
@@ -25097,22 +25284,14 @@
         "matched": [
           "数字悬念"
         ]
-      },
-      {
-        "id": "absurd_imagery",
-        "label": "荒诞意象",
-        "matched": [
-          "荒诞意象"
-        ]
       }
     ],
     "categoryIds": [
       "daily",
       "emotion_burst",
-      "number_hook",
-      "absurd_imagery"
+      "number_hook"
     ],
-    "emotionScore": 6
+    "emotionScore": 4.4
   },
   {
     "bvid": "BV1PC9MBeE1C",
