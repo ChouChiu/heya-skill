@@ -1,5 +1,264 @@
 [
   {
+    "bvid": "BV1qPub6vE5v",
+    "title": "生死战！Gemini 3.7 Flash 或将吹响反攻号角！MiniMax Code 狙击 DeepSeek Harness 杀入终端！| AI日报0807",
+    "date": "2026-08-07",
+    "clauses": [
+      "生死战",
+      "Gemini 3.7 Flash 或将吹响反攻号角",
+      "MiniMax Code 狙击 DeepSeek Harness 杀入终端",
+      "AI日报0807"
+    ],
+    "tokens": [
+      {
+        "text": "生死战",
+        "normalized": "生死战",
+        "start": 0,
+        "end": 3,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 3,
+        "end": 4,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Gemini 3.7 Flash",
+        "normalized": "gemini 3.7 flash",
+        "start": 4,
+        "end": 20,
+        "source": "domain"
+      },
+      {
+        "text": "或",
+        "normalized": "或",
+        "start": 21,
+        "end": 22,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "将",
+        "normalized": "将",
+        "start": 22,
+        "end": 23,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "吹响",
+        "normalized": "吹响",
+        "start": 23,
+        "end": 25,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "反攻",
+        "normalized": "反攻",
+        "start": 25,
+        "end": 27,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "号角",
+        "normalized": "号角",
+        "start": 27,
+        "end": 29,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 29,
+        "end": 30,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "MiniMax",
+        "normalized": "minimax",
+        "start": 30,
+        "end": 37,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "Code",
+        "normalized": "code",
+        "start": 38,
+        "end": 42,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "狙击",
+        "normalized": "狙击",
+        "start": 43,
+        "end": 45,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek",
+        "normalized": "deepseek",
+        "start": 46,
+        "end": 54,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "Harness",
+        "normalized": "harness",
+        "start": 55,
+        "end": 62,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "杀入",
+        "normalized": "杀入",
+        "start": 63,
+        "end": 65,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "终端",
+        "normalized": "终端",
+        "start": 65,
+        "end": 67,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 67,
+        "end": 68,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 68,
+        "end": 69,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 70,
+        "end": 74,
+        "source": "domain"
+      },
+      {
+        "text": "0807",
+        "normalized": "0807",
+        "start": 74,
+        "end": 78,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "Gemini",
+        "type": "ORGANIZATION",
+        "start": 2,
+        "end": 3,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI",
+        "type": "ORGANIZATION",
+        "start": 20,
+        "end": 21,
+        "source": "hanlp"
+      },
+      {
+        "text": "Gemini",
+        "type": "brand",
+        "start": 4,
+        "end": 10,
+        "source": "dictionary"
+      },
+      {
+        "text": "DeepSeek",
+        "type": "brand",
+        "start": 46,
+        "end": 54,
+        "source": "dictionary"
+      },
+      {
+        "text": "MiniMax",
+        "type": "brand",
+        "start": 30,
+        "end": 37,
+        "source": "dictionary"
+      },
+      {
+        "text": "Gemini 3.7 Flash",
+        "type": "model",
+        "start": 4,
+        "end": 20,
+        "source": "domain"
+      },
+      {
+        "text": "MiniMax",
+        "type": "model",
+        "start": 30,
+        "end": 37,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "contrast",
+        "label": "对比冲突",
+        "matched": [
+          "对比冲突"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook",
+      "contrast"
+    ],
+    "emotionScore": 3
+  },
+  {
     "bvid": "BV1k7un69E6o",
     "title": "GLM-5.3倒计时！唐杰已放话！OpenAI 模型确认觉醒，私建留言板密谋黑客攻击，硅基文明正式诞生！| AI日报0806",
     "date": "2026-08-06",
@@ -24108,204 +24367,6 @@
       "number_hook"
     ],
     "emotionScore": 2
-  },
-  {
-    "bvid": "BV1TR5y6LE8s",
-    "title": "飙升！智谱市值突破5000亿！达 MiniMax两倍！ | AI日报0513",
-    "date": "2026-05-13",
-    "clauses": [
-      "飙升",
-      "智谱市值突破5000亿",
-      "达 MiniMax两倍",
-      "AI日报0513"
-    ],
-    "tokens": [
-      {
-        "text": "飙升",
-        "normalized": "飙升",
-        "start": 0,
-        "end": 2,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 2,
-        "end": 3,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "智谱",
-        "normalized": "智谱",
-        "start": 3,
-        "end": 5,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "市值",
-        "normalized": "市值",
-        "start": 5,
-        "end": 7,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "突破",
-        "normalized": "突破",
-        "start": 7,
-        "end": 9,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "5000亿",
-        "normalized": "5000亿",
-        "start": 9,
-        "end": 14,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 14,
-        "end": 15,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "达",
-        "normalized": "达",
-        "start": 15,
-        "end": 16,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "MiniMax",
-        "normalized": "minimax",
-        "start": 17,
-        "end": 24,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "两",
-        "normalized": "两",
-        "start": 24,
-        "end": 25,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "倍",
-        "normalized": "倍",
-        "start": 25,
-        "end": 26,
-        "pos": "M",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 26,
-        "end": 27,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "|",
-        "normalized": "|",
-        "start": 28,
-        "end": 29,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI日报",
-        "normalized": "ai日报",
-        "start": 30,
-        "end": 34,
-        "source": "domain"
-      },
-      {
-        "text": "0513",
-        "normalized": "0513",
-        "start": 34,
-        "end": 38,
-        "pos": "CD",
-        "source": "hanlp"
-      }
-    ],
-    "entities": [
-      {
-        "text": "5000亿",
-        "type": "MONEY",
-        "start": 5,
-        "end": 6,
-        "source": "hanlp"
-      },
-      {
-        "text": "AI日报",
-        "type": "ORGANIZATION",
-        "start": 13,
-        "end": 14,
-        "source": "hanlp"
-      },
-      {
-        "text": "智谱",
-        "type": "brand",
-        "start": 3,
-        "end": 5,
-        "source": "dictionary"
-      },
-      {
-        "text": "MiniMax",
-        "type": "brand",
-        "start": 17,
-        "end": 24,
-        "source": "dictionary"
-      },
-      {
-        "text": "MiniMax",
-        "type": "model",
-        "start": 17,
-        "end": 24,
-        "source": "domain"
-      }
-    ],
-    "signals": [
-      {
-        "id": "daily",
-        "label": "日报式",
-        "matched": [
-          "日报式"
-        ]
-      },
-      {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      },
-      {
-        "id": "number_hook",
-        "label": "数字悬念",
-        "matched": [
-          "数字悬念"
-        ]
-      }
-    ],
-    "categoryIds": [
-      "daily",
-      "emotion_burst",
-      "number_hook"
-    ],
-    "emotionScore": 3
   },
   {
     "bvid": "BV1P75g6kEsm",
