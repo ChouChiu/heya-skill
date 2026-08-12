@@ -1,5 +1,342 @@
 [
   {
+    "bvid": "BV1MNgL6HEfE",
+    "title": "Tibo 彻底疯狂！已预告次日惊喜，全球程序员直接眩晕！豆包向大学生发福利，大学生：根本把持不住！| AI日报0812",
+    "date": "2026-08-12",
+    "clauses": [
+      "Tibo 彻底疯狂",
+      "已预告次日惊喜",
+      "全球程序员直接眩晕",
+      "豆包向大学生发福利",
+      "大学生",
+      "根本把持不住",
+      "AI日报0812"
+    ],
+    "tokens": [
+      {
+        "text": "Tibo",
+        "normalized": "tibo",
+        "start": 0,
+        "end": 4,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "彻底",
+        "normalized": "彻底",
+        "start": 5,
+        "end": 7,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "疯狂",
+        "normalized": "疯狂",
+        "start": 7,
+        "end": 9,
+        "pos": "VA",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 9,
+        "end": 10,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "已",
+        "normalized": "已",
+        "start": 10,
+        "end": 11,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "预告",
+        "normalized": "预告",
+        "start": 11,
+        "end": 13,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "次日",
+        "normalized": "次日",
+        "start": 13,
+        "end": 15,
+        "pos": "NT",
+        "source": "hanlp"
+      },
+      {
+        "text": "惊喜",
+        "normalized": "惊喜",
+        "start": 15,
+        "end": 17,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 17,
+        "end": 18,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "全球",
+        "normalized": "全球",
+        "start": 18,
+        "end": 20,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "程序员",
+        "normalized": "程序员",
+        "start": 20,
+        "end": 23,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "直接",
+        "normalized": "直接",
+        "start": 23,
+        "end": 25,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "眩晕",
+        "normalized": "眩晕",
+        "start": 25,
+        "end": 27,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 27,
+        "end": 28,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "豆包",
+        "normalized": "豆包",
+        "start": 28,
+        "end": 30,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "向",
+        "normalized": "向",
+        "start": 30,
+        "end": 31,
+        "pos": "P",
+        "source": "hanlp"
+      },
+      {
+        "text": "大学生",
+        "normalized": "大学生",
+        "start": 31,
+        "end": 34,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "发",
+        "normalized": "发",
+        "start": 34,
+        "end": 35,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "福利",
+        "normalized": "福利",
+        "start": 35,
+        "end": 37,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 37,
+        "end": 38,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "大学生",
+        "normalized": "大学生",
+        "start": 38,
+        "end": 41,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "：",
+        "normalized": "：",
+        "start": 41,
+        "end": 42,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "根本",
+        "normalized": "根本",
+        "start": 42,
+        "end": 44,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "把持",
+        "normalized": "把持",
+        "start": 44,
+        "end": 46,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "不",
+        "normalized": "不",
+        "start": 46,
+        "end": 47,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "住",
+        "normalized": "住",
+        "start": 47,
+        "end": 48,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 48,
+        "end": 49,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 49,
+        "end": 50,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 51,
+        "end": 55,
+        "source": "domain"
+      },
+      {
+        "text": "0812",
+        "normalized": "0812",
+        "start": 55,
+        "end": 59,
+        "pos": "NT",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "Tibo",
+        "type": "ORGANIZATION",
+        "start": 0,
+        "end": 1,
+        "source": "hanlp"
+      },
+      {
+        "text": "次日",
+        "type": "DATE",
+        "start": 6,
+        "end": 7,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 28,
+        "end": 30,
+        "source": "hanlp"
+      },
+      {
+        "text": "0812",
+        "type": "TIME",
+        "start": 30,
+        "end": 31,
+        "source": "hanlp"
+      },
+      {
+        "text": "豆包",
+        "type": "brand",
+        "start": 28,
+        "end": 30,
+        "source": "dictionary"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "multi_event",
+        "label": "多事件合并",
+        "matched": [
+          "多事件合并"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "multi_event",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 5.6
+  },
+  {
     "bvid": "BV1moui6GE1o",
     "title": "硝烟弥漫！智谱加入重置大军！Cursor 暗示新模型将至！商汤6.8杀入前线，AI战彻底打响！| AI日报0811",
     "date": "2026-08-11",
@@ -24174,210 +24511,141 @@
     "emotionScore": 3
   },
   {
-    "bvid": "BV1T1Lc6xEMj",
-    "title": "人类婚姻终结！DeepSeek官方泄密 V4.1 将提升角色扮演和情感陪伴能力！| AI日报0518",
-    "date": "2026-05-18",
+    "bvid": "BV1m7Ln6LEfb",
+    "title": "后背发凉！Gemini 神秘功能泄露或在备战I/O？| AI日报0517",
+    "date": "2026-05-17",
     "clauses": [
-      "人类婚姻终结",
-      "DeepSeek官方泄密 V4.1 将提升角色扮演和情感陪伴能力",
-      "AI日报0518"
+      "后背发凉",
+      "Gemini 神秘功能泄露或在备战I/O",
+      "AI日报0517"
     ],
     "tokens": [
       {
-        "text": "人类",
-        "normalized": "人类",
+        "text": "后背",
+        "normalized": "后背",
         "start": 0,
         "end": 2,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "婚姻",
-        "normalized": "婚姻",
+        "text": "发凉",
+        "normalized": "发凉",
         "start": 2,
         "end": 4,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "终结",
-        "normalized": "终结",
-        "start": 4,
-        "end": 6,
         "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 6,
-        "end": 7,
+        "start": 4,
+        "end": 5,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "DeepSeek",
-        "normalized": "deepseek",
-        "start": 7,
-        "end": 15,
+        "text": "Gemini",
+        "normalized": "gemini",
+        "start": 5,
+        "end": 11,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "官方",
-        "normalized": "官方",
-        "start": 15,
-        "end": 17,
+        "text": "神秘",
+        "normalized": "神秘",
+        "start": 12,
+        "end": 14,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "功能",
+        "normalized": "功能",
+        "start": 14,
+        "end": 16,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "泄密",
-        "normalized": "泄密",
-        "start": 17,
+        "text": "泄露",
+        "normalized": "泄露",
+        "start": 16,
+        "end": 18,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "或",
+        "normalized": "或",
+        "start": 18,
         "end": 19,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "V4.1",
-        "normalized": "v4.1",
-        "start": 20,
-        "end": 24,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 25,
-        "end": 26,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "提升",
-        "normalized": "提升",
-        "start": 26,
-        "end": 28,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "角色",
-        "normalized": "角色",
-        "start": 28,
-        "end": 30,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "扮演",
-        "normalized": "扮演",
-        "start": 30,
-        "end": 32,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "和",
-        "normalized": "和",
-        "start": 32,
-        "end": 33,
         "pos": "CC",
         "source": "hanlp"
       },
       {
-        "text": "情感",
-        "normalized": "情感",
-        "start": 33,
-        "end": 35,
-        "pos": "NN",
+        "text": "在",
+        "normalized": "在",
+        "start": 19,
+        "end": 20,
+        "pos": "AD",
         "source": "hanlp"
       },
       {
-        "text": "陪伴",
-        "normalized": "陪伴",
-        "start": 35,
-        "end": 37,
-        "pos": "NN",
+        "text": "备战",
+        "normalized": "备战",
+        "start": 20,
+        "end": 22,
+        "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "能力",
-        "normalized": "能力",
-        "start": 37,
-        "end": 39,
-        "pos": "NN",
+        "text": "I/O",
+        "normalized": "i/o",
+        "start": 22,
+        "end": 25,
+        "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "！",
-        "normalized": "！",
-        "start": 39,
-        "end": 40,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "|",
-        "normalized": "|",
-        "start": 40,
-        "end": 41,
+        "text": "？| AI",
+        "normalized": "？| ai",
+        "start": 25,
+        "end": 30,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "normalized": "ai日报",
-        "start": 42,
-        "end": 46,
+        "start": 28,
+        "end": 32,
         "source": "domain"
       },
       {
-        "text": "0518",
-        "normalized": "0518",
-        "start": 46,
-        "end": 50,
+        "text": "0517",
+        "normalized": "0517",
+        "start": 32,
+        "end": 36,
         "pos": "CD",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "V4.1",
-        "type": "DECIMAL",
-        "start": 7,
-        "end": 8,
-        "source": "hanlp"
-      },
-      {
-        "text": "AI日报",
+        "text": "Gemini",
         "type": "ORGANIZATION",
-        "start": 18,
-        "end": 19,
+        "start": 3,
+        "end": 4,
         "source": "hanlp"
       },
       {
-        "text": "0518",
-        "type": "PHONE",
-        "start": 19,
-        "end": 20,
-        "source": "hanlp"
-      },
-      {
-        "text": "DeepSeek",
+        "text": "Gemini",
         "type": "brand",
-        "start": 7,
-        "end": 15,
+        "start": 5,
+        "end": 11,
         "source": "dictionary"
-      },
-      {
-        "text": "V4.1",
-        "type": "model",
-        "start": 20,
-        "end": 24,
-        "source": "domain"
       }
     ],
     "signals": [
@@ -24401,14 +24669,22 @@
         "matched": [
           "数字悬念"
         ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
       }
     ],
     "categoryIds": [
       "daily",
       "emotion_burst",
-      "number_hook"
+      "number_hook",
+      "absurd_imagery"
     ],
-    "emotionScore": 3.4
+    "emotionScore": 4.1
   },
   {
     "bvid": "BV1hqLG68Ead",
@@ -32390,263 +32666,148 @@
     "emotionScore": 3
   },
   {
-    "bvid": "BV1nYdYBNEVM",
-    "title": "AI圈已沸腾！Claude Opus 4.7 与 DeepSeek 新模型双重核弹来势汹汹或将发布彻底引爆，载入史册！！！| AI日报 0416",
-    "date": "2026-04-16",
+    "bvid": "BV1PC9MBeE1C",
+    "title": "DeepSeek 网页前端现快速模式，代码暗藏专家模式 | AI日报0403",
+    "date": "2026-04-03",
     "clauses": [
-      "AI圈已沸腾",
-      "Claude Opus 4.7 与 DeepSeek 新模型双重核弹来势汹汹或将发布彻底引爆",
-      "载入史册",
-      "AI日报 0416"
+      "DeepSeek 网页前端现快速模式",
+      "代码暗藏专家模式",
+      "AI日报0403"
     ],
     "tokens": [
       {
-        "text": "AI圈",
-        "normalized": "ai圈",
-        "start": 0,
-        "end": 3,
-        "source": "domain"
-      },
-      {
-        "text": "已",
-        "normalized": "已",
-        "start": 3,
-        "end": 4,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "沸腾",
-        "normalized": "沸腾",
-        "start": 4,
-        "end": 6,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 6,
-        "end": 7,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "Claude",
-        "normalized": "claude",
-        "start": 7,
-        "end": 13,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "Opus 4.7",
-        "normalized": "opus 4.7",
-        "start": 14,
-        "end": 22,
-        "source": "domain"
-      },
-      {
-        "text": "与",
-        "normalized": "与",
-        "start": 23,
-        "end": 24,
-        "pos": "CC",
-        "source": "hanlp"
-      },
-      {
         "text": "DeepSeek",
         "normalized": "deepseek",
-        "start": 25,
-        "end": 33,
+        "start": 0,
+        "end": 8,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "新",
-        "normalized": "新",
-        "start": 34,
-        "end": 35,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "模型",
-        "normalized": "模型",
-        "start": 35,
-        "end": 37,
+        "text": "网页",
+        "normalized": "网页",
+        "start": 9,
+        "end": 11,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "双重",
-        "normalized": "双重",
-        "start": 37,
-        "end": 39,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "核弹",
-        "normalized": "核弹",
-        "start": 39,
-        "end": 41,
+        "text": "前端",
+        "normalized": "前端",
+        "start": 11,
+        "end": 13,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "来势汹汹",
-        "normalized": "来势汹汹",
-        "start": 41,
-        "end": 45,
+        "text": "现",
+        "normalized": "现",
+        "start": 13,
+        "end": 14,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "或",
-        "normalized": "或",
-        "start": 45,
-        "end": 46,
-        "pos": "CC",
+        "text": "快速",
+        "normalized": "快速",
+        "start": 14,
+        "end": 16,
+        "pos": "JJ",
         "source": "hanlp"
       },
       {
-        "text": "将",
-        "normalized": "将",
-        "start": 46,
-        "end": 47,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "发布",
-        "normalized": "发布",
-        "start": 47,
-        "end": 49,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "彻底",
-        "normalized": "彻底",
-        "start": 49,
-        "end": 51,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "引爆",
-        "normalized": "引爆",
-        "start": 51,
-        "end": 53,
-        "pos": "VV",
+        "text": "模式",
+        "normalized": "模式",
+        "start": 16,
+        "end": 18,
+        "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "，",
         "normalized": "，",
-        "start": 53,
-        "end": 54,
+        "start": 18,
+        "end": 19,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "载入",
-        "normalized": "载入",
-        "start": 54,
-        "end": 56,
+        "text": "代码",
+        "normalized": "代码",
+        "start": 19,
+        "end": 21,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "暗藏",
+        "normalized": "暗藏",
+        "start": 21,
+        "end": 23,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "史册",
-        "normalized": "史册",
-        "start": 56,
-        "end": 58,
+        "text": "专家",
+        "normalized": "专家",
+        "start": 23,
+        "end": 25,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "！！！",
-        "normalized": "！！！",
-        "start": 58,
-        "end": 61,
+        "text": "模式",
+        "normalized": "模式",
+        "start": 25,
+        "end": 27,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 28,
+        "end": 29,
         "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "| AI日报",
-        "normalized": "| ai日报",
-        "start": 61,
-        "end": 67,
-        "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "normalized": "ai日报",
-        "start": 63,
-        "end": 67,
+        "start": 30,
+        "end": 34,
         "source": "domain"
       },
       {
-        "text": "0416",
-        "normalized": "0416",
-        "start": 68,
-        "end": 72,
-        "pos": "CD",
+        "text": "0403",
+        "normalized": "0403",
+        "start": 34,
+        "end": 38,
+        "pos": "NN",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "Claude",
+        "text": "AI日报",
         "type": "ORGANIZATION",
-        "start": 4,
-        "end": 5,
+        "start": 12,
+        "end": 14,
         "source": "hanlp"
       },
       {
-        "text": "4.7",
-        "type": "ORGANIZATION",
-        "start": 6,
-        "end": 7,
+        "text": "0403",
+        "type": "LOCATION",
+        "start": 14,
+        "end": 15,
         "source": "hanlp"
-      },
-      {
-        "text": "| AI日报",
-        "type": "PHONE",
-        "start": 23,
-        "end": 24,
-        "source": "hanlp"
-      },
-      {
-        "text": "0416",
-        "type": "PHONE",
-        "start": 24,
-        "end": 25,
-        "source": "hanlp"
-      },
-      {
-        "text": "Claude",
-        "type": "brand",
-        "start": 7,
-        "end": 13,
-        "source": "dictionary"
       },
       {
         "text": "DeepSeek",
         "type": "brand",
-        "start": 25,
-        "end": 33,
+        "start": 0,
+        "end": 8,
         "source": "dictionary"
-      },
-      {
-        "text": "Opus 4.7",
-        "type": "model",
-        "start": 14,
-        "end": 22,
-        "source": "domain"
       }
     ],
     "signals": [
@@ -32658,34 +32819,18 @@
         ]
       },
       {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      },
-      {
         "id": "number_hook",
         "label": "数字悬念",
         "matched": [
           "数字悬念"
         ]
-      },
-      {
-        "id": "absurd_imagery",
-        "label": "荒诞意象",
-        "matched": [
-          "荒诞意象"
-        ]
       }
     ],
     "categoryIds": [
       "daily",
-      "emotion_burst",
-      "number_hook",
-      "absurd_imagery"
+      "number_hook"
     ],
-    "emotionScore": 7
+    "emotionScore": 0
   },
   {
     "bvid": "BV1uE9FBUE7u",
