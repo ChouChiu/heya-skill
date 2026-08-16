@@ -1,5 +1,227 @@
 [
   {
+    "bvid": "BV1uwb96kEPR",
+    "title": "彻底失控？OpenAI内部酝酿史诗级核弹！Anthropic 狂砸生物医学！| AI日报0816",
+    "date": "2026-08-16",
+    "clauses": [
+      "彻底失控",
+      "OpenAI内部酝酿史诗级核弹",
+      "Anthropic 狂砸生物医学",
+      "AI日报0816"
+    ],
+    "tokens": [
+      {
+        "text": "彻底",
+        "normalized": "彻底",
+        "start": 0,
+        "end": 2,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "失控",
+        "normalized": "失控",
+        "start": 2,
+        "end": 4,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "？",
+        "normalized": "？",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "normalized": "openai",
+        "start": 5,
+        "end": 11,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "内部",
+        "normalized": "内部",
+        "start": 11,
+        "end": 13,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "酝酿",
+        "normalized": "酝酿",
+        "start": 13,
+        "end": 15,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "史诗级",
+        "normalized": "史诗级",
+        "start": 15,
+        "end": 18,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "核弹",
+        "normalized": "核弹",
+        "start": 18,
+        "end": 20,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 20,
+        "end": 21,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Anthropic",
+        "normalized": "anthropic",
+        "start": 21,
+        "end": 30,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "狂砸",
+        "normalized": "狂砸",
+        "start": 31,
+        "end": 33,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "生物",
+        "normalized": "生物",
+        "start": 33,
+        "end": 35,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "医学",
+        "normalized": "医学",
+        "start": 35,
+        "end": 37,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 37,
+        "end": 38,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 38,
+        "end": 39,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 40,
+        "end": 44,
+        "source": "domain"
+      },
+      {
+        "text": "0816",
+        "normalized": "0816",
+        "start": 44,
+        "end": 48,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "OpenAI",
+        "type": "PERSON",
+        "start": 3,
+        "end": 4,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 15,
+        "end": 17,
+        "source": "hanlp"
+      },
+      {
+        "text": "0816",
+        "type": "ORDINAL",
+        "start": 17,
+        "end": 18,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "type": "brand",
+        "start": 5,
+        "end": 11,
+        "source": "dictionary"
+      },
+      {
+        "text": "Anthropic",
+        "type": "brand",
+        "start": 21,
+        "end": 30,
+        "source": "dictionary"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 5.1
+  },
+  {
     "bvid": "BV17Vb16AEMn",
     "title": "AI圈大地震！DeepSeek Harness 极简模式深夜引爆核弹，PowerShell 直接哭晕！| AI日报0815",
     "date": "2026-08-15",
@@ -31775,173 +31997,221 @@
     "emotionScore": 5.8
   },
   {
-    "bvid": "BV1pcoVBJExT",
-    "title": "DeepSeek V4 预览版发布，我眩晕瘫坐在椅子上，就像看到了核弹爆炸。",
-    "date": "2026-04-24",
+    "bvid": "BV1LMD4B8EKM",
+    "title": "火星撞地球！OpenAI Spud 模型即将迎战 Mythos！豆包震撼上线超强语音模型，更加自然流畅！",
+    "date": "2026-04-09",
     "clauses": [
-      "DeepSeek V4 预览版发布",
-      "我眩晕瘫坐在椅子上",
-      "就像看到了核弹爆炸。"
+      "火星撞地球",
+      "OpenAI Spud 模型即将迎战 Mythos",
+      "豆包震撼上线超强语音模型",
+      "更加自然流畅"
     ],
     "tokens": [
       {
-        "text": "DeepSeek V4",
-        "normalized": "deepseek v4",
+        "text": "火星",
+        "normalized": "火星",
         "start": 0,
-        "end": 11,
-        "source": "domain"
-      },
-      {
-        "text": "预览版",
-        "normalized": "预览版",
-        "start": 12,
-        "end": 15,
+        "end": 2,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "发布",
-        "normalized": "发布",
-        "start": 15,
+        "text": "撞",
+        "normalized": "撞",
+        "start": 2,
+        "end": 3,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "地球",
+        "normalized": "地球",
+        "start": 3,
+        "end": 5,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 5,
+        "end": 6,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "normalized": "openai",
+        "start": 6,
+        "end": 12,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "Spud",
+        "normalized": "spud",
+        "start": 13,
         "end": 17,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "，",
-        "normalized": "，",
-        "start": 17,
-        "end": 18,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "我",
-        "normalized": "我",
-        "start": 18,
-        "end": 19,
-        "pos": "PN",
-        "source": "hanlp"
-      },
-      {
-        "text": "眩晕",
-        "normalized": "眩晕",
-        "start": 19,
-        "end": 21,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "瘫坐",
-        "normalized": "瘫坐",
-        "start": 21,
-        "end": 23,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "在",
-        "normalized": "在",
-        "start": 23,
-        "end": 24,
-        "pos": "P",
-        "source": "hanlp"
-      },
-      {
-        "text": "椅子",
-        "normalized": "椅子",
-        "start": 24,
-        "end": 26,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "上",
-        "normalized": "上",
-        "start": 26,
-        "end": 27,
-        "pos": "LC",
+        "text": "模型",
+        "normalized": "模型",
+        "start": 18,
+        "end": 20,
+        "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "，",
-        "normalized": "，",
-        "start": 27,
-        "end": 28,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "就",
-        "normalized": "就",
-        "start": 28,
-        "end": 29,
+        "text": "即将",
+        "normalized": "即将",
+        "start": 20,
+        "end": 22,
         "pos": "AD",
         "source": "hanlp"
       },
       {
-        "text": "像",
-        "normalized": "像",
-        "start": 29,
-        "end": 30,
+        "text": "迎战",
+        "normalized": "迎战",
+        "start": 22,
+        "end": 24,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "看到",
-        "normalized": "看到",
-        "start": 30,
+        "text": "Mythos",
+        "normalized": "mythos",
+        "start": 25,
+        "end": 31,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 31,
         "end": 32,
-        "pos": "VV",
+        "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "了",
-        "normalized": "了",
+        "text": "豆包",
+        "normalized": "豆包",
         "start": 32,
-        "end": 33,
-        "pos": "AS",
-        "source": "hanlp"
-      },
-      {
-        "text": "核弹",
-        "normalized": "核弹",
-        "start": 33,
-        "end": 35,
+        "end": 34,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "爆炸",
-        "normalized": "爆炸",
-        "start": 35,
-        "end": 37,
+        "text": "震撼",
+        "normalized": "震撼",
+        "start": 34,
+        "end": 36,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "。",
-        "normalized": "。",
-        "start": 37,
+        "text": "上线",
+        "normalized": "上线",
+        "start": 36,
         "end": 38,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "超强",
+        "normalized": "超强",
+        "start": 38,
+        "end": 40,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "语音",
+        "normalized": "语音",
+        "start": 40,
+        "end": 42,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "模型",
+        "normalized": "模型",
+        "start": 42,
+        "end": 44,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 44,
+        "end": 45,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "更加",
+        "normalized": "更加",
+        "start": 45,
+        "end": 47,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "自然",
+        "normalized": "自然",
+        "start": 47,
+        "end": 49,
+        "pos": "VA",
+        "source": "hanlp"
+      },
+      {
+        "text": "流畅",
+        "normalized": "流畅",
+        "start": 49,
+        "end": 51,
+        "pos": "VA",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 51,
+        "end": 52,
         "pos": "PU",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "DeepSeek",
-        "type": "brand",
+        "text": "火星",
+        "type": "LOCATION",
         "start": 0,
-        "end": 8,
+        "end": 1,
+        "source": "hanlp"
+      },
+      {
+        "text": "地球",
+        "type": "LOCATION",
+        "start": 2,
+        "end": 3,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "type": "brand",
+        "start": 6,
+        "end": 12,
         "source": "dictionary"
       },
       {
-        "text": "DeepSeek V4",
-        "type": "model",
-        "start": 0,
-        "end": 11,
-        "source": "domain"
+        "text": "豆包",
+        "type": "brand",
+        "start": 32,
+        "end": 34,
+        "source": "dictionary"
       }
     ],
     "signals": [
@@ -31951,36 +32221,12 @@
         "matched": [
           "情绪爆点"
         ]
-      },
-      {
-        "id": "multi_event",
-        "label": "多事件合并",
-        "matched": [
-          "多事件合并"
-        ]
-      },
-      {
-        "id": "number_hook",
-        "label": "数字悬念",
-        "matched": [
-          "数字悬念"
-        ]
-      },
-      {
-        "id": "absurd_imagery",
-        "label": "荒诞意象",
-        "matched": [
-          "荒诞意象"
-        ]
       }
     ],
     "categoryIds": [
-      "emotion_burst",
-      "multi_event",
-      "number_hook",
-      "absurd_imagery"
+      "emotion_burst"
     ],
-    "emotionScore": 6.4
+    "emotionScore": 4.4
   },
   {
     "bvid": "BV1MpDLBnEv4",
