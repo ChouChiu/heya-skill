@@ -1,5 +1,294 @@
 [
   {
+    "bvid": "BV1ew8n64EbW",
+    "title": "AI巅峰战！Fable 5.1悄悄灰度测试，奥特曼再次瘫坐！DeepSeek V4 Pro 灰测风格重出江湖！| AI日报0819",
+    "date": "2026-08-19",
+    "clauses": [
+      "AI巅峰战",
+      "Fable 5.1悄悄灰度测试",
+      "奥特曼再次瘫坐",
+      "DeepSeek V4 Pro 灰测风格重出江湖",
+      "AI日报0819"
+    ],
+    "tokens": [
+      {
+        "text": "AI",
+        "normalized": "ai",
+        "start": 0,
+        "end": 2,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "巅峰战",
+        "normalized": "巅峰战",
+        "start": 2,
+        "end": 5,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 5,
+        "end": 6,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Fable 5.1",
+        "normalized": "fable 5.1",
+        "start": 6,
+        "end": 15,
+        "source": "domain"
+      },
+      {
+        "text": "悄悄",
+        "normalized": "悄悄",
+        "start": 15,
+        "end": 17,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "灰度",
+        "normalized": "灰度",
+        "start": 17,
+        "end": 19,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "测试",
+        "normalized": "测试",
+        "start": 19,
+        "end": 21,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 21,
+        "end": 22,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "奥特曼",
+        "normalized": "奥特曼",
+        "start": 22,
+        "end": 25,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "再次",
+        "normalized": "再次",
+        "start": 25,
+        "end": 27,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "瘫坐",
+        "normalized": "瘫坐",
+        "start": 27,
+        "end": 29,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 29,
+        "end": 30,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek V4",
+        "normalized": "deepseek v4",
+        "start": 30,
+        "end": 41,
+        "source": "domain"
+      },
+      {
+        "text": "Pro",
+        "normalized": "pro",
+        "start": 42,
+        "end": 45,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "灰测",
+        "normalized": "灰测",
+        "start": 46,
+        "end": 48,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "风格",
+        "normalized": "风格",
+        "start": 48,
+        "end": 50,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "重出",
+        "normalized": "重出",
+        "start": 50,
+        "end": 52,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "江湖",
+        "normalized": "江湖",
+        "start": 52,
+        "end": 54,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 54,
+        "end": 55,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 55,
+        "end": 56,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 57,
+        "end": 61,
+        "source": "domain"
+      },
+      {
+        "text": "0819",
+        "normalized": "0819",
+        "start": 61,
+        "end": 65,
+        "pos": "NN",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "DECIMAL",
+        "start": 4,
+        "end": 5,
+        "source": "hanlp"
+      },
+      {
+        "text": "奥特曼",
+        "type": "PERSON",
+        "start": 9,
+        "end": 10,
+        "source": "hanlp"
+      },
+      {
+        "text": "再次",
+        "type": "FREQUENCY",
+        "start": 10,
+        "end": 11,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 21,
+        "end": 23,
+        "source": "hanlp"
+      },
+      {
+        "text": "0819",
+        "type": "ORDINAL",
+        "start": 23,
+        "end": 24,
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek",
+        "type": "brand",
+        "start": 30,
+        "end": 38,
+        "source": "dictionary"
+      },
+      {
+        "text": "Fable",
+        "type": "brand",
+        "start": 6,
+        "end": 11,
+        "source": "dictionary"
+      },
+      {
+        "text": "Fable 5.1",
+        "type": "model",
+        "start": 6,
+        "end": 15,
+        "source": "domain"
+      },
+      {
+        "text": "DeepSeek V4",
+        "type": "model",
+        "start": 30,
+        "end": 41,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 5.6
+  },
+  {
     "bvid": "BV1x58u6mEZi",
     "title": "终端争夺战打响！MiniMax 代码工具杀入终端突袭 DSH！命令行旧时代崩塌！| AI日报0818",
     "date": "2026-08-18",
@@ -39171,200 +39460,6 @@
       "number_hook"
     ],
     "emotionScore": 0
-  },
-  {
-    "bvid": "BV1sMXKBdEHB",
-    "title": "谁在刷榜？ AI模型大刷榜时代：四招教你的模型登上 OpenRouter 用量排行榜！",
-    "date": "2026-03-27",
-    "clauses": [
-      "谁在刷榜",
-      "AI模型大刷榜时代",
-      "四招教你的模型登上 OpenRouter 用量排行榜"
-    ],
-    "tokens": [
-      {
-        "text": "谁",
-        "normalized": "谁",
-        "start": 0,
-        "end": 1,
-        "pos": "PN",
-        "source": "hanlp"
-      },
-      {
-        "text": "在",
-        "normalized": "在",
-        "start": 1,
-        "end": 2,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "刷榜",
-        "normalized": "刷榜",
-        "start": 2,
-        "end": 4,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "？",
-        "normalized": "？",
-        "start": 4,
-        "end": 5,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI",
-        "normalized": "ai",
-        "start": 6,
-        "end": 8,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "模型",
-        "normalized": "模型",
-        "start": 8,
-        "end": 10,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "大",
-        "normalized": "大",
-        "start": 10,
-        "end": 11,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "刷榜",
-        "normalized": "刷榜",
-        "start": 11,
-        "end": 13,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "时代",
-        "normalized": "时代",
-        "start": 13,
-        "end": 15,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "：",
-        "normalized": "：",
-        "start": 15,
-        "end": 16,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "四",
-        "normalized": "四",
-        "start": 16,
-        "end": 17,
-        "pos": "CD",
-        "source": "hanlp"
-      },
-      {
-        "text": "招教",
-        "normalized": "招教",
-        "start": 17,
-        "end": 19,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "你",
-        "normalized": "你",
-        "start": 19,
-        "end": 20,
-        "pos": "PN",
-        "source": "hanlp"
-      },
-      {
-        "text": "的",
-        "normalized": "的",
-        "start": 20,
-        "end": 21,
-        "pos": "DEG",
-        "source": "hanlp"
-      },
-      {
-        "text": "模型",
-        "normalized": "模型",
-        "start": 21,
-        "end": 23,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "登上",
-        "normalized": "登上",
-        "start": 23,
-        "end": 25,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "OpenRouter",
-        "normalized": "openrouter",
-        "start": 26,
-        "end": 36,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "用量",
-        "normalized": "用量",
-        "start": 37,
-        "end": 39,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "排行榜",
-        "normalized": "排行榜",
-        "start": 39,
-        "end": 42,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 42,
-        "end": 43,
-        "pos": "PU",
-        "source": "hanlp"
-      }
-    ],
-    "entities": [
-      {
-        "text": "四",
-        "type": "ORDINAL",
-        "start": 10,
-        "end": 11,
-        "source": "hanlp"
-      }
-    ],
-    "signals": [
-      {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      }
-    ],
-    "categoryIds": [
-      "emotion_burst"
-    ],
-    "emotionScore": 1.5
   },
   {
     "bvid": "BV1LfcQzZEFe",
