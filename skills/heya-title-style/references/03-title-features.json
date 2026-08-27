@@ -1,5 +1,264 @@
 [
   {
+    "bvid": "BV1oX496SEeQ",
+    "title": "Anthropic或将连发三款5.1模型：Claude用户能等来一次大升级吗？｜AI日报0827",
+    "date": "2026-08-27",
+    "clauses": [
+      "Anthropic或将连发三款5.1模型",
+      "Claude用户能等来一次大升级吗",
+      "AI日报0827"
+    ],
+    "tokens": [
+      {
+        "text": "Anthropic",
+        "normalized": "anthropic",
+        "start": 0,
+        "end": 9,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "或",
+        "normalized": "或",
+        "start": 9,
+        "end": 10,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "将",
+        "normalized": "将",
+        "start": 10,
+        "end": 11,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "连发",
+        "normalized": "连发",
+        "start": 11,
+        "end": 13,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "三",
+        "normalized": "三",
+        "start": 13,
+        "end": 14,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "款",
+        "normalized": "款",
+        "start": 14,
+        "end": 15,
+        "pos": "M",
+        "source": "hanlp"
+      },
+      {
+        "text": "5.1",
+        "normalized": "5.1",
+        "start": 15,
+        "end": 18,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "模型",
+        "normalized": "模型",
+        "start": 18,
+        "end": 20,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "：",
+        "normalized": "：",
+        "start": 20,
+        "end": 21,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Claude",
+        "normalized": "claude",
+        "start": 21,
+        "end": 27,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "用户",
+        "normalized": "用户",
+        "start": 27,
+        "end": 29,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "能",
+        "normalized": "能",
+        "start": 29,
+        "end": 30,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "等来",
+        "normalized": "等来",
+        "start": 30,
+        "end": 32,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "一",
+        "normalized": "一",
+        "start": 32,
+        "end": 33,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "次",
+        "normalized": "次",
+        "start": 33,
+        "end": 34,
+        "pos": "M",
+        "source": "hanlp"
+      },
+      {
+        "text": "大",
+        "normalized": "大",
+        "start": 34,
+        "end": 35,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "升级",
+        "normalized": "升级",
+        "start": 35,
+        "end": 37,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "吗",
+        "normalized": "吗",
+        "start": 37,
+        "end": 38,
+        "pos": "SP",
+        "source": "hanlp"
+      },
+      {
+        "text": "？",
+        "normalized": "？",
+        "start": 38,
+        "end": 39,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "｜",
+        "normalized": "｜",
+        "start": 39,
+        "end": 40,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 40,
+        "end": 44,
+        "source": "domain"
+      },
+      {
+        "text": "0827",
+        "normalized": "0827",
+        "start": 44,
+        "end": 48,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "三",
+        "type": "INTEGER",
+        "start": 4,
+        "end": 5,
+        "source": "hanlp"
+      },
+      {
+        "text": "5.1",
+        "type": "FRACTION",
+        "start": 6,
+        "end": 7,
+        "source": "hanlp"
+      },
+      {
+        "text": "Claude",
+        "type": "LOCATION",
+        "start": 9,
+        "end": 10,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 20,
+        "end": 21,
+        "source": "hanlp"
+      },
+      {
+        "text": "0827",
+        "type": "INTEGER",
+        "start": 21,
+        "end": 22,
+        "source": "hanlp"
+      },
+      {
+        "text": "Claude",
+        "type": "brand",
+        "start": 21,
+        "end": 27,
+        "source": "dictionary"
+      },
+      {
+        "text": "Anthropic",
+        "type": "brand",
+        "start": 0,
+        "end": 9,
+        "source": "dictionary"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "number_hook"
+    ],
+    "emotionScore": 0.5
+  },
+  {
     "bvid": "BV11C8d6LEJf",
     "title": "AI圈核弹雨来袭！腾讯明示Hy4将至；智谱认领Ox Alpha；OpenAI被曝Bel预训练完成！| 0826",
     "date": "2026-08-26",
@@ -39958,222 +40217,255 @@
     "emotionScore": 3
   },
   {
-    "bvid": "BV1VWSfB1EpX",
-    "title": "脊背发凉！OpenAI今日承认：AI将导致社会动荡，大规模失业！发起挽救人类倡议！",
-    "date": "2026-04-06",
+    "bvid": "BV1d7wqzpEpr",
+    "title": "MiniMax 正式发布 M2.7 模型，同步推出 Token Plan，支持全模态模型统一访问 | AI日报3月18日",
+    "date": "2026-03-18",
     "clauses": [
-      "脊背发凉",
-      "OpenAI今日承认",
-      "AI将导致社会动荡",
-      "大规模失业",
-      "发起挽救人类倡议"
+      "MiniMax 正式发布 M2.7 模型",
+      "同步推出 Token Plan",
+      "支持全模态模型统一访问",
+      "AI日报3月18日"
     ],
     "tokens": [
       {
-        "text": "脊背",
-        "normalized": "脊背",
+        "text": "MiniMax",
+        "normalized": "minimax",
         "start": 0,
-        "end": 2,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "发凉",
-        "normalized": "发凉",
-        "start": 2,
-        "end": 4,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 4,
-        "end": 5,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "OpenAI",
-        "normalized": "openai",
-        "start": 5,
-        "end": 11,
+        "end": 7,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "今日",
-        "normalized": "今日",
-        "start": 11,
-        "end": 13,
-        "pos": "NT",
-        "source": "hanlp"
-      },
-      {
-        "text": "承认",
-        "normalized": "承认",
-        "start": 13,
-        "end": 15,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "：",
-        "normalized": "：",
-        "start": 15,
-        "end": 16,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI",
-        "normalized": "ai",
-        "start": 16,
-        "end": 18,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 18,
-        "end": 19,
+        "text": "正式",
+        "normalized": "正式",
+        "start": 8,
+        "end": 10,
         "pos": "AD",
         "source": "hanlp"
       },
       {
-        "text": "导致",
-        "normalized": "导致",
-        "start": 19,
-        "end": 21,
+        "text": "发布",
+        "normalized": "发布",
+        "start": 10,
+        "end": 12,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "社会",
-        "normalized": "社会",
-        "start": 21,
-        "end": 23,
+        "text": "M2.7",
+        "normalized": "m2.7",
+        "start": 13,
+        "end": 17,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "动荡",
-        "normalized": "动荡",
-        "start": 23,
-        "end": 25,
+        "text": "模型",
+        "normalized": "模型",
+        "start": 18,
+        "end": 20,
         "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "，",
         "normalized": "，",
-        "start": 25,
-        "end": 26,
+        "start": 20,
+        "end": 21,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "大规模",
-        "normalized": "大规模",
+        "text": "同步",
+        "normalized": "同步",
+        "start": 21,
+        "end": 23,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "推出",
+        "normalized": "推出",
+        "start": 23,
+        "end": 25,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "Token Plan",
+        "normalized": "token plan",
         "start": 26,
-        "end": 29,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "失业",
-        "normalized": "失业",
-        "start": 29,
-        "end": 31,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 31,
-        "end": 32,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "发起",
-        "normalized": "发起",
-        "start": 32,
-        "end": 34,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "挽救",
-        "normalized": "挽救",
-        "start": 34,
         "end": 36,
+        "source": "domain"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 36,
+        "end": 37,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "支持",
+        "normalized": "支持",
+        "start": 37,
+        "end": 39,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "人类",
-        "normalized": "人类",
-        "start": 36,
-        "end": 38,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "倡议",
-        "normalized": "倡议",
-        "start": 38,
+        "text": "全",
+        "normalized": "全",
+        "start": 39,
         "end": 40,
+        "pos": "DT",
+        "source": "hanlp"
+      },
+      {
+        "text": "模态",
+        "normalized": "模态",
+        "start": 40,
+        "end": 42,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "！",
-        "normalized": "！",
-        "start": 40,
-        "end": 41,
+        "text": "模型",
+        "normalized": "模型",
+        "start": 42,
+        "end": 44,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "统一",
+        "normalized": "统一",
+        "start": 44,
+        "end": 46,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "访问",
+        "normalized": "访问",
+        "start": 46,
+        "end": 48,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 49,
+        "end": 50,
         "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 51,
+        "end": 55,
+        "source": "domain"
+      },
+      {
+        "text": "3月",
+        "normalized": "3月",
+        "start": 55,
+        "end": 57,
+        "pos": "NT",
+        "source": "hanlp"
+      },
+      {
+        "text": "18日",
+        "normalized": "18日",
+        "start": 57,
+        "end": 60,
+        "pos": "NT",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "OpenAI",
-        "type": "ORGANIZATION",
+        "text": "M2.7",
+        "type": "DECIMAL",
         "start": 3,
         "end": 4,
         "source": "hanlp"
       },
       {
-        "text": "今日",
-        "type": "DATE",
-        "start": 4,
-        "end": 5,
+        "text": "|AI日报",
+        "type": "ORGANIZATION",
+        "start": 17,
+        "end": 20,
         "source": "hanlp"
       },
       {
-        "text": "OpenAI",
+        "text": "3月",
+        "type": "DATE",
+        "start": 20,
+        "end": 21,
+        "source": "hanlp"
+      },
+      {
+        "text": "18日",
+        "type": "DATE",
+        "start": 21,
+        "end": 22,
+        "source": "hanlp"
+      },
+      {
+        "text": "MiniMax",
         "type": "brand",
-        "start": 5,
-        "end": 11,
+        "start": 0,
+        "end": 7,
         "source": "dictionary"
+      },
+      {
+        "text": "MiniMax",
+        "type": "model",
+        "start": 0,
+        "end": 7,
+        "source": "domain"
+      },
+      {
+        "text": "M2.7",
+        "type": "model",
+        "start": 13,
+        "end": 17,
+        "source": "domain"
       }
     ],
     "signals": [
       {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
+        "id": "daily",
+        "label": "日报式",
         "matched": [
-          "情绪爆点"
+          "日报式"
+        ]
+      },
+      {
+        "id": "multi_event",
+        "label": "多事件合并",
+        "matched": [
+          "多事件合并"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
         ]
       }
     ],
     "categoryIds": [
-      "emotion_burst"
+      "daily",
+      "multi_event",
+      "number_hook"
     ],
-    "emotionScore": 3
+    "emotionScore": 0
   },
   {
     "bvid": "BV1znwXziEw7",
