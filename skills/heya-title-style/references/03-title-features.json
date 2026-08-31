@@ -10978,6 +10978,196 @@
     "emotionScore": 2
   },
   {
+    "bvid": "BV192gk6MEwx",
+    "title": "宇宙寂灭！GPT-6 即将降临，碳基文明终结倒计时！| AI日报0722",
+    "date": "2026-07-22",
+    "clauses": [
+      "宇宙寂灭",
+      "GPT-6 即将降临",
+      "碳基文明终结倒计时",
+      "AI日报0722"
+    ],
+    "tokens": [
+      {
+        "text": "宇宙",
+        "normalized": "宇宙",
+        "start": 0,
+        "end": 2,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "寂灭",
+        "normalized": "寂灭",
+        "start": 2,
+        "end": 4,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT-6",
+        "normalized": "gpt-6",
+        "start": 5,
+        "end": 10,
+        "source": "domain"
+      },
+      {
+        "text": "即将",
+        "normalized": "即将",
+        "start": 11,
+        "end": 13,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "降临",
+        "normalized": "降临",
+        "start": 13,
+        "end": 15,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 15,
+        "end": 16,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "碳基",
+        "normalized": "碳基",
+        "start": 16,
+        "end": 18,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "文明",
+        "normalized": "文明",
+        "start": 18,
+        "end": 20,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "终结",
+        "normalized": "终结",
+        "start": 20,
+        "end": 22,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "倒计时",
+        "normalized": "倒计时",
+        "start": 22,
+        "end": 25,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 25,
+        "end": 26,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 26,
+        "end": 27,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 28,
+        "end": 32,
+        "source": "domain"
+      },
+      {
+        "text": "0722",
+        "normalized": "0722",
+        "start": 32,
+        "end": 36,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 13,
+        "end": 15,
+        "source": "hanlp"
+      },
+      {
+        "text": "0722",
+        "type": "ORDINAL",
+        "start": 15,
+        "end": 16,
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT",
+        "type": "brand",
+        "start": 5,
+        "end": 8,
+        "source": "dictionary"
+      },
+      {
+        "text": "GPT-6",
+        "type": "model",
+        "start": 5,
+        "end": 10,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook"
+    ],
+    "emotionScore": 2
+  },
+  {
     "bvid": "BV18fKh6REPK",
     "title": "东升西落！GLM新模型获智谱暗示史诗级核爆，谷歌灰度Gemini新模型气笑测试用户！| AI日报0721",
     "date": "2026-07-21",
@@ -23277,238 +23467,6 @@
       "absurd_imagery"
     ],
     "emotionScore": 8.2
-  },
-  {
-    "bvid": "BV14eEm6cEJK",
-    "title": "大模型诸神之战！Mythos与GPT-5.6呼之欲出！剑拔弩张擦枪走火！硝烟弥漫全网！| AI日报",
-    "date": "2026-06-09",
-    "clauses": [
-      "大模型诸神之战",
-      "Mythos与GPT-5.6呼之欲出",
-      "剑拔弩张擦枪走火",
-      "硝烟弥漫全网",
-      "AI日报"
-    ],
-    "tokens": [
-      {
-        "text": "大",
-        "normalized": "大",
-        "start": 0,
-        "end": 1,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "模型",
-        "normalized": "模型",
-        "start": 1,
-        "end": 3,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "诸神",
-        "normalized": "诸神",
-        "start": 3,
-        "end": 5,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "之",
-        "normalized": "之",
-        "start": 5,
-        "end": 6,
-        "pos": "DEG",
-        "source": "hanlp"
-      },
-      {
-        "text": "战",
-        "normalized": "战",
-        "start": 6,
-        "end": 7,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 7,
-        "end": 8,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "Mythos",
-        "normalized": "mythos",
-        "start": 8,
-        "end": 14,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "与",
-        "normalized": "与",
-        "start": 14,
-        "end": 15,
-        "pos": "CC",
-        "source": "hanlp"
-      },
-      {
-        "text": "GPT-5.6",
-        "normalized": "gpt-5.6",
-        "start": 15,
-        "end": 22,
-        "source": "domain"
-      },
-      {
-        "text": "呼之欲出",
-        "normalized": "呼之欲出",
-        "start": 22,
-        "end": 26,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 26,
-        "end": 27,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "剑拔弩张",
-        "normalized": "剑拔弩张",
-        "start": 27,
-        "end": 31,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "擦枪走火",
-        "normalized": "擦枪走火",
-        "start": 31,
-        "end": 35,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 35,
-        "end": 36,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "硝烟弥漫",
-        "normalized": "硝烟弥漫",
-        "start": 36,
-        "end": 40,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "全",
-        "normalized": "全",
-        "start": 40,
-        "end": 41,
-        "pos": "DT",
-        "source": "hanlp"
-      },
-      {
-        "text": "网",
-        "normalized": "网",
-        "start": 41,
-        "end": 42,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 42,
-        "end": 43,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "|",
-        "normalized": "|",
-        "start": 43,
-        "end": 44,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI日报",
-        "normalized": "ai日报",
-        "start": 45,
-        "end": 49,
-        "source": "domain"
-      }
-    ],
-    "entities": [
-      {
-        "text": "AI日报",
-        "type": "ORGANIZATION",
-        "start": 19,
-        "end": 21,
-        "source": "hanlp"
-      },
-      {
-        "text": "GPT",
-        "type": "brand",
-        "start": 15,
-        "end": 18,
-        "source": "dictionary"
-      },
-      {
-        "text": "GPT-5.6",
-        "type": "model",
-        "start": 15,
-        "end": 22,
-        "source": "domain"
-      }
-    ],
-    "signals": [
-      {
-        "id": "daily",
-        "label": "日报式",
-        "matched": [
-          "日报式"
-        ]
-      },
-      {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      },
-      {
-        "id": "number_hook",
-        "label": "数字悬念",
-        "matched": [
-          "数字悬念"
-        ]
-      },
-      {
-        "id": "absurd_imagery",
-        "label": "荒诞意象",
-        "matched": [
-          "荒诞意象"
-        ]
-      }
-    ],
-    "categoryIds": [
-      "daily",
-      "emotion_burst",
-      "number_hook",
-      "absurd_imagery"
-    ],
-    "emotionScore": 4.2
   },
   {
     "bvid": "BV1xKEg69Efx",
@@ -40052,6 +40010,275 @@
     "categoryIds": [
       "daily",
       "emotion_burst"
+    ],
+    "emotionScore": 3
+  },
+  {
+    "bvid": "BV1JWQwBKE1o",
+    "title": "宇宙颤栗！梁文峰：DeepSeekV4将发！HappyHorse横空出世，阿里已认领！AI圈硝烟弥漫！| AI日报",
+    "date": "2026-04-10",
+    "clauses": [
+      "宇宙颤栗",
+      "梁文峰",
+      "DeepSeekV4将发",
+      "HappyHorse横空出世",
+      "阿里已认领",
+      "AI圈硝烟弥漫",
+      "AI日报"
+    ],
+    "tokens": [
+      {
+        "text": "宇宙",
+        "normalized": "宇宙",
+        "start": 0,
+        "end": 2,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "颤栗",
+        "normalized": "颤栗",
+        "start": 2,
+        "end": 4,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "梁文峰",
+        "normalized": "梁文峰",
+        "start": 5,
+        "end": 8,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "：",
+        "normalized": "：",
+        "start": 8,
+        "end": 9,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeekV4",
+        "normalized": "deepseekv4",
+        "start": 9,
+        "end": 19,
+        "source": "domain"
+      },
+      {
+        "text": "将",
+        "normalized": "将",
+        "start": 19,
+        "end": 20,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "发",
+        "normalized": "发",
+        "start": 20,
+        "end": 21,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 21,
+        "end": 22,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "HappyHorse",
+        "normalized": "happyhorse",
+        "start": 22,
+        "end": 32,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "横空",
+        "normalized": "横空",
+        "start": 32,
+        "end": 34,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "出世",
+        "normalized": "出世",
+        "start": 34,
+        "end": 36,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 36,
+        "end": 37,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "阿里",
+        "normalized": "阿里",
+        "start": 37,
+        "end": 39,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "已",
+        "normalized": "已",
+        "start": 39,
+        "end": 40,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "认领",
+        "normalized": "认领",
+        "start": 40,
+        "end": 42,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 42,
+        "end": 43,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI圈",
+        "normalized": "ai圈",
+        "start": 43,
+        "end": 46,
+        "source": "domain"
+      },
+      {
+        "text": "硝烟弥漫",
+        "normalized": "硝烟弥漫",
+        "start": 46,
+        "end": 50,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 50,
+        "end": 51,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 51,
+        "end": 52,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 53,
+        "end": 57,
+        "source": "domain"
+      }
+    ],
+    "entities": [
+      {
+        "text": "梁文峰",
+        "type": "PERSON",
+        "start": 3,
+        "end": 4,
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeekV4",
+        "type": "ORGANIZATION",
+        "start": 5,
+        "end": 6,
+        "source": "hanlp"
+      },
+      {
+        "text": "阿里",
+        "type": "PERSON",
+        "start": 13,
+        "end": 14,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 21,
+        "end": 23,
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek",
+        "type": "brand",
+        "start": 9,
+        "end": 17,
+        "source": "dictionary"
+      },
+      {
+        "text": "阿里",
+        "type": "brand",
+        "start": 37,
+        "end": 39,
+        "source": "dictionary"
+      },
+      {
+        "text": "DeepSeekV4",
+        "type": "model",
+        "start": 9,
+        "end": 19,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook"
     ],
     "emotionScore": 3
   },
