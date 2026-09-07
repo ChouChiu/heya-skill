@@ -6,7 +6,7 @@ nlp:
     - ner
   batchSize: 32
   failureCount: 0
-  generatedAt: 2026-09-06T15:42:19.478Z
+  generatedAt: 2026-09-07T09:16:25.285Z
 corpus:
   creator: 黑鸦
   uid: "3706929260006322"
@@ -16,32 +16,32 @@ corpus:
     newest: 2026-09-05
   source: UApi Bilibili proxy + HanLP REST
   length:
-    avg: 54.6
+    avg: 54.8
     min: 19
     max: 80
     median: 56
-    p75: 64
-    p90: 71
-    over40Pct: 85.1
+    p75: 65
+    p90: 72
+    over40Pct: 85.6
     distribution:
       20字以内: 1
       21-30字: 5
-      31-40字: 21
-      40字以上: 154
+      31-40字: 20
+      40字以上: 155
   punctuation:
     exclamationEndPct: 15.5
     questionEndPct: 0.6
-    averageExclamationCount: 2.16
-    averageSeparatorCount: 4.19
+    averageExclamationCount: 2.18
+    averageSeparatorCount: 4.2
     separatorUsage:
       - - ！
-        - 391
+        - 394
       - - ，
-        - 157
+        - 158
       - - "|"
         - 130
       - - ？
-        - 29
+        - 28
       - - ：
         - 20
       - - ；
@@ -55,8 +55,8 @@ corpus:
     distribution:
       1句: 2
       2句: 12
-      3句: 21
-      4句及以上: 146
+      3句: 20
+      4句及以上: 147
   examples:
     recent:
       - aid: 117218230732836
@@ -134,26 +134,26 @@ entities:
   coveragePct: 98.3
   brandsAndProducts:
     - - DeepSeek
-      - 45
+      - 46
     - - OpenAI
       - 35
     - - GPT
       - 34
     - - Gemini
-      - 25
+      - 24
     - - Anthropic
       - 15
     - - 智谱
       - 14
     - - Fable
       - 11
+    - - Claude
+      - 10
     - - Grok
       - 10
     - - Qwen
       - 10
     - - 腾讯
-      - 9
-    - - Claude
       - 9
     - - Kimi
       - 9
@@ -230,7 +230,7 @@ entities:
     - - "|"
       - 20
     - - Gemini
-      - 20
+      - 19
     - - OpenAI
       - 18
     - - Google
@@ -239,11 +239,11 @@ entities:
       - 7
     - - 腾讯
       - 7
+    - - Claude
+      - 5
     - - Tibo
       - 5
     - - 马斯克
-      - 4
-    - - Claude
       - 4
     - - DeepSeek
       - 4
@@ -328,13 +328,13 @@ entities:
       - 1
   english:
     - - AI
-      - 209
+      - 210
     - - DeepSeek
-      - 44
+      - 45
     - - OpenAI
       - 37
     - - Gemini
-      - 26
+      - 25
     - - Anthropic
       - 15
     - - V4
@@ -347,18 +347,20 @@ entities:
       - 11
     - - Google
       - 11
+    - - Claude
+      - 10
     - - Fable
       - 10
     - - Grok
       - 10
     - - API
       - 9
-    - - Claude
-      - 9
     - - Kimi
       - 9
     - - MiniMax
       - 9
+    - - Opus
+      - 8
     - - Agent
       - 7
     - - Astra
@@ -368,8 +370,6 @@ entities:
     - - GPT
       - 7
     - - Mythos
-      - 7
-    - - Opus
       - 7
     - - DeepSeek-V4
       - 6
@@ -435,7 +435,7 @@ entities:
       - - "|"
         - 20
       - - Gemini
-        - 20
+        - 19
       - - OpenAI
         - 18
       - - Google
@@ -444,11 +444,11 @@ entities:
         - 7
       - - 腾讯
         - 7
+      - - Claude
+        - 5
       - - Tibo
         - 5
       - - 马斯克
-        - 4
-      - - Claude
         - 4
       - - DeepSeek
         - 4
@@ -472,26 +472,26 @@ entities:
         - 2
     brand:
       - - DeepSeek
-        - 45
+        - 46
       - - OpenAI
         - 35
       - - GPT
         - 34
       - - Gemini
-        - 25
+        - 24
       - - Anthropic
         - 15
       - - 智谱
         - 14
       - - Fable
         - 11
+      - - Claude
+        - 10
       - - Grok
         - 10
       - - Qwen
         - 10
       - - 腾讯
-        - 9
-      - - Claude
         - 9
       - - Kimi
         - 9
@@ -758,6 +758,10 @@ entities:
       - - "0817"
         - 1
     PHONE:
+      - - "| AI日报"
+        - 1
+      - - "0416"
+        - 1
       - - "0503"
         - 1
       - - "0504"
@@ -793,10 +797,6 @@ entities:
       - - "0810"
         - 1
       - - "0820"
-        - 1
-      - - "0821"
-        - 1
-      - - "0823"
         - 1
     FRACTION:
       - - "5.1"
@@ -854,17 +854,17 @@ entities:
 lexicon:
   highFrequency:
     - - 模型
-      - 44
+      - 45
     - - OpenAI
       - 36
     - - DeepSeek
-      - 32
+      - 33
     - - 引爆
-      - 26
+      - 27
     - - 发布
-      - 24
+      - 25
     - - 核弹
-      - 19
+      - 20
     - - ……
       - 16
     - - 硅谷
@@ -885,21 +885,21 @@ lexicon:
       - 13
     - - 智谱
       - 13
+    - - 彻底
+      - 12
     - - 全球
       - 12
     - - 人类
       - 12
-    - - 泄露
-      - 12
     - - GPT-5.6
       - 12
-    - - 彻底
-      - 11
     - - 大地震
       - 11
     - - 开源
       - 11
     - - 瘫坐
+      - 11
+    - - 泄露
       - 11
     - - DeepSeek V4
       - 11
@@ -913,8 +913,6 @@ lexicon:
       - 10
     - - Codex
       - 10
-    - - Gemini
-      - 10
     - - 地震
       - 9
     - - 发麻
@@ -927,11 +925,13 @@ lexicon:
       - 9
     - - API
       - 9
+    - - Claude
+      - 9
+    - - Gemini
+      - 9
     - - Kimi
       - 9
     - - 全线
-      - 8
-    - - 疑似
       - 8
   domainTerms:
     - - AI
@@ -939,16 +939,16 @@ lexicon:
     - - AI日报
       - 125
     - - AI圈
-      - 45
+      - 46
     - - 模型
-      - 41
+      - 42
     - - 引爆
-      - 26
+      - 27
     - - 发布
-      - 23
-    - - 泄露
-      - 12
+      - 24
     - - 开源
+      - 11
+    - - 泄露
       - 11
     - - 融资
       - 5
@@ -964,21 +964,21 @@ lexicon:
       - 1
   emotionWords:
     - - 核弹
-      - 24
+      - 25
     - - 地震
       - 20
     - - 瘫坐
       - 12
     - - 泄露
-      - 12
+      - 11
     - - 突发
       - 10
     - - 杀疯
       - 6
+    - - 沸腾
+      - 5
     - - 雪崩
       - 5
-    - - 沸腾
-      - 4
     - - 疯狂
       - 4
     - - 炸裂
@@ -993,7 +993,7 @@ lexicon:
       - 1
     - - 裂开
       - 1
-  stopWordsFiltered: 216
+  stopWordsFiltered: 217
 phrases:
   bigrams:
     - - 深夜引爆
@@ -1012,13 +1012,13 @@ phrases:
       - 5
     - - 核弹来袭
       - 4
-    - - 后背发凉
-      - 4
     - - 接管世界
       - 4
     - - 命运转折
       - 4
     - - 眩晕瘫坐
+      - 4
+    - - 载入史册
       - 4
     - - 正式发布
       - 4
@@ -1027,6 +1027,8 @@ phrases:
     - - 海啸席卷
       - 3
     - - 横空出世
+      - 3
+    - - 后背发凉
       - 3
     - - 龙王归来
       - 3
@@ -1037,8 +1039,6 @@ phrases:
     - - 视觉模型
       - 3
     - - 无力瘫坐
-      - 3
-    - - 载入史册
       - 3
     - - Codex额度
       - 3
@@ -1057,6 +1057,8 @@ phrases:
     - - 保卫战……
       - 2
   trigrams:
+    - - 彻底引爆载入
+      - 2
     - - 登基还是终极
       - 2
     - - 仿佛看到椅子爆炸
@@ -1087,10 +1089,16 @@ phrases:
       - 2
     - - 移交军事法庭
       - 2
+    - - 引爆载入史册
+      - 2
+    - - 载入史册！！！
+      - 2
     - - DeepSeek视觉模型
       - 2
     - - Qwen 3.5系列模型
       - 2
+    - - ！！！| AI日报0416
+      - 1
     - - ……3月13日
       - 1
     - - ……奇点人类
@@ -1109,14 +1117,6 @@ phrases:
       - 1
     - - 2.0模型GPT
       - 1
-    - - 2.0正式发布
-      - 1
-    - - 2.4T参数怪物
-      - 1
-    - - 2.7 万亿参数模型
-      - 1
-    - - 2.8T视频带全部
-      - 1
   crossToken:
     - - AI日报
       - 26
@@ -1128,6 +1128,10 @@ phrases:
       - 7
     - - 智谱突然发布核弹 GLM-5.2 引爆AI圈
       - 7
+    - - AI圈已沸腾
+      - 6
+    - - Claude Opus 4.7 与 DeepSeek 新
+      - 6
     - - 谷歌开源模型 Gemma 4 即将发布
       - 5
     - - AI圈核弹泄露
@@ -1143,8 +1147,6 @@ phrases:
     - - 微信官方Agent“小微”深夜引爆AI圈大地震
       - 4
     - - 智谱 GLM-5.2 或将发布引爆硅谷
-      - 4
-    - - AI圈已沸腾
       - 4
     - - AI日报3月5日
       - 4
@@ -1176,8 +1178,6 @@ phrases:
       - 3
     - - 太炸裂了。Qwen 3.5 系列多款小模型震撼开源
       - 3
-    - - 腾讯混元龙王归来发布 Hy3 Preview
-      - 3
   openingHooks:
     - - 见证历史
       - 6
@@ -1193,8 +1193,6 @@ phrases:
       - 3
     - - 大的要来了
       - 2
-    - - 后背发凉
-      - 2
     - - 快讯
       - 2
     - - 龙王归来
@@ -1202,6 +1200,8 @@ phrases:
     - - 血流成河
       - 2
     - - 载入史册
+      - 2
+    - - AI巅峰战
       - 2
   endingHooks:
     - - AI日报
@@ -1230,7 +1230,7 @@ phrases:
       - 1
   imagery:
     - - 核弹
-      - 24
+      - 25
     - - 瘫坐
       - 12
     - - 头皮发麻
@@ -1245,10 +1245,10 @@ phrases:
       - 5
     - - 血洗
       - 5
-    - - 后背发凉
-      - 4
     - - 龙王归来
       - 4
+    - - 后背发凉
+      - 3
     - - 冷汗直流
       - 3
     - - 被踢出群聊
@@ -1272,7 +1272,7 @@ phrases:
     - - 全员颤抖
       - 1
 rhetoric:
-  questionPct: 14.4
+  questionPct: 13.8
   exclamationPct: 92.3
   contrastPct: 6.6
   roundupPct: 72.4
@@ -1341,21 +1341,21 @@ generation:
   vocabulary:
     emotion:
       - - 核弹
-        - 24
+        - 25
       - - 地震
         - 20
       - - 瘫坐
         - 12
       - - 泄露
-        - 12
+        - 11
       - - 突发
         - 10
       - - 杀疯
         - 6
+      - - 沸腾
+        - 5
       - - 雪崩
         - 5
-      - - 沸腾
-        - 4
       - - 疯狂
         - 4
       - - 炸裂
@@ -1372,7 +1372,7 @@ generation:
         - 1
     imagery:
       - - 核弹
-        - 24
+        - 25
       - - 瘫坐
         - 12
       - - 头皮发麻
@@ -1387,10 +1387,10 @@ generation:
         - 5
       - - 血洗
         - 5
-      - - 后背发凉
-        - 4
       - - 龙王归来
         - 4
+      - - 后背发凉
+        - 3
       - - 冷汗直流
         - 3
       - - 被踢出群聊
@@ -1415,14 +1415,14 @@ generation:
         - 1
     actions:
       - - 引爆
-        - 26
+        - 27
       - - 发布
-        - 23
+        - 24
       - - 上线
         - 14
-      - - 泄露
-        - 12
       - - 开源
+        - 11
+      - - 泄露
         - 11
       - - 狙击
         - 6
@@ -1473,9 +1473,9 @@ generation:
       - - OpenAI
         - 63
       - - DeepSeek
-        - 50
+        - 51
       - - Gemini
-        - 45
+        - 43
       - - GPT
         - 34
       - - "|"
@@ -1484,13 +1484,13 @@ generation:
         - 17
       - - 腾讯
         - 16
+      - - Claude
+        - 16
       - - 谷歌
         - 15
       - - Anthropic
         - 15
       - - 智谱
-        - 14
-      - - Claude
         - 14
       - - 奥特曼
         - 13

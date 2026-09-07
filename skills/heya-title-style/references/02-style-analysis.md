@@ -6,14 +6,14 @@
 - 样本数：181
 - 样本范围：2026-02-25 至 2026-09-05
 - NLP：hanlp (tok, pos, ner)
-- 生成时间：2026-09-06T15:42:19.478Z
+- 生成时间：2026-09-07T09:16:25.285Z
 
 ## 核心统计
-- 平均标题长度：54.6 字
-- P75 / P90：64 / 71 字
-- 40 字以上占比：85.1%
+- 平均标题长度：54.8 字
+- P75 / P90：65 / 72 字
+- 40 字以上占比：85.6%
 - 平均分句：4.4
-- 平均分隔符：4.19
+- 平均分隔符：4.2
 - 句末感叹号占比：15.5%
 - 实体覆盖率：98.3%
 
@@ -26,23 +26,23 @@
 - contrast：12 条，6.6%
 
 ## 实体倾向
-- 品牌/产品：DeepSeek、OpenAI、GPT、Gemini、Anthropic、智谱、Fable、Grok、Qwen、腾讯、Claude、Kimi、MiniMax、谷歌、豆包、字节、ChatGPT、阿里、Cursor、华为、微软、小米、百度、苹果、Meta
+- 品牌/产品：DeepSeek、OpenAI、GPT、Gemini、Anthropic、智谱、Fable、Claude、Grok、Qwen、腾讯、Kimi、MiniMax、谷歌、豆包、字节、ChatGPT、阿里、Cursor、华为、微软、小米、百度、苹果、Meta
 - 人物：奥特曼、OpenAI、马斯克、阶跃、星辰、杨植麟、达里奥、谷歌云、黄仁勋、梁文峰、纳德拉、纳斯达克、唐杰、特朗普、小微、扎克伯格、张小🐲、Claude、DeepSeek、Mira
-- 组织：AI日报、|、Gemini、OpenAI、Google、谷歌、腾讯、Tibo、马斯克、Claude、DeepSeek、|AI日报、达里奥、华为、商汤、微软、AI、AI晚报、Harness、K3
+- 组织：AI日报、|、Gemini、OpenAI、Google、谷歌、腾讯、Claude、Tibo、马斯克、DeepSeek、|AI日报、达里奥、华为、商汤、微软、AI、AI晚报、Harness、K3
 - 模型版本：DeepSeek V4、GPT-5.6、MiniMax、Gemini 3.5 Pro、DeepSeek-V4、Fable 5、GLM-5.3、GPT-5.5、GPT-6、Hy4、K3、Opus 4.8、Opus 5、V4、Banana 2、DeepSeek-V4-Flash-Vision-Exp、DeepSeek-V4-Pro、Fable 5.1、Gemini 3.2、Gemini 3.5、Gemini 3.8 Flash、GLM-5.2、Grok 4.5、Hy3、M3、Mythos 5、Qwen 3.5、Seedance 2.0、Sonnet 5、阿里 Qwen3.6
-- 英文实体：AI、DeepSeek、OpenAI、Gemini、Anthropic、V4、GPT-5.6、Pro、Codex、Google、Fable、Grok、API、Claude、Kimi、MiniMax、Agent、Astra、ChatGPT、GPT、Mythos、Opus、DeepSeek-V4、Plan、Qwen、Token、Flash、GLM-5.3、Harness、K3
+- 英文实体：AI、DeepSeek、OpenAI、Gemini、Anthropic、V4、GPT-5.6、Pro、Codex、Google、Claude、Fable、Grok、API、Kimi、MiniMax、Opus、Agent、Astra、ChatGPT、GPT、Mythos、DeepSeek-V4、Plan、Qwen、Token、Flash、GLM-5.3、Harness、K3
 
 ## 词汇与短语
-- 高频 Token：模型、OpenAI、DeepSeek、引爆、发布、核弹、……、硅谷、Anthropic、来袭、上线、深夜、正式、奥特曼、用户、智谱、全球、人类、泄露、GPT-5.6、彻底、大地震、开源、瘫坐
-- 领域词：AI、AI日报、AI圈、模型、引爆、发布、泄露、开源、融资、国产、大模型、Token Plan、芯片、上市
-- 情绪词：核弹、地震、瘫坐、泄露、突发、杀疯、雪崩、沸腾、疯狂、炸裂、泄密、窒息、震撼、翻车、裂开
-- 二元短语：深夜引爆、头皮发麻、重磅炸弹、见证历史、全线突围、吓出癫痫、引爆硅谷、核弹来袭、后背发凉、接管世界、命运转折、眩晕瘫坐、正式发布、DeepSeekHarness、海啸席卷、横空出世、龙王归来、人类踢出、上线API、视觉模型、无力瘫坐、载入史册、Codex额度、DeepSeek V4Pro、DeepSeek官方、Gemini模型、KimiK3、3月5日、阿里腾讯、保卫战……
-- 三元短语：登基还是终极、仿佛看到椅子爆炸、鸽王登基还是、还是终极核弹、海啸席卷全球、接管世界倒计时、裂缝鸽王登基、命运转折……、人类命运转折、人类踢出群聊、深陷时空裂缝、深夜引爆硅谷、时空裂缝鸽王、陷入瘫痪……、移交军事法庭、DeepSeek视觉模型、Qwen 3.5系列模型、……3月13日、……奇点人类、|AI圈大事记0502、1.5T巨兽 V9基模、1000AgentPlan、150亿算力海啸、180断供倒计时、190亿融资阿里、2.0模型GPT、2.0正式发布、2.4T参数怪物、2.7 万亿参数模型、2.8T视频带全部
-- 跨 Token 搭配：AI日报、AI圈大地震、AI圈核弹雨来袭、头皮发麻、智谱突然发布核弹 GLM-5.2 引爆AI圈、谷歌开源模型 Gemma 4 即将发布、AI圈核弹泄露、风控大地震深夜引爆AI圈、华为92B开源血洗战场、华为国产纯血盘古模型2.0正式发布、腾讯混元 Hy3 正式版开源血洗全球、微信官方Agent“小微”深夜引爆AI圈大地震、智谱 GLM-5.2 或将发布引爆硅谷、AI圈已沸腾、AI日报3月5日、DeepSeek V4 与OpenAI代号“Spud”双、Fable 5 全球复活引爆核弹、Kimi K2.7 Code 突然发布引爆宇宙、MiniMax M3深夜引爆AI圈、白宫插手模型发布、大模型诸神之战、谷歌神秘模型 Gemini Omni 泄露、核弹无力瘫坐在奥特曼上仿佛看到椅子爆炸、黄仁勋看到 AI Cube 眩晕瘫坐、祭出“开源之盾、京东云深夜引爆AI编程圈、马斯克携大尺度 Grok 新视频模型登顶引爆硅谷、模型厂商雪崩海啸已至、太炸裂了。Qwen 3.5 系列多款小模型震撼开源、腾讯混元龙王归来发布 Hy3 Preview
-- 荒诞意象：核弹、瘫坐、头皮发麻、海啸、癫痫、眩晕、雪崩、血洗、后背发凉、龙王归来、冷汗直流、被踢出群聊、棺材板、椅子爆炸、诸神之战、夺舍、硅谷绞肉机、核冬天、开错生死簿、炼化、全员颤抖
+- 高频 Token：模型、OpenAI、DeepSeek、引爆、发布、核弹、……、硅谷、Anthropic、来袭、上线、深夜、正式、奥特曼、用户、智谱、彻底、全球、人类、GPT-5.6、大地震、开源、瘫坐、泄露
+- 领域词：AI、AI日报、AI圈、模型、引爆、发布、开源、泄露、融资、国产、大模型、Token Plan、芯片、上市
+- 情绪词：核弹、地震、瘫坐、泄露、突发、杀疯、沸腾、雪崩、疯狂、炸裂、泄密、窒息、震撼、翻车、裂开
+- 二元短语：深夜引爆、头皮发麻、重磅炸弹、见证历史、全线突围、吓出癫痫、引爆硅谷、核弹来袭、接管世界、命运转折、眩晕瘫坐、载入史册、正式发布、DeepSeekHarness、海啸席卷、横空出世、后背发凉、龙王归来、人类踢出、上线API、视觉模型、无力瘫坐、Codex额度、DeepSeek V4Pro、DeepSeek官方、Gemini模型、KimiK3、3月5日、阿里腾讯、保卫战……
+- 三元短语：彻底引爆载入、登基还是终极、仿佛看到椅子爆炸、鸽王登基还是、还是终极核弹、海啸席卷全球、接管世界倒计时、裂缝鸽王登基、命运转折……、人类命运转折、人类踢出群聊、深陷时空裂缝、深夜引爆硅谷、时空裂缝鸽王、陷入瘫痪……、移交军事法庭、引爆载入史册、载入史册！！！、DeepSeek视觉模型、Qwen 3.5系列模型、！！！| AI日报0416、……3月13日、……奇点人类、|AI圈大事记0502、1.5T巨兽 V9基模、1000AgentPlan、150亿算力海啸、180断供倒计时、190亿融资阿里、2.0模型GPT
+- 跨 Token 搭配：AI日报、AI圈大地震、AI圈核弹雨来袭、头皮发麻、智谱突然发布核弹 GLM-5.2 引爆AI圈、AI圈已沸腾、Claude Opus 4.7 与 DeepSeek 新、谷歌开源模型 Gemma 4 即将发布、AI圈核弹泄露、风控大地震深夜引爆AI圈、华为92B开源血洗战场、华为国产纯血盘古模型2.0正式发布、腾讯混元 Hy3 正式版开源血洗全球、微信官方Agent“小微”深夜引爆AI圈大地震、智谱 GLM-5.2 或将发布引爆硅谷、AI日报3月5日、DeepSeek V4 与OpenAI代号“Spud”双、Fable 5 全球复活引爆核弹、Kimi K2.7 Code 突然发布引爆宇宙、MiniMax M3深夜引爆AI圈、白宫插手模型发布、大模型诸神之战、谷歌神秘模型 Gemini Omni 泄露、核弹无力瘫坐在奥特曼上仿佛看到椅子爆炸、黄仁勋看到 AI Cube 眩晕瘫坐、祭出“开源之盾、京东云深夜引爆AI编程圈、马斯克携大尺度 Grok 新视频模型登顶引爆硅谷、模型厂商雪崩海啸已至、太炸裂了。Qwen 3.5 系列多款小模型震撼开源
+- 荒诞意象：核弹、瘫坐、头皮发麻、海啸、癫痫、眩晕、雪崩、血洗、龙王归来、后背发凉、冷汗直流、被踢出群聊、棺材板、椅子爆炸、诸神之战、夺舍、硅谷绞肉机、核冬天、开错生死簿、炼化、全员颤抖
 
 ## 开头与结尾钩子
-- 常见开头：见证历史、重磅炸弹、AI圈大地震、头皮发麻、突发、AI圈核弹雨来袭、大的要来了、后背发凉、快讯、龙王归来、血流成河、载入史册
+- 常见开头：见证历史、重磅炸弹、AI圈大地震、头皮发麻、突发、AI圈核弹雨来袭、大的要来了、快讯、龙王归来、血流成河、载入史册、AI巅峰战
 - 常见结尾：AI日报、战啊……、AI日报3月5日、【黑鸦Heya】一个视频带你看完Google I、【突发】DeepSeek-V4-Flash 正式、0826、奥特曼必须立刻移交军事法庭……、百万程序员的斩杀线来了……、达里奥吓到冷汗直流、高价老用户的斩杀线来了、谷歌开源模型 Gemma 4 即将发布、或将发布
 
 ## 生成公式
