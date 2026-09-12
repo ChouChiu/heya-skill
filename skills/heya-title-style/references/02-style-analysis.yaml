@@ -6,36 +6,36 @@ nlp:
     - ner
   batchSize: 32
   failureCount: 0
-  generatedAt: 2026-09-11T16:42:46.985Z
+  generatedAt: 2026-09-12T15:46:50.379Z
 corpus:
   creator: 黑鸦
   uid: "3706929260006322"
-  totalTitles: 187
+  totalTitles: 188
   dateRange:
     oldest: 2026-02-25
-    newest: 2026-09-11
+    newest: 2026-09-12
   source: UApi Bilibili proxy + HanLP REST
   length:
-    avg: 54.5
+    avg: 54.6
     min: 19
     max: 80
     median: 56
     p75: 64
     p90: 70
-    over40Pct: 86.1
+    over40Pct: 86.7
     distribution:
       20字以内: 1
       21-30字: 5
-      31-40字: 20
-      40字以上: 161
+      31-40字: 19
+      40字以上: 163
   punctuation:
-    exclamationEndPct: 18.2
+    exclamationEndPct: 18.1
     questionEndPct: 0.5
-    averageExclamationCount: 2.13
+    averageExclamationCount: 2.15
     averageSeparatorCount: 4.1
     separatorUsage:
       - - ！
-        - 399
+        - 404
       - - ，
         - 152
       - - "|"
@@ -56,9 +56,14 @@ corpus:
       1句: 1
       2句: 13
       3句: 26
-      4句及以上: 147
+      4句及以上: 148
   examples:
     recent:
+      - aid: 117257405598516
+        bvid: BV1J7Y96TEPX
+        title: 惊悚偷跑！GPT-6 系列新模型或将发布！Codex 已重置！月之暗面辟谣传闻！| AI日报0912
+        created: 1789206088
+        createdDate: 2026-09-12
       - aid: 117252187883171
         bvid: BV1j7Y76hEbF
         title: DeepSeek妥协！紧急撤回 V4 Pro API 下线通告，V4.1 Flash 强推计划一夜蒸发！
@@ -114,11 +119,6 @@ corpus:
         title: 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
         created: 1788520692
         createdDate: 2026-09-04
-      - aid: 117207057042682
-        bvid: BV1zEto6eE63
-        title: 载入史册！大的要来了！GPT-6 Astra 或将发布！| AI日报0903
-        created: 1788438224
-        createdDate: 2026-09-03
     mostEmotional:
       - 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
       - AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
@@ -134,7 +134,7 @@ entities:
   coveragePct: 98.4
   brandsAndProducts:
     - - DeepSeek
-      - 50
+      - 51
     - - OpenAI
       - 38
     - - GPT
@@ -332,9 +332,9 @@ entities:
       - 2
   english:
     - - AI
-      - 209
+      - 211
     - - DeepSeek
-      - 49
+      - 50
     - - OpenAI
       - 41
     - - Gemini
@@ -348,7 +348,7 @@ entities:
     - - Claude
       - 14
     - - Codex
-      - 13
+      - 14
     - - API
       - 12
     - - Flash
@@ -392,9 +392,132 @@ entities:
     - - GLM-5.3
       - 5
   fromNer:
+    LOCATION:
+      - - 硅谷
+        - 12
+      - - 月
+        - 2
+      - - 中国
+        - 2
+      - - "0403"
+        - 1
+      - - "0606"
+        - 1
+      - - "5"
+        - 1
+      - - 阿里
+        - 1
+      - - 澳洲
+        - 1
+      - - 地球
+        - 1
+      - - 东半球
+        - 1
+      - - 好莱坞
+        - 1
+      - - 火星
+        - 1
+      - - 京东云
+        - 1
+      - - 美
+        - 1
+      - - 美国
+        - 1
+      - - 清北
+        - 1
+      - - 深圳
+        - 1
+      - - 伊朗
+        - 1
+      - - 云
+        - 1
+      - - 中
+        - 1
+    ORGANIZATION:
+      - - AI日报
+        - 121
+      - - "|"
+        - 20
+      - - OpenAI
+        - 20
+      - - Gemini
+        - 15
+      - - 腾讯
+        - 8
+      - - Claude
+        - 8
+      - - Google
+        - 8
+      - - Tibo
+        - 7
+      - - 谷歌
+        - 6
+      - - DeepSeek
+        - 5
+      - - 马斯克
+        - 3
+      - - "|AI日报"
+        - 2
+      - - 达里奥
+        - 2
+      - - 华为
+        - 2
+      - - 商汤
+        - 2
+      - - 微软
+        - 2
+      - - AI
+        - 2
+      - - AI晚报
+        - 2
+      - - Codex
+        - 2
+      - - Cursor
+        - 2
+    ORDINAL:
+      - - "5"
+        - 4
+      - - "| 0826"
+        - 1
+      - - "0526"
+        - 1
+      - - "0531"
+        - 1
+      - - "0610"
+        - 1
+      - - "0630"
+        - 1
+      - - "0701"
+        - 1
+      - - "0709"
+        - 1
+      - - "0712"
+        - 1
+      - - "0713"
+        - 1
+      - - "0715"
+        - 1
+      - - "0716"
+        - 1
+      - - "0717"
+        - 1
+      - - "0721"
+        - 1
+      - - "0728"
+        - 1
+      - - "0731"
+        - 1
+      - - "0801"
+        - 1
+      - - "0803"
+        - 1
+      - - "0804"
+        - 1
+      - - "0806"
+        - 1
     brand:
       - - DeepSeek
-        - 50
+        - 51
       - - OpenAI
         - 38
       - - GPT
@@ -515,47 +638,6 @@ entities:
         - 1
       - - "0828"
         - 1
-    ORGANIZATION:
-      - - AI日报
-        - 121
-      - - "|"
-        - 20
-      - - OpenAI
-        - 20
-      - - Gemini
-        - 15
-      - - 腾讯
-        - 8
-      - - Claude
-        - 8
-      - - Google
-        - 8
-      - - Tibo
-        - 7
-      - - 谷歌
-        - 6
-      - - DeepSeek
-        - 5
-      - - 马斯克
-        - 3
-      - - "|AI日报"
-        - 2
-      - - 达里奥
-        - 2
-      - - 华为
-        - 2
-      - - 商汤
-        - 2
-      - - 微软
-        - 2
-      - - AI
-        - 2
-      - - AI晚报
-        - 2
-      - - Codex
-        - 2
-      - - Cursor
-        - 2
     DATE:
       - - 3月
         - 6
@@ -677,88 +759,6 @@ entities:
         - 1
       - - M2.7
         - 1
-    ORDINAL:
-      - - "5"
-        - 4
-      - - "| 0826"
-        - 1
-      - - "0526"
-        - 1
-      - - "0531"
-        - 1
-      - - "0610"
-        - 1
-      - - "0630"
-        - 1
-      - - "0701"
-        - 1
-      - - "0709"
-        - 1
-      - - "0712"
-        - 1
-      - - "0713"
-        - 1
-      - - "0715"
-        - 1
-      - - "0716"
-        - 1
-      - - "0717"
-        - 1
-      - - "0721"
-        - 1
-      - - "0722"
-        - 1
-      - - "0728"
-        - 1
-      - - "0731"
-        - 1
-      - - "0801"
-        - 1
-      - - "0803"
-        - 1
-      - - "0804"
-        - 1
-    LOCATION:
-      - - 硅谷
-        - 12
-      - - 中国
-        - 2
-      - - "0403"
-        - 1
-      - - "0606"
-        - 1
-      - - "5"
-        - 1
-      - - 阿里
-        - 1
-      - - 澳洲
-        - 1
-      - - 地球
-        - 1
-      - - 东半球
-        - 1
-      - - 好莱坞
-        - 1
-      - - 火星
-        - 1
-      - - 京东云
-        - 1
-      - - 美国
-        - 1
-      - - 清北
-        - 1
-      - - 深圳
-        - 1
-      - - 伊朗
-        - 1
-      - - 月
-        - 1
-      - - 云
-        - 1
-      - - Claude
-        - 1
-      - - Codex
-        - 1
     INTEGER:
       - - 三
         - 3
@@ -835,6 +835,8 @@ entities:
       - - "2.0"
         - 1
     MONEY:
+      - - 3000亿
+        - 1
       - - 3亿
         - 1
     TEMPERATURE:
@@ -843,13 +845,13 @@ entities:
 lexicon:
   highFrequency:
     - - 模型
-      - 51
+      - 52
     - - OpenAI
       - 41
     - - DeepSeek
-      - 34
+      - 35
     - - 发布
-      - 27
+      - 28
     - - 引爆
       - 27
     - - 核弹
@@ -878,9 +880,9 @@ lexicon:
       - 13
     - - Claude
       - 13
-    - - 硅谷
-      - 12
     - - Codex
+      - 13
+    - - 硅谷
       - 12
     - - Kimi
       - 12
@@ -912,29 +914,29 @@ lexicon:
       - 9
     - - 地震
       - 8
+    - - 发麻
+      - 8
     - - 官方
+      - 8
+    - - 头皮
       - 8
     - - ChatGPT
       - 8
     - - Google
       - 8
-    - - MiniMax
-      - 8
-    - - Pro
-      - 8
   domainTerms:
     - - AI
-      - 158
+      - 159
     - - AI日报
       - 127
     - - AI圈
       - 47
     - - 模型
-      - 45
+      - 46
     - - 引爆
       - 27
     - - 发布
-      - 24
+      - 25
     - - 开源
       - 12
     - - 泄露
@@ -982,7 +984,7 @@ lexicon:
       - 1
     - - 裂开
       - 1
-  stopWordsFiltered: 218
+  stopWordsFiltered: 219
 phrases:
   bigrams:
     - - 深夜引爆
@@ -990,12 +992,14 @@ phrases:
     - - 重磅炸弹
       - 9
     - - 头皮发麻
-      - 7
+      - 8
+    - - 见证历史
+      - 6
     - - 正式发布
       - 6
     - - 横空出世
       - 5
-    - - 见证历史
+    - - 全线突围
       - 5
     - - 吓出癫痫
       - 5
@@ -1003,7 +1007,7 @@ phrases:
       - 4
     - - 命运转折
       - 4
-    - - 全线突围
+    - - 系列模型
       - 4
     - - 引爆硅谷
       - 4
@@ -1021,13 +1025,13 @@ phrases:
       - 3
     - - 龙王归来
       - 3
+    - - 模型发布
+      - 3
     - - 上线API
       - 3
     - - 视觉模型
       - 3
     - - 无力瘫坐
-      - 3
-    - - 系列模型
       - 3
     - - 眩晕瘫坐
       - 3
@@ -1042,8 +1046,6 @@ phrases:
     - - 保卫战……
       - 2
     - - 崩塌OpenAI
-      - 2
-    - - 彻底疯狂
       - 2
   trigrams:
     - - 彻底引爆载入
@@ -1174,10 +1176,10 @@ phrases:
       - 6
     - - AI圈大地震
       - 6
+    - - 见证历史
+      - 5
     - - 头皮发麻
       - 5
-    - - 见证历史
-      - 4
     - - AI圈核弹雨来袭
       - 3
     - - 大的要来了
@@ -1222,9 +1224,9 @@ phrases:
       - 24
     - - 瘫坐
       - 10
-    - - 海啸
-      - 7
     - - 头皮发麻
+      - 8
+    - - 海啸
       - 7
     - - 癫痫
       - 5
@@ -1238,9 +1240,9 @@ phrases:
       - 4
     - - 后背发凉
       - 3
-    - - 棺材板
-      - 2
     - - 冷汗直流
+      - 3
+    - - 棺材板
       - 2
     - - 椅子爆炸
       - 2
@@ -1261,33 +1263,33 @@ phrases:
     - - 全员颤抖
       - 1
 rhetoric:
-  questionPct: 11.8
-  exclamationPct: 89.8
-  contrastPct: 7.5
-  roundupPct: 71.1
+  questionPct: 11.7
+  exclamationPct: 89.9
+  contrastPct: 7.4
+  roundupPct: 70.7
   namedEntityPct: 97.9
   signals:
     daily:
       count: 133
-      pct: 71.1
+      pct: 70.7
       examples:
+        - 惊悚偷跑！GPT-6 系列新模型或将发布！Codex 已重置！月之暗面辟谣传闻！| AI日报0912
         - 时空乱流！Kimi K2.8横空出世引发热议！Codex负责人Tibo诡异回应用户疑似又要重置！ |  AI日报0911
         - 数学界崩塌！OpenAI 或又攻破千禧年猜想，DeepSeek V4.1 Flash突袭，挥泪斩杀老旗舰！ |  AI日报0910
         - 走向灭亡！Anthropic 员工警告人类或将被ASI灭绝，Tibo 宣布或将暂停开放 ChatGPT Pro 订阅！| AI日报0909
         - 双日凌空！DeepSeek V4.1 Flash引爆全球！小米MiMo-X新模型随Desktop突袭公测！OpenAI学术声誉雪崩！| AI日报0908
-        - 巨头工作战爆发！阿里Qoder AI员工军团上线！腾讯升级 Hy4 preview！| AI日报0907
     emotion_burst:
-      count: 171
-      pct: 91.4
+      count: 172
+      pct: 91.5
       examples:
+        - 惊悚偷跑！GPT-6 系列新模型或将发布！Codex 已重置！月之暗面辟谣传闻！| AI日报0912
         - DeepSeek妥协！紧急撤回 V4 Pro API 下线通告，V4.1 Flash 强推计划一夜蒸发！
         - 时空乱流！Kimi K2.8横空出世引发热议！Codex负责人Tibo诡异回应用户疑似又要重置！ |  AI日报0911
         - 数学界崩塌！OpenAI 或又攻破千禧年猜想，DeepSeek V4.1 Flash突袭，挥泪斩杀老旗舰！ |  AI日报0910
         - 走向灭亡！Anthropic 员工警告人类或将被ASI灭绝，Tibo 宣布或将暂停开放 ChatGPT Pro 订阅！| AI日报0909
-        - 突发：DeepSeek V4 Pro 落幕！ DeepSeek 官宣将正式发布 V4.1 Flash 取而代之！
     multi_event:
       count: 48
-      pct: 25.7
+      pct: 25.5
       examples:
         - 数学界崩塌！OpenAI 或又攻破千禧年猜想，DeepSeek V4.1 Flash突袭，挥泪斩杀老旗舰！ |  AI日报0910
         - 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
@@ -1295,17 +1297,17 @@ rhetoric:
         - AI圈核弹雨来袭！腾讯明示Hy4将至；智谱认领Ox Alpha；OpenAI被曝Bel预训练完成！| 0826
         - 官方逼氪！Plus 用户 Codex 5小时枷锁将回归！疑似Qwen Paloma突袭Arena，对标Opus 5，头皮发麻！| AI日报0826
     number_hook:
-      count: 164
-      pct: 87.7
+      count: 165
+      pct: 87.8
       examples:
+        - 惊悚偷跑！GPT-6 系列新模型或将发布！Codex 已重置！月之暗面辟谣传闻！| AI日报0912
         - DeepSeek妥协！紧急撤回 V4 Pro API 下线通告，V4.1 Flash 强推计划一夜蒸发！
         - 时空乱流！Kimi K2.8横空出世引发热议！Codex负责人Tibo诡异回应用户疑似又要重置！ |  AI日报0911
         - 数学界崩塌！OpenAI 或又攻破千禧年猜想，DeepSeek V4.1 Flash突袭，挥泪斩杀老旗舰！ |  AI日报0910
         - DeepSeek 正式发布 DeepSeek V4.1 Flash：更强、更快、更普惠
-        - 走向灭亡！Anthropic 员工警告人类或将被ASI灭绝，Tibo 宣布或将暂停开放 ChatGPT Pro 订阅！| AI日报0909
     contrast:
       count: 14
-      pct: 7.5
+      pct: 7.4
       examples:
         - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
         - 惊为天人！Grok 发布 image 2.0 模型，与 GPT 展开巅峰对决！ | AI日报0808
@@ -1313,8 +1315,8 @@ rhetoric:
         - 狙击DeepSeek！Qwen3.8-Max 正式来袭！GLM-5.3 紧随其后！AI圈进入肉搏战！| AI日报0803
         - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
     absurd_imagery:
-      count: 63
-      pct: 33.7
+      count: 64
+      pct: 34
       examples:
         - 双日凌空！DeepSeek V4.1 Flash引爆全球！小米MiMo-X新模型随Desktop突袭公测！OpenAI学术声誉雪崩！| AI日报0908
         - 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
@@ -1364,9 +1366,9 @@ generation:
         - 24
       - - 瘫坐
         - 10
-      - - 海啸
-        - 7
       - - 头皮发麻
+        - 8
+      - - 海啸
         - 7
       - - 癫痫
         - 5
@@ -1380,9 +1382,9 @@ generation:
         - 4
       - - 后背发凉
         - 3
-      - - 棺材板
-        - 2
       - - 冷汗直流
+        - 3
+      - - 棺材板
         - 2
       - - 椅子爆炸
         - 2
@@ -1406,7 +1408,7 @@ generation:
       - - 引爆
         - 27
       - - 发布
-        - 24
+        - 25
       - - 上线
         - 15
       - - 开源
@@ -1415,10 +1417,10 @@ generation:
         - 12
       - - 狙击
         - 7
+      - - 全线突围
+        - 5
       - - 血洗
         - 5
-      - - 全线突围
-        - 4
       - - 祭出
         - 3
       - - 封杀
@@ -1460,7 +1462,7 @@ generation:
       - - OpenAI
         - 69
       - - DeepSeek
-        - 55
+        - 56
       - - Gemini
         - 35
       - - GPT

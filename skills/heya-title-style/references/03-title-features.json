@@ -1,5 +1,275 @@
 [
   {
+    "bvid": "BV1J7Y96TEPX",
+    "title": "惊悚偷跑！GPT-6 系列新模型或将发布！Codex 已重置！月之暗面辟谣传闻！| AI日报0912",
+    "date": "2026-09-12",
+    "clauses": [
+      "惊悚偷跑",
+      "GPT-6 系列新模型或将发布",
+      "Codex 已重置",
+      "月之暗面辟谣传闻",
+      "AI日报0912"
+    ],
+    "tokens": [
+      {
+        "text": "惊悚",
+        "normalized": "惊悚",
+        "start": 0,
+        "end": 2,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "偷跑",
+        "normalized": "偷跑",
+        "start": 2,
+        "end": 4,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT-6",
+        "normalized": "gpt-6",
+        "start": 5,
+        "end": 10,
+        "source": "domain"
+      },
+      {
+        "text": "系列",
+        "normalized": "系列",
+        "start": 11,
+        "end": 13,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "新",
+        "normalized": "新",
+        "start": 13,
+        "end": 14,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "模型",
+        "normalized": "模型",
+        "start": 14,
+        "end": 16,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "或",
+        "normalized": "或",
+        "start": 16,
+        "end": 17,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "将",
+        "normalized": "将",
+        "start": 17,
+        "end": 18,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "发布",
+        "normalized": "发布",
+        "start": 18,
+        "end": 20,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 20,
+        "end": 21,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Codex",
+        "normalized": "codex",
+        "start": 21,
+        "end": 26,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "已",
+        "normalized": "已",
+        "start": 27,
+        "end": 28,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "重置",
+        "normalized": "重置",
+        "start": 28,
+        "end": 30,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 30,
+        "end": 31,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "月",
+        "normalized": "月",
+        "start": 31,
+        "end": 32,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "之",
+        "normalized": "之",
+        "start": 32,
+        "end": 33,
+        "pos": "DEG",
+        "source": "hanlp"
+      },
+      {
+        "text": "暗面",
+        "normalized": "暗面",
+        "start": 33,
+        "end": 35,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "辟谣",
+        "normalized": "辟谣",
+        "start": 35,
+        "end": 37,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "传闻",
+        "normalized": "传闻",
+        "start": 37,
+        "end": 39,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 39,
+        "end": 40,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
+        "normalized": "|",
+        "start": 40,
+        "end": 41,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "normalized": "ai日报",
+        "start": 42,
+        "end": 46,
+        "source": "domain"
+      },
+      {
+        "text": "0912",
+        "normalized": "0912",
+        "start": 46,
+        "end": 50,
+        "pos": "CD",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "月",
+        "type": "LOCATION",
+        "start": 15,
+        "end": 16,
+        "source": "hanlp"
+      },
+      {
+        "text": "AI日报",
+        "type": "ORGANIZATION",
+        "start": 22,
+        "end": 23,
+        "source": "hanlp"
+      },
+      {
+        "text": "0912",
+        "type": "ORDINAL",
+        "start": 23,
+        "end": 24,
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT",
+        "type": "brand",
+        "start": 5,
+        "end": 8,
+        "source": "dictionary"
+      },
+      {
+        "text": "GPT-6",
+        "type": "model",
+        "start": 5,
+        "end": 10,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "daily",
+        "label": "日报式",
+        "matched": [
+          "日报式"
+        ]
+      },
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "daily",
+      "emotion_burst",
+      "number_hook"
+    ],
+    "emotionScore": 3
+  },
+  {
     "bvid": "BV1j7Y76hEbF",
     "title": "DeepSeek妥协！紧急撤回 V4 Pro API 下线通告，V4.1 Flash 强推计划一夜蒸发！",
     "date": "2026-09-11",
@@ -14615,196 +14885,6 @@
         "type": "model",
         "start": 12,
         "end": 18,
-        "source": "domain"
-      }
-    ],
-    "signals": [
-      {
-        "id": "daily",
-        "label": "日报式",
-        "matched": [
-          "日报式"
-        ]
-      },
-      {
-        "id": "emotion_burst",
-        "label": "情绪爆点",
-        "matched": [
-          "情绪爆点"
-        ]
-      },
-      {
-        "id": "number_hook",
-        "label": "数字悬念",
-        "matched": [
-          "数字悬念"
-        ]
-      }
-    ],
-    "categoryIds": [
-      "daily",
-      "emotion_burst",
-      "number_hook"
-    ],
-    "emotionScore": 2
-  },
-  {
-    "bvid": "BV192gk6MEwx",
-    "title": "宇宙寂灭！GPT-6 即将降临，碳基文明终结倒计时！| AI日报0722",
-    "date": "2026-07-22",
-    "clauses": [
-      "宇宙寂灭",
-      "GPT-6 即将降临",
-      "碳基文明终结倒计时",
-      "AI日报0722"
-    ],
-    "tokens": [
-      {
-        "text": "宇宙",
-        "normalized": "宇宙",
-        "start": 0,
-        "end": 2,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "寂灭",
-        "normalized": "寂灭",
-        "start": 2,
-        "end": 4,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 4,
-        "end": 5,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "GPT-6",
-        "normalized": "gpt-6",
-        "start": 5,
-        "end": 10,
-        "source": "domain"
-      },
-      {
-        "text": "即将",
-        "normalized": "即将",
-        "start": 11,
-        "end": 13,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "降临",
-        "normalized": "降临",
-        "start": 13,
-        "end": 15,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "，",
-        "normalized": "，",
-        "start": 15,
-        "end": 16,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "碳基",
-        "normalized": "碳基",
-        "start": 16,
-        "end": 18,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "文明",
-        "normalized": "文明",
-        "start": 18,
-        "end": 20,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "终结",
-        "normalized": "终结",
-        "start": 20,
-        "end": 22,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "倒计时",
-        "normalized": "倒计时",
-        "start": 22,
-        "end": 25,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 25,
-        "end": 26,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "|",
-        "normalized": "|",
-        "start": 26,
-        "end": 27,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "AI日报",
-        "normalized": "ai日报",
-        "start": 28,
-        "end": 32,
-        "source": "domain"
-      },
-      {
-        "text": "0722",
-        "normalized": "0722",
-        "start": 32,
-        "end": 36,
-        "pos": "CD",
-        "source": "hanlp"
-      }
-    ],
-    "entities": [
-      {
-        "text": "AI日报",
-        "type": "ORGANIZATION",
-        "start": 13,
-        "end": 15,
-        "source": "hanlp"
-      },
-      {
-        "text": "0722",
-        "type": "ORDINAL",
-        "start": 15,
-        "end": 16,
-        "source": "hanlp"
-      },
-      {
-        "text": "GPT",
-        "type": "brand",
-        "start": 5,
-        "end": 8,
-        "source": "dictionary"
-      },
-      {
-        "text": "GPT-6",
-        "type": "model",
-        "start": 5,
-        "end": 10,
         "source": "domain"
       }
     ],
@@ -31527,6 +31607,357 @@
       "absurd_imagery"
     ],
     "emotionScore": 6.5
+  },
+  {
+    "bvid": "BV17fRxB3ETz",
+    "title": "见证历史！国家队大基金史无前例投资DeepSeek，首个3000亿AI“亲儿子”诞生！中美AI阻击战全线突围！看完头皮发麻冷汗直流",
+    "date": "2026-05-06",
+    "clauses": [
+      "见证历史",
+      "国家队大基金史无前例投资DeepSeek",
+      "首个3000亿AI“亲儿子”诞生",
+      "中美AI阻击战全线突围",
+      "看完头皮发麻冷汗直流"
+    ],
+    "tokens": [
+      {
+        "text": "见证",
+        "normalized": "见证",
+        "start": 0,
+        "end": 2,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "历史",
+        "normalized": "历史",
+        "start": 2,
+        "end": 4,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 4,
+        "end": 5,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "国家队",
+        "normalized": "国家队",
+        "start": 5,
+        "end": 8,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "大",
+        "normalized": "大",
+        "start": 8,
+        "end": 9,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "基金",
+        "normalized": "基金",
+        "start": 9,
+        "end": 11,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "史无前例",
+        "normalized": "史无前例",
+        "start": 11,
+        "end": 15,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "投资",
+        "normalized": "投资",
+        "start": 15,
+        "end": 17,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek",
+        "normalized": "deepseek",
+        "start": 17,
+        "end": 25,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "，",
+        "normalized": "，",
+        "start": 25,
+        "end": 26,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "首",
+        "normalized": "首",
+        "start": 26,
+        "end": 27,
+        "pos": "OD",
+        "source": "hanlp"
+      },
+      {
+        "text": "个",
+        "normalized": "个",
+        "start": 27,
+        "end": 28,
+        "pos": "M",
+        "source": "hanlp"
+      },
+      {
+        "text": "3000亿",
+        "normalized": "3000亿",
+        "start": 28,
+        "end": 33,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI",
+        "normalized": "ai",
+        "start": 33,
+        "end": 35,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "“",
+        "normalized": "“",
+        "start": 35,
+        "end": 36,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "亲",
+        "normalized": "亲",
+        "start": 36,
+        "end": 37,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "儿子",
+        "normalized": "儿子",
+        "start": 37,
+        "end": 39,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "”",
+        "normalized": "”",
+        "start": 39,
+        "end": 40,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "诞生",
+        "normalized": "诞生",
+        "start": 40,
+        "end": 42,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 42,
+        "end": 43,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "中",
+        "normalized": "中",
+        "start": 43,
+        "end": 44,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "美",
+        "normalized": "美",
+        "start": 44,
+        "end": 45,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "AI",
+        "normalized": "ai",
+        "start": 45,
+        "end": 47,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "阻击战",
+        "normalized": "阻击战",
+        "start": 47,
+        "end": 50,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "全线",
+        "normalized": "全线",
+        "start": 50,
+        "end": 52,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "突围",
+        "normalized": "突围",
+        "start": 52,
+        "end": 54,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 54,
+        "end": 55,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "看完",
+        "normalized": "看完",
+        "start": 55,
+        "end": 57,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "头皮",
+        "normalized": "头皮",
+        "start": 57,
+        "end": 59,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "发麻",
+        "normalized": "发麻",
+        "start": 59,
+        "end": 61,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "冷汗",
+        "normalized": "冷汗",
+        "start": 61,
+        "end": 63,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "直",
+        "normalized": "直",
+        "start": 63,
+        "end": 64,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "流",
+        "normalized": "流",
+        "start": 64,
+        "end": 65,
+        "pos": "VV",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "国家队",
+        "type": "ORGANIZATION",
+        "start": 3,
+        "end": 4,
+        "source": "hanlp"
+      },
+      {
+        "text": "首",
+        "type": "ORDINAL",
+        "start": 10,
+        "end": 11,
+        "source": "hanlp"
+      },
+      {
+        "text": "3000亿",
+        "type": "MONEY",
+        "start": 12,
+        "end": 13,
+        "source": "hanlp"
+      },
+      {
+        "text": "中",
+        "type": "LOCATION",
+        "start": 20,
+        "end": 21,
+        "source": "hanlp"
+      },
+      {
+        "text": "美",
+        "type": "LOCATION",
+        "start": 21,
+        "end": 22,
+        "source": "hanlp"
+      },
+      {
+        "text": "DeepSeek",
+        "type": "brand",
+        "start": 17,
+        "end": 25,
+        "source": "dictionary"
+      }
+    ],
+    "signals": [
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "emotion_burst",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 5.4
   },
   {
     "bvid": "BV1viR1BoE9b",
