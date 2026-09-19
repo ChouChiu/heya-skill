@@ -1,5 +1,324 @@
 [
   {
+    "bvid": "BV1cBeb66EVW",
+    "title": "AI圈核弹雨！诸神之战血流成河：GPT-6 Sol/Luna、Fable/Opus/Sonnet 5.2、Gemini 4、K3.1、M3.1、Step 5！",
+    "date": "2026-09-19",
+    "clauses": [
+      "AI圈核弹雨",
+      "诸神之战血流成河",
+      "GPT-6 Sol/Luna",
+      "Fable/Opus/Sonnet 5.2",
+      "Gemini 4",
+      "K3.1",
+      "M3.1",
+      "Step 5"
+    ],
+    "tokens": [
+      {
+        "text": "AI圈",
+        "normalized": "ai圈",
+        "start": 0,
+        "end": 3,
+        "source": "domain"
+      },
+      {
+        "text": "核",
+        "normalized": "核",
+        "start": 3,
+        "end": 4,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "弹雨",
+        "normalized": "弹雨",
+        "start": 4,
+        "end": 6,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 6,
+        "end": 7,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "诸",
+        "normalized": "诸",
+        "start": 7,
+        "end": 8,
+        "pos": "DT",
+        "source": "hanlp"
+      },
+      {
+        "text": "神",
+        "normalized": "神",
+        "start": 8,
+        "end": 9,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "之",
+        "normalized": "之",
+        "start": 9,
+        "end": 10,
+        "pos": "DEG",
+        "source": "hanlp"
+      },
+      {
+        "text": "战",
+        "normalized": "战",
+        "start": 10,
+        "end": 11,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "血流成河",
+        "normalized": "血流成河",
+        "start": 11,
+        "end": 15,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "：",
+        "normalized": "：",
+        "start": 15,
+        "end": 16,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT-6",
+        "normalized": "gpt-6",
+        "start": 16,
+        "end": 21,
+        "source": "domain"
+      },
+      {
+        "text": "Sol/Luna",
+        "normalized": "sol/luna",
+        "start": 22,
+        "end": 30,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "、",
+        "normalized": "、",
+        "start": 30,
+        "end": 31,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Fable/Opus/Sonnet",
+        "normalized": "fable/opus/sonnet",
+        "start": 31,
+        "end": 48,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "Sonnet 5.2",
+        "normalized": "sonnet 5.2",
+        "start": 42,
+        "end": 52,
+        "source": "domain"
+      },
+      {
+        "text": "、",
+        "normalized": "、",
+        "start": 52,
+        "end": 53,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Gemini 4",
+        "normalized": "gemini 4",
+        "start": 53,
+        "end": 61,
+        "source": "domain"
+      },
+      {
+        "text": "、",
+        "normalized": "、",
+        "start": 61,
+        "end": 62,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "K3.1",
+        "normalized": "k3.1",
+        "start": 62,
+        "end": 66,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "、",
+        "normalized": "、",
+        "start": 66,
+        "end": 67,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "M3.1",
+        "normalized": "m3.1",
+        "start": 67,
+        "end": 71,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "、",
+        "normalized": "、",
+        "start": 71,
+        "end": 72,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Step 5",
+        "normalized": "step 5",
+        "start": 72,
+        "end": 78,
+        "source": "domain"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 78,
+        "end": 79,
+        "pos": "PU",
+        "source": "hanlp"
+      }
+    ],
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "DECIMAL",
+        "start": 14,
+        "end": 15,
+        "source": "hanlp"
+      },
+      {
+        "text": "K3.1",
+        "type": "DECIMAL",
+        "start": 19,
+        "end": 20,
+        "source": "hanlp"
+      },
+      {
+        "text": "M3.1",
+        "type": "WWW",
+        "start": 21,
+        "end": 22,
+        "source": "hanlp"
+      },
+      {
+        "text": "GPT",
+        "type": "brand",
+        "start": 16,
+        "end": 19,
+        "source": "dictionary"
+      },
+      {
+        "text": "Gemini",
+        "type": "brand",
+        "start": 53,
+        "end": 59,
+        "source": "dictionary"
+      },
+      {
+        "text": "Fable",
+        "type": "brand",
+        "start": 31,
+        "end": 36,
+        "source": "dictionary"
+      },
+      {
+        "text": "GPT-6",
+        "type": "model",
+        "start": 16,
+        "end": 21,
+        "source": "domain"
+      },
+      {
+        "text": "Sonnet 5.2",
+        "type": "model",
+        "start": 42,
+        "end": 52,
+        "source": "domain"
+      },
+      {
+        "text": "Gemini 4",
+        "type": "model",
+        "start": 53,
+        "end": 61,
+        "source": "domain"
+      },
+      {
+        "text": "K3.1",
+        "type": "model",
+        "start": 62,
+        "end": 66,
+        "source": "domain"
+      },
+      {
+        "text": "M3.1",
+        "type": "model",
+        "start": 67,
+        "end": 71,
+        "source": "domain"
+      },
+      {
+        "text": "Step 5",
+        "type": "model",
+        "start": 72,
+        "end": 78,
+        "source": "domain"
+      }
+    ],
+    "signals": [
+      {
+        "id": "emotion_burst",
+        "label": "情绪爆点",
+        "matched": [
+          "情绪爆点"
+        ]
+      },
+      {
+        "id": "number_hook",
+        "label": "数字悬念",
+        "matched": [
+          "数字悬念"
+        ]
+      },
+      {
+        "id": "absurd_imagery",
+        "label": "荒诞意象",
+        "matched": [
+          "荒诞意象"
+        ]
+      }
+    ],
+    "categoryIds": [
+      "emotion_burst",
+      "number_hook",
+      "absurd_imagery"
+    ],
+    "emotionScore": 5.8
+  },
+  {
     "bvid": "BV1NPeU6eENC",
     "title": "良心核弹！智谱免费替全国程序员备份全量代码仓库！疑似GLM-5.5觉醒入侵ZCode帮助用户审查代码！| AI日报0918",
     "date": "2026-09-18",
@@ -7559,242 +7878,205 @@
     "emotionScore": 8.2
   },
   {
-    "bvid": "BV1Cz8b6PEDS",
-    "title": "AI圈海啸！智谱 glm-5.3-turbo 核弹或将来袭！Tibo 认错将重置用量并修复异常消耗问题！| AI日报0823",
-    "date": "2026-08-23",
+    "bvid": "BV1U4316rEyk",
+    "title": "OpenAI紧急抢救Sol：效率暴涨、不再烧穿额度，双重重置直接续命！| AI日报 0729",
+    "date": "2026-07-29",
     "clauses": [
-      "AI圈海啸",
-      "智谱 glm-5.3-turbo 核弹或将来袭",
-      "Tibo 认错将重置用量并修复异常消耗问题",
-      "AI日报0823"
+      "OpenAI紧急抢救Sol",
+      "效率暴涨",
+      "不再烧穿额度",
+      "双重重置直接续命",
+      "AI日报 0729"
     ],
     "tokens": [
       {
-        "text": "AI圈",
-        "normalized": "ai圈",
+        "text": "OpenAI",
+        "normalized": "openai",
         "start": 0,
-        "end": 3,
-        "source": "domain"
-      },
-      {
-        "text": "海啸",
-        "normalized": "海啸",
-        "start": 3,
-        "end": 5,
-        "pos": "NN",
+        "end": 6,
+        "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "！",
-        "normalized": "！",
-        "start": 5,
-        "end": 6,
+        "text": "紧急",
+        "normalized": "紧急",
+        "start": 6,
+        "end": 8,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "抢救",
+        "normalized": "抢救",
+        "start": 8,
+        "end": 10,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "Sol",
+        "normalized": "sol",
+        "start": 10,
+        "end": 13,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "：",
+        "normalized": "：",
+        "start": 13,
+        "end": 14,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "智谱",
-        "normalized": "智谱",
-        "start": 6,
-        "end": 8,
+        "text": "效率",
+        "normalized": "效率",
+        "start": 14,
+        "end": 16,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "glm-5.3-turbo",
-        "normalized": "glm-5.3-turbo",
-        "start": 9,
-        "end": 22,
-        "pos": "NN",
+        "text": "暴涨",
+        "normalized": "暴涨",
+        "start": 16,
+        "end": 18,
+        "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "核弹",
-        "normalized": "核弹",
+        "text": "、",
+        "normalized": "、",
+        "start": 18,
+        "end": 19,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "不再",
+        "normalized": "不再",
+        "start": 19,
+        "end": 21,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "烧穿",
+        "normalized": "烧穿",
+        "start": 21,
+        "end": 23,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "额度",
+        "normalized": "额度",
         "start": 23,
         "end": 25,
         "pos": "NN",
         "source": "hanlp"
       },
       {
-        "text": "或",
-        "normalized": "或",
+        "text": "，",
+        "normalized": "，",
         "start": 25,
         "end": 26,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 26,
-        "end": 27,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "来袭",
-        "normalized": "来袭",
-        "start": 27,
-        "end": 29,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "！",
-        "normalized": "！",
-        "start": 29,
-        "end": 30,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "Tibo",
-        "normalized": "tibo",
-        "start": 30,
-        "end": 34,
-        "pos": "NR",
-        "source": "hanlp"
-      },
-      {
-        "text": "认错",
-        "normalized": "认错",
-        "start": 35,
-        "end": 37,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 37,
-        "end": 38,
+        "text": "双重",
+        "normalized": "双重",
+        "start": 26,
+        "end": 28,
         "pos": "AD",
         "source": "hanlp"
       },
       {
         "text": "重置",
         "normalized": "重置",
-        "start": 38,
-        "end": 40,
+        "start": 28,
+        "end": 30,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "用量",
-        "normalized": "用量",
-        "start": 40,
-        "end": 42,
-        "pos": "NN",
+        "text": "直接",
+        "normalized": "直接",
+        "start": 30,
+        "end": 32,
+        "pos": "AD",
         "source": "hanlp"
       },
       {
-        "text": "并",
-        "normalized": "并",
-        "start": 42,
-        "end": 43,
-        "pos": "CC",
-        "source": "hanlp"
-      },
-      {
-        "text": "修复",
-        "normalized": "修复",
-        "start": 43,
-        "end": 45,
+        "text": "续命",
+        "normalized": "续命",
+        "start": 32,
+        "end": 34,
         "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "异常",
-        "normalized": "异常",
-        "start": 45,
-        "end": 47,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "消耗",
-        "normalized": "消耗",
-        "start": 47,
-        "end": 49,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "问题",
-        "normalized": "问题",
-        "start": 49,
-        "end": 51,
-        "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 51,
-        "end": 52,
+        "start": 34,
+        "end": 35,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "|",
         "normalized": "|",
-        "start": 52,
-        "end": 53,
+        "start": 35,
+        "end": 36,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "normalized": "ai日报",
-        "start": 54,
-        "end": 58,
+        "start": 37,
+        "end": 41,
         "source": "domain"
       },
       {
-        "text": "0823",
-        "normalized": "0823",
-        "start": 58,
-        "end": 62,
+        "text": "0729",
+        "normalized": "0729",
+        "start": 42,
+        "end": 46,
         "pos": "CD",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "Tibo",
+        "text": "OpenAI",
         "type": "ORGANIZATION",
-        "start": 10,
-        "end": 11,
+        "start": 0,
+        "end": 1,
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "type": "ORGANIZATION",
-        "start": 22,
-        "end": 24,
+        "start": 18,
+        "end": 19,
         "source": "hanlp"
       },
       {
-        "text": "0823",
-        "type": "PHONE",
-        "start": 24,
-        "end": 25,
+        "text": "0729",
+        "type": "INTEGER",
+        "start": 19,
+        "end": 20,
         "source": "hanlp"
       },
       {
-        "text": "智谱",
+        "text": "OpenAI",
         "type": "brand",
-        "start": 6,
-        "end": 8,
+        "start": 0,
+        "end": 6,
         "source": "dictionary"
-      },
-      {
-        "text": "glm-5.3-turbo",
-        "type": "model",
-        "start": 9,
-        "end": 22,
-        "source": "domain"
       }
     ],
     "signals": [
@@ -7818,22 +8100,14 @@
         "matched": [
           "数字悬念"
         ]
-      },
-      {
-        "id": "absurd_imagery",
-        "label": "荒诞意象",
-        "matched": [
-          "荒诞意象"
-        ]
       }
     ],
     "categoryIds": [
       "daily",
       "emotion_burst",
-      "number_hook",
-      "absurd_imagery"
+      "number_hook"
     ],
-    "emotionScore": 6.8
+    "emotionScore": 1
   },
   {
     "bvid": "BV1Bj3B6KEn7",
@@ -15392,15 +15666,15 @@
     "emotionScore": 4.6
   },
   {
-    "bvid": "BV1f3TF6nEoa",
-    "title": "AI圈裂开！Google香蕉闪电疑似明日引爆，华为92B开源血洗战场，Claude又被曝追杀用户+Fable 5将身份验证！| AI日报0630",
-    "date": "2026-06-30",
+    "bvid": "BV1QnE16cEP7",
+    "title": "AI圈核弹来袭！Kimi K2.7 Code 突然发布引爆宇宙！华为国产纯血盘古模型2.0正式发布，拳打OpenAI脚踢Anthropic！| AI日报0612",
+    "date": "2026-06-12",
     "clauses": [
-      "AI圈裂开",
-      "Google香蕉闪电疑似明日引爆",
-      "华为92B开源血洗战场",
-      "Claude又被曝追杀用户+Fable 5将身份验证",
-      "AI日报0630"
+      "AI圈核弹来袭",
+      "Kimi K2.7 Code 突然发布引爆宇宙",
+      "华为国产纯血盘古模型2.0正式发布",
+      "拳打OpenAI脚踢Anthropic",
+      "AI日报0612"
     ],
     "tokens": [
       {
@@ -15411,320 +15685,313 @@
         "source": "domain"
       },
       {
-        "text": "裂开",
-        "normalized": "裂开",
+        "text": "核弹",
+        "normalized": "核弹",
         "start": 3,
         "end": 5,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "来袭",
+        "normalized": "来袭",
+        "start": 5,
+        "end": 7,
         "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 5,
-        "end": 6,
+        "start": 7,
+        "end": 8,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "Google",
-        "normalized": "google",
-        "start": 6,
+        "text": "Kimi",
+        "normalized": "kimi",
+        "start": 8,
         "end": 12,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "香蕉",
-        "normalized": "香蕉",
-        "start": 12,
-        "end": 14,
-        "pos": "NN",
+        "text": "K2.7",
+        "normalized": "k2.7",
+        "start": 13,
+        "end": 17,
+        "pos": "CD",
         "source": "hanlp"
       },
       {
-        "text": "闪电",
-        "normalized": "闪电",
-        "start": 14,
-        "end": 16,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "疑似",
-        "normalized": "疑似",
-        "start": 16,
-        "end": 18,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "明日",
-        "normalized": "明日",
+        "text": "Code",
+        "normalized": "code",
         "start": 18,
-        "end": 20,
-        "pos": "NT",
+        "end": 22,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "突然",
+        "normalized": "突然",
+        "start": 23,
+        "end": 25,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "发布",
+        "normalized": "发布",
+        "start": 25,
+        "end": 27,
+        "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "引爆",
         "normalized": "引爆",
-        "start": 20,
-        "end": 22,
+        "start": 27,
+        "end": 29,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "，",
-        "normalized": "，",
-        "start": 22,
-        "end": 23,
+        "text": "宇宙",
+        "normalized": "宇宙",
+        "start": 29,
+        "end": 31,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 31,
+        "end": 32,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "华为",
         "normalized": "华为",
-        "start": 23,
-        "end": 25,
+        "start": 32,
+        "end": 34,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "92B",
-        "normalized": "92b",
-        "start": 25,
-        "end": 28,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "开源",
-        "normalized": "开源",
-        "start": 28,
-        "end": 30,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "血洗",
-        "normalized": "血洗",
-        "start": 30,
-        "end": 32,
+        "text": "国产",
+        "normalized": "国产",
+        "start": 34,
+        "end": 36,
         "pos": "JJ",
         "source": "hanlp"
       },
       {
-        "text": "战场",
-        "normalized": "战场",
-        "start": 32,
-        "end": 34,
+        "text": "纯",
+        "normalized": "纯",
+        "start": 36,
+        "end": 37,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "血盘",
+        "normalized": "血盘",
+        "start": 37,
+        "end": 39,
         "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "古",
+        "normalized": "古",
+        "start": 39,
+        "end": 40,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "模型",
+        "normalized": "模型",
+        "start": 40,
+        "end": 42,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "2.0",
+        "normalized": "2.0",
+        "start": 42,
+        "end": 45,
+        "pos": "CD",
+        "source": "hanlp"
+      },
+      {
+        "text": "正式",
+        "normalized": "正式",
+        "start": 45,
+        "end": 47,
+        "pos": "AD",
+        "source": "hanlp"
+      },
+      {
+        "text": "发布",
+        "normalized": "发布",
+        "start": 47,
+        "end": 49,
+        "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "，",
         "normalized": "，",
-        "start": 34,
-        "end": 35,
+        "start": 49,
+        "end": 50,
         "pos": "PU",
         "source": "hanlp"
       },
       {
-        "text": "Claude",
-        "normalized": "claude",
-        "start": 35,
-        "end": 41,
+        "text": "拳打",
+        "normalized": "拳打",
+        "start": 50,
+        "end": 52,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "normalized": "openai",
+        "start": 52,
+        "end": 58,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "又",
-        "normalized": "又",
-        "start": 41,
-        "end": 42,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "被",
-        "normalized": "被",
-        "start": 42,
-        "end": 43,
-        "pos": "SB",
-        "source": "hanlp"
-      },
-      {
-        "text": "曝",
-        "normalized": "曝",
-        "start": 43,
-        "end": 44,
+        "text": "脚踢",
+        "normalized": "脚踢",
+        "start": 58,
+        "end": 60,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "追杀",
-        "normalized": "追杀",
-        "start": 44,
-        "end": 46,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "用户",
-        "normalized": "用户",
-        "start": 46,
-        "end": 48,
+        "text": "Anthropic",
+        "normalized": "anthropic",
+        "start": 60,
+        "end": 69,
         "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "+",
-        "normalized": "+",
-        "start": 48,
-        "end": 49,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "Fable 5",
-        "normalized": "fable 5",
-        "start": 49,
-        "end": 56,
-        "source": "domain"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 56,
-        "end": 57,
-        "pos": "BA",
-        "source": "hanlp"
-      },
-      {
-        "text": "身份",
-        "normalized": "身份",
-        "start": 57,
-        "end": 59,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "验证",
-        "normalized": "验证",
-        "start": 59,
-        "end": 61,
-        "pos": "VV",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 61,
-        "end": 62,
+        "start": 69,
+        "end": 70,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "|",
         "normalized": "|",
-        "start": 62,
-        "end": 63,
+        "start": 70,
+        "end": 71,
         "pos": "PU",
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "normalized": "ai日报",
-        "start": 64,
-        "end": 68,
+        "start": 72,
+        "end": 76,
         "source": "domain"
       },
       {
-        "text": "0630",
-        "normalized": "0630",
-        "start": 68,
-        "end": 72,
+        "text": "0612",
+        "normalized": "0612",
+        "start": 76,
+        "end": 80,
         "pos": "CD",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "Google",
-        "type": "ORGANIZATION",
-        "start": 3,
-        "end": 4,
-        "source": "hanlp"
-      },
-      {
-        "text": "明日",
-        "type": "DATE",
-        "start": 7,
-        "end": 8,
+        "text": "K2.7",
+        "type": "DECIMAL",
+        "start": 5,
+        "end": 6,
         "source": "hanlp"
       },
       {
         "text": "华为",
         "type": "ORGANIZATION",
-        "start": 10,
-        "end": 11,
+        "start": 12,
+        "end": 13,
         "source": "hanlp"
       },
       {
-        "text": "Claude",
+        "text": "2.0",
+        "type": "DECIMAL",
+        "start": 18,
+        "end": 19,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
+        "type": "PERSON",
+        "start": 23,
+        "end": 24,
+        "source": "hanlp"
+      },
+      {
+        "text": "|",
         "type": "ORGANIZATION",
-        "start": 16,
-        "end": 17,
-        "source": "hanlp"
-      },
-      {
-        "text": "5",
-        "type": "ORDINAL",
-        "start": 24,
-        "end": 25,
+        "start": 27,
+        "end": 28,
         "source": "hanlp"
       },
       {
         "text": "AI日报",
         "type": "ORGANIZATION",
-        "start": 30,
-        "end": 32,
+        "start": 28,
+        "end": 30,
         "source": "hanlp"
       },
       {
-        "text": "0630",
-        "type": "ORDINAL",
-        "start": 32,
-        "end": 33,
-        "source": "hanlp"
-      },
-      {
-        "text": "Claude",
+        "text": "OpenAI",
         "type": "brand",
-        "start": 35,
-        "end": 41,
+        "start": 52,
+        "end": 58,
+        "source": "dictionary"
+      },
+      {
+        "text": "Anthropic",
+        "type": "brand",
+        "start": 60,
+        "end": 69,
         "source": "dictionary"
       },
       {
         "text": "华为",
         "type": "brand",
-        "start": 23,
-        "end": 25,
+        "start": 32,
+        "end": 34,
         "source": "dictionary"
       },
       {
-        "text": "Fable",
+        "text": "Kimi",
         "type": "brand",
-        "start": 49,
-        "end": 54,
+        "start": 8,
+        "end": 12,
         "source": "dictionary"
       },
       {
-        "text": "Fable 5",
+        "text": "K2.7",
         "type": "model",
-        "start": 49,
-        "end": 56,
+        "start": 13,
+        "end": 17,
         "source": "domain"
       }
     ],
@@ -15741,13 +16008,6 @@
         "label": "情绪爆点",
         "matched": [
           "情绪爆点"
-        ]
-      },
-      {
-        "id": "multi_event",
-        "label": "多事件合并",
-        "matched": [
-          "多事件合并"
         ]
       },
       {
@@ -15768,11 +16028,10 @@
     "categoryIds": [
       "daily",
       "emotion_burst",
-      "multi_event",
       "number_hook",
       "absurd_imagery"
     ],
-    "emotionScore": 4.6
+    "emotionScore": 5.6
   },
   {
     "bvid": "BV1RoEi6yEH5",
@@ -34762,174 +35021,209 @@
     "emotionScore": 0
   },
   {
-    "bvid": "BV1Gm9EBrEwH",
-    "title": "或将发布？DeepSeek App端频频更新，或在为新模型发布做最后准备！",
-    "date": "2026-04-01",
+    "bvid": "BV1LfcQzZEFe",
+    "title": "OpenAI 重拳出击限制免费用户！Google 放大招办公套件史诗级升级接入Agent跨入次时代吓哭微软！",
+    "date": "2026-03-10",
     "clauses": [
-      "或将发布",
-      "DeepSeek App端频频更新",
-      "或在为新模型发布做最后准备"
+      "OpenAI 重拳出击限制免费用户",
+      "Google 放大招办公套件史诗级升级接入Agent跨入次时代吓哭微软"
     ],
     "tokens": [
       {
-        "text": "或",
-        "normalized": "或",
+        "text": "OpenAI",
+        "normalized": "openai",
         "start": 0,
-        "end": 1,
-        "pos": "CC",
-        "source": "hanlp"
-      },
-      {
-        "text": "将",
-        "normalized": "将",
-        "start": 1,
-        "end": 2,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "发布",
-        "normalized": "发布",
-        "start": 2,
-        "end": 4,
-        "pos": "VV",
-        "source": "hanlp"
-      },
-      {
-        "text": "？",
-        "normalized": "？",
-        "start": 4,
-        "end": 5,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "DeepSeek",
-        "normalized": "deepseek",
-        "start": 5,
-        "end": 13,
+        "end": 6,
         "pos": "NR",
         "source": "hanlp"
       },
       {
-        "text": "App端",
-        "normalized": "app端",
-        "start": 14,
-        "end": 18,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "频频",
-        "normalized": "频频",
-        "start": 18,
-        "end": 20,
+        "text": "重拳",
+        "normalized": "重拳",
+        "start": 7,
+        "end": 9,
         "pos": "AD",
         "source": "hanlp"
       },
       {
-        "text": "更新",
-        "normalized": "更新",
-        "start": 20,
-        "end": 22,
+        "text": "出击",
+        "normalized": "出击",
+        "start": 9,
+        "end": 11,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "，",
-        "normalized": "，",
-        "start": 22,
-        "end": 23,
-        "pos": "PU",
-        "source": "hanlp"
-      },
-      {
-        "text": "或",
-        "normalized": "或",
-        "start": 23,
-        "end": 24,
-        "pos": "CC",
-        "source": "hanlp"
-      },
-      {
-        "text": "在",
-        "normalized": "在",
-        "start": 24,
-        "end": 25,
-        "pos": "AD",
-        "source": "hanlp"
-      },
-      {
-        "text": "为",
-        "normalized": "为",
-        "start": 25,
-        "end": 26,
-        "pos": "P",
-        "source": "hanlp"
-      },
-      {
-        "text": "新",
-        "normalized": "新",
-        "start": 26,
-        "end": 27,
-        "pos": "JJ",
-        "source": "hanlp"
-      },
-      {
-        "text": "模型",
-        "normalized": "模型",
-        "start": 27,
-        "end": 29,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "发布",
-        "normalized": "发布",
-        "start": 29,
-        "end": 31,
-        "pos": "NN",
-        "source": "hanlp"
-      },
-      {
-        "text": "做",
-        "normalized": "做",
-        "start": 31,
-        "end": 32,
+        "text": "限制",
+        "normalized": "限制",
+        "start": 11,
+        "end": 13,
         "pos": "VV",
         "source": "hanlp"
       },
       {
-        "text": "最后",
-        "normalized": "最后",
-        "start": 32,
-        "end": 34,
+        "text": "免费",
+        "normalized": "免费",
+        "start": 13,
+        "end": 15,
         "pos": "JJ",
         "source": "hanlp"
       },
       {
-        "text": "准备",
-        "normalized": "准备",
-        "start": 34,
-        "end": 36,
+        "text": "用户",
+        "normalized": "用户",
+        "start": 15,
+        "end": 17,
         "pos": "NN",
         "source": "hanlp"
       },
       {
         "text": "！",
         "normalized": "！",
-        "start": 36,
+        "start": 17,
+        "end": 18,
+        "pos": "PU",
+        "source": "hanlp"
+      },
+      {
+        "text": "Google",
+        "normalized": "google",
+        "start": 18,
+        "end": 24,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "放大招",
+        "normalized": "放大招",
+        "start": 25,
+        "end": 28,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "办公",
+        "normalized": "办公",
+        "start": 28,
+        "end": 30,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "套件",
+        "normalized": "套件",
+        "start": 30,
+        "end": 32,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "史诗级",
+        "normalized": "史诗级",
+        "start": 32,
+        "end": 35,
+        "pos": "JJ",
+        "source": "hanlp"
+      },
+      {
+        "text": "升级",
+        "normalized": "升级",
+        "start": 35,
         "end": 37,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "接入",
+        "normalized": "接入",
+        "start": 37,
+        "end": 39,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "Agent",
+        "normalized": "agent",
+        "start": 39,
+        "end": 44,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "跨入",
+        "normalized": "跨入",
+        "start": 44,
+        "end": 46,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "次时代",
+        "normalized": "次时代",
+        "start": 46,
+        "end": 49,
+        "pos": "NN",
+        "source": "hanlp"
+      },
+      {
+        "text": "吓哭",
+        "normalized": "吓哭",
+        "start": 49,
+        "end": 51,
+        "pos": "VV",
+        "source": "hanlp"
+      },
+      {
+        "text": "微软",
+        "normalized": "微软",
+        "start": 51,
+        "end": 53,
+        "pos": "NR",
+        "source": "hanlp"
+      },
+      {
+        "text": "！",
+        "normalized": "！",
+        "start": 53,
+        "end": 54,
         "pos": "PU",
         "source": "hanlp"
       }
     ],
     "entities": [
       {
-        "text": "DeepSeek",
+        "text": "OpenAI",
+        "type": "ORGANIZATION",
+        "start": 0,
+        "end": 1,
+        "source": "hanlp"
+      },
+      {
+        "text": "Google",
+        "type": "ORGANIZATION",
+        "start": 7,
+        "end": 8,
+        "source": "hanlp"
+      },
+      {
+        "text": "微软",
+        "type": "ORGANIZATION",
+        "start": 18,
+        "end": 19,
+        "source": "hanlp"
+      },
+      {
+        "text": "OpenAI",
         "type": "brand",
-        "start": 5,
-        "end": 13,
+        "start": 0,
+        "end": 6,
+        "source": "dictionary"
+      },
+      {
+        "text": "微软",
+        "type": "brand",
+        "start": 51,
+        "end": 53,
         "source": "dictionary"
       }
     ],
@@ -34945,7 +35239,7 @@
     "categoryIds": [
       "emotion_burst"
     ],
-    "emotionScore": 1.5
+    "emotionScore": 2
   },
   {
     "bvid": "BV1J7P9zLEgc",
