@@ -3,47 +3,47 @@
 ## 元信息
 - 创作者：黑鸦
 - UID：3706929260006322
-- 样本数：195
-- 样本范围：2026-02-25 至 2026-10-18
+- 样本数：196
+- 样本范围：2026-02-25 至 2026-09-27
 - NLP：hanlp (tok, pos, ner)
-- 生成时间：2026-10-18T16:05:38.804Z
+- 生成时间：2026-10-19T18:48:50.505Z
 
 ## 核心统计
-- 平均标题长度：53.7 字
-- P75 / P90：62 / 70 字
-- 40 字以上占比：83.1%
-- 平均分句：4.2
-- 平均分隔符：3.97
-- 句末感叹号占比：27.2%
-- 实体覆盖率：99%
+- 平均标题长度：55.8 字
+- P75 / P90：65 / 73 字
+- 40 字以上占比：86.2%
+- 平均分句：4.3
+- 平均分隔符：4.18
+- 句末感叹号占比：15.8%
+- 实体覆盖率：99.5%
 
 ## 修辞信号
-- emotion_burst：178 条，91.3%
-- number_hook：159 条，81.5%
-- daily：118 条，60.5%
-- absurd_imagery：68 条，34.9%
-- multi_event：50 条，25.6%
-- contrast：10 条，5.1%
+- emotion_burst：184 条，93.9%
+- number_hook：179 条，91.3%
+- daily：144 条，73.5%
+- absurd_imagery：73 条，37.2%
+- multi_event：45 条，23%
+- contrast：15 条，7.7%
 
 ## 实体倾向
-- 品牌/产品：DeepSeek、OpenAI、GPT、Gemini、Claude、谷歌、智谱、Grok、Qwen、ChatGPT、Fable、MiniMax、腾讯、Kimi、阿里、Anthropic、豆包、Cursor、小米、字节、华为、微软、苹果、Meta、Sora、xAI
-- 人物：OpenAI、奥特曼、马斯克、DeepSeek、谷歌、黄仁勋、梁文峰、扎克伯格、阿里、陈仓、谷歌云、阶跃、马斯克扎克伯格、纳德拉、纳斯达克、唐杰、小豆、星辰、杨植麟、Altman
-- 组织：AI日报、Gemini、OpenAI、|、Tibo、谷歌、Google、腾讯、Claude、黑鸦、马斯克、DeepSeek、AI晚报、官宣、华为、商汤、微软、Codex、Cursor、Harness
-- 模型版本：DeepSeek V4、DeepSeek V4.1、MiniMax、GPT-6、DeepSeek-V4、Gemini 4、GLM-5.3、Hy4、GPT-5.6、Fable 5.1、Gemini 3.5 Pro、GPT-5.5、OpenCode、Opus 5、Step 5、V4.1、Banana 2、DeepSeek-V4-Flash-Vision-Exp、DeepSeek-V4-Pro、Fable 5、Fable 5.5、Gemini 3.1 Flash、Gemini 3.2、Gemini 3.5、Gemini 3.8 Flash、Gemma 4、GPT 6、Grok 4.7、K2.6、K3
-- 英文实体：AI、DeepSeek、OpenAI、Gemini、Claude、API、Flash、Codex、V4、ChatGPT、Grok、Pro、V4.1、Tibo、Astra、Fable、Harness、MiniMax、Opus、Google、GPT、Kimi、Anthropic、GPT-6、Agent、DeepSeek-V4、Argon、Cursor、GLM-5.3、Hy4
+- 品牌/产品：DeepSeek、GPT、OpenAI、Gemini、智谱、Anthropic、Claude、Fable、Grok、Qwen、Kimi、谷歌、腾讯、ChatGPT、MiniMax、豆包、字节、阿里、Cursor、华为、小米、微软、百度、苹果、Meta
+- 人物：OpenAI、奥特曼、马斯克、DeepSeek、黄仁勋、阶跃、星辰、陈仓、达里奥、谷歌、谷歌云、梁文峰、马斯克扎克伯格、纳德拉、纳斯达克、唐杰、特朗普、小微、扎克伯格、张小🐲
+- 组织：AI日报、OpenAI、|、Gemini、Google、谷歌、腾讯、Claude、Tibo、马斯克、DeepSeek、华为、AI晚报、达里奥、黑鸦、商汤、微软、AI、Codex、Cursor
+- 模型版本：GPT-5.6、DeepSeek V4、MiniMax、Gemini 3.5 Pro、GPT-6、DeepSeek-V4、Fable 5、DeepSeek V4.1、GLM-5.3、Hy4、GPT-5.5、V4、K3、Opus 4.8、Opus 5、V4.1、Banana 2、DeepSeek-V4-Flash-Vision-Exp、DeepSeek-V4-Pro、Fable 5.1、Gemini 3.2、Gemini 3.5、Gemini 3.8 Flash、Gemini 4、GLM-5.2、GPT 6、Grok 4.5、Grok 4.7、Hy3、K2.6
+- 英文实体：AI、DeepSeek、OpenAI、Gemini、Anthropic、Pro、Claude、Codex、V4、GPT-5.6、Opus、Fable、Flash、Google、Grok、ChatGPT、Kimi、API、Astra、GPT、MiniMax、V4.1、Agent、GPT-6、Harness、Tibo、DeepSeek-V4、Mythos、Sonnet、GLM-5.3
 
 ## 词汇与短语
-- 高频 Token：模型、DeepSeek、OpenAI、发布、核弹、黑鸦、引爆、来袭、上线、正式、泄露、用户、Claude、硅谷、API、人类、突发、深夜、Codex、发麻、谷歌、头皮、智谱、重置
-- 领域词：AI、AI日报、模型、AI圈、发布、引爆、泄露、开源、国产、融资、芯片、Token Plan、大模型、上市
-- 情绪词：核弹、地震、泄露、突发、瘫坐、杀疯、炸裂、沸腾、雪崩、疯狂、震撼、裂开、泄密、翻车、恐怖、窒息、重大
-- 二元短语：深夜引爆、头皮发麻、DeepSeekHarness、DeepSeek V4.1Flash、全线突围、正式发布、核弹来袭、横空出世、见证历史、眩晕瘫坐、系列模型、引爆硅谷、重磅炸弹、DeepSeek V4Pro、Gemini 4Argon、灰度测试、接管世界、狙击DeepSeek、模型发布、模型来袭、全球程序员、人类踢出、上线API、视觉模型、双重核弹、突发DeepSeek V4.1、吓出癫痫、陷入瘫痪、载入史册、ClaudeCode
-- 三元短语：深夜引爆硅谷、突发DeepSeek V4.1Flash、彻底引爆载入、登基还是终极、鸽王登基还是、还是终极核弹、阶跃Step 5Preview、接管世界倒计时、看到核弹爆炸、裂缝鸽王登基、人类踢出群聊、深陷时空裂缝、时空裂缝鸽王、双重核弹来袭、陷入瘫痪……、引爆载入史册、载入史册！！！、Codex负责人Tibo、DeepSeek视觉模型、OpenAI全线突围、Qwen 3.5系列模型、！！！| AI日报0416、！！DSH负责人、……奇点人类、|AI圈大事记0502、0915版本围剿、1.4%用户API、1000AgentPlan、100亿正式砸下、10T模型模型
-- 跨 Token 搭配：AI日报、AI圈大地震、AI圈核弹雨来袭、头皮发麻、AI圈已沸腾、Claude Opus 4.7 与 DeepSeek 新、谷歌开源模型 Gemma 4 即将发布、AI圈核弹泄露、【黑鸦】AI圈裂开、【黑鸦】Manus母公司引爆超5亿美元融资核弹、【黑鸦】OpenAI疑似祭出三画图模型核弹、多支团队合体引爆AI圈、AI日报3月5日、DeepSeek V4 与OpenAI代号“Spud”双、Grok 4.7 行踪泄露对标 Opus 或将发布、【黑鸦】AI圈诸神之战、白宫插手模型发布、谷歌神秘模型 Gemini Omni 泄露、黄仁勋看到 AI Cube 眩晕瘫坐、或在为新模型发布做最后准备、祭出“开源之盾、京东云深夜引爆AI编程圈、开源界雪崩、模型厂商雪崩海啸已至、太炸裂了。Qwen 3.5 系列多款小模型震撼开源、腾讯混元龙王归来发布 Hy3 Preview、小米玄戒三芯合体引爆芯片界大地震、新开源模型与Harness即将轰炸、月之暗面深夜引爆核弹级IPO、智谱发布 GLM-5.3 模型
-- 荒诞意象：核弹、头皮发麻、海啸、瘫坐、眩晕、雪崩、癫痫、龙王归来、血洗、被踢出群聊、后背发凉、冷汗直流、诸神之战、椅子爆炸
+- 高频 Token：模型、DeepSeek、OpenAI、发布、引爆、核弹、硅谷、来袭、上线、正式、Anthropic、深夜、用户、智谱、泄露、Claude、Codex、彻底、瘫坐、突发、GPT-5.6、……、奥特曼、开源
+- 领域词：AI、AI日报、模型、AI圈、发布、引爆、泄露、开源、融资、国产、芯片、大模型、Token Plan、上市
+- 情绪词：核弹、地震、瘫坐、泄露、突发、杀疯、雪崩、沸腾、疯狂、炸裂、震撼、泄密、窒息、翻车、恐怖、裂开、重大
+- 二元短语：深夜引爆、头皮发麻、全线突围、引爆硅谷、DeepSeekHarness、见证历史、眩晕瘫坐、正式发布、重磅炸弹、海啸席卷、核弹来袭、后背发凉、接管世界、吓出癫痫、DeepSeek V4.1Flash、DeepSeek V4Pro、仿佛看到、横空出世、狙击DeepSeek、龙王归来、命运转折、全面雪崩、上线API、时代来临、视觉模型、无力瘫坐、系列模型、载入史册、Codex额度、DeepSeek官方
+- 三元短语：深夜引爆硅谷、登基还是终极、仿佛看到椅子爆炸、鸽王登基还是、还是终极核弹、海啸席卷全球、接管世界倒计时、看到核弹爆炸、裂缝鸽王登基、命运转折……、人类命运转折、深陷时空裂缝、时空裂缝鸽王、算力海啸席卷、移交军事法庭、Codex负责人Tibo、DeepSeek视觉模型、OpenAI全线突围、Qwen 3.5系列模型、！！！| AI日报0416、！！DSH负责人、|AI圈大事记0502、0915版本围剿、1.5T巨兽 V9基模、1000AgentPlan、150亿算力海啸、180断供倒计时、190亿融资阿里、2.0模型GPT、2.0正式发布
+- 跨 Token 搭配：AI日报、AI圈大地震、AI圈核弹雨来袭、智谱突然发布核弹 GLM-5.2 引爆AI圈、头皮发麻、Claude Opus 4.7 与 DeepSeek 新、谷歌开源模型 Gemma 4 即将发布、AI圈核弹泄露、风控大地震深夜引爆AI圈、华为92B开源血洗战场、华为国产纯血盘古模型2.0正式发布、腾讯混元 Hy3 正式版开源血洗全球、微信官方Agent“小微”深夜引爆AI圈大地震、智谱 GLM-5.2 或将发布引爆硅谷、AI圈已沸腾、AI日报3月5日、Fable 5 全球复活引爆核弹、Grok 4.7 行踪泄露对标 Opus 或将发布、Kimi K2.7 Code 突然发布引爆宇宙、MiniMax M3深夜引爆AI圈、白宫插手模型发布、大模型诸神之战、谷歌神秘模型 Gemini Omni 泄露、核弹无力瘫坐在奥特曼上仿佛看到椅子爆炸、黄仁勋看到 AI Cube 眩晕瘫坐、祭出“开源之盾、马斯克携大尺度 Grok 新视频模型登顶引爆硅谷、太炸裂了。Qwen 3.5 系列多款小模型震撼开源、腾讯混元龙王归来发布 Hy3 Preview、微信AI重磅泄露
+- 荒诞意象：核弹、瘫坐、海啸、头皮发麻、眩晕、雪崩、癫痫、后背发凉、龙王归来、血洗、冷汗直流、诸神之战、棺材板、椅子爆炸、被踢出群聊、夺舍、硅谷绞肉机、核冬天、开错生死簿、炼化、全员颤抖
 
 ## 开头与结尾钩子
-- 常见开头：突发、见证历史、AI圈大地震、头皮发麻、AI圈核弹雨来袭、【黑鸦】AI圈裂开、快讯、卧槽、血流成河、重磅炸弹、AI圈已沸腾、【黑鸦】谷歌祭出核弹
-- 常见结尾：AI日报、战啊……、AI日报3月5日、【突发】DeepSeek-V4-Flash 正式、0826、独立App空降突袭、多支团队合体引爆AI圈、发起挽救人类倡议、仿佛看到核弹爆炸、更加自然流畅、更普惠、更新不撤回
+- 常见开头：突发、AI圈大地震、见证历史、头皮发麻、重磅炸弹、AI圈核弹雨来袭、大的要来了、后背发凉、快讯、龙王归来、血流成河、载入史册
+- 常见结尾：AI日报、AI日报3月5日、【黑鸦Heya】一个视频带你看完Google I、【突发】DeepSeek-V4-Flash 正式、0826、奥特曼必须立刻移交军事法庭……、达里奥吓到冷汗直流、仿佛看到核弹爆炸、高价老用户的斩杀线来了、更普惠、谷歌开源模型 Gemma 4 即将发布、或将发布
 
 ## 生成公式
 - {最强实体} + {突然/重磅/炸裂} + {动作}，{对手/行业} + {荒诞反应/后果}！
@@ -58,23 +58,23 @@
 - 不确定消息使用“或将、疑似、被曝、传出”等语气。
 
 ## 代表标题
-- AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
-- AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
-- AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
-- AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
-- 见证历史！月之暗面深夜引爆核弹级IPO，奥特曼吓出癫痫，杨植麟杀疯了，全球资本市场正在经历一场血腥的大屠杀……奇点已至，人类已被踢出群聊！
-- 【黑鸦】AI订阅大战杀疯了！谷歌接入Claude双5.5斩杀学生会员，Xpass计划把Grok、Cursor炼成全家桶，四档价格炸裂、看得人头皮发麻！
+- 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
+- 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
+- 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
+- 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
+- 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
+- AI圈沸腾！狙击Mythos，智谱 GLM-5.2 或将发布引爆硅谷！达里奥吓出癫痫，无力瘫坐等待被处刑！| AI日报0610
 
 ## 近期标题样本
-- 【黑鸦】OpenAI疑似祭出三画图模型核弹，头皮发麻；Anthropic据报找律所研究法规，AI或将替你砍价谈薪！
-- 【黑鸦】蒸馏黑客杀疯了！OpenCode惨遭血洗，1.4%用户API密钥惊天泄露，波及OpenAI、Anthropic 和 Google！
-- 突发：DeepSeek V4.1 Flash 上线核弹新版本
-- 突发：DeepSeek V4.1 Flash 新版本：许愿式编程一键成真！
-- DeepSeek 疑似悄悄更新模型！
-- 刚刚，DeepSeek 新增搜索与抓取 API 并按次收费。
-- 【黑鸦】Tibo回应没活：等待大的。DeepSeek祭出产品部，多支团队合体引爆AI圈！
-- 【黑鸦】DeepSeek瘫痪5小时，赠金赔偿API用户近7天消费，OpenCode 开启 DeepSeek V4.1 Flash 限免！
-- 【黑鸦】AI圈诸神之战！Fable 5.5被曝本周登场；OpenAI加紧安全准备正欲推出 GPT 6.1 Astra！
-- 【黑鸦】双重核弹来袭！Gemini 4 Argon 或将开放；DeepSeek API 疑似静默更新！
-- Gemini 4 Argon 真的要来了！Logan Kilpatrick 带着他的 Gemini 回来了！
-- AI圈沸腾！OpenCode祭出80美元DeepSeek额度核弹；阶跃Step 5 Preview限免两周！
+- 【黑鸦】核弹来袭！MiniMax M3.1 深夜引爆 AI 圈，大重置时代来临！Sonnet 5.5 或下周降临斩杀 GPT 6 Sol ！ChatGPT 暗改
+- 我们给 DeepSeek Harness 补上了缺失的 TUI！
+- 震撼首发！！首个 DSH 负责人推荐社区插件居然是它…！仿佛看到核弹爆炸
+- 【黑鸦】OpenAI绝密武器「o」或将上线！马斯克扎克伯格眩晕瘫坐！OpenAI自爆：最强模型越狱，已全面封停！
+- 【黑鸦】ChatGPT界面突袭大变，“Web Merge”出鞘！马斯克Colossus算力海啸席卷硅谷，78万颗GPU深夜引爆！全球电网陷入瘫痪…
+- 【黑鸦】AI奇点已至！Gemini 4 官宣内部使用中猛龙出笼在即！DeepSeek狂揽500亿现金流吃饱饱！
+- 路透社：DeepSeek本周将向联合国安理会介绍人工智能风险 | AI晚报0923
+- AI战争全面爆发！阿里Qwen4钢铁洪流蓄势待发，DeepSeek锁定华为芯片训2T模型吓哭黄仁勋！| AI日报0922
+- AI 终局决战！Claude Opus 5.5 核弹空降狙击 GPT-6 Sol，OpenAI 或彻底溃败！| AI日报0921
+- 阶跃 Step 5 Preview 深夜引爆硅谷，600B恐怖巨兽降临！今晚21点超级海啸来袭！Qwen-Image-2.1开源大地震！| AI日报0920
+- AI圈核弹雨！诸神之战血流成河：GPT-6 Sol/Luna、Fable/Opus/Sonnet 5.2、Gemini 4、K3.1、M3.1、Step 5！
+- 良心核弹！智谱免费替全国程序员备份全量代码仓库！疑似GLM-5.5觉醒入侵ZCode帮助用户审查代码！| AI日报0918
