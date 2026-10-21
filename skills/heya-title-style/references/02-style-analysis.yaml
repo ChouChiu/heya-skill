@@ -6,175 +6,175 @@ nlp:
     - ner
   batchSize: 32
   failureCount: 0
-  generatedAt: 2026-10-20T17:27:02.938Z
+  generatedAt: 2026-10-21T17:35:31.505Z
 corpus:
   creator: 黑鸦
   uid: "3706929260006322"
-  totalTitles: 193
+  totalTitles: 167
   dateRange:
     oldest: 2026-02-25
-    newest: 2026-09-29
+    newest: 2026-09-05
   source: UApi Bilibili proxy + HanLP REST
   length:
-    avg: 55.5
+    avg: 54.7
     min: 19
     max: 80
     median: 56
     p75: 65
     p90: 73
-    over40Pct: 86
+    over40Pct: 85
     distribution:
       20字以内: 1
       21-30字: 5
-      31-40字: 21
-      40字以上: 166
+      31-40字: 19
+      40字以上: 142
   punctuation:
-    exclamationEndPct: 18.7
-    questionEndPct: 0.5
-    averageExclamationCount: 2.16
-    averageSeparatorCount: 4.15
+    exclamationEndPct: 18
+    questionEndPct: 0.6
+    averageExclamationCount: 2.13
+    averageSeparatorCount: 4.19
     separatorUsage:
       - - ！
-        - 417
+        - 355
       - - ，
-        - 165
+        - 154
       - - "|"
-        - 131
+        - 116
       - - ？
-        - 26
-      - - ：
         - 25
       - - ；
         - 22
+      - - ：
+        - 20
       - - 、
-        - 13
+        - 6
       - - ｜
         - 2
   clauses:
-    avg: 4.3
+    avg: 4.4
     distribution:
-      1句: 1
-      2句: 12
-      3句: 31
-      4句及以上: 149
+      1句: 0
+      2句: 11
+      3句: 26
+      4句及以上: 130
   examples:
     recent:
-      - aid: 117353924788635
-        bvid: BV1eCaH6NEAz
-        title: 【黑鸦】AI大补贴时代结束！OpenAI 自爆，200 刀 Pro 额度惨遭腰斩，全球程序员陷入瘫痪……
-        created: 1790678958
-        createdDate: 2026-09-29
-      - aid: 117348337978310
-        bvid: BV1uja566EvV
-        title: 【黑鸦】海啸来袭！DeepSeek实时语音突袭灰度上线，DeepSeek Harness桌面版即将官宣！
-        created: 1790593749
-        createdDate: 2026-09-28
-      - aid: 117342617013972
-        bvid: BV1nwa86KEjU
-        title: 【黑鸦】核弹来袭！MiniMax M3.1 深夜引爆 AI 圈，大重置时代来临！Sonnet 5.5 或下周降临斩杀 GPT 6 Sol ！ChatGPT 暗改
-        created: 1790506479
-        createdDate: 2026-09-27
-      - aid: 117340435974631
-        bvid: BV1QRax6VEM1
-        title: 我们给 DeepSeek Harness 补上了缺失的 TUI！
-        created: 1790473217
-        createdDate: 2026-09-27
-      - aid: 117337483118780
-        bvid: BV13rho68Ebt
-        title: 震撼首发！！首个 DSH 负责人推荐社区插件居然是它…！仿佛看到核弹爆炸
-        created: 1790428116
-        createdDate: 2026-09-26
-      - aid: 117336996580738
-        bvid: BV1suhR6CEnD
-        title: 【黑鸦】OpenAI绝密武器「o」或将上线！马斯克扎克伯格眩晕瘫坐！OpenAI自爆：最强模型越狱，已全面封停！
-        created: 1790420665
-        createdDate: 2026-09-26
-      - aid: 117331325881721
-        bvid: BV1Gnh26PEMv
-        title: 【黑鸦】ChatGPT界面突袭大变，“Web Merge”出鞘！马斯克Colossus算力海啸席卷硅谷，78万颗GPU深夜引爆！全球电网陷入瘫痪…
-        created: 1790334088
-        createdDate: 2026-09-25
-      - aid: 117325672024207
-        bvid: BV1eQaN6REMs
-        title: 【黑鸦】AI奇点已至！Gemini 4 官宣内部使用中猛龙出笼在即！DeepSeek狂揽500亿现金流吃饱饱！
-        created: 1790247863
-        createdDate: 2026-09-24
-      - aid: 117320353582626
-        bvid: BV19xh86REZc
-        title: 路透社：DeepSeek本周将向联合国安理会介绍人工智能风险 | AI晚报0923
-        created: 1790166588
-        createdDate: 2026-09-23
-      - aid: 117314313783558
-        bvid: BV11shJ61Eki
-        title: AI战争全面爆发！阿里Qwen4钢铁洪流蓄势待发，DeepSeek锁定华为芯片训2T模型吓哭黄仁勋！| AI日报0922
-        created: 1790074425
-        createdDate: 2026-09-22
-      - aid: 117308626305836
-        bvid: BV1S9hB6BEV8
-        title: AI 终局决战！Claude Opus 5.5 核弹空降狙击 GPT-6 Sol，OpenAI 或彻底溃败！| AI日报0921
-        created: 1789987656
-        createdDate: 2026-09-21
-      - aid: 117303005938696
-        bvid: BV1toei6zEac
-        title: 阶跃 Step 5 Preview 深夜引爆硅谷，600B恐怖巨兽降临！今晚21点超级海啸来袭！Qwen-Image-2.1开源大地震！| AI日报0920
-        created: 1789901865
-        createdDate: 2026-09-20
+      - aid: 117218230732836
+        bvid: BV1Snt26pEqT
+        title: 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
+        created: 1788608337
+        createdDate: 2026-09-05
+      - aid: 117212476147422
+        bvid: BV1eztB6MEg8
+        title: 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
+        created: 1788520692
+        createdDate: 2026-09-04
+      - aid: 117207057042682
+        bvid: BV1zEto6eE63
+        title: 载入史册！大的要来了！GPT-6 Astra 或将发布！| AI日报0903
+        created: 1788438224
+        createdDate: 2026-09-03
+      - aid: 117200933488510
+        bvid: BV1U5tJ6kEXJ
+        title: AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
+        created: 1788344485
+        createdDate: 2026-09-02
+      - aid: 117195396875741
+        bvid: BV1dxt36wEbp
+        title: 奥特曼谈论Astra：达到人类水平！讯飞星火X2.5突发开源，API免费用！| AI日报0901
+        created: 1788260075
+        createdDate: 2026-09-01
+      - aid: 117189743216823
+        bvid: BV1k1t86FELv
+        title: DeepSeek-V4-Flash-Vision-Exp 正式开源；Claude 200美元天价套餐被曝“虚标欺诈”| AI日报0831
+        created: 1788173768
+        createdDate: 2026-08-31
+      - aid: 117184156140205
+        bvid: BV1A8tH6gEd5
+        title: 魔王降世！OpenAI Astra 将发！或为 GPT-6 人类颤栗，世界或将颠覆！| AI晚报0830
+        created: 1788088507
+        createdDate: 2026-08-30
+      - aid: 117178233849787
+        bvid: BV1ZV4y6xE75
+        title: 血流成河！OpenAI封杀Cursor断供模型！Tibo又暗示Codex额度或重置！| AI晚报0829
+        created: 1787998186
+        createdDate: 2026-08-29
+      - aid: 117172579928710
+        bvid: BV1wztA6HENy
+        title: 腾讯龙王归来 Hy4 Preview 核弹突袭！ZCode狂撒3亿Token/人！谷歌被曝内测Gemini 3.8 Flash！| AI日报0828
+        created: 1787911877
+        createdDate: 2026-08-28
+      - aid: 117167261483587
+        bvid: BV1oX496SEeQ
+        title: Anthropic或将连发三款5.1模型：Claude用户能等来一次大升级吗？｜AI日报0827
+        created: 1787831432
+        createdDate: 2026-08-27
+      - aid: 117161439791348
+        bvid: BV11C8d6LEJf
+        title: AI圈核弹雨来袭！腾讯明示Hy4将至；智谱认领Ox Alpha；OpenAI被曝Bel预训练完成！| 0826
+        created: 1787742018
+        createdDate: 2026-08-26
+      - aid: 117155668495404
+        bvid: BV1tthG6hEgT
+        title: 官方逼氪！Plus 用户 Codex 5小时枷锁将回归！疑似Qwen Paloma突袭Arena，对标Opus 5，头皮发麻！| AI日报0826
+        created: 1787653816
+        createdDate: 2026-08-25
     mostEmotional:
       - 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
       - 见证历史！微信官方Agent“小微”深夜引爆AI圈大地震，张小🐲瘫坐在核弹上，仿佛看到了椅子爆炸！ | AI日报0620
       - AI圈核弹泄露！DeepSeek 视觉模型 v4-flash-vision-exp 现身 DSH 代码！Hy4 突发上架元宝！| AI日报0820
       - AI 圈大地震！Gemini 永久提额 300%！Google Antigravity彻底杀疯了，吓得奥特曼当场瘫坐，行业已硝烟弥漫！|AI日报0521
       - 见证历史！月之暗面深夜引爆核弹级IPO，奥特曼吓出癫痫，杨植麟杀疯了，全球资本市场正在经历一场血腥的大屠杀……奇点已至，人类已被踢出群聊！
-      - 金融圈海啸！Kimi金融核弹功能深夜引爆华尔街！Grok 4.7 行踪泄露对标 Opus 或将发布！| AI日报0917
       - 见证历史！小米玄戒三芯合体引爆芯片界大地震！黄仁勋看到 AI Cube 眩晕瘫坐，DGX Spark 或将无人问津！| AI日报0824
       - AI圈沸腾！狙击Mythos，智谱 GLM-5.2 或将发布引爆硅谷！达里奥吓出癫痫，无力瘫坐等待被处刑！| AI日报0610
       - 隐忍数月！Gemini 3.2 满血复仇，实测后背发凉、冷汗直流！奥特曼瘫坐；阿莫迪吓出癫痫 | AI日报
       - Anthropic 全员颤抖！达里奥瘫坐椅子上！Grok 4.5 已将整个 Cursor 炼化，马斯克说马上就打到 Opus 家门口！| AI日报0628
+      - AI核战引爆！GPT-5.6与Gemini 3.5 Pro连夜互掷核弹，硅谷绞肉机已启动！达里奥吓到冷汗直流！！！
 entities:
-  coveragePct: 99
+  coveragePct: 98.2
   brandsAndProducts:
     - - DeepSeek
-      - 58
+      - 45
     - - OpenAI
-      - 36
+      - 32
     - - GPT
-      - 35
+      - 30
     - - Gemini
-      - 24
+      - 22
     - - Anthropic
-      - 16
+      - 15
     - - Claude
-      - 14
+      - 12
     - - 智谱
-      - 12
+      - 11
     - - Kimi
-      - 12
+      - 10
     - - Qwen
-      - 12
+      - 10
     - - 腾讯
-      - 10
-    - - MiniMax
-      - 10
-    - - Fable
       - 9
-    - - 阿里
+    - - MiniMax
+      - 9
+    - - Fable
       - 8
     - - Grok
-      - 8
+      - 7
+    - - 阿里
+      - 6
     - - 豆包
-      - 7
+      - 6
     - - 谷歌
-      - 7
-    - - ChatGPT
       - 6
     - - 字节
       - 5
     - - Cursor
-      - 5
-    - - 小米
       - 4
-    - - 华为
+    - - 小米
       - 3
+    - - ChatGPT
+      - 3
+    - - 华为
+      - 2
     - - 微软
       - 2
     - - 百度
@@ -189,13 +189,9 @@ entities:
     - - 奥特曼
       - 14
     - - OpenAI
-      - 11
-    - - 马斯克
       - 9
-    - - DeepSeek
-      - 3
-    - - 黄仁勋
-      - 2
+    - - 马斯克
+      - 7
     - - 阶跃
       - 2
     - - 梁文峰
@@ -204,19 +200,13 @@ entities:
       - 2
     - - 杨植麟
       - 2
-    - - 扎克伯格
-      - 2
     - - 阿里
-      - 1
-    - - 陈仓
       - 1
     - - 达里奥
       - 1
-    - - 谷歌
-      - 1
     - - 谷歌云
       - 1
-    - - 马斯克扎克伯格
+    - - 黄仁勋
       - 1
     - - 纳德拉
       - 1
@@ -226,77 +216,83 @@ entities:
       - 1
     - - 小微
       - 1
+    - - 扎克伯格
+      - 1
+    - - 张小🐲
+      - 1
+    - - Altman
+      - 1
+    - - Claude
+      - 1
+    - - DeepSeek
+      - 1
   organizations:
     - - AI日报
-      - 117
+      - 104
     - - Gemini
-      - 18
-    - - OpenAI
-      - 18
-    - - "|"
       - 17
-    - - 腾讯
-      - 8
+    - - "|"
+      - 16
+    - - OpenAI
+      - 16
     - - Claude
       - 8
+    - - 腾讯
+      - 7
     - - Google
       - 7
-    - - Tibo
-      - 6
     - - 谷歌
       - 5
     - - DeepSeek
-      - 5
-    - - 马斯克
       - 4
-    - - 华为
-      - 3
-    - - AI晚报
+    - - Tibo
+      - 4
+    - - 马斯克
       - 3
     - - "|AI日报"
       - 2
     - - 达里奥
       - 2
-    - - 黑鸦
-      - 2
-    - - 商汤
+    - - 华为
       - 2
     - - 微软
       - 2
-    - - Cursor
+    - - AI晚报
       - 2
     - - ｜
       - 1
+    - - "| AI日报"
+      - 1
+    - - "4.7"
+      - 1
+    - - 阿里
+      - 1
   modelVersions:
-    - - DeepSeek V4
-      - 11
     - - GPT-5.6
-      - 10
-    - - MiniMax
+      - 11
+    - - DeepSeek V4
       - 9
-    - - GPT-6
-      - 6
-    - - DeepSeek V4.1
-      - 5
+    - - MiniMax
+      - 8
     - - DeepSeek-V4
       - 5
     - - Gemini 3.5 Pro
       - 5
     - - GPT-5.5
       - 4
-    - - Hy4
-      - 4
-    - - V4
-      - 4
     - - Fable 5
       - 3
     - - GLM-5.3
+      - 3
+    - - GPT-6
+      - 3
+    - - Hy4
       - 3
     - - Opus 4.8
       - 3
     - - Seedance 2.0
       - 3
-    - - V4.1
+    - - V4
       - 3
     - - Banana 2
       - 2
@@ -314,91 +310,91 @@ entities:
       - 2
     - - Gemini 3.8 Flash
       - 2
-    - - Gemini 4
-      - 2
     - - Gemma 4
       - 2
     - - GLM-5.2
-      - 2
-    - - GPT 6
       - 2
     - - GPT-Image-2
       - 2
     - - Grok 4.5
       - 2
-    - - Grok 4.7
+    - - Hy3
+      - 2
+    - - Image-2
+      - 2
+    - - K2.6
+      - 2
+    - - K3
+      - 2
+    - - M2.7
       - 2
   english:
     - - AI
-      - 212
+      - 191
     - - DeepSeek
-      - 61
+      - 44
     - - OpenAI
-      - 40
+      - 35
     - - Gemini
-      - 25
+      - 23
     - - Anthropic
-      - 16
-    - - V4
       - 15
-    - - Claude
-      - 14
-    - - Pro
-      - 14
     - - GPT-5.6
+      - 13
+    - - Claude
+      - 12
+    - - V4
       - 12
     - - Kimi
-      - 12
-    - - Flash
-      - 11
+      - 10
     - - API
-      - 10
+      - 9
     - - MiniMax
-      - 10
-    - - Opus
-      - 10
+      - 9
+    - - Pro
+      - 9
     - - Agent
-      - 8
-    - - Codex
-      - 8
-    - - Fable
       - 8
     - - Google
       - 8
-    - - Grok
-      - 8
-    - - V4.1
-      - 8
-    - - Astra
+    - - Codex
       - 7
-    - - GPT
+    - - Fable
+      - 7
+    - - Grok
       - 7
     - - Mythos
       - 7
-    - - ChatGPT
+    - - Astra
       - 6
-    - - GPT-6
+    - - GPT
       - 6
-    - - Sonnet
+    - - Opus
       - 6
-    - - Tibo
+    - - Plan
       - 6
     - - Token
       - 6
-    - - Cursor
-      - 5
     - - DeepSeek-V4
       - 5
+    - - Flash
+      - 5
+    - - Qwen
+      - 5
+    - - Cursor
+      - 4
+    - - GPT-5.5
+      - 4
+    - - Tibo
+      - 4
+    - - CEO
+      - 3
   fromNer:
     PERSON:
       - - 奥特曼
         - 14
       - - OpenAI
-        - 11
-      - - DeepSeek
-        - 3
-      - - 黄仁勋
-        - 2
+        - 9
       - - 阶跃
         - 2
       - - 梁文峰
@@ -411,15 +407,11 @@ entities:
         - 2
       - - 阿里
         - 1
-      - - 陈仓
-        - 1
       - - 达里奥
-        - 1
-      - - 谷歌
         - 1
       - - 谷歌云
         - 1
-      - - 马斯克扎克伯格
+      - - 黄仁勋
         - 1
       - - 纳德拉
         - 1
@@ -431,129 +423,96 @@ entities:
         - 1
       - - 扎克伯格
         - 1
-    INTEGER:
-      - - 三
-        - 3
-      - - "5"
-        - 2
-      - - 500亿
-        - 2
-      - - "0402"
+      - - 张小🐲
         - 1
-      - - "0404"
+      - - Altman
         - 1
-      - - "0422"
-        - 1
-      - - "0423"
-        - 1
-      - - "0430"
-        - 1
-      - - "0605"
-        - 1
-      - - "0611"
-        - 1
-      - - "0616"
-        - 1
-      - - "0622"
-        - 1
-      - - "0623"
-        - 1
-      - - "0629"
-        - 1
-      - - "0811"
-        - 1
-      - - "0814"
-        - 1
-      - - "0817"
-        - 1
-      - - "0818"
-        - 1
-      - - "0822"
-        - 1
-      - - "0826"
-        - 1
-    brand:
-      - - DeepSeek
-        - 58
-      - - OpenAI
-        - 36
-      - - GPT
-        - 35
-      - - Gemini
-        - 24
-      - - Anthropic
-        - 16
       - - Claude
-        - 14
-      - - 智谱
-        - 12
-      - - Kimi
-        - 12
-      - - Qwen
-        - 12
-      - - 腾讯
-        - 10
-      - - MiniMax
-        - 10
-      - - Fable
-        - 9
-      - - 阿里
-        - 8
-      - - Grok
-        - 8
-      - - 豆包
-        - 7
-      - - 谷歌
-        - 7
-      - - ChatGPT
-        - 6
-      - - 字节
-        - 5
-      - - Cursor
-        - 5
-      - - 小米
-        - 4
+        - 1
+      - - DeepSeek
+        - 1
     ORGANIZATION:
       - - AI日报
-        - 117
+        - 104
       - - Gemini
-        - 18
-      - - OpenAI
-        - 18
-      - - "|"
         - 17
-      - - 腾讯
-        - 8
+      - - "|"
+        - 16
+      - - OpenAI
+        - 16
       - - Claude
         - 8
+      - - 腾讯
+        - 7
       - - Google
         - 7
-      - - Tibo
-        - 6
       - - 谷歌
         - 5
       - - DeepSeek
-        - 5
-      - - 马斯克
         - 4
-      - - 华为
-        - 3
-      - - AI晚报
+      - - Tibo
+        - 4
+      - - 马斯克
         - 3
       - - "|AI日报"
         - 2
       - - 达里奥
         - 2
-      - - 黑鸦
-        - 2
-      - - 商汤
+      - - 华为
         - 2
       - - 微软
         - 2
-      - - Cursor
+      - - AI晚报
         - 2
       - - ｜
         - 1
+      - - "| AI日报"
+        - 1
+      - - "4.7"
+        - 1
+      - - 阿里
+        - 1
+    brand:
+      - - DeepSeek
+        - 45
+      - - OpenAI
+        - 32
+      - - GPT
+        - 30
+      - - Gemini
+        - 22
+      - - Anthropic
+        - 15
+      - - Claude
+        - 12
+      - - 智谱
+        - 11
+      - - Kimi
+        - 10
+      - - Qwen
+        - 10
+      - - 腾讯
+        - 9
+      - - MiniMax
+        - 9
+      - - Fable
+        - 8
+      - - Grok
+        - 7
+      - - 阿里
+        - 6
+      - - 豆包
+        - 6
+      - - 谷歌
+        - 6
+      - - 字节
+        - 5
+      - - Cursor
+        - 4
+      - - 小米
+        - 3
+      - - ChatGPT
+        - 3
     DECIMAL:
       - - "3.5"
         - 5
@@ -567,11 +526,7 @@ entities:
         - 2
       - - "3.8"
         - 2
-      - - "4.7"
-        - 2
       - - "5.1"
-        - 2
-      - - "5.5"
         - 2
       - - "5.6"
         - 2
@@ -581,13 +536,11 @@ entities:
         - 1
       - - 2.7 万亿
         - 1
-      - - "5.2"
+      - - "4.7"
         - 1
       - - "5.3"
         - 1
       - - "5.4"
-        - 1
-      - - "6.8"
         - 1
       - - GLM-5.2
         - 1
@@ -595,47 +548,36 @@ entities:
         - 1
       - - K2.7
         - 1
-    TIME:
-      - - 深夜
-        - 14
-      - - "0530"
+      - - M2.7
         - 1
-      - - "0812"
-        - 1
-      - - 21点
-        - 1
-      - - 今晚
+      - - V4.1
         - 1
     model:
-      - - DeepSeek V4
-        - 11
       - - GPT-5.6
-        - 10
-      - - MiniMax
+        - 11
+      - - DeepSeek V4
         - 9
-      - - GPT-6
-        - 6
-      - - DeepSeek V4.1
-        - 5
+      - - MiniMax
+        - 8
       - - DeepSeek-V4
         - 5
       - - Gemini 3.5 Pro
         - 5
       - - GPT-5.5
         - 4
-      - - Hy4
-        - 4
-      - - V4
-        - 4
       - - Fable 5
         - 3
       - - GLM-5.3
+        - 3
+      - - GPT-6
+        - 3
+      - - Hy4
         - 3
       - - Opus 4.8
         - 3
       - - Seedance 2.0
         - 3
-      - - V4.1
+      - - V4
         - 3
       - - Banana 2
         - 2
@@ -647,16 +589,54 @@ entities:
         - 2
       - - Gemini 3.1 Flash
         - 2
-    person:
-      - - 马斯克
-        - 7
-      - - 扎克伯格
+      - - Gemini 3.2
+        - 2
+      - - Gemini 3.5
+        - 2
+    ORDINAL:
+      - - "5"
+        - 2
+      - - "| 0826"
+        - 1
+      - - "0519"
+        - 1
+      - - "0526"
+        - 1
+      - - "0531"
+        - 1
+      - - "0610"
+        - 1
+      - - "0630"
+        - 1
+      - - "0701"
+        - 1
+      - - "0709"
+        - 1
+      - - "0712"
+        - 1
+      - - "0713"
+        - 1
+      - - "0813"
+        - 1
+      - - "0815"
+        - 1
+      - - "0816"
+        - 1
+      - - "0819"
+        - 1
+      - - "0901"
+        - 1
+      - - "0903"
+        - 1
+      - - "2"
+        - 1
+      - - "3.1"
+        - 1
+      - - "4.5"
         - 1
     LOCATION:
       - - 硅谷
-        - 15
-      - - 月
-        - 2
+        - 12
       - - 中国
         - 2
       - - "0403"
@@ -668,8 +648,6 @@ entities:
       - - "5"
         - 1
       - - 阿里
-        - 1
-      - - 阿里Qwen4
         - 1
       - - 澳洲
         - 1
@@ -693,50 +671,93 @@ entities:
         - 1
       - - 深圳
         - 1
-    ORDINAL:
-      - - "5"
+      - - 伊朗
+        - 1
+      - - 月
+        - 1
+    DATE:
+      - - 3月
+        - 6
+      - - 2月
         - 2
-      - - "| 0826"
+      - - 4月
+        - 2
+      - - 5日
+        - 2
+      - - 今日
+        - 2
+      - - "0830"
         - 1
-      - - "0519"
+      - - "0831"
         - 1
-      - - "0526"
+      - - 13日
         - 1
-      - - "0531"
+      - - 18日
         - 1
-      - - "0610"
+      - - 21日
         - 1
-      - - "0630"
+      - - 25日
         - 1
-      - - "0701"
+      - - 27日
         - 1
-      - - "0709"
+      - - 30日
         - 1
-      - - "0813"
+      - - "315"
         - 1
-      - - "0815"
+      - - 31日
         - 1
-      - - "0816"
-        - 1
-      - - "0819"
-        - 1
-      - - "0901"
-        - 1
-      - - "0903"
-        - 1
-      - - "0912"
-        - 1
-      - - "2"
-        - 1
-      - - "3.1"
-        - 1
-      - - "4"
+      - - "4.3"
         - 1
       - - "4.5"
         - 1
-    PHONE:
-      - - "0915"
+      - - "4.7"
+        - 1
+      - - 5月
+        - 1
+      - - 9月
+        - 1
+    INTEGER:
+      - - 三
+        - 3
+      - - "5"
         - 2
+      - - "0402"
+        - 1
+      - - "0404"
+        - 1
+      - - "0422"
+        - 1
+      - - "0423"
+        - 1
+      - - "0430"
+        - 1
+      - - "0605"
+        - 1
+      - - "0611"
+        - 1
+      - - "0616"
+        - 1
+      - - "0622"
+        - 1
+      - - "0623"
+        - 1
+      - - "0629"
+        - 1
+      - - "0814"
+        - 1
+      - - "0817"
+        - 1
+      - - "0818"
+        - 1
+      - - "0822"
+        - 1
+      - - "0826"
+        - 1
+      - - "0827"
+        - 1
+      - - "0829"
+        - 1
+    PHONE:
       - - "| AI日报"
         - 1
       - - "0416"
@@ -769,11 +790,19 @@ entities:
         - 1
       - - "0703"
         - 1
-      - - "0810"
-        - 1
       - - "0820"
         - 1
       - - "0821"
+        - 1
+      - - "0823"
+        - 1
+      - - "0828"
+        - 1
+    FRACTION:
+      - - "5.1"
+        - 1
+    DURATION:
+      - - 小时
         - 1
     WWW:
       - - "0603"
@@ -782,60 +811,16 @@ entities:
         - 1
       - - GLM-5.3-Flash
         - 1
-      - - M3.1
-        - 1
-      - - Qwen-Image-2.1
-        - 1
-    DATE:
-      - - 3月
-        - 6
-      - - 2月
-        - 2
-      - - 4月
-        - 2
-      - - 5日
-        - 2
-      - - 今日
-        - 2
-      - - "0830"
-        - 1
-      - - "0831"
-        - 1
-      - - 13日
-        - 1
-      - - 18日
-        - 1
-      - - 21日
-        - 1
-      - - 25日
-        - 1
-      - - 27日
-        - 1
-      - - 30日
-        - 1
-      - - 31日
-        - 1
-      - - "4.3"
-        - 1
-      - - "4.5"
-        - 1
-      - - "4.7"
-        - 1
-      - - 5月
-        - 1
-      - - 9月
-        - 1
-      - - 次日
-        - 1
-    FRACTION:
-      - - "5.1"
-        - 1
-    DURATION:
-      - - 小时
-        - 1
     FREQUENCY:
       - - 再次
         - 3
+    TIME:
+      - - 深夜
+        - 11
+      - - "0530"
+        - 1
+      - - "0812"
+        - 1
     RATE:
       - - "3.5"
         - 1
@@ -846,6 +831,9 @@ entities:
     WEIGHT:
       - - "2.0"
         - 1
+    person:
+      - - 马斯克
+        - 5
     MONEY:
       - - 200亿
         - 1
@@ -866,213 +854,209 @@ entities:
 lexicon:
   highFrequency:
     - - 模型
-      - 49
+      - 44
     - - DeepSeek
-      - 45
+      - 34
     - - OpenAI
-      - 39
+      - 34
     - - 发布
-      - 31
+      - 26
     - - 引爆
-      - 28
-    - - 核弹
       - 24
+    - - 核弹
+      - 18
     - - ……
-      - 18
+      - 17
     - - 来袭
-      - 18
-    - - 上线
-      - 16
+      - 15
     - - Anthropic
-      - 16
-    - - 硅谷
-      - 15
-    - - 全球
-      - 15
-    - - 深夜
       - 15
     - - 奥特曼
       - 14
+    - - 上线
+      - 13
+    - - 硅谷
+      - 12
+    - - 全球
+      - 12
+    - - 深夜
+      - 12
     - - 泄露
-      - 13
-    - - 正式
-      - 13
-    - - Claude
-      - 13
-    - - 彻底
+      - 12
+    - - GPT-5.6
       - 12
     - - 人类
-      - 12
+      - 11
     - - 瘫坐
-      - 12
-    - - 突发
-      - 12
-    - - Kimi
-      - 12
-    - - 开源
       - 11
-    - - 用户
+    - - Claude
       - 11
-    - - 智谱
-      - 11
-    - - DeepSeek V4
-      - 11
-    - - GPT-5.6
-      - 11
+    - - 彻底
+      - 10
     - - 大地震
       - 10
-    - - 海啸
+    - - 开源
       - 10
-    - - 全面
+    - - 用户
       - 10
-    - - 腾讯
+    - - 正式
+      - 10
+    - - 智谱
+      - 10
+    - - Kimi
       - 10
     - - 地震
       - 9
     - - 发麻
       - 9
+    - - 官方
+      - 9
+    - - 腾讯
+      - 9
     - - 头皮
       - 9
-    - - 疑似
+    - - 突发
       - 9
-    - - API
+    - - 重磅
+      - 9
+    - - DeepSeek V4
       - 9
     - - Gemini
       - 9
-    - - MiniMax
-      - 9
-    - - Pro
-      - 9
     - - 全线
+      - 8
+    - - 炸弹
+      - 8
+    - - API
+      - 8
+    - - Google
+      - 8
+    - - MiniMax
       - 8
   domainTerms:
     - - AI
-      - 160
+      - 142
     - - AI日报
-      - 125
-    - - 模型
-      - 44
+      - 111
     - - AI圈
       - 40
-    - - 发布
-      - 28
+    - - 模型
+      - 39
     - - 引爆
-      - 28
+      - 24
+    - - 发布
+      - 23
     - - 开源
-      - 12
+      - 11
     - - 泄露
-      - 12
+      - 11
     - - 融资
       - 5
     - - 大模型
       - 3
     - - 国产
       - 3
-    - - 芯片
-      - 3
     - - Token Plan
       - 3
+    - - 芯片
+      - 2
     - - 上市
       - 1
   emotionWords:
     - - 核弹
-      - 30
+      - 23
     - - 地震
       - 19
     - - 瘫坐
-      - 13
-    - - 突发
       - 12
     - - 泄露
-      - 12
+      - 11
+    - - 突发
+      - 9
     - - 杀疯
       - 7
     - - 雪崩
-      - 7
+      - 5
     - - 沸腾
       - 4
     - - 疯狂
-      - 4
-    - - 震撼
       - 4
     - - 泄密
       - 3
     - - 炸裂
       - 3
+    - - 震撼
+      - 3
     - - 窒息
       - 3
-    - - 恐怖
+    - - 翻车
       - 1
     - - 裂开
       - 1
-    - - 重大
-      - 1
-  stopWordsFiltered: 215
+  stopWordsFiltered: 194
 phrases:
   bigrams:
     - - 深夜引爆
-      - 14
+      - 10
     - - 头皮发麻
       - 9
+    - - 重磅炸弹
+      - 8
     - - 见证历史
       - 7
     - - 全线突围
       - 7
-    - - 重磅炸弹
-      - 7
     - - 吓出癫痫
       - 6
-    - - 正式发布
-      - 6
     - - 核弹来袭
-      - 5
-    - - 眩晕瘫坐
-      - 5
-    - - DeepSeekHarness
-      - 5
-    - - 海啸席卷
-      - 4
-    - - 横空出世
       - 4
     - - 后背发凉
       - 4
     - - 接管世界
       - 4
-    - - 系列模型
+    - - 命运转折
       - 4
-    - - 陷入瘫痪
-      - 4
-    - - 引爆硅谷
+    - - 眩晕瘫坐
       - 4
     - - 载入史册
       - 4
-    - - DeepSeek V4.1Flash
+    - - 正式发布
       - 4
-    - - DeepSeek V4Pro
-      - 4
-    - - 仿佛看到
+    - - 海啸席卷
       - 3
-    - - 灰度测试
-      - 3
-    - - 命运转折
+    - - 横空出世
       - 3
     - - 模型来袭
       - 3
-    - - 全面雪崩
-      - 3
-    - - 全球程序员
-      - 3
     - - 上线API
-      - 3
-    - - 时代来临
       - 3
     - - 视觉模型
       - 3
-    - - 瘫痪……
+    - - 无力瘫坐
       - 3
+    - - 系列模型
+      - 3
+    - - 引爆硅谷
+      - 3
+    - - Codex额度
+      - 3
+    - - DeepSeek官方
+      - 3
+    - - 3月5日
+      - 2
+    - - 阿里腾讯
+      - 2
+    - - 保卫战……
+      - 2
+    - - 彻底疯狂
+      - 2
+    - - 彻底杀疯
+      - 2
+    - - 彻底引爆
+      - 2
+    - - 大地震DeepSeek
+      - 2
   trigrams:
-    - - 陷入瘫痪……
-      - 3
     - - 彻底引爆载入
       - 2
     - - 仿佛看到椅子爆炸
@@ -1081,17 +1065,13 @@ phrases:
       - 2
     - - 接管世界倒计时
       - 2
-    - - 看到核弹爆炸
-      - 2
     - - 命运转折……
       - 2
     - - 人类命运转折
       - 2
     - - 人类踢出群聊
       - 2
-    - - 深夜引爆硅谷
-      - 2
-    - - 算力海啸席卷
+    - - 陷入瘫痪……
       - 2
     - - 移交军事法庭
       - 2
@@ -1107,15 +1087,11 @@ phrases:
       - 2
     - - ！！！| AI日报0416
       - 1
-    - - ！！DSH负责人
-      - 1
     - - ……3月13日
       - 1
     - - ……奇点人类
       - 1
     - - "|AI圈大事记0502"
-      - 1
-    - - 0915版本围剿
       - 1
     - - 1.5T巨兽 V9基模
       - 1
@@ -1130,6 +1106,16 @@ phrases:
     - - 190亿融资阿里
       - 1
     - - 2.0正式发布
+      - 1
+    - - 2.7 万亿参数模型
+      - 1
+    - - 200亿加码DeepSeek
+      - 1
+    - - 22单位集结
+      - 1
+    - - 3.2重振Gemini 2.5
+      - 1
+    - - 300%GoogleAntigravity
       - 1
   crossToken:
     - - AI日报
@@ -1170,8 +1156,6 @@ phrases:
       - 4
     - - Fable 5 全球复活引爆核弹
       - 4
-    - - Grok 4.7 行踪泄露对标 Opus 或将发布
-      - 4
     - - Kimi K2.7 Code 突然发布引爆宇宙
       - 4
     - - MiniMax M3深夜引爆AI圈
@@ -1192,10 +1176,10 @@ phrases:
       - 3
     - - 开源界雪崩
       - 3
+    - - 马斯克携大尺度 Grok 新视频模型登顶引爆硅谷
+      - 3
   openingHooks:
     - - 见证历史
-      - 6
-    - - 突发
       - 6
     - - 重磅炸弹
       - 6
@@ -1203,6 +1187,8 @@ phrases:
       - 5
     - - AI圈大地震
       - 5
+    - - 突发
+      - 4
     - - AI圈核弹雨来袭
       - 3
     - - 大的要来了
@@ -1234,44 +1220,44 @@ phrases:
       - 1
     - - 发起挽救人类倡议
       - 1
-    - - 仿佛看到核弹爆炸
-      - 1
     - - 高价老用户的斩杀线来了
       - 1
     - - 更加自然流畅
       - 1
-    - - 更普惠
+    - - 谷歌开源模型 Gemma 4 即将发布
+      - 1
+    - - 或将发布
       - 1
   imagery:
     - - 核弹
-      - 30
+      - 23
     - - 瘫坐
-      - 13
-    - - 海啸
-      - 11
+      - 12
     - - 头皮发麻
       - 9
-    - - 雪崩
-      - 7
+    - - 海啸
+      - 8
     - - 癫痫
       - 6
     - - 眩晕
-      - 6
-    - - 后背发凉
-      - 4
+      - 5
+    - - 雪崩
+      - 5
     - - 血洗
+      - 5
+    - - 后背发凉
       - 4
     - - 冷汗直流
       - 3
     - - 龙王归来
-      - 3
-    - - 诸神之战
       - 3
     - - 被踢出群聊
       - 2
     - - 棺材板
       - 2
     - - 椅子爆炸
+      - 2
+    - - 诸神之战
       - 2
     - - 夺舍
       - 1
@@ -1286,66 +1272,66 @@ phrases:
     - - 全员颤抖
       - 1
 rhetoric:
-  questionPct: 11.9
-  exclamationPct: 90.2
-  contrastPct: 6.7
-  roundupPct: 68.4
-  namedEntityPct: 98.4
+  questionPct: 13.2
+  exclamationPct: 89.8
+  contrastPct: 7.2
+  roundupPct: 70.1
+  namedEntityPct: 97.6
   signals:
     daily:
-      count: 132
-      pct: 68.4
+      count: 117
+      pct: 70.1
       examples:
-        - 路透社：DeepSeek本周将向联合国安理会介绍人工智能风险 | AI晚报0923
-        - AI战争全面爆发！阿里Qwen4钢铁洪流蓄势待发，DeepSeek锁定华为芯片训2T模型吓哭黄仁勋！| AI日报0922
-        - AI 终局决战！Claude Opus 5.5 核弹空降狙击 GPT-6 Sol，OpenAI 或彻底溃败！| AI日报0921
-        - 阶跃 Step 5 Preview 深夜引爆硅谷，600B恐怖巨兽降临！今晚21点超级海啸来袭！Qwen-Image-2.1开源大地震！| AI日报0920
-        - 良心核弹！智谱免费替全国程序员备份全量代码仓库！疑似GLM-5.5觉醒入侵ZCode帮助用户审查代码！| AI日报0918
+        - 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
+        - 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
+        - 载入史册！大的要来了！GPT-6 Astra 或将发布！| AI日报0903
+        - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
+        - 奥特曼谈论Astra：达到人类水平！讯飞星火X2.5突发开源，API免费用！| AI日报0901
     emotion_burst:
-      count: 177
-      pct: 91.7
+      count: 153
+      pct: 91.6
       examples:
-        - 【黑鸦】AI大补贴时代结束！OpenAI 自爆，200 刀 Pro 额度惨遭腰斩，全球程序员陷入瘫痪……
-        - 【黑鸦】海啸来袭！DeepSeek实时语音突袭灰度上线，DeepSeek Harness桌面版即将官宣！
-        - 【黑鸦】核弹来袭！MiniMax M3.1 深夜引爆 AI 圈，大重置时代来临！Sonnet 5.5 或下周降临斩杀 GPT 6 Sol ！ChatGPT 暗改
-        - 我们给 DeepSeek Harness 补上了缺失的 TUI！
-        - 震撼首发！！首个 DSH 负责人推荐社区插件居然是它…！仿佛看到核弹爆炸
+        - 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
+        - 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
+        - 载入史册！大的要来了！GPT-6 Astra 或将发布！| AI日报0903
+        - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
+        - 奥特曼谈论Astra：达到人类水平！讯飞星火X2.5突发开源，API免费用！| AI日报0901
     multi_event:
-      count: 55
-      pct: 28.5
+      count: 53
+      pct: 31.7
       examples:
-        - 【黑鸦】AI大补贴时代结束！OpenAI 自爆，200 刀 Pro 额度惨遭腰斩，全球程序员陷入瘫痪……
-        - 【黑鸦】ChatGPT界面突袭大变，“Web Merge”出鞘！马斯克Colossus算力海啸席卷硅谷，78万颗GPU深夜引爆！全球电网陷入瘫痪…
-        - 数学界崩塌！OpenAI 或又攻破千禧年猜想，DeepSeek V4.1 Flash突袭，挥泪斩杀老旗舰！ |  AI日报0910
         - 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
         - DeepSeek-V4-Flash-Vision-Exp 正式开源；Claude 200美元天价套餐被曝“虚标欺诈”| AI日报0831
+        - AI圈核弹雨来袭！腾讯明示Hy4将至；智谱认领Ox Alpha；OpenAI被曝Bel预训练完成！| 0826
+        - 官方逼氪！Plus 用户 Codex 5小时枷锁将回归！疑似Qwen Paloma突袭Arena，对标Opus 5，头皮发麻！| AI日报0826
+        - 见证历史！智谱GLM-5.3杀疯了！直面 Fable，祭出“开源之盾，纳斯达克彻夜未眠……| AI日报0814
     number_hook:
-      count: 164
+      count: 142
       pct: 85
       examples:
-        - 【黑鸦】AI大补贴时代结束！OpenAI 自爆，200 刀 Pro 额度惨遭腰斩，全球程序员陷入瘫痪……
-        - 【黑鸦】核弹来袭！MiniMax M3.1 深夜引爆 AI 圈，大重置时代来临！Sonnet 5.5 或下周降临斩杀 GPT 6 Sol ！ChatGPT 暗改
-        - 【黑鸦】ChatGPT界面突袭大变，“Web Merge”出鞘！马斯克Colossus算力海啸席卷硅谷，78万颗GPU深夜引爆！全球电网陷入瘫痪…
-        - 【黑鸦】AI奇点已至！Gemini 4 官宣内部使用中猛龙出笼在即！DeepSeek狂揽500亿现金流吃饱饱！
-        - 路透社：DeepSeek本周将向联合国安理会介绍人工智能风险 | AI晚报0923
+        - 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
+        - 奥特曼公开认罪，Astra推送全面混乱惨遭全网声讨，GPT-Image 2.5毫无预警泄露！| AI日报0904
+        - 载入史册！大的要来了！GPT-6 Astra 或将发布！| AI日报0903
+        - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
+        - 奥特曼谈论Astra：达到人类水平！讯飞星火X2.5突发开源，API免费用！| AI日报0901
     contrast:
-      count: 13
-      pct: 6.7
+      count: 12
+      pct: 7.2
       examples:
-        - AI 终局决战！Claude Opus 5.5 核弹空降狙击 GPT-6 Sol，OpenAI 或彻底溃败！| AI日报0921
         - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
         - 龙王归来！Gemini 或新版 Pro Flash 齐上阵挑战 Fable ！DeepSeek 再遇服务中断惹人遐想！| AI日报0702
         - 正式宣战！OpenAI亮出底牌 GPT-5.6 前端能力或将大幅提升！千问或将祭出 Qwen3.8 Max 狙击 GPT-5.6！| AI日报0621
         - 重磅炸弹！Google新图像模型“速食拉面”即将来袭！纳米香蕉已成过去式！正面对决 GPT-Image-2！| AI日报0617
+        - AI圈沸腾！狙击Mythos，智谱 GLM-5.2 或将发布引爆硅谷！达里奥吓出癫痫，无力瘫坐等待被处刑！| AI日报0610
     absurd_imagery:
-      count: 77
-      pct: 39.9
+      count: 66
+      pct: 39.5
       examples:
-        - 【黑鸦】海啸来袭！DeepSeek实时语音突袭灰度上线，DeepSeek Harness桌面版即将官宣！
-        - 【黑鸦】核弹来袭！MiniMax M3.1 深夜引爆 AI 圈，大重置时代来临！Sonnet 5.5 或下周降临斩杀 GPT 6 Sol ！ChatGPT 暗改
-        - 震撼首发！！首个 DSH 负责人推荐社区插件居然是它…！仿佛看到核弹爆炸
-        - 【黑鸦】OpenAI绝密武器「o」或将上线！马斯克扎克伯格眩晕瘫坐！OpenAI自爆：最强模型越狱，已全面封停！
-        - 【黑鸦】ChatGPT界面突袭大变，“Web Merge”出鞘！马斯克Colossus算力海啸席卷硅谷，78万颗GPU深夜引爆！全球电网陷入瘫痪…
+        - 头皮发麻！OpenAI 承认旗下 Agent 结党营私暗中造反！Astra 余波未平，OpenAI 暗示大的将至！| AI日报0905
+        - AI圈核弹雨来袭！Gemini 3.8 Flash 或已上线！OpenAI Astra 未发却引发硅谷恐慌！Grok 4.7 将于十天后发布！| AI晚报090
+        - 腾讯龙王归来 Hy4 Preview 核弹突袭！ZCode狂撒3亿Token/人！谷歌被曝内测Gemini 3.8 Flash！| AI日报0828
+        - AI圈核弹雨来袭！腾讯明示Hy4将至；智谱认领Ox Alpha；OpenAI被曝Bel预训练完成！| 0826
+        - 官方逼氪！Plus 用户 Codex 5小时枷锁将回归！疑似Qwen Paloma突袭Arena，对标Opus 5，头皮发麻！| AI日报0826
 generation:
   recommendedFormulas:
     - "{最强实体} + {突然/重磅/炸裂} + {动作}，{对手/行业} + {荒诞反应/后果}！"
@@ -1355,67 +1341,65 @@ generation:
   vocabulary:
     emotion:
       - - 核弹
-        - 30
+        - 23
       - - 地震
         - 19
       - - 瘫坐
-        - 13
-      - - 突发
         - 12
       - - 泄露
-        - 12
+        - 11
+      - - 突发
+        - 9
       - - 杀疯
         - 7
       - - 雪崩
-        - 7
+        - 5
       - - 沸腾
         - 4
       - - 疯狂
-        - 4
-      - - 震撼
         - 4
       - - 泄密
         - 3
       - - 炸裂
         - 3
+      - - 震撼
+        - 3
       - - 窒息
         - 3
-      - - 恐怖
+      - - 翻车
         - 1
       - - 裂开
         - 1
-      - - 重大
-        - 1
     imagery:
       - - 核弹
-        - 30
+        - 23
       - - 瘫坐
-        - 13
-      - - 海啸
-        - 11
+        - 12
       - - 头皮发麻
         - 9
-      - - 雪崩
-        - 7
+      - - 海啸
+        - 8
       - - 癫痫
         - 6
       - - 眩晕
-        - 6
-      - - 后背发凉
-        - 4
+        - 5
+      - - 雪崩
+        - 5
       - - 血洗
+        - 5
+      - - 后背发凉
         - 4
       - - 冷汗直流
         - 3
       - - 龙王归来
-        - 3
-      - - 诸神之战
         - 3
       - - 被踢出群聊
         - 2
       - - 棺材板
         - 2
       - - 椅子爆炸
+        - 2
+      - - 诸神之战
         - 2
       - - 夺舍
         - 1
@@ -1430,23 +1414,23 @@ generation:
       - - 全员颤抖
         - 1
     actions:
-      - - 发布
-        - 28
       - - 引爆
-        - 28
+        - 24
+      - - 发布
+        - 23
       - - 上线
-        - 17
+        - 14
       - - 开源
-        - 12
+        - 11
       - - 泄露
-        - 12
+        - 11
       - - 全线突围
         - 7
       - - 狙击
-        - 6
-      - - 接管世界
-        - 4
+        - 5
       - - 血洗
+        - 5
+      - - 接管世界
         - 4
       - - 祭出
         - 3
@@ -1465,11 +1449,11 @@ generation:
       - - 追杀
         - 1
     consequences:
-      - - 血流成河
-        - 4
       - - 斩杀线来了
-        - 4
+        - 5
       - - 命运大转折
+        - 4
+      - - 血流成河
         - 3
       - - 被踢出群聊
         - 2
@@ -1485,53 +1469,53 @@ generation:
         - 1
     entities:
       - - AI日报
-        - 117
-      - - DeepSeek
-        - 66
+        - 104
       - - OpenAI
-        - 65
+        - 57
+      - - DeepSeek
+        - 50
       - - Gemini
-        - 42
+        - 39
       - - GPT
-        - 35
+        - 30
       - - Claude
-        - 22
+        - 21
       - - MiniMax
-        - 19
-      - - 腾讯
-        - 18
-      - - "|"
         - 17
-      - - Anthropic
+      - - "|"
         - 16
+      - - 腾讯
+        - 16
+      - - Anthropic
+        - 15
       - - 奥特曼
         - 14
       - - 谷歌
-        - 13
-      - - 马斯克
-        - 13
+        - 11
       - - 智谱
-        - 12
-      - - Kimi
-        - 12
-      - - Qwen
-        - 12
-      - - DeepSeek V4
         - 11
       - - GPT-5.6
+        - 11
+      - - 马斯克
         - 10
+      - - Kimi
+        - 10
+      - - Qwen
+        - 10
+      - - DeepSeek V4
+        - 9
       - - 阿里
-        - 9
-      - - Fable
-        - 9
-      - - Grok
         - 8
-      - - 豆包
-        - 7
-      - - Cursor
-        - 7
+      - - Fable
+        - 8
       - - Google
         - 7
+      - - Grok
+        - 7
+      - - 豆包
+        - 6
+      - - 字节
+        - 5
   representativeTitles:
     - 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
     - 见证历史！Qwen3.7-Max深夜引爆硅谷杀疯了！35小时疯狂觉醒接管世界，Anthropic惊传全面雪崩，CEO吓出癫痫当场窒息！
